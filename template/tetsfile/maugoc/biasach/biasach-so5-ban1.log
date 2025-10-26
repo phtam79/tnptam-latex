@@ -1,0 +1,3697 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.25)  25 OCT 2025 21:44
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./biasach-so5-ban1.tex
+(biasach-so5-ban1.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@chapter=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\fouriernc.sty
+Package: fouriernc 2005/12/20 1.0 fouriernc package
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fourier.sty
+Package: fourier 2024/09/08 2.4 fourier-GUTenberg package
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+Now handling font encoding FML ...
+... no UTF-8 mapping file for font encoding FML
+Now handling font encoding FMS ...
+... no UTF-8 mapping file for font encoding FMS
+Now handling font encoding FMX ...
+... no UTF-8 mapping file for font encoding FMX
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+futs on input line 1
+16.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fourier\t1futs.fd
+File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fourier-orns.sty
+Package: fourier-orns 2024/09/08 2.4 fourier-ornaments package
+)
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 64.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 64.
+LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 64.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 65.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 73.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 73.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 73.
+LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 73.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 73.
+\symotherletters=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 75.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 77.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 78.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 80.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 85.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 87.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 127.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 127.
+LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 127.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 127.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 128.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 1
+28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 128.
+LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 128
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 128.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 129.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 129.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 130.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 131.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 131.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 131.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 201.
+LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 224.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 229.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 239.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 241.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 243.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 245.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 247.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 249.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 251.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 253.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 255.
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 257.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 261.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 262.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 263.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 264.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 265.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 266.
+LaTeX Font Info:    Redeclaring math accent \check on input line 267.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 268.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 269.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 270.
+\symUfutm=\mathgroup5
+)
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 16.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  FML/futmi/m/it --> FML/fncmi/m/it on input line 16.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/futmi/b/it --> FML/fncmi/m/it on input line 16.
+LaTeX Font Info:    Redeclaring symbol font `otherletters' on input line 17.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `normal'
+(Font)                  FML/futm/m/it --> FML/fncm/m/it on input line 17.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/futm/b/it --> FML/fncm/m/it on input line 17.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  FML/fncmi/m/it --> FML/fncmi/b/it on input line 18.
+LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
+(Font)                  FML/fncm/m/it --> FML/fncm/b/it on input line 19.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 32.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/futs/b/n --> T1/fnc/m/n on input line 32.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  T1/fnc/m/n --> T1/fnc/b/n on input line 33.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 34.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesome.
+sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesomes
+ymbols-generic.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\fontawesomes
+ymbols-pdftex.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen149
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count284
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count285
+\leftroot@=\count286
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count287
+\DOTSCASE@=\count288
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count289
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count290
+\dotsspace@=\muskip17
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
+\tag@help=\toks18
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
+\andhelp@=\toks19
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks20
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
+)
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
+
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+20.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 12
+1.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
+
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip54
+\f@nch@offset@elh=\skip55
+\f@nch@offset@erh=\skip56
+\f@nch@offset@olh=\skip57
+\f@nch@offset@orh=\skip58
+\f@nch@offset@elf=\skip59
+\f@nch@offset@erf=\skip60
+\f@nch@offset@olf=\skip61
+\f@nch@offset@orf=\skip62
+\f@nch@height=\skip63
+\f@nch@footalignment=\skip64
+\f@nch@widthL=\skip65
+\f@nch@widthC=\skip66
+\f@nch@widthR=\skip67
+\@temptokenb=\toks22
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
+\@enLab=\toks23
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.s
+ty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+common.tex
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen158
+\pgfutil@tempdimb=\dimen159
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-
+latex.def
+\pgfutil@abb=\box55
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.c
+ode.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.s
+ty (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.s
+ty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysl
+ibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count296
+\c@pgf@countb=\count297
+\c@pgf@countc=\count298
+\c@pgf@countd=\count299
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count300
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cf
+g
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+softpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys
+protocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.c
+ode.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser
+.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count303
+\pgfmath@box=\box56
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.basic.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.trigonometric.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.random.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.comparison.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.base.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.round.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.misc.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfuncti
+ons.integerarithmetics.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.c
+ode.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.
+code.tex
+\c@pgfmathroundto@lastzeros=\count304
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.t
+ex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+points.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+scopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box57
+\pgf@hbox=\box58
+\pgf@layerbox@main=\box59
+\pgf@picture@serial@count=\count305
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+graphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen191
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+quick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+objects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+pathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+arrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen195
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+shade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count306
+\pgf@shadingcount=\count307
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+image.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+external.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box60
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+layers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+transparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+patterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore
+rdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodules
+hapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box61
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulep
+lot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen197
+\pgf@nodesepend=\dimen198
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcom
+p-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.st
+y
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.
+code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.
+tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.c
+ode.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen199
+\pgffor@skip=\dimen256
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count308
+\pgfplotmarksize=\dimen257
+)
+\tikz@lastx=\dimen258
+\tikz@lasty=\dimen259
+\tikz@lastxsaved=\dimen260
+\tikz@lastysaved=\dimen261
+\tikz@lastmovetox=\dimen262
+\tikz@lastmovetoy=\dimen263
+\tikzleveldistance=\dimen264
+\tikzsiblingdistance=\dimen265
+\tikz@figbox=\box62
+\tikz@figbox@bg=\box63
+\tikz@tempbox=\box64
+\tikz@tempbox@bg=\box65
+\tikztreelevel=\count309
+\tikznumberofchildren=\count310
+\tikznumberofcurrentchild=\count311
+\tikz@fig@count=\count312
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulem
+atrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count313
+\pgfmatrixcurrentcolumn=\count314
+\pgf@matrix@numberofcolumns=\count315
+)
+\tikz@expandcount=\count316
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-tab\tkz-tab.sty
+Package: tkz-tab 2020/04/29 v2.12c variations (ctan version)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
+)
+\XKV@depth=\count317
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryarrows.code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen266
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+rypatterns.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+\tkz@XF=\dimen267
+\tkz@YF=\dimen268
+\c@tkz@cnt@line=\count318
+\c@tkz@cnt@lg=\count319
+\c@tkz@cnt@cl=\count320
+\c@tkz@cnt@pred=\count321
+\c@tkz@cnt@temp=\count322
+\c@tkz@cnt@arrow=\count323
+\c@tkz@cnt@zone=\count324
+\c@tkz@cnt@lgnext=\count325
+\c@tkz@cnt@clnext=\count326
+\c@tkz@cnt@pair=\count327
+\c@tkz@cnt@impair=\count328
+\c@tkz@cnt@aw=\count329
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-linknodes\tkz-linkno
+des.sty
+Package: tkz-linknodes 2018/09/03 v1.1d tkz-linknodes
+\p@intx=\dimen269
+\p@inty=\dimen270
+\p@intCx=\dimen271
+\p@intCy=\dimen272
+\p@intNx=\dimen273
+\p@intNy=\dimen274
+\c@C@NumTab=\count330
+\c@C@NumGroup=\count331
+\c@C@NextNode=\count332
+\c@NumC@Node=\count333
+\c@NumC@Stop=\count334
+\c@C@CurrentStop=\count335
+\c@C@CurrentNode=\count336
+\c@C@CurrentGroup=\count337
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide\tkz-euclide.
+sty
+2025/09/17 5.11c tkz-euclide.sty
+Package: tkz-euclide  2025/09/17 5.11c for pure Euclidean Geometry 
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryangles.code.tex
+File: tikzlibraryangles.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen275
+\pgfarrowlength=\dimen276
+\pgfarrowwidth=\dimen277
+\pgfarrowlinewidth=\dimen278
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box66
+\pgf@layerboxsaved@background=\box67
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduled
+ecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen279
+\pgfdecoratedremainingdistance=\dimen280
+\pgfdecoratedinputsegmentcompleteddistance=\dimen281
+\pgfdecoratedinputsegmentremainingdistance=\dimen282
+\pgf@decorate@distancetomove=\dimen283
+\pgf@decorate@repeatstate=\count338
+\pgfdecorationsegmentamplitude=\dimen284
+\pgfdecorationsegmentlength=\dimen285
+)
+\tikz@lib@dec@box=\box68
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarydecorations.markings.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
+ons\pgflibrarydecorations.markings.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
+ons\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarydecorations.shapes.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
+ons\pgflibrarydecorations.shapes.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarydecorations.text.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
+ons\pgflibrarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box69
+)
+\tikz@lib@dec@te@box=\box70
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorati
+ons\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryintersections.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryintersections.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryfpu.code.tex)
+\pgf@intersect@solutions=\count339
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarymath.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryfpu.code.tex)
+\tikz@math@for@depth=\count340
+\tikz@math@dimen=\dimen286
+\tikz@math@toks=\toks39
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryquotes.code.tex
+File: tikzlibraryquotes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarythrough.code.tex
+File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\xfp.sty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-09-02 L3 programming layer (loader) 
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count341
+))
+Package: xfp 2024-08-16 L3 Floating point unit
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
+.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count342
+))
+\tkzRadius=\dimen287
+\tkzLength=\dimen288
+\tkz@radi=\dimen289
+\tkz@ax=\dimen290
+\tkz@ay=\dimen291
+\tkz@bx=\dimen292
+\tkz@by=\dimen293
+\tkz@cx=\dimen294
+\tkz@cy=\dimen295
+\tkz@dx=\dimen296
+\tkz@dy=\dimen297
+\tkz@cntmk=\count343
+
+Local configuration file tkz-euclide.cfg found and used
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide\tkz-euclide.
+cfg
+2025/09/17 5.11c tkz-euclide.cfg
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-base.tex
+2025/09/17 5.11c tkz-tools-eu-base.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-utilities.tex
+2025/09/17 5.11c tkz-tools-eu-utilities.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-BB.tex
+2025/09/17 5.11c tkz-obj-eu-BB.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-grids.tex
+2025/09/17 5.11c tkz-obj-eu-grids.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/libs\tkz-lib
+-eu-marks.tex
+2025/09/17 5.11c tkz-lib-eu-marks.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-text.tex
+2025/09/17 5.11c tkz-tools-eu-text.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/libs\tkz-lib
+-eu-shape.tex
+2025/09/17 5.11c tkz-lib-eu-shape.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-axesmin.tex
+2025/09/17 5.11c tkz-obj-eu-axesmin
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-colors.tex
+2025/09/17 5.11c tkz-tools-eu-colors
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-points.tex
+2025/09/17 5.11c tkz-obj-eu-points.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-points.tex
+2025/09/17 5.11c tkz-draw-eu-points.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-points.tex
+2025/09/17 5.11c tkz-obj-eu-points.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-points-by.tex
+2025/09/17 5.11c tkz-tools-eu-points-by.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-math.tex
+2025/09/17 5.11c tkz-tools-eu-math.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-intersections.tex
+2025/09/17 5.11c tkz-tools-eu-intersections.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-points-with.tex
+2025/09/17 5.11c tkz-obj-eu-points-with.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-points-spc.tex
+2025/09/17 5.11c tkz-obj-el-points.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/tools\tkz-to
+ols-eu-angles.tex
+2025/09/17 5.11c tkz-tools-eu-angles.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-circles.tex
+2025/09/17 5.11c tkz-obj-eu-circles.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-circles-by.tex
+2025/09/17 5.11c tkz-obj-eu-circles.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-points-rnd.tex
+2025/09/17 5.11c tkz-obj-eu-points-rnd.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-lines.tex
+2025/09/17 5.11c tkz-obj-eu-lines.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-polygons.tex
+2025/09/17 5.11c tkz-obj-eu-polygons.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/obj\tkz-obj-
+eu-triangles.tex
+2025/09/17 5.11c tkz-obj-eu-triangles.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-lines.tex
+2025/09/17 5.11c tkz-obj-eu-draw-lines.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-circles.tex
+2025/09/17 5.11c tkz-obj-eu-draw-circles.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-ellipses.tex
+2025/09/17 5.11c tkz-obj-eu-draw-ellipses.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-polygons.tex
+2025/09/17 5.11c tkz-obj-eu-polygons.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-arcs.tex
+2025/09/17 5.11c tkz-tool-eu-arcs.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-angles.tex
+2025/09/17 5.11c tkz-tool-eu-angles.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-sectors.tex
+2025/09/17 5.11c tkz-obj-eu-sectors.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-compass.tex
+2025/09/17 5.11c tkz-obj-eu-compass.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-show.tex
+2025/09/17 5.11c tkz-obj-eu-show.tex
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide/drawings\tkz
+-draw-eu-protractor.tex
+2025/09/17 5.11c tkz-obj-eu-protractor.tex
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikz-3dplot\tikz-3dplot.
+sty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrary3d.code.tex
+File: tikzlibrary3d.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty
+Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks40
+\verbatim@line=\toks41
+\verbatim@in@stream=\read3
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.st
+y
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box71
+\tcb@upperbox=\box72
+\tcb@lowerbox=\box73
+\tcb@phantombox=\box74
+\c@tcbbreakpart=\count344
+\c@tcblayer=\count345
+\c@tcolorbox@number=\count346
+\l__tcobox_tmpa_box=\box75
+\l__tcobox_tmpa_dim=\dimen298
+\tcb@temp=\box76
+\tcb@temp=\box77
+\tcb@temp=\box78
+\tcb@temp=\box79
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbraster.code
+.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+\c@tcbrastercolumn=\count347
+\c@tcbrasterrow=\count348
+\c@tcbrasternum=\count349
+\c@tcbraster=\count350
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskins.code.
+tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill.image.
+sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzfill-common
+.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzfill\tikzlibraryfill
+.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box80
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbskinsjigsaw
+.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbbreakable.c
+ode.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdfcol\pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box81
+\tcb@totalupperbox=\box82
+\tcb@totallowerbox=\box83
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.
+tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbtheorems.co
+de.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbfitting.cod
+e.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+\tcbfitdim=\dimen299
+\tcb@lowerfitdim=\dimen300
+\tcb@upperfitdim=\dimen301
+\tcb@cur@hbadness=\count351
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingsutf
+8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistings.co
+de.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count352
+\lst@gtempboxa=\box84
+\lst@token=\toks42
+\lst@length=\count353
+\lst@currlwidth=\dimen302
+\lst@column=\count354
+\lst@pos=\count355
+\lst@lostspace=\dimen303
+\lst@width=\dimen304
+\lst@newlines=\count356
+\lst@lineno=\count357
+\lst@maxwidth=\dimen305
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count358
+\lst@skipnumbers=\count359
+\lst@framebox=\box85
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcblistingscor
+e.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbprocessing.
+code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+)
+\c@tcblisting=\count360
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/listingsutf8\listingsutf
+8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
+sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
+y
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+))))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbexternal.co
+de.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbmagazine.co
+de.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbvignette.co
+de.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibra
+ryfadings.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbposter.code
+.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/bclogo\bclogo.sty
+Package: bclogo 2024/01/23 v3.15
+\bc@invboxh=\skip68
+\bc@invboxd=\skip69
+\bc@titleLength=\skip70
+\logowidth=\skip71
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count361
+Package zref Info: New property: abspage on input line 67.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
+\mdf@templength=\skip72
+\c@mdf@globalstyle@cnt=\count362
+\mdf@skipabove@length=\skip73
+\mdf@skipbelow@length=\skip74
+\mdf@leftmargin@length=\skip75
+\mdf@rightmargin@length=\skip76
+\mdf@innerleftmargin@length=\skip77
+\mdf@innerrightmargin@length=\skip78
+\mdf@innertopmargin@length=\skip79
+\mdf@innerbottommargin@length=\skip80
+\mdf@splittopskip@length=\skip81
+\mdf@splitbottomskip@length=\skip82
+\mdf@outermargin@length=\skip83
+\mdf@innermargin@length=\skip84
+\mdf@linewidth@length=\skip85
+\mdf@innerlinewidth@length=\skip86
+\mdf@middlelinewidth@length=\skip87
+\mdf@outerlinewidth@length=\skip88
+\mdf@roundcorner@length=\skip89
+\mdf@footenotedistance@length=\skip90
+\mdf@userdefinedwidth@length=\skip91
+\mdf@needspace@length=\skip92
+\mdf@frametitleaboveskip@length=\skip93
+\mdf@frametitlebelowskip@length=\skip94
+\mdf@frametitlerulewidth@length=\skip95
+\mdf@frametitleleftmargin@length=\skip96
+\mdf@frametitlerightmargin@length=\skip97
+\mdf@shadowsize@length=\skip98
+\mdf@extratopheight@length=\skip99
+\mdf@subtitleabovelinewidth@length=\skip100
+\mdf@subtitlebelowlinewidth@length=\skip101
+\mdf@subtitleaboveskip@length=\skip102
+\mdf@subtitlebelowskip@length=\skip103
+\mdf@subtitleinneraboveskip@length=\skip104
+\mdf@subtitleinnerbelowskip@length=\skip105
+\mdf@subsubtitleabovelinewidth@length=\skip106
+\mdf@subsubtitlebelowlinewidth@length=\skip107
+\mdf@subsubtitleaboveskip@length=\skip108
+\mdf@subsubtitlebelowskip@length=\skip109
+\mdf@subsubtitleinneraboveskip@length=\skip110
+\mdf@subsubtitleinnerbelowskip@length=\skip111
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-1.mdf
+File: md-frame-1.mdf 2013/07/01\ 1.9b: md-frame-1
+)
+\mdf@frametitlebox=\box86
+\mdf@footnotebox=\box87
+\mdf@splitbox@one=\box88
+\mdf@splitbox@two=\box89
+\mdf@splitbox@save=\box90
+\mdfsplitboxwidth=\skip112
+\mdfsplitboxtotalwidth=\skip113
+\mdfsplitboxheight=\skip114
+\mdfsplitboxdepth=\skip115
+\mdfsplitboxtotalheight=\skip116
+\mdfframetitleboxwidth=\skip117
+\mdfframetitleboxtotalwidth=\skip118
+\mdfframetitleboxheight=\skip119
+\mdfframetitleboxdepth=\skip120
+\mdfframetitleboxtotalheight=\skip121
+\mdffootnoteboxwidth=\skip122
+\mdffootnoteboxtotalwidth=\skip123
+\mdffootnoteboxheight=\skip124
+\mdffootnoteboxdepth=\skip125
+\mdffootnoteboxtotalheight=\skip126
+\mdftotallinewidth=\skip127
+\mdfboundingboxwidth=\skip128
+\mdfboundingboxtotalwidth=\skip129
+\mdfboundingboxheight=\skip130
+\mdfboundingboxdepth=\skip131
+\mdfboundingboxtotalheight=\skip132
+\mdf@freevspace@length=\skip133
+\mdf@horizontalwidthofbox@length=\skip134
+\mdf@verticalmarginwhole@length=\skip135
+\mdf@horizontalspaceofbox=\skip136
+\mdfsubtitleheight=\skip137
+\mdfsubsubtitleheight=\skip138
+\c@mdfcountframes=\count363
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count364
+\c@mdf@env@i=\count365
+\c@mdf@env@ii=\count366
+\c@mdf@zref@counter=\count367
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+\c@bclogocompteur=\count368
+\bcval@epBarre=\skip139
+\bcval@framesep=\skip140
+\bcval@tailleOndu=\skip141
+\bcval@borderWidth=\skip142
+\bcval@margeG=\skip143
+\bcval@margeD=\skip144
+\bc@envbox=\box91
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.callouts.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\p
+gflibraryshapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box92
+\pgfnodeparttwobox=\box93
+\pgfnodepartthreebox=\box94
+\pgfnodepartfourbox=\box95
+\pgfnodeparttwentybox=\box96
+\pgfnodepartnineteenbox=\box97
+\pgfnodeparteighteenbox=\box98
+\pgfnodepartseventeenbox=\box99
+\pgfnodepartsixteenbox=\box100
+\pgfnodepartfifteenbox=\box101
+\pgfnodepartfourteenbox=\box102
+\pgfnodepartthirteenbox=\box103
+\pgfnodeparttwelvebox=\box104
+\pgfnodepartelevenbox=\box105
+\pgfnodeparttenbox=\box106
+\pgfnodepartninebox=\box107
+\pgfnodeparteightbox=\box108
+\pgfnodepartsevenbox=\box109
+\pgfnodepartsixbox=\box110
+\pgfnodepartfivebox=\box111
+)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz
+/libraries\tikzlibrarysnakes.code.tex
+File: tikzlibrarysnakes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
+
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tabvar\tabvar.sty
+File: tabvar.sty 2013/01/21 v1.7 (Daniel Flipo)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen306
+\ar@mcellbox=\box112
+\extrarowheight=\dimen307
+\NC@list=\toks43
+\extratabsurround=\skip145
+\backup@length=\skip146
+\ar@cellbox=\box113
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks44
+\minrowclearance=\skip147
+\rownum=\count369
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box114
+\sift@deathcycles=\count370
+\@vwid@loff=\dimen308
+\@vwid@roff=\dimen309
+)
+==> First Aid for varwidth.sty applied!
+\TVextraheight=\dimen310
+\@niveaux=\count371
+\@pos=\count372
+\TVmaxcolwidth=\dimen311
+\TVarraycolsep=\dimen312
+\TVcolorLeftSep=\dimen313
+\TVcolorRightSep=\dimen314
+\tab@box=\box115
+\TVbox=\box116
+\TVextraheight=\dimen315
+\TVextradepth=\dimen316
+\TV@tempa=\dimen317
+\TV@tempb=\dimen318
+loading tabvar.cfg
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tabvar\tabvar.cfg))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/venndiagram\venndiagram.
+sty
+Package: venndiagram 2018/06/07 v1.2 (NLCT) Venn diagrams
+\@venn@Ax=\skip148
+\@venn@Ay=\skip149
+\@venn@Bx=\skip150
+\@venn@By=\skip151
+\@venn@Cx=\skip152
+\@venn@Cy=\skip153
+\@venn@w=\skip154
+\@venn@h=\skip155
+\@venn@intersect@i@x=\skip156
+\@venn@intersect@i@y=\skip157
+\@venn@intersect@ii@x=\skip158
+\@venn@intersect@ii@y=\skip159
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revi
+sion.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code
+.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.
+code.tex
+\t@pgfplots@toka=\toks45
+\t@pgfplots@tokb=\toks46
+\t@pgfplots@tokc=\toks47
+\pgfplots@tmpa=\dimen319
+\c@pgfplots@coordindex=\count373
+\c@pgfplots@scanlineindex=\count374
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotss
+ysgeneric.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplots
+library.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompati
+b\pgfplotsoldpgfsupp_loader.code.tex
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks48
+\t@pgf@tokb=\toks49
+\t@pgf@tokc=\toks50
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompati
+b\pgfplotsoldpgfsupp_pgfutil-common-lists.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
+util.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
+\pgfplotsliststructure.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
+\pgfplotsliststructureext.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
+\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count375
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
+\pgfplotsmatrix.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfp
+lotstableshared.code.tex
+\c@pgfplotstable@counta=\count376
+\t@pgfplotstable@a=\toks51
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure
+\pgfplotsdeque.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
+binary.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
+binary.data.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
+util.verb.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibra
+rypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count377
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrar
+ypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
+colormap.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplots
+color.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstack
+edplots.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsploth
+andlers.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshp
+lothandler.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshp
+lotimage.code.tex)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scal
+ing.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoord
+processing.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.erro
+rbars.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.mark
+ers.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks
+.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.path
+s.code.tex)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibr
+arypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count378
+\pgfplots@xmin@reg=\dimen320
+\pgfplots@xmax@reg=\dimen321
+\pgfplots@ymin@reg=\dimen322
+\pgfplots@ymax@reg=\dimen323
+\pgfplots@zmin@reg=\dimen324
+\pgfplots@zmax@reg=\dimen325
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.st
+y
+Package: tikzpeople 2017/04/22 v0.4 People shaped nodes for Tikz
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count379
+\calc@Bcount=\count380
+\calc@Adimen=\dimen326
+\calc@Bdimen=\dimen327
+\calc@Askip=\skip160
+\calc@Bskip=\skip161
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count381
+\calc@Cskip=\skip162
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.alice.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.bob.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.bride.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.builder.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.businessman.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.charlie.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.chef.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.conductor.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.cowboy.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.criminal.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.dave.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.devil.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.duck.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.graduate.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.groom.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.guard.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.jester.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.judge.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.maninblack.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.mexican.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.nun.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.nurse.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.physician.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.pilot.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.police.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.priest.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.sailor.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.santa.sty)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tikzpeople\tikzpeople.sh
+ape.surgeon.sty))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibr
+arypgfplots.fillbetween.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\ti
+kzlibraryfillbetween.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\ti
+kzlibrarydecorations.softclip.code.tex
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontrib\pg
+flibraryfillbetween.code.tex)))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibr
+arypgfplots.decorations.softclip.code.tex))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count382
+\Gm@cntv=\count383
+\c@Gm@tempcnt=\count384
+\Gm@bindingoffset=\dimen328
+\Gm@wd@mp=\dimen329
+\Gm@odd@mp=\dimen330
+\Gm@even@mp=\dimen331
+\Gm@layoutwidth=\dimen332
+\Gm@layoutheight=\dimen333
+\Gm@layouthoffset=\dimen334
+\Gm@layoutvoffset=\dimen335
+\Gm@dimlist=\toks52
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count385
+)
+\@linkdim=\dimen336
+\Hy@linkcounter=\count386
+\Hy@pagecounter=\count387
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count388
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count389
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen337
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count390
+\Field@Width=\dimen338
+\Fld@charsize=\dimen339
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count391
+\c@Item=\count392
+\c@Hfootnote=\count393
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\HyAnn@Count=\count394
+\Fld@listcount=\count395
+\c@bookmark@seq@number=\count396
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip163
+) (ex_test.sty
+Package: ex_test 2019/05/09 for Ex_test version 2.4.4 beta3.3, Tran Anh Tuan
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
+\c@tracingmulticols=\count397
+\mult@box=\box117
+\multicol@leftmargin=\dimen340
+\c@unbalance=\count398
+\c@collectmore=\count399
+\doublecol@number=\count400
+\multicoltolerance=\count401
+\multicolpretolerance=\count402
+\full@width=\dimen341
+\page@free=\dimen342
+\premulticols=\dimen343
+\postmulticols=\dimen344
+\multicolsep=\skip164
+\multicolbaselineskip=\skip165
+\partial@page=\box118
+\last@line=\box119
+\mc@boxedresult=\box120
+\maxbalancingoverflow=\dimen345
+\mult@rightbox=\box121
+\mult@grightbox=\box122
+\mult@firstbox=\box123
+\mult@gfirstbox=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\@tempa=\box128
+\@tempa=\box129
+\@tempa=\box130
+\@tempa=\box131
+\@tempa=\box132
+\@tempa=\box133
+\@tempa=\box134
+\@tempa=\box135
+\@tempa=\box136
+\@tempa=\box137
+\@tempa=\box138
+\@tempa=\box139
+\@tempa=\box140
+\@tempa=\box141
+\@tempa=\box142
+\@tempa=\box143
+\@tempa=\box144
+\@tempa=\box145
+\@tempa=\box146
+\@tempa=\box147
+\@tempa=\box148
+\@tempa=\box149
+\@tempa=\box150
+\@tempa=\box151
+\@tempa=\box152
+\@tempa=\box153
+\@tempa=\box154
+\@tempa=\box155
+\@tempa=\box156
+\@tempa=\box157
+\@tempa=\box158
+\@tempa=\box159
+\@tempa=\box160
+\c@minrows=\count403
+\c@columnbadness=\count404
+\c@finalcolumnbadness=\count405
+\last@try=\dimen346
+\multicolovershoot=\dimen347
+\multicolundershoot=\dimen348
+\mult@nat@firstbox=\box161
+\colbreak@box=\box162
+\mc@col@check@num=\count406
+\g__mc_curr_col_int=\count407
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/answers\answers.sty
+Package: answers 2014/08/24 v2.16 Production of solution sheets in LaTeX2e
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip166
+\multirow@cntb=\count408
+\multirow@dima=\skip167
+\bigstrutjot=\dimen349
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+\LTleft=\skip168
+\LTright=\skip169
+\LTpre=\skip170
+\LTpost=\skip171
+\LTchunksize=\count409
+\LTcapwidth=\dimen350
+\LT@head=\box163
+\LT@firsthead=\box164
+\LT@foot=\box165
+\LT@lastfoot=\box166
+\LT@gbox=\box167
+\LT@cols=\count410
+\LT@rows=\count411
+\c@LT@tables=\count412
+\c@LT@chunks=\count413
+\LT@p@ftn=\toks53
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vietnam.sty
+Package: vietnam 2009/07/12 v1.3 support for Vietnamese
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.def
+File: t5enc.def 2006/11/21 v1.4 Vietnamese T5 encoding
+Now handling font encoding T5 ...
+... processing UTF-8 mapping file for font encoding T5
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5enc.dfu
+File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+01A0 (decimal 416)
+   defining Unicode char U+01A1 (decimal 417)
+   defining Unicode char U+01AF (decimal 431)
+   defining Unicode char U+01B0 (decimal 432)
+   defining Unicode char U+1EA0 (decimal 7840)
+   defining Unicode char U+1EA1 (decimal 7841)
+   defining Unicode char U+1EA2 (decimal 7842)
+   defining Unicode char U+1EA3 (decimal 7843)
+   defining Unicode char U+1EA4 (decimal 7844)
+   defining Unicode char U+1EA5 (decimal 7845)
+   defining Unicode char U+1EA6 (decimal 7846)
+   defining Unicode char U+1EA7 (decimal 7847)
+   defining Unicode char U+1EA8 (decimal 7848)
+   defining Unicode char U+1EA9 (decimal 7849)
+   defining Unicode char U+1EAA (decimal 7850)
+   defining Unicode char U+1EAB (decimal 7851)
+   defining Unicode char U+1EAC (decimal 7852)
+   defining Unicode char U+1EAD (decimal 7853)
+   defining Unicode char U+1EAE (decimal 7854)
+   defining Unicode char U+1EAF (decimal 7855)
+   defining Unicode char U+1EB0 (decimal 7856)
+   defining Unicode char U+1EB1 (decimal 7857)
+   defining Unicode char U+1EB2 (decimal 7858)
+   defining Unicode char U+1EB3 (decimal 7859)
+   defining Unicode char U+1EB4 (decimal 7860)
+   defining Unicode char U+1EB5 (decimal 7861)
+   defining Unicode char U+1EB6 (decimal 7862)
+   defining Unicode char U+1EB7 (decimal 7863)
+   defining Unicode char U+1EB8 (decimal 7864)
+   defining Unicode char U+1EB9 (decimal 7865)
+   defining Unicode char U+1EBA (decimal 7866)
+   defining Unicode char U+1EBB (decimal 7867)
+   defining Unicode char U+1EBC (decimal 7868)
+   defining Unicode char U+1EBD (decimal 7869)
+   defining Unicode char U+1EBE (decimal 7870)
+   defining Unicode char U+1EBF (decimal 7871)
+   defining Unicode char U+1EC0 (decimal 7872)
+   defining Unicode char U+1EC1 (decimal 7873)
+   defining Unicode char U+1EC2 (decimal 7874)
+   defining Unicode char U+1EC3 (decimal 7875)
+   defining Unicode char U+1EC4 (decimal 7876)
+   defining Unicode char U+1EC5 (decimal 7877)
+   defining Unicode char U+1EC6 (decimal 7878)
+   defining Unicode char U+1EC7 (decimal 7879)
+   defining Unicode char U+1EC8 (decimal 7880)
+   defining Unicode char U+1EC9 (decimal 7881)
+   defining Unicode char U+1ECA (decimal 7882)
+   defining Unicode char U+1ECB (decimal 7883)
+   defining Unicode char U+1ECC (decimal 7884)
+   defining Unicode char U+1ECD (decimal 7885)
+   defining Unicode char U+1ECE (decimal 7886)
+   defining Unicode char U+1ECF (decimal 7887)
+   defining Unicode char U+1ED0 (decimal 7888)
+   defining Unicode char U+1ED1 (decimal 7889)
+   defining Unicode char U+1ED2 (decimal 7890)
+   defining Unicode char U+1ED3 (decimal 7891)
+   defining Unicode char U+1ED4 (decimal 7892)
+   defining Unicode char U+1ED5 (decimal 7893)
+   defining Unicode char U+1ED6 (decimal 7894)
+   defining Unicode char U+1ED7 (decimal 7895)
+   defining Unicode char U+1ED8 (decimal 7896)
+   defining Unicode char U+1ED9 (decimal 7897)
+   defining Unicode char U+1EDA (decimal 7898)
+   defining Unicode char U+1EDB (decimal 7899)
+   defining Unicode char U+1EDC (decimal 7900)
+   defining Unicode char U+1EDD (decimal 7901)
+   defining Unicode char U+1EDE (decimal 7902)
+   defining Unicode char U+1EDF (decimal 7903)
+   defining Unicode char U+1EE0 (decimal 7904)
+   defining Unicode char U+1EE1 (decimal 7905)
+   defining Unicode char U+1EE2 (decimal 7906)
+   defining Unicode char U+1EE3 (decimal 7907)
+   defining Unicode char U+1EE4 (decimal 7908)
+   defining Unicode char U+1EE5 (decimal 7909)
+   defining Unicode char U+1EE6 (decimal 7910)
+   defining Unicode char U+1EE7 (decimal 7911)
+   defining Unicode char U+1EE8 (decimal 7912)
+   defining Unicode char U+1EE9 (decimal 7913)
+   defining Unicode char U+1EEA (decimal 7914)
+   defining Unicode char U+1EEB (decimal 7915)
+   defining Unicode char U+1EEC (decimal 7916)
+   defining Unicode char U+1EED (decimal 7917)
+   defining Unicode char U+1EEE (decimal 7918)
+   defining Unicode char U+1EEF (decimal 7919)
+   defining Unicode char U+1EF0 (decimal 7920)
+   defining Unicode char U+1EF1 (decimal 7921)
+   defining Unicode char U+1EF2 (decimal 7922)
+   defining Unicode char U+1EF3 (decimal 7923)
+   defining Unicode char U+1EF4 (decimal 7924)
+   defining Unicode char U+1EF5 (decimal 7925)
+   defining Unicode char U+1EF6 (decimal 7926)
+   defining Unicode char U+1EF7 (decimal 7927)
+   defining Unicode char U+1EF8 (decimal 7928)
+   defining Unicode char U+1EF9 (decimal 7929)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+))
+LaTeX Font Info:    Trying to load font information for T5+fnc on input line 11
+6.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5fnc.fd
+File: t5fnc.fd 2006/07/24 font definitions for T5/fnc (thanh).
+)
+LaTeX Font Info:    Trying to load font information for T5+unc on input line 11
+6.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5unc.fd
+File: t5unc.fd 2005/08/24 Fontinst v1.929 font definitions for T5/unc.
+)
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <12> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 116.
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks54
+\inpenc@posthook=\toks55
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\vncaps.tex
+File: vncaps.tex 2006/06/07 v1.1 Captions in Vietnamese
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/ntheorem\ntheorem.sty
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+\theorem@style=\toks56
+\theorem@@style=\toks57
+\theorembodyfont=\toks58
+\theoremnumbering=\toks59
+\theorempreskipamount=\skip172
+\theorempostskipamount=\skip173
+\theoremframepreskipamount=\skip174
+\theoremframepostskipamount=\skip175
+\theoreminframepreskipamount=\skip176
+\theoreminframepostskipamount=\skip177
+\theorem@preskip=\toks60
+\theorem@postskip=\toks61
+\theorem@framepreskip=\toks62
+\theorem@framepostskip=\toks63
+\theorem@inframepreskip=\toks64
+\theorem@inframepostskip=\toks65
+\theoremindent=\dimen351
+\theorem@indent=\dimen352
+\theoremrightindent=\dimen353
+\theorem@rightindent=\dimen354
+\theoremheaderfont=\toks66
+\theoremseparator=\toks67
+\theoremprework=\toks68
+\theorempostwork=\toks69
+\theoremsymbol=\toks70
+\qedsymbol=\toks71
+\theoremkeyword=\toks72
+\qedsymbol=\toks73
+\thm@topsep=\skip178
+\thm@topsepadd=\skip179
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/probsoln\probsoln.sty
+Package: probsoln 2017/07/10 v3.05 (NLCT)
+\probsoln@write=\write4
+\probsoln@startyear=\count414
+\probsoln@startmonth=\count415
+\probsoln@prev=\write5
+\probsoln@used=\write6
+\probsoln@prev@cutoff=\count416
+\@probN=\count417
+\@probselN=\count418
+\@rndselctr=\count419
+\r@ndcur=\count420
+\@ps@randtmp=\count421
+\@shfctr=\count422
+\@shfA=\count423
+\@shfB=\count424
+\@ps@forrand=\count425
+\@ps@forrand@level=\count426
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/picinpar\picinpar.sty
+Pictures in Paragraphs. Version 1.2a, July 13, 1993
+\br=\count427
+\bl=\count428
+\na=\count429
+\nb=\count430
+\tcdsav=\count431
+\tcl=\count432
+\tcd=\count433
+\tcn=\count434
+\cumtcl=\count435
+\cumpartcl=\count436
+\lftside=\dimen355
+\rtside=\dimen356
+\hpic=\dimen357
+\vpic=\dimen358
+\strutilg=\dimen359
+\picwd=\dimen360
+\topheight=\dimen361
+\ilg=\dimen362
+\lpic=\dimen363
+\lwindowsep=\dimen364
+\rwindowsep=\dimen365
+\cumpar=\dimen366
+\twa=\toks74
+\la=\toks75
+\ra=\toks76
+\ha=\toks77
+\pictoc=\toks78
+\rawtext=\box168
+\holder=\box169
+\windowbox=\box170
+\wartext=\box171
+\finaltext=\box172
+\aslice=\box173
+\bslice=\box174
+\wbox=\box175
+\wstrutbox=\box176
+\picbox=\box177
+\waslice=\box178
+\wbslice=\box179
+\fslice=\box180
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/filecontents\filecontent
+s.sty
+Package: filecontents 2023/04/02 v1.5a Create an external file from within a La
+TeX document
+
+
+Package filecontents Warning: This package is obsolete. Disabling it and
+(filecontents)                passing control to the filecontents environment
+(filecontents)                defined by the LaTeX kernel.
+
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/eepic\epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count437
+\d@lta=\count438
+\@delta=\dimen367
+\@@delta=\dimen368
+\@gridcnt=\count439
+\@joinkind=\count440
+\@dotgap=\dimen369
+\@ddotgap=\dimen370
+\@x@diff=\count441
+\@y@diff=\count442
+\x@diff=\dimen371
+\y@diff=\dimen372
+\@dotbox=\box181
+\num@segments=\count443
+\num@segmentsi=\count444
+\@datafile=\read4
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/cntformats\cntformats.st
+y
+Package: cntformats 2014/07/20 v0.7 A different way to read counters. (CN)
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/cnltx\cnltx-base.sty
+Package: cnltx-base 2019/11/01 v0.15 LaTeX tools and documenting facilities (CN
+)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks79
+\pgfopts@list@add@b@toks=\toks80
+)
+\c@cnltx@tmpa=\count445
+\c@cnltx@tmpb=\count446
+\c@cnltx@tmpc=\count447
+\cnltx@tmpa@length=\skip180
+\cnltx@tmpb@length=\skip181
+\cnltx@tmpc@length=\skip182
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xte
+mplate.sty
+Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
+)
+\linepar=\dimen373
+\paroutindent=\skip183
+\lineheight=\skip184
+\wsh=\skip185
+\hsh=\skip186
+\dsh=\skip187
+\c@dapan=\count448
+\widthalpha=\skip188
+\widthalphaT=\skip189
+\widthalphaF=\skip190
+LaTeX Font Info:    Font shape `T5/fnc/bx/n' in size <12> not available
+(Font)              Font shape `T5/unc/bx/n' tried instead on input line 134.
+LaTeX Font Info:    Font shape `T5/unc/bx/n' in size <12> not available
+(Font)              Font shape `T5/unc/b/n' tried instead on input line 134.
+\c@Solshort=\count449
+\c@numTrue=\count450
+\c@numTrueSol=\count451
+\dorongfix=\skip191
+\dorong=\skip192
+\c@Solbook=\count452
+\c@Solution=\count453
+
+WARNING: environment Solution already in use
+\c@ex=\count454
+\c@vdex=\count455
+\widthcha=\skip193
+\widthchb=\skip194
+\widthchc=\skip195
+\widthchd=\skip196
+\widthche=\skip197
+\widthch=\skip198
+\tabmaxwidth=\skip199
+\fourthtabwidth=\skip256
+\halftabwidth=\skip257
+\fifthtabwidth=\skip258
+\thirdtabwidth=\skip259
+\wmothai=\skip260
+\wmothaiba=\skip261
+\wmothaibabon=\skip262
+\wbonnam=\skip263
+\wbabonnam=\skip264
+\whaibabonnam=\skip265
+\c@numChoice=\count456
+\widthimmini=\dimen374
+\heightimmini=\dimen375
+\spaceleft=\dimen376
+\imbox=\box182
+\myboxans=\box183
+\c@exrd=\count457
+\l__listsEX_depth_int=\count458
+\g__listsEX_int=\count459
+\g__listsEX_total_items_int=\count460
+\l__listsEX_columns_int=\count461
+\l__listsEX_rows_int=\count462
+\g__listsEX_current_col_num_int=\count463
+\g__listsEX_current_row_num_int=\count464
+\l__listsEX_item_columns_int=\count465
+\l__listsEX_item_indent_dim=\dimen377
+\l__listsEX_item_default_indent_dim=\dimen378
+\l__listsEX_item_width_dim=\dimen379
+\l__listsEX_label_width_dim=\dimen380
+\l__listsEX_label_default_width_dim=\dimen381
+\l__listsEX_label_offset_dim=\dimen382
+\l__listsEX_label_default_offset_dim=\dimen383
+\l__listsEX_column_sep_dim=\dimen384
+\l__listsEX_after_item_skip=\skip266
+\l__listsEX_custom_after_item_skip=\skip267
+\l__listsEX_before_list_skip=\skip268
+\l__listsEX_after_list_skip=\skip269
+\l__listsEX_item_coffin=\box184
+\l__listsEX_label_coffin=\box185
+\c@listEX=\count466
+\l__listsEX_tmpa_int=\count467
+\l__listsEX_tmpb_int=\count468
+\l__listsEX_tmpa_coffin=\box186
+
+LaTeX template Info: Declaring template type 'listsEX' taking 3 argument(s) on
+(template)           line 1795.
+
+\l__listsEX_choice_width_dim=\dimen385
+\l__listsEX_choice_linewidth_dim=\dimen386
+\l__listsEX_choice_checkwidth_dim=\dimen387
+\l__listsEX_choice_raise_dim=\dimen388
+) (biasach-so5-ban1.aux)
+\openout1 = `biasach-so5-ban1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 34.
+LaTeX Font Info:    Trying to load font information for FML+fncmi on input line
+ 34.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\fmlfncmi.fd
+File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
+)
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for FMS+fncm on input line 
+34.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\fmsfncm.fd
+File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
+)
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for FMX+futm on input line 
+34.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fourier\fmxfutm.fd
+File: fmxfutm.fd futm-extension
+)
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 34.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 34
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
+File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 34.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 34.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count469
+\scratchdimen=\dimen389
+\scratchbox=\box187
+\nofMPsegments=\count470
+\nofMParguments=\count471
+\everyMPshowfont=\toks81
+\MPscratchCnt=\count472
+\MPscratchDim=\dimen390
+\MPnumerator=\count473
+\makeMPintoPDFobject=\count474
+\everyMPtoPDFconversion=\toks82
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.mps,.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG
+,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count475
+\symtvsymbols=\mathgroup8
+
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 34.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 497.92325pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92325pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-47.23828pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 34.
+(biasach-so5-ban1.out) (biasach-so5-ban1.out)
+\@outlinefile=\write7
+\openout7 = `biasach-so5-ban1.out'.
+
+LaTeX Font Info:    Trying to load font information for T5+pag on input line 55
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pag.fd
+File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pag.
+)
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <25> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 55.
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <15> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 59.
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 59.
+LaTeX Font Info:    Trying to load font information for T1+fnc on input line 59
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\t1fnc.fd
+File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
+)
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.94989pt on input line 59.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.60184pt on input line 59.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.37001pt on input line 59.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.79997pt on input line 59.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.4879pt on input line 59.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.28006pt on input line 59.
+LaTeX Font Info:    Trying to load font information for FML+fncm on input line 
+59.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fouriernc\fmlfncm.fd
+File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
+)
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.79997pt on input line 59.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.4879pt on input line 59.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.28006pt on input line 59.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <11.39992> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 59.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <21.49292> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <21.49292> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 19.98825pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 15.19095pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.99306pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 19.77344pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.0277pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.86417pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 19.77344pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.0277pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.86417pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <20.3595> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <20.3595> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 18.93417pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 14.38986pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.36061pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 18.7307pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 14.23521pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.23853pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 18.7307pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 14.23521pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.23853pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <22.55814> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <22.55814> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 20.9789pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 15.94385pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.58746pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 20.75343pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.77249pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.45218pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 20.75343pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.77249pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.45218pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <13.43536> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <13.43536> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.49478pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.49596pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.49693pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.3605pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.3939pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.41637pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.3605pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.3939pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.41637pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <14.89792> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <14.89792> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.85495pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.52968pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.31303pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.70605pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.41652pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.2237pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.70605pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.41652pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.2237pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <5.82184> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <5.82184> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.41426pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.1148pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 3.24858pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.35608pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.07059pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.21367pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.35608pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.07059pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.21367pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <0.61157> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <0.61157> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.56876pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.43224pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.34125pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.56264pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.4276pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.33759pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.56264pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.4276pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.33759pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <8.02185> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <8.02185> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.46025pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.66974pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.4762pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.38008pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.60881pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.42809pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.38008pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.60881pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.42809pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <17.98279> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <17.98279> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.72385pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.71002pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.03441pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.54413pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.57343pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.92657pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.54413pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.57343pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.92657pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <15.4953> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <15.4953> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 14.4105pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.9519pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.6464pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 14.25565pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.8342pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.55347pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 14.25565pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.8342pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.55347pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <6.7987> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <6.7987> on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.32274pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.80524pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 3.79367pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.25479pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.7536pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.7529pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.25479pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.7536pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.7529pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <15.28702> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <15.28702> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 14.21681pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.80469pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.53017pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 14.06403pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.68857pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.43849pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 14.06403pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.68857pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.43849pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <10.68878> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <10.68878> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.94048pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.5547pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.96434pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.83365pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.47351pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.90024pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.83365pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.47351pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.90024pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <16.642> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <16.642> on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 15.47693pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.76237pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.28624pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.31061pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.63597pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.18645pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.31061pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.63597pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.18645pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <14.53171> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <14.53171> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.51437pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.27084pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.10869pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.36914pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.16046pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.02155pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.36914pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.16046pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.02155pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <19.67331> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <19.67331> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 18.29602pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.90488pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.9777pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 18.0994pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.75543pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.85974pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 18.0994pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.75543pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.85974pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <22.5151> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <22.5151> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 20.93887pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 15.91342pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.56345pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 20.71385pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.7424pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.42844pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 20.71385pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.7424pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.42844pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <17.45178> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <17.45178> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.23003pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.33472pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.7381pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.0556pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.20215pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.63344pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.0556pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.20215pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.63344pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <2.83813> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <2.83813> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 2.63943pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 2.00594pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 1.58368pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 2.61107pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 1.98439pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 1.56665pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 2.61107pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 1.98439pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 1.56665pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <0.02792> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <0.02792> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.02596pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.01971pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.01558pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.02568pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.0195pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.01541pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.02568pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.0195pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.01541pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <8.15826> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <8.15826> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.58711pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.76616pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.5523pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.50558pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.7042pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.50339pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.50558pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.7042pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.50339pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <17.7745> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <17.7745> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.53015pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.5628pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.91818pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.35251pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.4278pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.8116pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.35251pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.4278pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.8116pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <4.56436> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <4.56436> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.24481pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 3.22603pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 2.5469pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.1992pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.19136pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 2.51953pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.1992pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.19136pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 2.51953pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <23.21045> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <23.21045> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 21.58554pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.40488pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.95145pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 21.35356pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.22858pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.81226pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 21.35356pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.22858pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.81226pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <20.78247> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <20.78247> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 19.32755pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 14.68881pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.59663pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 19.11983pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 14.53096pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.472pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 19.11983pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 14.53096pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.472pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <21.69937> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <21.69937> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 20.18025pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 15.33687pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.10826pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 19.96338pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.17204pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.97813pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 19.96338pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.17204pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.97813pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <1.9313> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <1.9313> on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 1.7961pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 1.365pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 1.07765pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 1.7768pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 1.35034pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 1.06607pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 1.7768pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 1.35034pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 1.06607pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <0.7727> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <0.7727> on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.7186pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.54613pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.43115pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.71088pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.54027pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.42653pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.71088pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.54027pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.42653pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <0.26367> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <0.26367> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.24521pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.18634pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 0.14713pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.24257pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.18434pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 0.14554pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.24257pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.18434pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 0.14554pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <9.37637> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <9.37637> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.71996pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.6271pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.23201pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.62624pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.5559pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.17578pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.62624pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.5559pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.17578pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <18.73947> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <18.73947> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 17.42757pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.24484pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.45663pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 17.24026pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.1025pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.34425pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 17.24026pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.1025pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.34425pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <22.19788> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <22.19788> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 20.64386pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 15.68921pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.38643pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 20.422pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.5206pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.25331pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 20.422pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.5206pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.25331pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <6.75018> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <6.75018> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.27762pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.77095pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 3.76659pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.21014pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.71967pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.72612pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.21014pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.71967pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.72612pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <18.9061> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <18.9061> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 17.58252pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.36261pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.5496pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 17.39357pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.219pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.43623pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 17.39357pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.219pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.43623pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <7.83508> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <7.83508> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.28656pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.53773pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.37198pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.20825pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.47823pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.325pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.20825pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.47823pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.325pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <9.83917> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <9.83917> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.15034pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.95421pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.49025pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.05202pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.87947pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.43124pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.05202pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.87947pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.43124pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <23.73047> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <23.73047> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 22.06915pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.77243pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.24162pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 21.83199pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.59218pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.0993pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 21.83199pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.59218pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.0993pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <16.88232> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <16.88232> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 15.70042pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.93222pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.42033pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.5317pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.80399pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.3191pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.5317pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.80399pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.3191pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <23.78357> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <23.78357> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 22.11853pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.80997pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.27124pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 21.88083pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.6293pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.12862pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 21.88083pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.6293pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.12862pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <18.05054> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <18.05054> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.78687pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.75792pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.0722pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.60646pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.6208pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.96397pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.60646pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.6208pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.96397pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <7.5476> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <7.5476> on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.01921pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.33455pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.21156pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.94377pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.27722pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.1663pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.94377pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.27722pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.1663pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <10.90027> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <10.90027> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.13716pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.70418pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.08235pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.02821pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.62138pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.01698pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.02821pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.62138pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.01698pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <19.87473> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <19.87473> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 18.48334pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 14.04723pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.0901pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 18.2847pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.89627pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.97092pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 18.2847pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.89627pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.97092pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <7.1228> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <7.1228> on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.62415pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.0343pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 3.97452pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.55296pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.98021pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.9318pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.55296pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.98021pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.9318pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <16.00021> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <16.00021> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 14.88008pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.30876pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.92813pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 14.72015pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.18723pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.83218pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 14.72015pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.18723pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.83218pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <19.45038> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <19.45038> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 18.0887pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 13.7473pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 10.85332pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 17.8943pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 13.59956pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.73668pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 17.8943pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 13.59956pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.73668pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <12.85767> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <12.85767> on input line 67
+.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.95753pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 9.08765pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 7.17459pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.82903pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.98997pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.09747pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.82903pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.98997pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.09747pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <22.7385> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <22.7385> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 21.14662pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.07132pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 12.6881pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 20.91937pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 15.8986pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 12.55174pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 20.91937pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 15.8986pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 12.55174pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <6.41647> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <6.41647> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 5.96727pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.53508pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 3.58038pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.90314pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.48634pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.5419pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.90314pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.48634pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.5419pt on input line 67.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <6.53137> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 67.
+LaTeX Font Info:    Calculating math sizes for size <6.53137> on input line 67.
+
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.07413pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 4.6163pt on input line 67.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 3.6445pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.00885pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.56668pt on input line 67.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.60533pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.00885pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.56668pt on input line 67.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.60533pt on input line 67.
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <35> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 77.
+LaTeX Font Info:    Trying to load font information for T5+qcs on input line 83
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t5qcs.fd
+File: t5qcs.fd 2009/09/25 v1.2 font definition file for T5/qcs
+)
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <30> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 88.
+LaTeX Font Info:    Trying to load font information for T5+cmss on input line 8
+8.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmss.fd
+File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `T5/fnc/b/n' in size <30> not available
+(Font)              Font shape `T5/unc/b/n' tried instead on input line 88.
+LaTeX Font Info:    Calculating math sizes for size <30> on input line 88.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 27.89978pt on input line 88.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 21.20367pt on input line 88.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 16.74004pt on input line 88.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 27.59995pt on input line 88.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 20.9758pt on input line 88.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 16.56013pt on input line 88.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 27.59995pt on input line 88.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 20.9758pt on input line 88.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 16.56013pt on input line 88.
+LaTeX Font Info:    Font shape `T5/fnc/b/n' in size <22.79984> not available
+(Font)              Font shape `T5/unc/b/n' tried instead on input line 88.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 11.15991pt on input line 111.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 8.36993pt on input line 111.
+LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
+(Font)              scaled to size 6.50995pt on input line 111.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 111.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 111.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 111.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 11.03998pt on input line 111.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 8.27998pt on input line 111.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.43999pt on input line 111.
+LaTeX Font Info:    Font shape `T5/fnc/m/n' in size <11> not available
+(Font)              Font shape `T5/unc/m/n' tried instead on input line 115.
+LaTeX Font Info:    Font shape `T5/fnc/b/n' in size <11> not available
+(Font)              Font shape `T5/unc/b/n' tried instead on input line 115.
+\tf@thm=\write8
+\openout8 = `biasach-so5-ban1.thm'.
+
+
+
+LaTeX Font Info:    Font shape `T5/fnc/m/sl' in size <12> not available
+(Font)              Font shape `T5/unc/m/sl' tried instead on input line 117.
+[1{C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/DEL
+L/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}
+
+{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Us
+ers/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-t5.enc}] (bia
+sach-so5-ban1.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+Package rerunfilecheck Info: File `biasach-so5-ban1.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 55151 strings out of 468251
+ 1286325 string characters out of 5440535
+ 2085963 words of memory out of 5000000
+ 82466 multiletter control sequences out of 15000+600000
+ 1369662 words of font info for 1595 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 102i,9n,107p,1189b,1287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/fourier/fouri
+er-mlit.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex
+-gyre/qcsb.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/u
+rwvn/uagd8v.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/
+urwvn/uncb8v.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/urw/n
+cntrsbk/uncr8a.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/vnt
+ex/urwvn/uncr8v.pfb>
+Output written on biasach-so5-ban1.pdf (1 page, 111262 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+

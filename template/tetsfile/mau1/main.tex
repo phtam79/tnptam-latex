@@ -1,0 +1,163 @@
+\documentclass[12pt,a4paper,twoside]{book}
+\usepackage{amsmath,amssymb,yhmath,mathrsfs,fontawesome}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{tkz-euclide}
+\usepackage{tikz-3dplot}
+\usepackage{tikz,tkz-tab,tkz-linknodes}
+\usetikzlibrary{shapes.geometric,arrows,calc,intersections,angles,patterns,snakes}
+\usetikzlibrary{shadows}
+\usetkzobj{all}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\pgfplotsset{compat=1.9}
+\usepackage[top=1.5cm, bottom=2cm, left=1.5cm, right=1cm] {geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{currfile}
+\usepackage[loigiai]{ex_test}
+%CẤU TRÚC TỰ LUẬN
+\usepackage{framed}
+\usepackage[many]{tcolorbox}
+\usepackage{polynom}
+\usepackage{slashbox}
+
+\newtcolorbox[auto counter]{danggg}[1]{
+	fonttitle=\bfseries\upshape,%fontupper=\itshape,
+	colframe=blue,colback=blue!10,
+	sharp corners, breakable, 
+	title={\color{white}\faFolderO \ DẠNG~\thetcbcounter.\ #1}
+	\addcontentsline{toc}{subsection}{Dạng~\thetcbcounter. #1}
+}\newenvironment{dang}[1]{
+	\begin{danggg}{#1}
+		\textit{Phương pháp giải:~}
+	}{\end{danggg}}
+\newenvironment{tomtat}{
+\begin{tcolorbox}[boxrule=1pt,arc=0mm,breakable]
+}{\end{tcolorbox}}
+\newtheorem{bt}{Bài}
+\newtheorem{vd}{Ví dụ}
+\theorembodyfont{\it}
+\newtheorem{dl}{ Định lí}
+\theoremseparator{.}
+\theorembodyfont{\rm}
+\newtheorem{hq}{ Hệ quả}
+\newtheorem{tc}{ Tính chất}
+\newtheorem{dn}{ Định nghĩa}
+\theoremstyle{nonumberplain}
+\newtheorem{kn}{ Khái niệm}
+\theoremseparator{.}
+\theorembodyfont{\it}
+\usepackage{stackengine}
+\usepackage{scalerel}
+
+\newcommand\dangersign[1][2ex]{%
+	\renewcommand\stacktype{L}%
+	\scaleto{\stackon[1.3pt]{\color{red}$\triangle$}{\fontsize{4}{0}\selectfont !}}{#1}%
+}
+\theoremseparator{}
+\newtheorem{note}{{\dangersign[3ex]}}
+\newtheorem{nx}{Nhận xét.}
+\newtcolorbox{luuy}[1][]{colback=yellow!20,title={\bfseries Chú ý},#1}
+%Tiêu đề chương
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{2}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\renewcommand\thesection{\@arabic\c@section}
+\renewcommand\thesubsection{\@Alph\c@subsection}
+\renewcommand\thesubsubsection{\@arabic\c@subsubsection}
+\makeatother
+\titleformat{\section}{\centering\Large\bfseries}{Bài~\thesection.}{-5ex}{
+\setcounter{vd}{0}
+\setcounter{ex}{0}
+\setcounter{bt}{0}
+\setcounter{dl}{0}
+\setcounter{dn}{0}
+\setcounter{hq}{0}
+\setcounter{tc}{0}
+\setcounter{\tcbcounter}{0}\MakeUppercase
+}
+\titleformat{\subsection}{\Large\bfseries}{{\thesubsection.}}{2ex}{\MakeUppercase
+}
+\usepackage[final]{pdfpages}
+%%%%%%%%%%%%%%%%%Cài đặt riêng dự án
+%Cài đặt \boxEX
+\def\hideboxEX{}
+\renewcommand{\boxEX}[2][15pt]{%
+	\setbox1=\hbox{#2\strut}
+	\def\sizeboxEX{#1}%Thay #1 bằng 15pt để cố định tất cả boxEX
+	\ \EXbox{\hideboxEX#2\strut}\ %
+}
+%Cài đặt chung độ rộng hàng và cột môi trường tabular
+\renewcommand\arraystretch{2.4} 
+\renewcommand{\tabcolsep}{4mm}
+%Cài đặt lại dòng kẻ
+\renewcommand{\dotlineEX}[1]{
+	\setlength{\parskip}{0.8\baselineskip}%
+	\setlength{\parindent}{0pt}%
+	\def\numlinedot{#1}
+	\par
+	\foreach \dotline in{1,...,\numlinedot}
+	{
+		\noindent\color{gray}{\tiny \dotfill}
+		\par
+	}\vspace*{-0.8\baselineskip}
+   \begin{flushright}
+   	 \hfill{\color{violet!33}\ensuremath{\blacksquare}}
+   \end{flushright}
+}
+%Lệnh viết tắt
+\newcommand{\hoac}[1]{\left[\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\heva}[1]{\left\{\begin{aligned}#1\end{aligned}\right.}
+%%%%%%%%%%%%%%%%%%%%%%%
+\input{themes/theme1}%chọn giao diện 0,1
+%\usepackage{mathpazo}%font chữ
+
+%%%%%%%%%%%%%%%Lệnh ẩn/hiện các môi trường
+%\renewcommand{\dapso}[1]{}% ẩn đáp số
+%\def\hideboxEX{\color{white}}% ẩn kết quả \boxEX
+%\renewcommand{\TF}[1]{\boxEX{}}% ẩn kết quả \TF
+%\hideansEX{vd}% ẩn lời giải môi trường \begin{vd}
+%\hideansEX{bt}% ẩn lời giải môi trường \begin{bt}
+%\hideansEX{ex}
+%\dotlineans{5}{bt}% luôn ẩn lời giải và hiện 5 dòng kẻ
+%\dotlinefull{bt}% hiện số dòng kẻ bằng số dòng của lời giải
+
+%%%%%Ẩn toàn bộ lý thuyết, chỉ hiện bài tập
+%\hideenviron{tomtat}
+%\hideenviron{note}
+%\hideenviron{luuy}
+%\hideenviron{dang}
+%\renewcommand{\subsection}[1]{}
+%\renewenvironment{luuy}{\begin{note}}{\end{note}}
+\begin{document}
+\pagenumbering{gobble}%tắt đánh số trang
+\includepdf[pages=-]{biasach/biasach}%chèn bìa pdf
+\newpage\null\thispagestyle{empty}\newpage%tạo trang trống
+\pagenumbering{roman}%đánh số trang dạng i,ii,...
+\tableofcontents%tạo mục lục
+\clearpage%đặt lại đánh số trang
+\pagenumbering{arabic}%đánh số trang dạng 1,2,...
+
+\part{Đại số}
+\chapter{Ôn tập về số tự nhiên số}
+\foreach \x in {1,2}
+{\input{data/6D1-\x}\newpage}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

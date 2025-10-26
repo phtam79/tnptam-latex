@@ -1,0 +1,117 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage{fouriernc}
+%\usepackage{mathpazo}
+%\usepackage{mathptmx}
+\usepackage{fontawesome}
+\usepackage{amsmath,amssymb}
+\usepackage{fancyhdr}
+\usepackage{enumerate}
+\usepackage{tikz,tkz-tab,tkz-linknodes}
+\usepackage{tkz-euclide}
+\usepackage{tikz-3dplot}
+\usepackage[most]{tcolorbox}
+\usepackage[tikz]{bclogo}
+\usetikzlibrary{shapes,shapes.symbols}
+%\usetkzobj{all}
+\usetikzlibrary{arrows,calc,intersections,angles,quotes,shapes.geometric}
+\usetikzlibrary{snakes}
+\usepackage{tabvar}
+\usepackage{venndiagram}
+\usepackage{pgfplots}
+\usepackage{tikzpeople} % Gói lệnh hình người
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{patterns}
+\usetikzlibrary{positioning,decorations.text,decorations.pathmorphing}% Để uốn cong văn bản 
+%\pgfplotsset{compat=0.5}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=1.5cm] {geometry}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage[loigiai]{ex_test}
+\newcommand{\khung}[1]{%
+	\begin{tikzpicture}[baseline=(A.base),scale=1.2]%
+	\node[fill=white,minimum width=8.5cm,minimum height=0.65cm,rounded corners=5mm,draw=blue] (A) {#1};
+	\end{tikzpicture}%
+}
+\begin{document}
+\begin{tikzpicture}[overlay,remember picture,transform shape] %transform shape tăng giảm nhãn cùng hình
+%===========================================Định nghĩa các điểm đặc biệt
+\coordinate (A) at (current page.north west);
+\coordinate (B) at (current page.north east);
+\coordinate (C) at (current page.south east);
+\coordinate (D) at (current page.south west);
+\coordinate (AB) at (current page.north);
+\coordinate (CD) at (current page.south);
+\coordinate (T) at (current page.center); % Tâm trang
+%-----------
+\coordinate (G) at ([yshift=1cm]T); % Thay đổi yshift để di chuyển khối chữ lên xuống
+\coordinate (BB) at ([yshift=-4 cm]A);
+%==========================================
+%=======================PHỦ MÀU NỀN TRANG
+\fill[white] (A) rectangle (C); %phủ cả trang
+\fill[top color= yellow] (A) rectangle ([yshift=9cm]C); %phủ cả trang
+%=======================TRAG TRÍ PHẦN BÊN TRÊN
+\fill[violet] (A) rectangle ([yshift=-4cm]B); %phủ tím
+\draw[dashed, yellow, line width=30pt] ([yshift=-1.5cm]A) -- ([yshift=-1.5cm,xshift=2cm]AB); %trang trí đứt
+\draw[green, line width=30pt]  
+	([yshift=-1.5cm]A) node[right=8pt,violet] {\fontfamily{pag}\selectfont\fontsize{25pt}{1pt}\bfseries 2020} --([yshift=-1.5cm,xshift=-7cm]AB); %nền
+\draw[orange!30, line width=30pt] ([yshift=-1.5cm,xshift=-3cm]AB) -- ([yshift=-1.5cm]B); %nền trắng dưới tên
+%-----Tên tác giả
+\foreach \i/\mau in {1/gray,0/black}{
+	\draw ($(B)+(-1,-1.5)+(\i pt,\i pt)$) node[left,\mau] {\fontfamily{pag}\selectfont\fontsize{15pt}{1pt}\bfseries Nhóm Tikzpro - Vẽ hình và \LaTeX};}
+%-----Vẽ các hình cầu trang trí
+\foreach \x in {1,...,50}{
+	\pgfmathsetmacro{\r}{abs(random()*0.8)}
+	\pgfmathsetmacro{\f}{30*\r)}
+	\pgfmathsetmacro{\i}{abs(random()*20)}
+	\pgfmathsetmacro{\j}{abs(random()*15)}
+	\fill[ball color=green,opacity=0.1] ([xshift=\i cm,yshift=-\j cm]BB) node[blue]{\fontsize{\f}{1pt}\selectfont $\x$} circle (\r);
+}
+%-------Tên giữa
+\draw[red, line width=2pt] ([yshift=-4cm]A)--([yshift=-4cm]B);
+\draw [draw=red, rounded corners=15pt, fill=white, opacity=1] ($(AB)+(-5,-3.5)$) rectangle ($(AB)+(5,-4.5)$);
+\foreach \i/\mau in {1/yellow,0/blue}{
+	\draw ($(AB)+(0,-4)+(\i pt,\i pt)$) node[\mau] {\fontfamily{pag}\selectfont\fontsize{15pt}{1pt}\bfseries DỰ ÁN TEX HÓA 50 DẠNG THPTQG};}
+%===========================CÁC TIÊU ĐỀ CHỮ
+%--------Dạy học-------------
+\foreach \i/\mau in {3/black,2/black,1/black}{
+	\foreach \j in {1,...,9}{
+		\draw($([yshift=4.5cm,xshift=0.5cm]G)+(\i+0.\j pt, \i+0.\j pt)$) node[above,\mau,yscale=1.2,xscale=0.73] {\fontfamily{pag}\fontsize{35pt}{1pt}\selectfont\bfseries 50 DẠNG THEO CẤU TRÚC ĐỀ MINH HỌA};}}
+\draw([yshift=4.5cm,xshift=0.5cm]G) node[above,red,yscale=1.2,xscale=0.73] {\fontfamily{pag}\fontsize{35pt}{1pt}\selectfont\bfseries 50 DẠNG THEO CẤU TRÚC ĐỀ MINH HỌA};	
+%-------Toán------------------
+\foreach \i/\mau in {9/cyan!40,8/cyan!40,7/cyan!40,6/cyan!40,5/cyan!40,4/cyan!40,3/cyan!40,2/cyan!40,1/cyan!40,0/violet}{
+	\foreach \j in {1,...,9}{
+		\draw($([yshift=1.2cm,xshift=-1.15cm]G)+(\i+0.\j pt,\i+0.\j pt)$) node[above,\mau, xscale=1.1, yscale=1.4] {\fontfamily{qcs}\fontsize{60 pt}{1pt}\selectfont\bfseries MÔN TOÁN};
+}}
+%-------THCS------------------
+\fill[color=blue] ([yshift=0.5 cm,xshift=11cm]G)--++(0,-2)--++(-13,0)--++(-1.5,1)--++(1.5,1)--cycle;
+\foreach \i/\mau in {0/black,1/black,2/white}{
+\draw ($([yshift=-0.65 cm,xshift=-2cm]G)+(\i pt, \i pt)$) node[right,\mau,scale=0.65]{\fontsize{30pt}{1pt}\selectfont\sf\bf \LaTeX\, HÓA TÀI LIỆU THPTQG};
+}
+%-------Người-----------------
+\node[above,graduate,minimum size=2cm] at ([yshift=1.2cm, xshift=8cm]G) {};
+%-----------------------------Màu phần nửa dưới
+\fill[orange] ([yshift=9.6cm]D) rectangle (C);
+\foreach \i in {0.8,1.8}{\draw[white, line width=8pt] ($([yshift=9.6cm]D)+(0,-\i) $)--++(25,0);}
+\fill[white] ([yshift=10cm]D) [rounded corners=5mm]--++(4.18,0) --++(-45:4.25) [rounded corners=5mm]--++(20,0) --(C) --(D) --cycle;
+\fill[green!95!blue] ([yshift=9.5cm]D) --++(4,0) --++(-45:4.25) --++(20,0) --(C) --(D) --cycle;
+\begin{scope}
+	\clip ([yshift=9.5cm]D) --++(4,0) --++(-45:4.25) --++(20,0) --(C) --(D) --cycle;
+	\foreach \i in {1,2,...,70}{
+		\draw[white,line width=0.5pt] ($(D)+(0.5*\i,0)$)--++(135:20);
+		\draw[white,line width=0.5pt] ($(D)+(0.5*\i-10,0)$)--++(45:20);
+	}
+\end{scope}
+\draw[red, line width=5pt] ([yshift=9.5cm]D) [rounded corners=5mm]--++(4,0)--++(-45:4.25) --++(20,0);
+%-----------------------------Lục giác
+\begin{scope}[shift={(12,-19)}]
+	\def\a{4} % Độ dài cạnh
+	\foreach \a/\mau in {4/cyan, 3.7/violet!70}{
+	\draw[fill=\mau] (-90:\a)--(-30:\a)--(30:\a)--(90:\a)--(150:\a)--(210:\a)--(270:\a)--cycle;
+	}
+	\foreach \i/\mau in {4/black,3/black,2/black,1/black,0/yellow}{
+	\draw (\i pt,\i pt) node[\mau,scale=18]{$\pi$};}
+\end{scope}
+%========================hết hình
+\fill[cyan, opacity=0.8] (D) rectangle ([yshift=1.6cm]C);
+\draw ([yshift=1cm]CD) node[above,red]{\khung{\fontsize{11pt}{1pt}\selectfont\sf\bf TÀI LIỆU LƯU HÀNH HỘI BỘ}};
+\end{tikzpicture}
+\end{document}

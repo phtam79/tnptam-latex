@@ -1,0 +1,42 @@
+%%%%%%%%%
+\newcounter{sttde}
+\setcounter{sttde}{0}
+\renewcommand{\section}[1]{
+	\stepcounter{sttde}
+	\setcounter{bt}{0}
+	\begin{tcolorbox}
+		[colframe=violet,colback=yellow!30,breakable,boxrule=1pt,arc=0.1cm]
+		\noindent
+		\begin{minipage}[t]{0.5\textwidth}\color{violet}\centering
+			{\textbf{Nhóm Toán và \LaTeX}}\\
+			{\textbf{Tuyển tuyển các đề thi}}\\
+			{\textit{fb.com/groups/toanvalatex/}}\\
+		\end{minipage}\hspace*{0.7cm}
+		\begin{minipage}[t]{0.5\textwidth}\color{violet}
+			\vspace*{-0.35ex}
+			\centering{\bfseries\fontfamily{qag}\selectfont \MakeUppercase{ĐỀ ÔN TẬP CUỐI KỲ}}\\
+			{\bfseries\fontfamily{qag}\selectfont \MakeUppercase{#1}}
+%			\centerline{\textit{Thời gian làm bài: 90 phút}}
+			\centering\\[3pt]
+			\setlength\fboxrule{2pt} 
+			\setlength\fboxsep{5pt}
+			\fbox{\textbf{Đề số \thesttde}}
+			\addcontentsline{toc}{section}{Đề số \thesttde}
+		\end{minipage}
+	\end{tcolorbox}\vspace*{0.5cm}
+}
+%%%%%%%
+\titlespacing{\chapter}{-8pt}{-20pt}{1cm}
+\titleformat{\chapter}%[display]
+{\Large\bfseries\color{red!50!blue}}{
+	\setcounter{sttde}{0}
+	\begin{tikzpicture}
+	\fill[rounded corners=2mm,ball color=violet,scale=1.1] (-1,-1) rectangle (1,1);
+	\draw(0,1.5)node[scale=0.8]{\fontfamily{ccr}\selectfont\large CHƯƠNG};
+	\draw(0,0)node{\color{white}\fontsize{60pt}{1pt}\selectfont\thechapter};
+	%	\draw[line width=3pt] (-1.1,-1.5)--(17.25,-1.5);
+	%	\draw[line width=0.7pt,yshift=-0.15cm] (-1.1,-1.5)--(17.25,-1.5);
+	\end{tikzpicture}
+}
+{0cm}
+{\fontsize{30pt}{1pt}\fontfamily{qhv}\selectfont\MakeUppercase}

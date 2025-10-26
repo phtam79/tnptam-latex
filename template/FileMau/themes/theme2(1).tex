@@ -1,0 +1,227 @@
+%Tùy chỉnh mục lục
+\usepackage{ifoddpage}
+\titlecontents{section}
+[4em]{\sffamily}
+{\color{blue}\contentslabel{2.3em}\color{blue}}{}
+{\titlerule*[1000pc]{.}\contentspage\\\hspace*{-3em}\vspace*{2pt}%
+	\color{blue}\rule{\dimexpr\textwidth-16pt\relax}{1pt}}
+
+\titlecontents{lsection}
+[5.8em]{\sffamily}
+{\color{blue}\contentslabel{2.3em}\color{blue}}{}
+{\titlerule*[1000pc]{.}\contentspage\\\hspace*{-5.8em}\vspace*{2pt}%
+	\color{blue}\rule{\dimexpr\textwidth\relax}{1pt}}
+
+\titlecontents{subsection}
+[8em]{\sffamily}
+{\color{violet}\contentslabel{2.3em}\color{violet}}{}
+{\titlerule*[1000pc]{.}\contentspage\\\hspace*{-3em}\vspace*{2pt}%
+	\color{violet}\rule{\dimexpr\textwidth-55pt\relax}{1pt}}
+
+\titlecontents{lsubsection}
+[6.5em]{\sffamily}
+{\color{violet}\contentslabel{2.6em}\color{violet}}{}
+{\titlerule*[1000pc]{.}\contentspage\\\hspace*{-5.2em}\vspace*{2pt}%
+	\color{violet}\rule{\dimexpr\textwidth -13pt\relax}{1pt}}
+
+\titlecontents{subsubsection}
+[8em]{\sffamily}
+{\color{violet}\contentslabel{2.3em}\color{violet}}{}
+{\titlerule*[1000pc]{.}\contentspage\\\hspace*{-3em}\vspace*{2pt}%
+	\color{violet}\rule{\dimexpr\textwidth-55pt\relax}{1pt}}
+
+\titlecontents{lsubsubsection}
+[6.5em]{\sffamily}
+{\color{violet}\contentslabel{2.6em}\color{violet}}{}
+{\titlerule*[1000pc]{.}\contentspage\\\hspace*{-5.2em}\vspace*{2pt}%
+	\color{violet}\rule{\dimexpr\textwidth -13pt\relax}{1pt}}
+
+\makeatletter
+
+\renewcommand*\l@part[2]{%
+	\ifnum \c@tocdepth >\m@ne
+	\addpenalty{-\@highpenalty}%
+	\vskip 1.0em \@plus\p@
+	\setlength\@tempdima{1.5em}%
+	\begingroup
+	\parindent \z@ \rightskip \@pnumwidth
+	\parfillskip -\@pnumwidth
+	\leavevmode
+	\advance\leftskip\@tempdima
+	\hskip -\leftskip
+	\colorbox{pigment}{\strut%
+		\makebox[\dimexpr\textwidth-1\fboxsep-6pt\relax][l]{%
+			%\fontsize{12pt}{1pt}
+			\color{white}\bfseries\fontfamily{qag}\selectfont\hspace*{0.3\textwidth} PHẦN #1%
+			\nobreak\hfill\nobreak\hb@xt@\@pnumwidth{\hss #2}}}\par\smallskip
+	\penalty\@highpenalty
+	\endgroup
+	\fi}
+
+\renewcommand*\l@chapter[2]{%
+	\ifnum \c@tocdepth >\m@ne
+	\addpenalty{-\@highpenalty}%
+	\vskip 1.0em \@plus\p@
+	\setlength\@tempdima{1.5em}%
+	\begingroup
+	\parindent \z@ \rightskip \@pnumwidth
+	\parfillskip -\@pnumwidth
+	\leavevmode
+	\advance\leftskip\@tempdima
+	\hskip -\leftskip
+	\colorbox{violet}{\strut%
+		\makebox[\dimexpr\textwidth-1\fboxsep-6pt\relax][l]{%
+			\sffamily%\fontsize{12pt}{1pt}
+			\color{white}\bfseries\selectfont CHƯƠNG #1%
+			\nobreak\hfill\nobreak\hb@xt@\@pnumwidth{\hss #2}}}\par\smallskip
+	\penalty\@highpenalty
+	\endgroup
+	\fi}
+\definecolor{pigment}{rgb}{0.2, 0.2, 0.6}
+
+%Tùy chỉnh các tiêu đề
+\titleformat{\part}[display]
+{\Large\bfseries\color{pigment}}{
+	\centering
+	\begin{tikzpicture}
+	\fill[pigment] (-1,-1) rectangle (1,1);
+	\draw(0,1.5)node{\fontfamily{ccr}\selectfont\Large PHẦN};
+	\draw(0,0)node{\color{white}\fontsize{60pt}{1pt}\selectfont\thepart};
+	\end{tikzpicture}
+}
+{0.5em}
+{\titlerule[2.5pt]\vskip3pt\titlerule\vskip4pt\centering\fontsize{60pt}{1pt}\fontfamily{qhv}\selectfont\MakeUppercase}
+
+\titlespacing{\chapter}{0pt}{-10pt}{20pt}
+\titleformat{\chapter}
+{\Large\bfseries\color{red!50!blue}}{\begin{tikzpicture}[remember picture,overlay]
+	\draw[double,thick,line join=round,green!50!blue] (0,0)node[above right]{\color{red!50!blue}\fontfamily{qag}\selectfont CHƯƠNG \fontsize{40 pt}{1pt}\selectfont\thechapter\ }--(4,0)--(5,1.2)--(\textwidth,1.2);
+	\end{tikzpicture}
+}
+{5cm}
+{\fontsize{23pt}{1pt}\fontfamily{qhv}\selectfont\MakeUppercase}
+%%
+\titleformat{\section}{\fontfamily{qag}\selectfont\color{blue}\centering\scshape\Large\bfseries}{BÀI \fontsize{25 pt}{1pt}\selectfont\thesection.}{-1cm}{
+	\setcounter{vd}{0}
+	\setcounter{ex}{0}
+	\setcounter{bt}{0}
+	\setcounter{dl}{0}
+	\setcounter{dn}{0}
+	\setcounter{hq}{0}
+	\setcounter{tc}{0}
+	\setcounter{\tcbcounter}{0}\fontsize{18pt}{1pt}\fontfamily{qag}\selectfont\color{blue}\MakeUppercase
+}
+
+\titleformat{\subsection}{\large\bfseries\fontfamily{qag}\selectfont\color{violet}}{
+	\fontfamily{qag}\large\selectfont\hspace*{-3ex}\thesubsection.\ 
+}{0ex}{\bfseries\fontfamily{qag}\selectfont\color{violet}\MakeUppercase
+}
+
+\titleformat{\subsubsection}{\large\bfseries\color{violet}}{\thesubsubsection.\ }{0em}{\color{violet}
+}
+
+\renewcommand\labelitemi{\raisebox{.2\baselineskip}{%
+		\rule{0.5cm}{.5pt}%
+	}}
+\renewcommand{\labelenumi}{\circEX{\theenumi}}
+\newcounter{CircLabel}
+\newcommand*\CircLabel{%
+	\refstepcounter{CircLabel}%
+	\hskip1em\llap{\alph{CircLabel})}}%
+\NewEnviron{circ_enum}[1][]{%
+	\hfill
+	\setcounter{CircLabel}{0}
+	\def\tempbegin{\begin{taskEX}[label=\CircLabel](#1)}%
+		\expandafter\tempbegin\BODY
+	\end{taskEX}
+}
+\setlistsEX{label=\CircLabel}
+\AtBeginEnvironment{listEX}{\setcounter{CircLabel}{0}}
+\AtBeginEnvironment{enumEX}{\setcounter{CircLabel}{0}}
+%\newcommand{\dapso}[1]{\hfill{\fontsize{8pt}{1pt}\selectfont\textbf{ĐS: }#1}}
+
+\renewenvironment{tomtat}{
+	\begin{tcolorbox}[boxrule=1pt,arc=0mm,breakable,colframe=violet,colback=white]
+	}{\end{tcolorbox}}
+
+\newtcolorbox[auto counter]{dangg}[1]{
+	fonttitle=\bfseries\upshape,%fontupper=\itshape,
+	colframe=violet,colback=violet!10,
+	sharp corners, breakable, 
+	title={\color{white}\faFolderO \ DẠNG~\thetcbcounter.\ #1}
+	\addcontentsline{toc}{subsection}{{\color{violet}Dạng~\thetcbcounter. #1}}
+}
+\renewenvironment{dang}[1]{
+	\begin{dangg}{#1}
+		\textit{Phương pháp giải:~}
+	}{\end{dangg}}
+
+\newtcolorbox{luuyy}[1][]{enhanced,
+	before skip=2mm,after skip=3mm,
+	boxrule=0.4pt,left=5mm,right=2mm,top=1mm,bottom=1mm,
+	colback=yellow!50,
+	colframe=yellow!20!black,
+	sharp corners,rounded corners=southeast,arc is angular,arc=3mm,
+	underlay={%
+		\path[fill=tcbcol@back!80!black] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+		\path[draw=tcbcol@frame,shorten <=-0.05mm,shorten >=-0.05mm] ([yshift=3mm]interior.south east)--++(-0.4,-0.1)--++(0.1,-0.2);
+		\path[fill=yellow!50!black,draw=none] (interior.south west) rectangle node[white]{\Huge\bfseries !} ([xshift=4mm]interior.north west);
+	},
+	drop fuzzy shadow, #1}
+\renewenvironment{luuy}{\begin{luuyy}}{\end{luuyy}}
+
+\usepackage{pifont}
+\renewcommand{\loigiaiEX}{{\color{violet}\ding{45}\fontfamily{anttlc}\selectfont\bfseries~LỜI GIẢI.}}
+\def\qedEX{\color{violet}\ensuremath{\square}}
+
+\theoremstyle{}
+\theoremseparator{.}
+\theorembodyfont{\rm}
+\renewtheorem{bt}{\color{violet}\fontfamily{anttlc}\selectfont\MakeUppercase{Bài}}
+\renewtheorem{vd}{\color{violet}\fontfamily{anttlc}\selectfont\MakeUppercase{Ví dụ}}
+
+\def\beginbox{\begin{tcolorbox}[colframe=violet,colback=white,breakable,boxrule=1pt,arc=0cm]}
+\def\endbox{\end{tcolorbox}}
+\AtBeginEnvironment{vd}{
+	\beginbox
+	\renewcommand{\loigiai}[1]{
+		\renewcommand{\immini}[2]{
+			\setbox\imbox=\vbox{\hbox{##2}}
+			\widthimmini=\wd\imbox
+			\IMleftright{##1}{##2}
+		}
+		\endbox
+		\begin{onlysolution}
+			#1
+		\end{onlysolution}
+		\def\endbox{}
+	}
+}
+\AtEndEnvironment{vd}{
+	\endbox
+}
+
+\theorembodyfont{\it}
+\renewtheorem{dl}{ Định lí}
+\theoremseparator{.}
+\theorembodyfont{\rm}
+\renewtheorem{hq}{ Hệ quả}
+\renewtheorem{tc}{ Tính chất}
+\renewtheorem{dn}{ Định nghĩa}
+\theoremstyle{nonumberplain}
+\renewtheorem{kn}{ Khái niệm}
+\theoremseparator{}
+\theorembodyfont{\it}
+%Đánh số trang
+\assignpagestyle{\part}{fancy}
+\assignpagestyle{\chapter}{fancy}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\footrule}{{\color{blue}\vskip-\footruleskip\vskip-\footrulewidth \hrule width\headwidth height\footrulewidth\vskip\footruleskip}}
+\renewcommand{\footrulewidth}{1pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\sectionmark}[1]{\markright{\arabic{section}. #1}}
+\fancyhead[LO,RE,LE,RO]{}
+\fancyfoot[RE,LO]{\color{blue}\fontsize{10 pt}{1pt}\selectfont\bfseries\leftmark}
+\fancyfoot[LE]{\color{blue}\bfseries \thepage~|~Nhóm Toán và \LaTeX}
+\fancyfoot[RO]{\color{blue}\bfseries\rightmark~|~\thepage}

@@ -1,0 +1,33 @@
+%====================================================
+%================NGƯỜI TẠO: TRẦN THỊNH===============
+%==============MẪU DỰ ÁN NHÓM TIKZPRO2020============
+%====================================================
+\input{cautruc/cautruc}
+%====================================================
+%\hideansEX{vd}% ẩn lời giải môi trường \begin{vd}
+%\hideansEX{bt}% ẩn lời giải môi trường \begin{bt}
+%\hideansEX{ex}% ẩn lời giải môi trường \begin{ex}
+%\dotlineans{10}{vd}% luôn ẩn lời giải và hiện 10 dòng kẻ
+%\dotlinefull{ex}% hiện số dòng kẻ bằng số dòng của lời giải
+%====================================================
+%====================================================
+%=================BẮT ĐẦU TÀI LIỆU===================
+\begin{document}
+	%\pagenumbering{arabic}
+	%\pagenumbering{roman}%đánh số trang kiểu la mã
+	\renewcommand{\chaptername}{Chuyên đề} %thay đổi chương
+	%=====================mục lục
+	\pagenumbering{gobble}%tắt đánh số trang
+	\includepdf[]{biasach/biasach-so5-ban1.pdf}%chèn bìa pdf
+	%\newpage\null\thispagestyle{empty}\newpage%tạo trang trống
+	\pagenumbering{roman}%đánh số trang dạng i,ii,...
+	%~~~~~~~~~~~~~~~~~~~~~
+	\tableofcontents %lệnh in mục lục chính
+	\clearpage%đặt lại đánh số trang
+	\pagenumbering{arabic}%đánh số trang dạng 1,2,...
+%====================================================
+\chapter{50 dạng toán THPT Quốc Gia}
+	\input{data/THPT-Dang1}
+
+
+\end{document}
