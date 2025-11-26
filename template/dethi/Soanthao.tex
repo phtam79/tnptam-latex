@@ -1,0 +1,114 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+\usepackage{graphicx}
+\usepackage{picinpar}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+%\usepackage{tikz-3dplot-circleofsphere}
+\usetikzlibrary{calc,patterns,intersections,angles,arrows,matrix,quotes,patterns}
+%\usepackage{tkz-euclide}
+\usepackage{tkz-tab}
+%\usepackage{tabvar}
+\usepackage{tkz-base}
+\usepackage{longtable}%
+\usepackage[colorlinks,hyperindex,plainpages=false,unicode]{hyperref}
+\usepackage{calc}
+\usepackage{mathpazo} 
+\def\dx{\mathrm{\, d}x}
+%%%%%%%%%\hoffset=-2.8cm
+\voffset=-2.5cm
+\textheight 25truecm 
+\textwidth 19truecm 
+%  \usepackage[paperwidth=16truecm,paperheight=24truecm]{geometry}
+% \textheight 19.5truecm %%16.2truecm 
+% \textwidth 12 truecm 
+\parskip 3pt
+\headsep=12pt
+\usepackage[baitap]{dethi}
+
+\tentruong{NHÓM VẼ HÌNH KHOA HỌC}
+\tenkhoa{\underline{TIKZ-ASYMPTOTE}}
+\madethi{104} 
+\loaidethi{(Đề gồm  0\pageref{dbPage} trang)}
+
+\tenkythi{ĐỀ KIỂM TRA MẪU VỚI GÓI DETHI}
+\namhoc{Năm: 2021}
+\tenmonhoc{Môn: LaTeX - TikZ}
+\thoigian{\underline{Thời gian làm bài: 90 phút, không kể thời gian giao đề}}   
+%\tieudetrenbaitap{Bùi Quỹ - Trung tâm GDNN-GDTX Duy Tiên}
+%\tieudeduoibaitap{LaTeX - TikZ - năm 2021}
+
+\trangcuoi{dbPage}
+\hovaten{Họ và tên}         %Nếu không muốn có dòng này không gõ lệnh
+% \tenlop{Tên lớp}         %Nếu không muốn có dòng này không gõ lệnh
+\sobaodanh{Số báo danh}  %Nếu không muốn có dòng này không gõ lệnh
+%\khoanhd{\cboxv}{}
+\daungoac{\cboxx}{}
+\chuphuongan{\small\bfseries\Alph}
+\mauchu{blue}
+\chucauhoi{Bài}
+\chuloigiai{Hướng dẫn:}
+\PSNrandseed{\time}
+\parindent 10pt
+%\graphicspath{{hinh-duan07/}{temp/}}
+% \nguondetrue
+\duongkefalse
+\usepackage{nonfloat}
+\setlength{\baselineskip}{12truept}
+\def\v#1{\overrightarrow{#1}} %Làm vectơ
+\everymath{\displaystyle}
+\def\cung#1{\stackrel\frown{#1}}
+
+\usepackage{times}
+\fontsize{13pt}{13pt}\selectfont
+\begin{document}
+	%\soanthao
+	%%%%%%%%%%%%%
+	%\loadallproblems[tnhamso]{Data/tnhamso}
+	%\loadallproblems[tnsophuc]{Data/tnsophuc}
+	%\loadallproblems[tuluan]{Data/tuluan}
+	%\loadallproblems[chontu]{Data/tnchontu}
+	%\loadallproblems[gachduoi]{Data/gachduoi}
+	%\loadallproblems[dungsai]{Data/dung-sai}
+	%\loadallproblems[dienchotrong]{Data/dienchotrong}
+	%%%%%%%%
+	%\loadrandomproblems[104]{8}{Data/tracnghiem}
+	%\loadrandomproblems[105]{5}{Data/Hanam2021-104}
+	%\loadrandomproblems[106]{5}{Data/tnhamso}
+	%\loadrandomproblems[107]{5}{Data/tnhamso}
+	%\loadrandomproblems[tnsophuc]{5}{Data/tnsophuc}
+	%\loadrandomproblems[tuluan]{5}{Data/tuluan}
+	%\loadrandomproblems[chontu]{5}{Data/tnchontu}
+	%\loadrandomproblems[gachduoi]{5}{Data/gachduoi}
+	%\loadrandomproblems[dungsai]{5}{Data/dung-sai}
+	%\loadrandomproblems[dienchotrong]{5}{Data/dienchotrong}
+	%%%%%%%%%%%%%%%%%
+	%\indebai
+	\lamtieudetracnghiem
+	\soanthao
+	\indebai
+	\indebailoigiai
+	
+	%\indebaima{104}
+	%\indebaima{105}
+	
+	%%%%%%%%%%%%%%%%%%%%%
+	%%%%%%%%%%%%%%%%%%%%%%%%
+	\lamtieude
+	\noindent{\bfseries Mẫu câu hỏi}
+	\input{Data/Maucauhoi}
+	
+	\noindent\textbf{Phần I. Nhiều phương án lựa chọn}
+	\setcounter{question}{0}
+	\input{Data/De01TNKQ}
+	\noindent\textbf{Phần II. Trắc nghiệm đúng sai}
+	\setcounter{question}{0}
+	\input{Data/De01DS}
+	\noindent\textbf{Phần III. Trả lời ngắn}
+	\setcounter{question}{0}
+	\input{Data/De01TLN}
+	\label{dbPage}
+	
+\end{document}
+

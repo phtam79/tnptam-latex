@@ -1,0 +1,291 @@
+\setcounter{section}{0}
+\part*{III. MỘT SỐ KĨ THUẬT CHỨNG MINH BĐT}
+\addcontentsline{toc}{part}{III. MỘT SỐ KĨ THUẬT CHỨNG MINH BĐT}
+
+Bất đẳng thức là nội dung rất khó và rộng. Trong tài liệu này chúng tôi không có tham vọng thể hiện hết vẻ đẹp của đề tài này, chúng tôi chỉ cố gắng trình bày một số vấn đề mà các em có thể gặp phải ở câu bất đẳng thức trong các đề thi THPT quốc gia.
+
+\section{Những BĐT cổ điển thường dùng}
+\subsection{BĐT hai biến}
+\begin{multicols}{2}
+\begin{itemize}
+\item $a+b\ge 2\sqrt{ab},\,\,\,\left( a,b\ge 0 \right)$
+\item ${{a}^{2}}+{{b}^{2}}\ge 2ab$
+\item ${{\left( \sqrt{a}+\sqrt{b} \right)}^{2}}\ge 4\sqrt{ab},\,\,\,\left( a,b\ge 0 \right)$
+\item ${{\left( a+b \right)}^{2}}\ge 4ab $
+\item $a+b\le \sqrt{2\left( {{a}^{2}}+{{b}^{2}} \right)} $
+\item $ab\le {{\left( \dfrac{a+b}{2} \right)}^{2}} $
+\item ${{a}^{2}}+{{b}^{2}}\ge \dfrac{{{\left( a+b \right)}^{2}}}{2} $
+\item ${{a}^{3}}+{{b}^{3}}\ge ab\left( a+b \right),\,\,\,\left( a,b\ge 0 \right)$
+\item $\dfrac{1}{a}+\dfrac{1}{b}\ge \dfrac{4}{a+b},\,\,\,\left( a,b>0 \right)$
+\item $\dfrac{1}{4}\left( \dfrac{1}{a}+\dfrac{1}{b} \right)\ge \dfrac{1}{a+b},\,\,\,\left( a,b>0 \right)$
+\end{itemize}
+\end{multicols}
+\subsection{BĐT ba biến}
+\begin{multicols}{2}
+\begin{itemize}
+\item $\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\ge \dfrac{9}{a+b+c},\,\,\,\left( a,b,c>0 \right)$ 
+\item ${{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge ab+bc+ca$ 
+\item ${{a}^{2}}+{{b}^{2}}+{{c}^{2}}\ge \dfrac{{{\left( a+b+c \right)}^{2}}}{3}$ 
+\item ${{a}^{4}}+{{b}^{4}}+{{c}^{4}}\ge abc\left( a+b+c \right)$
+\item $abc\le {{\left( \dfrac{a+b+c}{3} \right)}^{3}}$
+\item ${{\left( ab+bc+ca \right)}^{2}}\ge 3abc\left( a+b+c \right)$
+\item ${{a}^{2}}{{b}^{2}}+{{b}^{2}}{{c}^{2}}+{{c}^{2}}{{a}^{2}}\ge abc\left( a+b+c \right)$
+\item $\dfrac{{{a}^{2}}}{m}+\dfrac{{{b}^{2}}}{n}+\dfrac{{{c}^{2}}}{p}\ge \dfrac{{{\left( a+b+c \right)}^{2}}}{m+n+p},\,\,\,\left( m,n,p> 0 \right)$
+\end{itemize}
+\end{multicols}
+Các bất đẳng thức này đứng gần nhau ta thấy rất đơn giản nhưng chúng ta cần phải biết vận dụng chúng linh hoạt trong nhiều tình huống.
+\section{Một số kĩ thuật chứng minh BĐT}
+\subsection{Kĩ thuật ghép đối xứng}
+\begin{itemize}
+\item Dạng $X+Y+Z\ge A+B+C$.\\
+Dấu hiệu: $X+Y\ge 2A$. Nếu phát hiện ra dấu hiệu này thì ta xây dựng thêm các bất đẳng thức tương tự sẽ có điều phải chứng minh.
+\item Dạng $XYZ\ge ABC$.\\
+Dấu hiệu: $XY\ge A^2$. Nếu phát hiện ra dấu hiệu này thì ta xây dựng thêm các bất đẳng thức tương tự sẽ có điều phải chứng minh.
+\item Có thể mở rộng thành các dạng tổng quát hơn
+$$\left.\begin{array}{l}
+mX+nY+pZ\ge \left( m+n+p \right)A \\ 
+mY+nZ+pA\ge \left( m+n+p \right)B \\ 
+mZ+nX+pY\ge \left( m+n+p \right)C 
+\end{array}\right\}\implies X+Y+Z\ge A+B+C.$$
+
+$$\left. \begin{array}{l}
+{{X}^{m}}{{Y}^{n}}{{Z}^{p}}\ge {{A}^{m+n+p}} \\ 
+{{Y}^{m}}{{Z}^{n}}{{X}^{p}}\ge {{B}^{m+n+p}} \\ 
+{{Z}^{m}}{{X}^{n}}{{Y}^{p}}\ge {{C}^{m+n+p}}
+\end{array} \right\}\Rightarrow XYZ\ge ABC$$
+
+\end{itemize}
+\vidu{Cho $a, b, c$ là các số dương. CMR \[\frac{ab}{c}+\frac{bc}{a}+\frac{ca}{b}\ge a+b+c.\]}
+\hda  Chỉ cần thấy và xây dựng thêm bất đẳng thức tương tự với bất đẳng thức $\dfrac{ab}{c}+\dfrac{bc}{a}\ge 2b$, sau đó cộng các vế ta được điều phải chứng minh.\\
+\vidu{Cho các số thực không âm $x, y, z$ thoả mãn $xyz=1$. CMR \[{{x}^{2}}y+{{y}^{2}}x+{{z}^{2}}x\ge xy+yz+zx.\]}
+\hda  Chỉ cần quan sát thấy ${{x}^{2}}y+{{x}^{2}}y+{{y}^{2}}z\ge 3\sqrt[3]{{{x}^{4}}{{y}^{4}}z}=3xy$ xem như có thể chứng minh được bài toán.\\
+\vidu{Cho $a, b, c$ là các số không âm. CMR \[a+b+c\ge \sqrt[4]{a{{b}^{3}}}+\sqrt[4]{b{{c}^{3}}}+\sqrt[4]{c{{a}^{3}}}.\]}
+\hda  Sử dụng đánh giá $a+b+b+b\ge 4\sqrt[4]{a{{b}^{3}}}$.\\
+\vidu{Cho $a, b, c$ dương. CMR \[abc\ge \left( a+b-c \right)\left( b+c-a \right)\left( c+a-b \right).\]}
+\hda  Ta có đánh giá \[\left( a+b-c \right)\left( b+c-a \right)\le {{\left( \frac{a+b-c+b+c-a}{2} \right)}^{2}}={{b}^{2}}.\] Xây dựng các đánh giá tương tự có đpcm.\\
+\vidu{Cho $a, b, c$ là các số dương. CMR \[\left( 1+{{a}^{2}} \right)\left( 1+{{b}^{2}} \right)\left( 1+{{c}^{2}} \right)\ge \left( a+b \right)\left( b+c \right)\left( c+a \right).\]}
+\hda  Ta chỉ cần chứng minh \[\left( 1+{{a}^{2}} \right)\left( 1+{{b}^{2}} \right)\ge {{\left( a+b \right)}^{2}}\Leftrightarrow {{\left( ab-1 \right)}^{2}}\ge 0\] xem như bài toán được giải quyết.\\
+\vidu{Cho $a, b, c$ là các số dương. CMR 
+\[{{\left( a+b \right)}^{3}}{{\left( b+c \right)}^{3}}{{\left( c+a \right)}^{3}}\ge 64abc\left( {{a}^{2}}+bc \right)\left( {{b}^{2}}+ac \right)\left( {{c}^{2}}+ab \right)\,\,\,\left( * \right).\]}
+\hda  Ta có
+\[(*)\Leftrightarrow {{\left( a+b \right)}^{4}}{{\left( b+c \right)}^{4}}{{\left( c+a \right)}^{4}}\ge 64abc\left( {{a}^{2}}+bc \right)\left( {{b}^{2}}+ac \right)\left( {{c}^{2}}+ab \right)\left( a+b \right)\left( b+c \right)\left( c+a \right),\] nên ta chỉ cần chứng minh \[{{\left( a+b \right)}^{2}}{{\left( a+c \right)}^{2}}\ge 4a\left( b+c \right)\left( {{a}^{2}}+bc \right).\]
+Thật vậy: \[4a\left( b+c \right)\left( {{a}^{2}}+bc \right)=4\left( ab+bc \right)\left( {{a}^{2}}+bc \right)\le {{\left( ab+bc+{{a}^{2}}+bc \right)}^{2}}\]
+	\[={{\left[ a\left( a+b \right)+c\left( a+b \right) \right]}^{2}}={{\left( a+b \right)}^{2}}{{\left( a+c \right)}^{2}}.\]
+\subsection{Kĩ thuật tách ghép}
+Khi thực hiện việc tách hay ghép vào những biểu thức nào đó thông thường chúng ta chú ý đến các điều cơ bản sau đây.
+\begin{itemize}
+\item Tách hoặc ghép vào những biểu thức tương tự với mẫu số.
+\item Tách hoặc ghép vào thì phải chú ý trường hợp đẳng thức xảy ra.
+\item Điều chỉnh những đại lượng tách – ghép sao cho tạo ra những đại lượng tương tự vế còn lại.
+\end{itemize}
+\vidu{Cho $a, b, c$ dương. Chứng minh: \[\frac{{{b}^{2}}c}{{{a}^{3}}\left( b+c \right)}+\frac{{{c}^{2}}a}{{{b}^{3}}\left( c+a \right)}+\frac{{{a}^{2}}b}{{{c}^{3}}\left( a+b \right)}\ge \frac{a+b+c}{2}.\]}
+\hda  Chúng ta cần quan tâm đến 2 nhận xét sau.
+\begin{itemize}
+\item $\dfrac{{{b}^{2}}c}{{{a}^{3}}\left( b+c \right)}$ có bậc là  $-1$ nên thông thường biểu thức ghép vào cũng nên có bậc  $-1$.
+\item Dấu đẳng thức xảy ra khi $a = b = c$ nên $\dfrac{{{b}^{2}}c}{{{a}^{3}}\left( b+c \right)}$ được định giá bằng $\dfrac{1}{2a}=\dfrac{1}{2b}=\dfrac{1}{2c}$.\\
+Như vậy ta có: $\dfrac{{{b}^{2}}c}{{{a}^{3}}\left( b+c \right)}+\dfrac{b+c}{4bc}+\dfrac{1}{2b}\ge \dfrac{3}{2a}$. Xây dựng các bất đẳng thức tương tự rồi cộng theo vế ta được
+\[\frac{{{b}^{2}}c}{{{a}^{3}}\left( b+c \right)}+\frac{{{c}^{2}}a}{{{b}^{3}}\left( c+a \right)}+\frac{{{a}^{2}}b}{{{c}^{3}}\left( a+b \right)}\ge \frac{3}{2}\left( \frac{1}{a}+\frac{1}{b}+\frac{1}{c} \right)-\frac{1}{2}\left( \frac{1}{b}+\frac{1}{c}+\frac{1}{a} \right)-\frac{1}{4}\left( \frac{b+c}{bc}+\frac{c+a}{ca}+\frac{a+b}{ab} \right).\]
+Và có điều phải chứng minh.
+\end{itemize}
+\vidu{Cho hai số $x, y$ thoả $2y > x > 0$. Tìm giá trị nhỏ nhất của \[P=\frac{1}{{{x}^{3}}\left( 2y-x \right)}+{{x}^{2}}+{{y}^{2}}.\]}
+\hda  Phân tích \[P=\frac{1}{{{x}^{2}}\left( 2xy-{{x}^{2}} \right)}+{{x}^{2}}+\left( {{y}^{2}}+{{x}^{2}}-{{x}^{2}} \right)\ge \frac{1}{{{x}^{2}}\left( 2xy-{{x}^{2}} \right)}+{{x}^{2}}+\left( 2xy-{{x}^{2}} \right)\ge 3.\]
+Như vậy GTNN của $P$ bằng $3$ khi $x = y = 1$.\\
+\vidu{ Cho các số thực dương $a, b, c$ thoả $abc = 1$. CMR \[\frac{{{a}^{3}}}{b\left( c+2 \right)}+\frac{{{b}^{3}}}{c\left( a+2 \right)}+\frac{{{c}^{3}}}{a\left( b+2 \right)}\ge 1.\]}
+\hda  Ta có $\dfrac{{{a}^{3}}}{b\left( c+2 \right)}+\dfrac{c+2}{9}+\dfrac{b}{3}\ge a$ (bạn đọc tự tìm tòi vì sao ta chọn được $\dfrac{c+2}{9}$, $\dfrac{b}{3}$?), xây dựng các bất đẳng thức tương tự và cộng theo vế các bất đẳng thức ta được
+\[\frac{{{a}^{3}}}{b\left( c+2 \right)}+\frac{{{b}^{3}}}{c\left( a+2 \right)}+\frac{{{c}^{3}}}{a\left( b+2 \right)}\ge \left( a+b+c \right)-\frac{1}{9}\left( c+2+a+2+b+2 \right)-\frac{1}{3}\left( a+b+c \right)\ge 1.\]
+\vidu{Cho $a, b, c$ dương thoả mãn $a+b+c=3abc$ . Tìm GTNN của \[S=\frac{1}{{{a}^{3}}}+\frac{1}{{{b}^{3}}}+\frac{1}{{{c}^{3}}}.\]}
+\hda  Ta có $$a+b+c=3abc\Leftrightarrow \dfrac{1}{ab}+\dfrac{1}{bc}+\dfrac{1}{ca}=3$$
+Lại có $$\dfrac{1}{{{a}^{3}}}+1+1\ge \dfrac{3}{a}\Rightarrow S\ge 3\left( \dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c} \right)-6$$
+Mà \[{{\left( \frac{1}{a}+\frac{1}{b}+\frac{1}{c} \right)}^{2}}\ge 3\left( \frac{1}{ab}+\frac{1}{bc}+\frac{1}{ca} \right)\Rightarrow \frac{1}{a}+\frac{1}{b}+\frac{1}{c}\ge 3.\]
+Nên $S\ge 3$.
+\subsection{Kỹ thuật dùng BĐT cơ bản}
+Thông thường những bất đẳng thức không có giả thiết thì ta nên tập trung vào dạng vận dụng BĐT cơ bản (tuy nhiên có giả thiết thì vẫn thực hiện theo kĩ thuật này). Có thể chú ý
+\begin{itemize}
+\item Đánh giá mẫu số: $0<A<B\Leftrightarrow \dfrac{1}{A}>\dfrac{1}{B}$.
+\item Ngược dấu: $0<A<B\Leftrightarrow M-A>M-B$.
+\item Một vài phân tích, chẳng hạn: $\dfrac{M}{M+N}=1-\dfrac{N}{M+N}$,...
+\end{itemize}
+\vidu{Cho các số $a, b, c$ dương thoả $a + b + c = 3$. CMR \[\frac{ab}{\sqrt{{{c}^{2}}+3}}+\frac{bc}{\sqrt{{{a}^{2}}+3}}+\frac{ca}{\sqrt{{{b}^{2}}+3}}\le \frac{3}{2}.\]}
+\hda  Ta có $ab+bc+ca\le \dfrac{1}{3}{{\left( a+b+c \right)}^{2}}=3$. Từ đó ta có đánh giá:
+\[\frac{ab}{\sqrt{{{c}^{2}}+3}}\le \frac{ab}{\sqrt{{{c}^{2}}+ab+bc+ca}}=\frac{ab}{\sqrt{\left( a+c \right)\left( b+c \right)}}\le \frac{ab}{2}\left( \frac{1}{a+c}+\frac{1}{b+c} \right).\]
+Như vậy: \[\frac{ab}{\sqrt{{{c}^{2}}+3}}+\frac{bc}{\sqrt{{{a}^{2}}+3}}+\frac{ca}{\sqrt{{{b}^{2}}+3}}\le \frac{1}{2}\left( \frac{ab}{a+c}+\frac{ab}{b+c}+\frac{bc}{b+a}+\frac{bc}{c+a}+\frac{ca}{a+b}+\frac{ca}{c+b} \right)\]
+\[=\frac{1}{2}\left( \frac{a\left( b+c \right)}{b+c}+\frac{b\left( c+a \right)}{c+a}+\frac{c\left( a+b \right)}{a+b} \right)=\frac{3}{2}.\]
+\vidu{Cho các số dương $a, b, c$. CMR \[\frac{ab}{a+3b+2c}+\frac{bc}{b+3c+2a}+\frac{ca}{c+3a+2b}\le \frac{a+b+c}{6}.\]}
+\hda  Lưu ý đánh giá sau đây thì chúng ta sẽ chứng minh được bài toán.
+\[\frac{9ab}{a+3b+2c}=\frac{9ab}{a+c+b+c+2b}\le ab\left( \frac{1}{a+c}+\frac{1}{b+c}+\frac{1}{2b} \right).\]
+\vidu{Cho các số dương $a, b, c$ thoả mãn $ab+bc+ca=1$. Tìm giá trị nhỏ nhất của biểu thức
+\[P=\frac{1}{abc}+\frac{4}{\left( a+b \right)\left( b+c \right)\left( c+a \right)}.\]}
+\hda  Ta có: \[P=\frac{1}{2abc}+\frac{1}{2abc}+\frac{4}{\left( a+b \right)\left( b+c \right)\left( c+a \right)}\ge 3\sqrt[3]{\frac{1}{{{a}^{2}}{{b}^{2}}{{c}^{2}}\left( a+b \right)\left( b+c \right)\left( c+a \right)}}\]
+\[=3\sqrt[3]{\frac{1}{abc\left( ab+ac \right)\left( bc+ba \right)\left( ca+bc \right)}}\]
+Áp dụng \[{{a}^{2}}{{b}^{2}}{{c}^{2}}\le {{\left( \frac{ab+bc+ca}{3} \right)}^{3}}=\frac{1}{27};\,\,\,\left( ab+ac \right)\left( bc+ba \right)\left( ca+cb \right)\le {{\left( \frac{2\left( ab+bc+ca \right)}{3} \right)}^{3}}=\frac{8}{27}.\] 
+Nên ta có: $P\ge 3\sqrt[3]{3\sqrt{3}.\dfrac{27}{8}}=\dfrac{9\sqrt{3}}{2}$. Đẳng thức xảy ra khi $a=b=c=\dfrac{\sqrt{3}}{3}$.\\
+\vidu{Cho $a, b, c$ dương có tổng bẳng $3$. CMR \[\frac{a}{1+{{b}^{2}}}+\frac{b}{1+{{c}^{2}}}+\frac{c}{1+{{a}^{2}}}\ge \frac{3}{2}.\]}
+\hda  Nếu sử dụng đánh giá $1+{{b}^{2}}\ge 2b$ thì khi thay vào vế trái sẽ ngược dấu. Nên ta sẽ xử lý khéo léo như sau
+\[\frac{a}{1+{{b}^{2}}}=a-\frac{a{{b}^{2}}}{1+{{b}^{2}}}\Rightarrow \frac{a}{1+{{b}^{2}}}\ge a-\frac{a{{b}^{2}}}{2b}=a-\frac{ab}{2}\]
+Xây dựng tương tự ta có \[\frac{a}{1+{{b}^{2}}}+\frac{b}{1+{{c}^{2}}}+\frac{c}{1+{{a}^{2}}}\ge a+b+c-\frac{1}{2}\left( ab+bc+ca \right)\ge 3-\frac{3}{2}=\frac{3}{2}.\]
+\vidu{Cho $a, b, c$ dương. CMR \[{{\left( \frac{a}{b+2c} \right)}^{2}}+{{\left( \frac{b}{c+2a} \right)}^{2}}+{{\left( \frac{c}{a+2b} \right)}^{2}}\ge \frac{1}{3}.\]}
+\hda  \[VT\ge \frac{1}{3}\left( \sum{\frac{a}{b+2c}} \right)=\frac{1}{3}\left( \sum{\frac{{{a}^{2}}}{ab+2ac}} \right)\ge \frac{1}{3}.\frac{{{\left( a+b+c \right)}^{2}}}{3\left( ab+bc+ca \right)}\ge \frac{1}{3}.\]
+\vidu{Cho các số dương $x, y, z$ có tích bằng $1$. Tìm GTNN \[P=\frac{x+y}{x+y+1}+\frac{y+z}{y+z+1}+\frac{z+x}{z+x+1}.\]}
+\hda  Ta có \[\frac{x+y}{x+y+1}=1-\frac{1}{x+y+1}\Rightarrow P=3-\left( \frac{1}{x+y+1}+\frac{1}{y+z+1}+\frac{1}{z+x+1} \right)\]
+Đặt $x={{a}^{3}};y={{b}^{3}};z={{c}^{3}}$
+\[\Rightarrow P=3-\left( \sum{\frac{1}{{{a}^{3}}+{{b}^{3}}+1}} \right)\ge 3-\left( \sum{\frac{1}{ab\left( a+b \right)+1}} \right)=3-\left( \sum{\frac{a}{a+b+c}} \right)=2.\]
+\subsection{Kĩ thuật dùng miền xác định của biến số}
+Đây là kĩ thuật khó, chúng ta cần phải linh hoạt trong việc xây dựng những đánh giá phù hợp với mong muốn. Có thể lưu ý:
+\begin{itemize}
+\item Giả sử $x\in \left[ a;b \right]$ thì ta có thể xây dựng được: $\left( x-a \right)\left( x-b \right)\le 0\Leftrightarrow {{x}^{2}}\le \left( a+b \right)x-ab$ hoặc thành $\dfrac{ab}{x}\le a+b-x\,\,\left( x>0 \right)$,...
+\item Giả sử $a\le b\le c$ thì ta có thể xây dựng được: $\left( b-a \right)\left( b-c \right)\le 0\Leftrightarrow {{b}^{2}}+ac\le ab+bc$,...
+\end{itemize}
+\vidu{Cho các số dương $x, y, z$  có tổng bằng $3$. Tìm GTNN của \[P={{x}^{2}}y+{{y}^{2}}z+{{z}^{2}}x+xyz.\]}
+\hda  Giả sử $x\le z\le y$. Ta có: \[x\left( x-z \right)\left( y-z \right)\le 0\Leftrightarrow {{x}^{2}}y+x{{z}^{2}}\le {{x}^{2}}z+xyz.\]
+\[\Rightarrow P\le {{x}^{2}}z+{{y}^{2}}z+2xyz=z{{\left( x+y \right)}^{2}}=\frac{1}{2}.2z\left( x+y \right)\left( x+y \right)\le 4.\]
+\vidu{Cho $a,b\in \left[ 0;2 \right]$. Tìm GTLN của \[P=\frac{8+6\left( a+b \right)+{{\left( a+b \right)}^{2}}}{4+2\left( a+b \right)+ab}.\]}
+\hda  Từ $a,b\in \left[ 0;2 \right]\Rightarrow {{a}^{2}}\le 2a;{{b}^{2}}\le 2b$.
+\[\Rightarrow P=\frac{8+6\left( a+b \right)+{{a}^{2}}+{{b}^{2}}+2ab}{4+2\left( a+b \right)+ab}\le \frac{8+8\left( a+b \right)+2ab}{4+2\left( a+b \right)+ab}=2+\frac{4\left( a+b \right)}{4+2\left( a+b \right)+ab}.\]
+Lại có: \[\left( a-2 \right)\left( b-2 \right)\le 0\Leftrightarrow ab+2\left( a+b \right)+4\le 4\left( a+b \right)\Rightarrow P\le 3.\]
+\vidu{Cho $a,b,c\in \left[ 1;2 \right]$. Chứng minh \[{{a}^{3}}+{{b}^{3}}+{{c}^{3}}\le 5abc.\]}
+\hda  Giả sử $a\ge b\ge c$. Ta có: \[\left( a-2 \right)\left( {{a}^{2}}+2a-1 \right)\le 0\Leftrightarrow {{a}^{3}}+2\le 5a;\]
+\[\,\,\,\left( b-1 \right)\left( {{b}^{2}}+b+1-5a \right)\le 0\Leftrightarrow 5a+{{b}^{3}}\le 5ab+1;\]
+\[\left( c-1 \right)\left( {{c}^{2}}+c+1-5ab \right)\le 0\Leftrightarrow 5ab+{{c}^{3}}\le 5abc+1.\]
+Cộng các vế 3 bất đẳng thức trên ta được điều phải chứng minh.\\
+Hoặc có thể giải cách khác cũng theo miền xác định các biến.
+Giả sử \[1\le a\le b\le c\le \Rightarrow \left( a-b \right)\left( {{b}^{2}}-{{c}^{2}} \right)\ge 0\Leftrightarrow {{b}^{3}}\le a{{b}^{2}}+b{{c}^{2}}-a{{c}^{2}}\Leftrightarrow \frac{{{b}^{2}}}{ac}\le \frac{b}{c}+\frac{c}{a}-\frac{c}{b}.\]
+Mặt khác: \[\frac{{{a}^{2}}}{bc}\le \frac{{{a}^{2}}}{ac}=\frac{a}{c};\,\,\,\frac{{{c}^{2}}}{ab}\le \frac{2c}{ab}\le \frac{2c}{b}.\]
+Ta biến đổi bất đẳng thức cần chứng minh\[\Leftrightarrow P=\frac{{{a}^{2}}}{bc}+\frac{{{b}^{2}}}{ca}+\frac{{{c}^{2}}}{ab}\le 5\Rightarrow P\le \left( \frac{b}{c}+\frac{c}{b} \right)+\left( \frac{a}{c}+\frac{c}{a} \right)\].
+Lại có \[b\le c\le 2\le 2b\Rightarrow \frac{2b}{c}\ge 1;\frac{c}{b}\ge 1>\frac{1}{2}\Rightarrow \left( \frac{2b}{c}-1 \right)\left( \frac{c}{b}-\frac{1}{2} \right)\ge 0\Leftrightarrow \frac{b}{c}+\frac{c}{b}\le \frac{5}{2}.\]
+Tương tự, $\frac{a}{c}+\frac{c}{a}\le \frac{5}{2}$. Vậy $P\le 5$. (Điều phải chứng minh)
+\vidu{Cho các số thực $a, b, c$ thuộc đoạn $\left[ 1;3 \right]$ và thoả mãn $a+b+c=6$. Tìm giá trị lớn nhất biểu thức \[P=\frac{{{a}^{2}}{{b}^{2}}+{{b}^{2}}{{c}^{2}}+{{c}^{2}}{{a}^{2}}+12abc+72}{ab+bc+ca}-\frac{1}{2}abc.\]}
+\hda  Ta có \[36={{\left( a+b+c \right)}^{2}}=\frac{1}{2}\left[ {{\left( a-b \right)}^{2}}+{{\left( b-c \right)}^{2}}+{{\left( c-a \right)}^{2}} \right]+3\left( ab+bc+ca \right)\ge 3\left( ab+bc+ca \right).\]
+Mặt khác,
+\[\left( a-1 \right)\left( b-1 \right)\left( c-1 \right)\ge 0\Leftrightarrow abc\ge ab+bc+ca-5;\]
+\[\left( 3-a \right)\left( 3-b \right)\left( 3-c \right)\ge 0\Leftrightarrow 3\left( ab+bc+ca \right)\ge abc+27\]
+Như vậy, đặt $t=ab+bc+ca\Rightarrow t\in \left[ 11;12 \right]$.
+Khi đó \[P=\frac{{{a}^{2}}{{b}^{2}}+{{b}^{2}}{{c}^{2}}+{{c}^{2}}{{a}^{2}}+2abc\left( a+b+c \right)+72}{ab+bc+ca}-\frac{abc}{2}=\frac{{{\left( ab+bc+ca \right)}^{2}}+72}{ab+bc+ca}-\frac{abc}{2}\le \frac{{{t}^{2}}+5t+144}{2t}.\]
+Việc còn lại chỉ cần khảo sát hàm số trên cho ta GTLN của $P=\frac{160}{11}$.
+\vidu{Cho a, b, c thoả mãn $a\ge 4;\,\,b\ge 5;\,\,6\le c\le 7;\,\,{{a}^{2}}+{{b}^{2}}+{{c}^{2}}=90$. Tìm GTNN của \[S=a+b+c.\]}
+\hda  Từ giả thiết và các điều kiện mở rộng ta có các đánh giá:
+	\[\left. \begin{array}{l}
+4\le a<9\Rightarrow \left( a-4 \right)\left( 9-a \right)\ge 0\Leftrightarrow a\ge \dfrac{{{a}^{2}}+36}{13} \\ 
+5\le b<8\Rightarrow \left( b-5 \right)\left( 8-b \right)\ge 0\Leftrightarrow b\ge \dfrac{{{b}^{2}}+40}{13} \\ 
+6\le c\le 7\Rightarrow \left( c-6 \right)\left( 7-c \right)\ge 0\Leftrightarrow c\ge \dfrac{{{c}^{2}}+42}{13} \\ 
+\end{array} \right\}\Rightarrow S\ge \frac{{{a}^{2}}+{{b}^{2}}+{{c}^{2}}+118}{13}=16.\]
+\subsection{Một số cách biến đổi điều kiện thường gặp}
+Mục này tâp chung vào các ví dụ minh họa cho việc xử lý khéo léo điều kiện của những bài toán bất đẳng thức hoặc tìm GTLN, GTNN có điều kiện.
+\vidu{Cho $a, b, c$ dương và có tổng bằng $1$. Tìm GTNN \[P=\frac{c+ab}{a+b}+\frac{a+bc}{b+c}+\frac{b+ac}{a+c}.\]}
+\hda  Từ giả thiết ta có $c+ab=c\left( a+b+c \right)+ab=\left( c+a \right)\left( c+b \right)$.
+\[\Rightarrow P=\frac{\left( c+a \right)\left( c+b \right)}{a+b}+\frac{\left( a+b \right)\left( a+c \right)}{b+c}+\frac{\left( b+c \right)\left( b+a \right)}{a+c}.\]
+Dựa vào kĩ thuật ghép đối xứng dễ dàng cho ta kết quả $P\ge a+c+c+b+b+a=2$.
+\vidu{Cho $x, y, z$ dương thoả mãn $xy+yz+zx=2xyz$. Tìm GTNN 
+\[P=\frac{1}{x{{\left( 2x-1 \right)}^{2}}}+\frac{1}{y{{\left( 2y-1 \right)}^{2}}}+\frac{1}{z{{\left( 2z-1 \right)}^{2}}}.\] 
+}
+\hda  Từ giả thiết ta có $\dfrac{1}{x}+\dfrac{1}{y}+\dfrac{1}{z}=2$. Đặt $a=\dfrac{1}{x};b=\dfrac{1}{y};c=\dfrac{1}{z}\Rightarrow a+b+c=2$.\\
+Suy ra \[P=\sum{\frac{{{a}^{3}}}{{{\left( 2-a \right)}^{2}}}.}\]
+Lại có $\dfrac{{{a}^{3}}}{{{\left( 2-a \right)}^{2}}}+\dfrac{2-a}{8}+\dfrac{2-a}{8}\ge \dfrac{3\text{a}}{4}$ nên ta dễ dàng tìm được GTNN của $P$.
+\vidu{Cho a, b, c dương có tổng bằng 3. Chứng minh \[\sqrt{a}+\sqrt{b}+\sqrt{c}\ge ab+bc+ca.\]}
+\hda  Từ giả thiết suy ra $9={{a}^{2}}+{{b}^{2}}+{{c}^{2}}+2\left( ab+bc+ca \right)$.\\
+BĐT trở thành \[{{a}^{2}}+{{b}^{2}}+{{c}^{2}}+2\left( \sqrt{a}+\sqrt{b}+\sqrt{c} \right)\ge 9.\] 
+Lại có ${{a}^{2}}+\sqrt{a}+\sqrt{a}\ge 3a$, nên ta có điều phải chứng minh. 
+\vidu{Cho $x, y, z$ dương thoả mãn $x+y+z=xyz$. Tìm GTNN \[P=\frac{y}{x\sqrt{{{y}^{2}}+1}}+\frac{z}{y\sqrt{{{z}^{2}}+1}}+\frac{x}{z\sqrt{{{x}^{2}}+1}}.\]}
+\hda  Từ giả thiết \[\frac{1}{xy}+\frac{1}{yz}+\frac{1}{zx}=1\Rightarrow ab+bc+ca=1,\,\,\,\left( a=\frac{1}{x};b=\frac{1}{y};c=\frac{1}{z} \right).\]
+\[P=\sum{\frac{a}{\sqrt{1+{{b}^{2}}}}=\sum{\frac{a}{\sqrt{\left( b+a \right)\left( b+c \right)}}\ge \sum{\frac{2a}{a+c+2b}}\ge \frac{2{{\left( a+b+c \right)}^{2}}}{{{a}^{2}}+{{b}^{2}}+{{c}^{2}}+3\left( ab+bc+ca \right)}}}\]
+\[=\frac{2{{\left( a+b+c \right)}^{2}}}{{{\left( a+b+c \right)}^{2}}+ab+bc+ca}\ge \frac{3}{2}.\]
+\vidu{Cho các số thực $x, y, z$ thoả mãn ${{x}^{2}}+{{y}^{2}}+{{z}^{2}}=5;\,\,x-y+z=3$. Tìm giá trị lớn nhất và giá trị nhỏ nhất của \[A=\frac{x+y-2}{z+2}.\]}
+\hda  Ta có \[5-{{z}^{2}}={{x}^{2}}+{{y}^{2}}=\frac{{{\left( x+y \right)}^{2}}+{{\left( x-y \right)}^{2}}}{2}=\frac{{{\left( x+y \right)}^{2}}+{{\left( 3-z \right)}^{2}}}{2}\Rightarrow {{\left( x+y \right)}^{2}}=1+6z-3{{z}^{2}}.\]
+Khi đó \[A=\frac{\sqrt{1+6z-3{{z}^{2}}}-2}{z+2}.\] Đến đây chúng ta có thể khảo sát hàm số này theo biến $z$ hoặc sử dụng phương pháp tam thức bậc hai cho ta $-\dfrac{36}{23}\le A\le 0.$
+\vidu{Cho a, b, c dương thoả mãn $\left( 1-a \right)\left( 1-b \right)\left( 1-c \right)=8abc$. CMR \[a+b+c\ge 1.\]}
+\hda  Với $a,b,c\ge 1$ BĐT ta có ngay BĐT nên chỉ cần xét $0<a,b,c<1$.
+Ta có \[\left( 1-a \right)\left( 1-b \right)\left( 1-c \right)=8abc\Leftrightarrow \frac{1-a}{a}.\frac{1-b}{b}.\frac{1-c}{c}=8\]
+Đặt $x=\dfrac{1-a}{a};y=\dfrac{1-b}{b};z=\dfrac{1-z}{z}$. Khi đó $xyz=8$ và BĐT cần chứng minh trở thành
+\[\frac{1}{1+x}+\frac{1}{1+y}+\frac{1}{1+z}\ge 1\Leftrightarrow x+y+z\ge 6.\] BĐT này dễ chứng minh được theo $AM-GM$.
+\subsection{BĐT thuần nhất}
+Ở đây, để cho đơn giản chúng tôi chỉ đề cập đến bất đẳng thức 3 biến. Phần lý thuyết về "chuẩn hóa" sau đây được trình bày dựa theo bài viết của bạn Nguyễn Hưng.\\(http://diendantoanhoc.net/forum/topic/65850-khong-hiểu-về-ki-thuật-chuẩn-hoa-bdt/?p=289079)
+
+Biểu thức $P(a,b,c)$ là thuần nhất bậc $k$ nếu và chỉ nếu với mọi số thực $t$ khác $0$, ta có
+\[P\left( {ta,tb,tc} \right)={t^k}P\left( {a,b,c} \right)\]
+Chẳng hạn: $P=2a^2+ab+c^2$ được gọi là thuần nhất bậc $2$.
+
+Một BĐT gọi là thuần nhất nếu cả hai vế của nó đều là những biểu thức thuần nhất.
+
+Xét bất đẳng thức thuần nhất bậc $k$ 3 biến
+\[A\left( {a,b,c} \right) \ge B\left( {a,b,c} \right)\]
+Đặt $S=a+b+c$. Từ đó suy ra $\dfrac{a}{S} + \dfrac{b}{S} + \dfrac{c}{S} = 1$. Mặt khác do tính thuần nhất của bất đẳng thức trên nên ta có biến đổi sau
+\[A\left( {a,b,c} \right) \ge B\left( {a,b,c} \right)
+\Leftrightarrow \dfrac{1}{{{S^k}}}A\left( {a,b,c} \right) \ge \dfrac{1}{{{S^k}}}B\left( {a,b,c} \right)
+\Leftrightarrow A\left( {\dfrac{a}{S},\dfrac{b}{S},\dfrac{c}{S}} \right) \ge B\left( {\dfrac{a}{S},\dfrac{b}{S},\dfrac{c}{S}} \right) \]
+Như vậy, thay vì chứng mình với bộ số $(a;b;c)$ thì ta chứng minh bất đẳng thức với bộ số $\left( {\dfrac{a}{S},\dfrac{b}{S},\dfrac{c}{S}} \right)$ là đủ. Mà đối với bộ số mới này, chúng có tổng là $1$. Để cho gọn, người ta ghi "chuẩn hóa: $a+b+c=1$".\\
+Một cách tương tự ta có thể chuẩn hóa cho $a+b+c=3$, hoặc $abc=2$ hoặc $ab+bc+ca=1$,... Điều độc đáo và cũng là điều khó nhất của kĩ thuật này là việc chuẩn hóa biểu thức nào cho hợp lý nhất để có chứng minh đơn giản nhất.
+\vidu{Cho a, b, c không âm. CMR \[\frac{{{\left( 2a+b+c \right)}^{2}}}{2{{a}^{2}}+{{\left( b+c \right)}^{2}}}+\frac{{{\left( 2b+c+a \right)}^{2}}}{2{{b}^{2}}+{{\left( c+a \right)}^{2}}}+\frac{{{\left( 2c+a+b \right)}^{2}}}{2{{c}^{2}}+{{\left( a+b \right)}^{2}}}\le 8.\]
+}
+\hda  Chuẩn hoá $a+b+c=3$ . Như vậy bất đẳng thức ban đầu trở thành: 
+\[\frac{{{\left( 3+a \right)}^{2}}}{2{{a}^{2}}+{{\left( 3-a \right)}^{2}}}+\frac{{{\left( 3+b \right)}^{2}}}{2{{b}^{2}}+{{\left( 3-b \right)}^{2}}}+\frac{{{\left( 3+c \right)}^{2}}}{2{{c}^{2}}+{{\left( 3-c \right)}^{2}}}\le 8.\]
+Khi đó chỉ cần chứng minh được \[\frac{{{\left( 3+a \right)}^{2}}}{2{{a}^{2}}+{{\left( 3-a \right)}^{2}}}\le \frac{4}{3}\left( a-1 \right)+\frac{8}{3}\,\,\left( * \right)\] thì phép chứng minh hoàn tất. (Vì sao ta tìm được (*)? Điều này được giúp bởi “phương pháp tiếp tuyến” – chúng tôi sẽ đề cập cụ thể phương pháp này phía sau các bài toán bất đẳng thức có liên quan).\\
+\textbf{\textit{Chú ý:}} Trong kì thi THPT quốc gia không được dùng chuẩn hóa, tuy nhiên chúng ta có thể dùng tư tưởng của chuẩn hóa dưới một cách trình bày sơ cấp như sau.
+
+Đặt $x=\dfrac{3a}{a+b+c}$; $y=\dfrac{3b}{a+b+c}$; $z=\dfrac{3c}{a+b+c}$. Khi đó, $x+y+z=3$ và BĐT trở thành
+$$\frac{{{\left( 2x+y+z \right)}^{2}}}{2{{x}^{2}}+{{\left( y+z \right)}^{2}}}+\frac{{{\left( 2y+z+x \right)}^{2}}}{2{{y}^{2}}+{{\left( z+x \right)}^{2}}}+\frac{{{\left( 2z+x+y \right)}^{2}}}{2{{z}^{2}}+{{\left( x+y \right)}^{2}}}\le 8.$$
+Và ta lại trình bày như trên.
+\vidu{Cho a, b, c không âm. Chứng minh \[\sqrt{\frac{ab+bc+ca}{3}}\le \sqrt[3]{\frac{\left( a+b \right)\left( b+c \right)\left( c+a \right)}{8}}.\quad (\ast)\]}
+\hda  Chuẩn hóa $ab+bc+ca=3$, suy ra $a+b+c\ge 3$, $abc\le 1$.
+\[\left( a+b \right)\left( b+c \right)\left( c+a \right)=\left( a+b+c \right)\left( ab+bc+ca \right)-abc=3\left( a+b+c \right)-1\ge 8\]
+\[\Rightarrow \sqrt[3]{\frac{\left( a+b \right)\left( b+c \right)\left( c+a \right)}{8}}\ge 1.\quad \text{(đpcm)}\]
+\textbf{\textit{Chú ý:}} Với tư tưởng của chuẩn hóa, ta có cách trình bày sơ cấp như sau. Đặt
+\[x=\frac{a\sqrt{3}}{\sqrt{ab+bc+ca}};y=\frac{b\sqrt{3}}{\sqrt{ab+bc+ca}};z=\frac{c\sqrt{3}}{\sqrt{ab+bc+ca}}\]
+Khi đó, $xy+yz+zx=3$ và
+\[\left( * \right)\Leftrightarrow \frac{{{3}^{3}}{{\left( a+b \right)}^{2}}{{\left( b+c \right)}^{2}}{{\left( c+a \right)}^{2}}}{{{\left( ab+bc+ca \right)}^{3}}}\ge 64\Leftrightarrow {{\left[ \frac{\sqrt{3}\left( a+b \right)}{\sqrt{ab+bc+ca}} \right]}^{2}}{{\left[ \frac{\sqrt{3}\left( b+c \right)}{\sqrt{ab+bc+ca}} \right]}^{2}}{{\left[ \frac{\sqrt{3}\left( c+a \right)}{\sqrt{ab+bc+ca}} \right]}^{2}}\ge 64.\]
+ \[\Longleftrightarrow\left( x+y \right)\left( y+z \right)\left( z+x \right)\ge 8.\]
+Từ đây ta có thể giải quyết được bài toán. Ví dụ sau đây, để ngắn gọn, chúng tôi sẽ trình bày lời giải bằng phương pháp chuẩn hóa, việc chuyển sang lời giải sơ cấp phù hợp để dành cho bạn đọc.
+\vidu{Cho $a, b, c$ dương. Tìm GTLN \[\text{Q = }\frac{\text{a(b + c)}}{{{\text{(b + c)}}^{\text{2}}}\text{+ }{{\text{a}}^{\text{2}}}}\text{ + }\frac{\text{b(c + a)}}{{{\text{(c + a)}}^{\text{2}}}\text{+ }{{\text{b}}^{\text{2}}}}\text{ + }\frac{\text{c(a + b)}}{{{\text{(a + b)}}^{\text{2}}}\text{+ }{{\text{c}}^{\text{2}}}}.\]
+}
+\hda  Chuẩn hoá $a+b+c=1$. Ta có:
+\[\text{Q = }\frac{\text{a(1- a)}}{\text{1 - 2a + 2}{{\text{a}}^{\text{2}}}}\text{ + }\frac{\text{b(1- b)}}{\text{1- 2b + 2}{{\text{b}}^{\text{2}}}}\text{ + }\frac{\text{c(1- c)}}{\text{1- 2c + 2}{{\text{c}}^{\text{2}}}}\]
+Theo $AM-GM$
+\[\text{2a(1- a)}\le {{\left( \frac{\text{2a + 1- a}}{\text{2}} \right)}^{\text{2}}}\text{= }\frac{{{\text{(a + 1)}}^{\text{2}}}}{\text{4}}\]
+\[\Rightarrow \text{1- 2a + 2}{{\text{a}}^{\text{2}}}\text{= 1- 2a(1- a) }\ge \text{ 1 - }\frac{{{\text{(a+1)}}^{\text{2}}}}{\text{4}}\text{ = }\frac{\text{(1- a)(a + 3)}}{\text{4}}>0\]
+\[\Rightarrow \frac{\text{a(1- a)}}{\text{1- 2a + 2}{{\text{a}}^{\text{2}}}}\le \frac{\text{4a(1- a)}}{\text{(1- a)(a + 3)}}\text{ = }\frac{\text{4}}{\text{a + 3}}\text{ = 4}\left( \text{1 - }\frac{\text{3}}{\text{a + 3}} \right)\]
+ \[\Rightarrow \text{Q }\le \text{4}\left[ \left( \text{1- }\frac{\text{3}}{\text{a + 3}} \right)\text{ + }\left( \text{1- }\frac{\text{3}}{\text{b + 3}} \right)\text{ + }\left( \text{1 - }\frac{\text{3}}{\text{c + 3}} \right) \right]\text{ = 4}\left[ \text{3 - 3}\left( \frac{\text{1}}{\text{a + 3}}\text{ + }\frac{\text{1}}{\text{b + 3}}\text{ + }\frac{\text{1}}{\text{c + 3}} \right) \right]\]
+Ta có:                  
+\[\frac{\text{1}}{\text{a + 3}}\text{ + }\frac{\text{1}}{\text{b + 3}}\text{ + }\frac{\text{1}}{\text{c + 3}}\ge \frac{\text{9}}{\text{a + b + c + 9}}\text{ = }\frac{\text{9}}{\text{10}}\text{ }\Rightarrow \text{Q }\le \text{ 4(3 - 3}\text{.}\frac{\text{9}}{\text{10}}\text{) = }\frac{\text{6}}{\text{5}}.\]
+\vidu{Cho các số thực dương $a,b,c$ đôi một khác nhau thỏa mãn $2a\le c$ và $ab+bc=2{{c}^{2}}$. Tìm giá trị lớn nhất của biểu thức $$P=\frac{a}{a-b}+\frac{b}{b-c}+\frac{c}{c-a}.$$
+}
+\hda  Ta thấy từ giả thiết và kể cả biểu thức P đều đẳng cấp, nên hướng giải quyết bài toán tốt nhất là thực hiện phép chia cho luỹ thừa của a, b hay c cùng bậc.\\
+Theo giả thiết: $2a\le c\text{ }$ nên $\dfrac{a}{c}\le \dfrac{1}{2}$ ; $ab+bc=2{{c}^{2}}\Leftrightarrow \dfrac{a}{c}.\dfrac{b}{c}+\dfrac{b}{c}=2\Leftrightarrow \dfrac{a}{c}=\frac{2c}{b}-1$.\\
+Vì $\dfrac{a}{c}\le \dfrac{1}{2}$ nên $\dfrac{b}{c}\ge \dfrac{4}{3}$. Đặt $t=\dfrac{c}{b}$thì $0<t\le \dfrac{3}{4}$.
+$$P=\frac{\frac{a}{c}}{\frac{a}{c}-\frac{b}{c}}+\frac{\frac{b}{c}}{\frac{b}{c}-1}+\frac{1}{1-\frac{a}{c}}=\frac{2{{t}^{2}}-t}{2{{t}^{2}}-t-1}+\frac{1}{1-t}+\frac{1}{2(1-t)}=1-\frac{2}{2t+1}+\frac{7}{6(1-t)}.$$
+Xét hàm số $f(t)=1-\dfrac{2}{2t+1}+\dfrac{7}{6(1-t)},t\in \left( 0;\frac{3}{4} \right]$. Như vậy $\max P=\dfrac{27}{5}$.
+\vidu{Cho các số thực $a, b, c$ thoả ${{a}^{2}}+ab+{{b}^{2}}=3$. Tìm giá trị lớn nhất và giá trị nhỏ nhất của biểu thức $$P={{a}^{2}}-ab-3{{b}^{2}}.$$
+}
+\hda  Nếu $b = 0$ thì $P = 3$. Xét trường hợp $b\ne 0$.
+\[Q=\frac{P}{3}=\frac{{{a}^{2}}-ab-3{{b}^{2}}}{{{a}^{2}}+ab+{{b}^{2}}}=\frac{{{t}^{2}}-t-3}{{{t}^{2}}+t+1},\,\,\,\left( t=\frac{a}{b} \right).\] Khảo sát $f\left( t \right)=\dfrac{{{t}^{2}}-t-3}{{{t}^{2}}+t+1}$ cho ta kết quả $\min P=-3-4\sqrt{3}$, $\max P=-3+4\sqrt{3}$.
+\subsection{Kĩ thuật sử dụng hàm số}
+\textbf{Bài toán:} Chứng minh $F\left( a;b;c \right)\ge 0$ (*)
+\begin{itemize}
+\item Dạng 1: Có thể phân tích (*) thành $f\left( a \right)+f\left( b \right)+f\left( c \right)\ge 0$ ta có thể khảo sát hàm đặc trưng.
+\item Dạng 2: Thường ước lượng $F\left( a;b;c \right)$ về một hàm số chỉ phụ thuộc vào một biểu thức, từ đó ta đặt ẩn số phụ là biểu thức đó và khảo sát hàm số này để đạt được mục đích. Trong trường hợp này các em cần phải tìm điều kiện cho ẩn phụ từ giả thiết phải thật chính xác.
+\end{itemize}
+\vidu{Cho $a, b, c$ là các số thực dương thoả mãn $a + b + c = 3$. Tìm giá trị lớn nhất của biểu thức \[P=\frac{2}{3+ab+bc+ca}+\sqrt[3]{\frac{abc}{\left( 1+a \right)\left( 1+b \right)\left( 1+c \right)}}.\]}
+\hda  Ta có ${{\left( ab+bc+ca \right)}^{2}}\ge 3abc\left( a+b+c \right)=9abc>0$ $\Rightarrow ab+bc+ca\ge 3\sqrt{abc}$.
+\\
+Chứng minh được \[\left( 1+a \right)\left( 1+b \right)\left( 1+c \right)\ge {{\left( 1+\sqrt[3]{abc} \right)}^{3}},\forall a,b,c>0.\]
+Khi đó \[P\le \frac{2}{3\left( 1+\sqrt{abc} \right)}+\frac{\sqrt[3]{abc}}{1+\sqrt[3]{abc}}=Q\text{ }\left( 1 \right).\]
+Đặt $\sqrt[6]{abc}=t$. Vì $a,b,c>0$ nên $0<abc\le {{\left( \dfrac{a+b+c}{3} \right)}^{3}}=1$.\\
+Xét hàm số \[Q=\frac{2}{3\left( 1+{{t}^{3}} \right)}+\frac{{{t}^{2}}}{1+{{t}^{2}}},\text{   t}\in \left( 0;1 \right]\Rightarrow Q'\left( t \right)=\frac{2t\left( t-1 \right)\left( {{t}^{5}}-1 \right)}{{{\left( 1+{{t}^{3}} \right)}^{2}}{{\left( 1+{{t}^{2}} \right)}^{2}}}\ge 0,\text{   }\forall \text{t}\in \left( 0;1 \right]\]
+Do hàm số đồng biến trên $\left( 0;1 \right]$ nên $Q=Q\left( t \right)\le Q\left( 1 \right)=\frac{5}{6}\text{   }\left( 2 \right)$.\\ Từ (1) và (2) suy ra $P\le \frac{5}{6}$.
+\vidu{Cho 3 số thực $x,y,z$ khác 0 thỏa mãn: $x+y+z=5$ và $x.y.z=1$ .Tìm GTLN của biểu thức: $$P=\frac{1}{x}+\frac{1}{y}+\frac{1}{z}.$$}
+\hda  Ta có \[P=\frac{1}{x}+\frac{1}{y}+\frac{1}{z}=\frac{1}{x}+\frac{y+z}{yz}=\frac{1}{x}+x\left( 5-x \right).\]
+Mặt khác: ${{\left( y+z \right)}^{2}}\ge 4yz\Leftrightarrow {{\left( 5-x \right)}^{2}}\ge \dfrac{4}{x}\Leftrightarrow x\in(-\infty;0)\cup[3-2\sqrt{2};4]\cup[3+2\sqrt{2};+\infty)$.\\
+Xét hàm số: $f\left( x \right)=\dfrac{1}{x}+x\left( 5-x \right)\Rightarrow f'\left( x \right)=-\dfrac{1}{{{x}^{2}}}+5-2\text{x}$, với $x\in(-\infty;0)\cup[3-2\sqrt{2};4]\cup[3+2\sqrt{2};+\infty)$.\\
+Lập bảng biến thiên và kết luận giá trị lớn nhất của P bằng $1+4\sqrt{2}$ đạt tại: $x=y=1+\sqrt{2},z=3-2\sqrt{2}$ hay $x=z=1+\sqrt{2},y=3-2\sqrt{2}$ hoặc  $x=y=3-2\sqrt{2},\ z=1+\sqrt{2}$ hay $ x=z=3-2\sqrt{2},\ y=1+\sqrt{2}$.
+\vidu{Cho $x, ,y, z$ là các số thực dương. Tìm GTNN của biểu thức
+$$P=\frac{2}{x+\sqrt{xy}+\sqrt[3]{xyz}}-\frac{3}{\sqrt{x+y+z}}$$
+}
+\hda  Ta có $$x+\sqrt{xy}+\sqrt[3]{xyz}=x+\frac{1}{4}\sqrt{2x.8y}+\frac{1}{8}\sqrt[3]{2x.8y.32z}$$
+$$\le x+\frac{2x+8y}{8}+\frac{2x+8y+32z}{24}=\frac{32}{24}\left( x+y+z \right)=\frac{4}{3}\left( x+y+z \right).$$
+Đặt $t=\sqrt{x+y+z};t\ge 0\Rightarrow P\ge f\left( t \right)=\dfrac{3}{2{{t}^{2}}}-\dfrac{2}{3t}$. Khảo sát hàm số và ta tìm được $\min P=-\dfrac{3}{2}$.
+\vidu{Cho $x>0,\,y>0$ thỏa mãn ${{x}^{2}}y+x{{y}^{2}}=x+y+3xy$. Tìm GTNN của biểu thức $$P={{x}^{2}}+{{y}^{2}}+\frac{{{(1+2xy)}^{2}}-3}{2xy}$$
+}
+\hda  Ta có 
+$${{x}^{2}}y+x{{y}^{2}}=x+y+3xy\Leftrightarrow xy(x+y)=x+y+3xy\quad (1)$$
+$$\Rightarrow x+y=\frac{1}{x}+\frac{1}{y}+3\ge \frac{4}{x+y}+3\Rightarrow {{(x+y)}^{2}}-3(x+y)-4\ge 0\Rightarrow x+y\ge 4.$$
+$$(1)\Leftrightarrow 1=\frac{1}{xy}+\frac{3}{x+y}\Leftrightarrow 1-\frac{3}{x+y}=\frac{1}{xy}.$$
+Nên $P={{(x+y)}^{2}}+2-\dfrac{1}{xy}={{(x+y)}^{2}}+1+\dfrac{3}{x+y}$.\\
+Đặt $x+y=t\,\,(t\ge 4)\Rightarrow P={{t}^{2}}+\dfrac{3}{t}+1=f(t)\Rightarrow P=f(t)\ge f(4)=\dfrac{71}{4}$.
+

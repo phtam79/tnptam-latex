@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Phép đếm}{1}{section.0.1}%
+\contentsline {subsection}{\numberline {A}Kiến thức cần nhớ}{1}{subsection.0.1.1}%
+\contentsline {subsubsection}{\numberline {1}Vận dụng đạo hàm để giải quyết một số bài toán tối ưu trong kinh tế}{2}{subsubsection.0.1.1.1}%
+\contentsline {subsubsection}{\numberline {2}Các bài toán tối ưu trong kinh tế}{2}{subsubsection.0.1.1.2}%
+\contentsfinish 

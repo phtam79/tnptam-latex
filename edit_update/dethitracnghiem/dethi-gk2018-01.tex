@@ -1,0 +1,183 @@
+%%11:14:24 Friday 1/7/2011Open Last Modification
+%Tệp mẫu làm đề thi trắc nghiệm
+%Tác giả Nguyễn Hữu Điển
+%Tệp mẫu làm đề thi trắc nghiệm phiên bản 1.0
+%Tác giả Nguyễn Hữu Điển (ĐHKHTN, Hà Nội)
+% Đề trắc nghiệm được thiết kế trên phông Unicode,
+%Đã dùng lớp examdesign.cls có sửa đổi
+%Cùng với gói lệnh dethi.sty tạo ra:
+%Đề thi trắc nghiệm từ một bộ đề sinh ra các câu hởi được 
+%sắp xếp ngẫu nhiên và các chi tiết của câu hỏi cũng được 
+%xắp sếp ngẫu nhiên. Mỗi đề thi sinh ra đều có thể in ra đáp án riêng biệt.
+%examdesign.cls đòi hỏi các gói lệnh enumerate, multicol, shortlst, keyval.
+\documentclass[11pt]{article}
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+\usepackage{graphicx}
+\usepackage{xstring}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+\usetikzlibrary{calc,intersections}
+\usetikzlibrary{arrows}
+\usepackage{tkz-euclide}
+\usepackage{tkz-tab}
+\usepackage{tabvar}
+\usepackage{tkz-base}
+\usepackage[utf8]{vietnam}
+% \usepackage[T1]{vntext}
+\usepackage{longtable}%
+\usepackage[colorlinks,hyperindex,plainpages=false,unicode]{hyperref}
+\usepackage{calc}
+\usepackage{mathpazo} 
+\voffset=-3cm
+\textheight 25truecm 
+\textwidth 19.5truecm 
+\parskip 3pt
+\headsep=12pt
+\usepackage[baitap]{dethi}
+
+\tentruong{ĐẠI HỌC KHOA HỌC TỰ NHIÊN}
+\tenkhoa{Khoa Toán- Cơ - Tin học}
+\madethi{101} 
+\loaidethi{(Đề gồm  \pageref{dbPage} trang)}
+
+\tenkythi{ĐỀ THI GIỮA KỲ}
+\namhoc{NĂM HỌC 2018-2019}
+\tenmonhoc{Môn thi: Thực hành Tính toán}
+\thoigian{\underline{Thời gian làm bài: 90 phút}}   
+
+
+\tieudeduoi{Mã môn học: MAT3304 1+2}
+\trangcuoi{dbPage}
+\hovaten{Họ và tên}         %Nếu không muốn có dòng này không gõ lệnh
+% \tenlop{Tên lớp}         %Nếu không muốn có dòng này không gõ lệnh
+\sobaodanh{Số báo danh}  %Nếu không muốn có dòng này không gõ lệnh
+\khoanhd{\cboxv}{}
+\daungoac{\cboxx}{}
+\chuphuongan{\small\bfseries\Alph}
+\mauchu{black}
+\PSNrandseed{\time}
+\parindent 10pt
+\graphicspath{{hinh-madethi/}{temp/}}
+%\nguondetrue
+\duongkefalse
+\usepackage{nonfloat}
+\setlength{\baselineskip}{12truept}
+%  \usepackage{listings}
+\begin{document}
+\nohovaten{}
+% \soanthao
+% \indebailoigiai
+% \input{cauhoi-thtt01-maple}
+%  \input{cauhoi-thtt01-latex}
+% \end{document}
+%%%%%%%%%%%%%
+% \input{uan02-cauhoi-thpt2017102a}
+% \loadallproblems[201]{duan02-cauhoi-thpt2017102}
+\loadrandomproblems[201]{60}{cauhoi-gk-maple}
+% \loadrandomproblems[202]{25}{cauhoi-thtt01-latex}
+\lamtieude
+\indebai
+\begin{enumerate}[]
+\foreachproblem[201]{\item\causo\thisproblem}
+% \foreachproblem[202]{\item\causo\thisproblem}
+ \end{enumerate}
+\label{dbPage}
+% 
+
+\newpage
+\nohovaten{}
+\setlength{\columnsep}{2pt}
+\lamtieude
+\begin{center}
+\textbf{ĐÁP ÁN}
+\end{center}
+\indapanso
+\begin{center}
+\begin{multicols}{7}
+\begin{enumerate}[\socau]
+\foreachproblem[201]{\item\thisproblem}
+% \foreachproblem[202]{\item\thisproblem}
+\end{enumerate}
+\end{multicols}
+\end{center}
+
+
+
+\newpage
+
+\inphieuthi
+
+\lamphieuthi
+\begin{center}
+\begin{multicols}{3}
+\begin{enumerate}[\causo]
+\foreachproblem[201]{\item\thisproblem}
+% \foreachproblem[202]{\item\thisproblem}
+\end{enumerate}
+\end{multicols}
+\end{center}
+
+% \vspace*{3cm}
+% \textbf{Chữ ký cán bộ coi thi thứ nhất:}
+% 
+% \vspace*{1cm}
+% \textbf{Chữ ký cán bộ coi thi thứ hai:}
+
+
+\end{document}
+
+
+
+
+\newpage
+% \setcounter{page}{1}
+\inphieuduclo
+\lamphieuthi
+\begin{center}
+\begin{multicols}{3}
+\begin{enumerate}[\causo]
+\foreachproblem[201]{\item\thisproblem}
+\foreachproblem[202]{\item\thisproblem}
+\end{enumerate}
+\end{multicols}
+\end{center}
+
+\end{document}
+\newpage
+\setcounter{page}{1}
+\loaidethi{Đề gồm có \pageref{lgPage} trang}%
+\trangcuoi{lgPage}
+\lamtieude
+\inloigiai
+\begin{center}
+{\bf LỜI GIẢI}
+\end{center}
+\begin{enumerate}[]
+\foreachproblem[201]{\item\thisproblem}
+\end{enumerate}
+\label{lgPage}
+  \end{document}
+
+
+
+
+
+
+
+\newpage
+\loaidethi{(Lời giải gồm  \pageref{dblgPage} trang)}
+\trangcuoi{dblgPage}
+\lamtieude
+\begin{center}
+\textbf{ĐÁP ÁN VÀ LỜI GIẢI}
+\end{center}
+\indebailoigiai
+% \showproblems
+% \coloigiai
+\begin{enumerate}[]
+\foreachproblem[201]{\item\causo\thisproblem}
+ \end{enumerate}
+\label{dblgPage}
+ \end{document}
+
+%%13:9:49 29/10/2018Last Modification of contents

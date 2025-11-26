@@ -1,0 +1,1848 @@
+\section{THPT Nguyễn Văn Trỗi}
+
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho tam giác $ABC$ có phương trình đường thẳng $BC:x-y-4=0$. Các điểm $H(2;0), I(3;0)$ lần lượt là trực tâm và tâm đường tròn ngoại tiếp tam giác. Hãy lập phương trình cạnh $AB$, biết điểm $B$ có hoành độ không lớn hơn $3$.}
+\lgi
+
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\draw [color=cqcqcq,, xstep=1.0cm,ystep=1.0cm] (-0.38,-2.78) grid (6.,2.6);
+\draw[->,color=black] (-0.38,0.) -- (6.,0.);
+\foreach \x in {,1,2,3,4,5}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0.,-2.78) -- (0.,2.6);
+\foreach \y in {-2,-1,1,2}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-0.38,-2.78) rectangle (6.,2.6);
+\draw [color=uququq] (3.,0.) circle (2.23606797749979cm);
+\draw [color=uququq,domain=-0.38:6.] plot(\x,{(-8.--2.*\x)/2.});
+\draw [color=uququq] (2.,-2.)-- (1.,1.);
+\draw [color=uququq] (1.,1.)-- (5.,1.);
+\draw [color=uququq] (2.,-2.)-- (5.,1.);
+\draw [color=uququq,domain=-0.38:6.] plot(\x,{(-9.--3.*\x)/-3.});
+\draw [color=uququq] (1.,1.)-- (3.54,-0.5);
+\begin{normalsize}
+\draw [fill=uququq] (1.,1.) circle (1.5pt);
+\draw[color=uququq] (0.78,1.18) node {$A$};
+\draw [fill=uququq] (2.,-2.) circle (1.5pt);
+\draw[color=uququq] (2.08,-2.34) node {$B$};
+\draw [fill=uququq] (2.,0.) circle (1.5pt);
+\draw[color=uququq] (1.84,0.28) node {$H$};
+\draw [fill=uququq] (3.,0.) circle (1.5pt);
+\draw[color=uququq] (3.14,0.28) node {$I$};
+\draw [fill=uququq] (5.,1.) circle (1.5pt);
+\draw[color=uququq] (5.3,0.98) node {$C$};
+\draw [fill=uququq] (2.6666666666666665,0.) circle (1.5pt);
+\draw[color=uququq] (2.6,-0.28) node {$G$};
+\draw [fill=uququq] (3.54,-0.5) circle (1.5pt);
+\draw[color=uququq] (3.5,-0.80) node {$M$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+
+Gọi $G(a;b)$ là trọng tâm tam giác $ABC$. Khi đó $\vt{HG}=(1-2;b), \vt{GI}=(3-a;-b)$. Mà $\vt{HG}=2\vt{GI}$. Do đó:
+$$\va{a-2=6-2a \\ b=-2b} \Leftrightarrow \va{a=\dfrac{8}{3} \\ b=0} \Rightarrow G\left(\dfrac{8}{3};0\right)$$
+Gọi $M$ là trung điểm $BC$. Dễ thấy $MI \perp BC$ nên đường thẳng $MI$ có phương trình: $x+y-3=0$.\\
+$MI \cap BC = M$ nên tọa độc của $M$ là nghiệm của hệ phương trình:
+$$\va{x+y-3=0 \\ x-y-4=0} \Leftrightarrow \va{x=\dfrac{7}{2} \\y= -\dfrac{1}{2}}$$
+Vậy $M \left(\dfrac{7}{2};-\dfrac{1}{2} \right)$.\\
+Giả sử $A(c;d)$. Ta có: $\vt{AG} = \left(\dfrac{8}{3}-c;-d\right), \vt{GM} =  \left(\dfrac{5}{6};-\dfrac{1}{2}\right)$.\\ Từ $\vt{AG}=2\vt{GM}$, ta có:
+$$\va{\dfrac{8}{3}-c=\dfrac{5}{3} \\ -d=-1} \Leftrightarrow \va{c=1\\ d=1} \Rightarrow A(1;1)$$
+Giả sử $B(m;m-4) \in BC$, với $m \leq 3$. Vì $IB=IA=\sqrt{5}$ nên:
+$$BI^2=5 \Leftrightarrow (m-3)^2+(m-4)^2=5 \Leftrightarrow \hay{m=2 \\m=4 \text{ (loại) }}$$
+Vậy $B(2;-2)$.\\
+Phương trình đường thẳng $AB$ là: $3x+y-4=0$.
+
+\deda{
+Giải hệ phương trình \\ \cl{$\begin{cases} x^3 -3x^2+2 = \sqrt{y^3+3y^2} \\ \sqrt{x-3} = \sqrt{y-x+2}\end{cases}$}
+}
+\lgi
+Điều kiện: $\begin{cases}x\geq 3 \\ y \geq x- 2\end{cases}$.\\
+Phương trình đầu của hệ tương đương với:
+\begin{equation} \label{the2}
+x^3-3x^2+2=y\sqrt{y+3} \Leftrightarrow (x-1)^3 - 3(x-1) = \left(\sqrt{y+3}\right)^3-3\sqrt{y+3}
+\end{equation}
+Dễ thấy $\sqrt{y+3}>1, x-1>1$. Xét hàm số $f(t)=t^3-3t, \forall t \geq 1$. Ta có:
+$$f'(t) = 3t^2-3 \geq 0, \quad \forall t \geq 1$$
+Do đó $f(t)$ là hàm số đồng biến trên $[1;+\infty )$.
+\begin{align*}
+\eqref{the2} & \Leftrightarrow f(x-1)=f\left(\sqrt{y+3}\right) \\ & \Leftrightarrow x-1 = \sqrt{y+3} \\ & \Leftrightarrow y = x^2-2x-2
+\end{align*}
+Thế vào phương trình thứ hai của hệ, ta thu được:
+$$\sqrt{x-3}=\sqrt{x^2-3x}\Leftrightarrow x^2-4x+3 = 0 \Leftrightarrow \hay{x=1 \\ x=3}$$
+Kết hợp với điều kiện, ta có nghiệm duy nhất của hệ phương trình đã cho là: $(3;1)$.
+\deda{
+Cho $a,b,c>0$ thỏa mãn $a+b+c=1$, chứng minh rằng\\ 
+\cl{$\dfrac{a}{1+bc}+\dfrac{b}{1+ca}+\dfrac{c}{1+ab}\geq \dfrac{9}{10}$}
+}
+\lgi
+Từ giả thiết, ta có $a,b,c \in (0;1)$.\\
+Áp dụng BĐT Cauchy, ta có:
+\begin{align*}
+ab & \leq \left(\dfrac{a+b}{2}\right)^2 = \left(\dfrac{1-c}{2}\right)^2 \\
+bc & \leq \left(\dfrac{b+c}{2}\right)^2 = \left(\dfrac{1-a}{2}\right)^2 \\
+ca & \leq \left(\dfrac{a+c}{2}\right)^2 = \left(\dfrac{1-b}{2}\right)^2 .
+\end{align*}
+Do đó:
+$$P=\dfrac{a}{1+bc} + \dfrac{b}{1+ca}+\dfrac{c}{1+ab} \geq \dfrac{4a}{a^2-2a+5}+\dfrac{4b}{b^2-2b+5}+\dfrac{4c}{c^2-2c+5}=f(a)+f(b)+f(c)$$
+Trong đó $f(x) = \dfrac{4x}{x^2-2x+5}, \forall x \in (0;1)$.\\
+Nhận thấy $3f\left(\dfrac{1}{3}\right)=\dfrac{9}{10}$, ta sẽ chứng minh BĐT đã cho bằng phương pháp tiếp tuyến.\\
+Phương trình tiếp tuyến của đồ thị hàm số $y=f(x)$ tại điểm $x=\dfrac{1}{3}$ là $y=\dfrac{99x-3}{100}.$\\
+Ta có:
+$$\dfrac{4x}{x^2-2x+5}-\dfrac{99x-3}{100} = \dfrac{(3x-1)^2(15-11x)}{100(x^2-2x+5)} \geq 0, \quad \forall x \in (0;1)$$
+Dấu "$=$" xảy ra khi và chỉ khi $x=\dfrac{1}{3}$. Do đó:
+$$P \geq \dfrac{99}{100}(a+b+c) - \dfrac{9}{100} = \dfrac{9}{10} \quad \text{(đpcm)}$$
+Dấu "$=$" xảy ra khi và chỉ khi $a=b=c=\dfrac{1}{3}$
+\section{THPT Chuyên ĐH Vinh}
+
+\deda{
+Giải bất phương trình \\
+\cl{$x^2+5x<4 \left(1+ \sqrt{x^3+2x^2-4x} \right)$}}
+\lgi
+Điều kiện: $\hay{  x \geq - 1 + \sqrt{5} \\ - 1 - \sqrt{5} \leq x \leq 0}$.\\
+BPT tương đương với:
+\begin{equation} \label{the1}
+x^2+2x-4+3x < 4\sqrt{x(x^2+2x-4)}
+\end{equation}
+Xét hai trường hợp:
+\begin{itemize}
+\item $- 1 - \sqrt{5} \leq x \leq 0$. Khi đó:
+$$\va{x^2+2x-4 \leq 0 \\ 3x \leq 0 \\ x^2+2x-4 , 3x \text{ không đồng thời bằng } 0}.$$ Do đó:
+$$VT \eqref{the1} < 0 \leq VP \eqref{the1}$$
+Vậy $- 1 - \sqrt{5} \leq x \leq 0$ thỏa mãn BPT đã cho.
+\item $x \geq - 1 + \sqrt{5}$. Khi đó $x^2+2x-4 \geq 0$. \\
+Đặt $\va{\sqrt{x^2+2x-4}=a \geq 0 \\ \sqrt{x} = b > 0}$. Ta có 
+\begin{align*}
+\eqref{the1} & \Leftrightarrow a^2+3b^2 < 4ab \\
+&\Leftrightarrow (a-b)(a-3b) < 0 \\ & \Leftrightarrow b<a<3b \\
+&\Leftrightarrow \sqrt{x}< \sqrt{x^2+2x-4}<3\sqrt{x} \\
+& \Leftrightarrow \va{x^2+x-4>0\\x^2-7x-4<0}\\ & \Leftrightarrow \dfrac{-1+\sqrt{17}}{2} < x < \dfrac{7+\sqrt{65}}{2}\quad \text{(thỏa mãn).}
+\end{align*}
+
+\end{itemize}
+Vậy tập nghiệm của BPT đã cho là: 
+$\left[ -1-\sqrt{5};0 \right] \cup \left[ \dfrac{-1+\sqrt{17}}{2} ; \dfrac{7+\sqrt{65}}{2} \right].$
+\deda{Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho hình chữ nhật $ABCD$ có $\widehat{ACD}=\alpha$ với $\cos \alpha = \dfrac{1}{\sqrt{5}}$, điểm $H$ thỏa mãn điều kiện $\vt{HB}=-2\vt{HC}$, $K$ là giao điểm của hai đường thẳng $AH$ và $BD$. Biết $H\left(\dfrac{1}{3}-\dfrac{4}{3}\right), K(1;0)$ và điểm $B$ có hoành độ dương. Tìm tọa độ các điểm $A,B,C,D$.}
+\lgi
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(1.4284840240623644,-6.170603167260499) rectangle (9.647023350316644,-1.6831798541523355);
+\draw [shift={(8.932611917467828,-5.572374157559981)},color=uququq,fill=uququq,fill opacity=0.1] (0,0) -- (90.01056398805623:0.7563072999620503) arc (90.01056398805623:153.44551281097827:0.7563072999620503) -- cycle;
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (8.397211513445189,-2.2618932681368555) -- (8.397310116089306,-2.7966832795109102) -- (8.932100127463361,-2.796584676866793) -- (8.932001524819244,-2.261794665492738) -- cycle; 
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (2.8462429447073965,-5.573496340213033) -- (2.846144342063279,-5.038706328838978) -- (2.3113543306892237,-5.038804931483096) -- (2.3114529333333413,-5.5735949428571505) -- cycle; 
+\draw [color=uququq] (8.932001524819244,-2.261794665492738)-- (2.3114529333333413,-5.5735949428571505);
+\draw [color=uququq] (2.3108425406847566,-2.2630154507899074)-- (8.932611917467828,-5.572374157559981);
+\draw [color=uququq] (2.3108425406847566,-2.2630154507899074)-- (8.932001524819244,-2.261794665492738);
+\draw [color=uququq] (8.932001524819244,-2.261794665492738)-- (8.932611917467828,-5.572374157559981);
+\draw [color=uququq] (8.932611917467828,-5.572374157559981)-- (2.3114529333333413,-5.5735949428571505);
+\draw [color=uququq] (2.3108425406847566,-2.2630154507899074)-- (6.725558922756331,-5.5727810859923705);
+\draw [color=uququq] (2.3108425406847566,-2.2630154507899074)-- (2.3114529333333413,-5.5735949428571505);
+\begin{normalsize}
+\draw [fill=uququq] (2.3108425406847566,-2.2630154507899074) circle (1.5pt);
+\draw[color=uququq] (1.983109377367868,-2.010913017469224) node {$A$};
+\draw [fill=uququq] (2.3114529333333413,-5.5735949428571505) circle (1.5pt);
+\draw[color=uququq] (1.831847917375458,-5.439506110630517) node {$B$};
+\draw [fill=uququq] (8.932611917467828,-5.572374157559981) circle (1.5pt);
+\draw[color=uququq] (9.117608240343209,-5.7420290306153365) node {$C$};
+\draw [fill=uququq] (8.932001524819244,-2.261794665492738) circle (1.5pt);
+\draw[color=uququq] (9.319290186999755,-1.9604925308050873) node {$D$};
+\draw [fill=uququq] (6.725558922756331,-5.5727810859923705) circle (1.5pt);
+\draw[color=uququq] (6.82347609712499,-5.792449517279474) node {$H$};
+\draw[color=uququq] (8.7,-5.111772947313629) node {$\alpha$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+
+Dễ thấy $H \in BC$ và $BH = \dfrac{2}{3}BC$.\\
+Vì $BH // AD$ nên
+$$\dfrac{KH}{KA}=\dfrac{BH}{AD} = \dfrac{2}{3} \Rightarrow HK = \dfrac{2}{3}KA. $$
+Suy ra $\vt{HA}=\dfrac{5}{2}\vt{HK}$. Giả sử $A\left(x_A;y_A\right)$. Ta có:
+$$\va{x_A-\dfrac{1}{3} = \dfrac{5}{3} \\ y_A+\dfrac{4}{3} = \dfrac{10}{3} } \Leftrightarrow \va{x_A=2\\y_A=2}.$$
+Vậy $A(2;2)$.\\
+Vì tam giác $ACD$ vuông tại $D$ và $\cos \widehat{ACD} = \cos \alpha = \dfrac{1}{\sqrt{5}}$ nên $AD=2CD, AC=\sqrt{5}CD$.\\
+Đặt $CD=a > 0$, khi đó: $AD=2a, AB=a, BH = \dfrac{4}{3}a.$\\
+Trong tam giác vuông $ABH$, ta có:
+$$AB^2+BH^2=AH^2 \Leftrightarrow\dfrac{25}{9}a^2=\dfrac{125}{9} \Leftrightarrow a = \sqrt{5}.$$
+Suy ra: 
+\begin{equation}\label{the3}
+\va{AB=\sqrt{5}\\ HB=\dfrac{4\sqrt{5}}{3}}
+\end{equation}
+Giả sử $B(x;y), x>0$. Ta có:
+$$\eqref{the3} \Leftrightarrow \va{(x-2)^2+(y-2)^2=5 \\ \left(x-\dfrac{1}{3}\right)^2 + \left(y+\dfrac{4}{3}\right)^2=\dfrac{80}{9}} \Leftrightarrow \hay{x=3;y=0\\ x=-\dfrac{1}{5}; y = \dfrac{8}{5} \quad \text{(loại)}}.$$
+ Suy ra $B(3;0)$.\\
+Từ $\vt{BC}=\dfrac{3}{2}\vt{BH} \Rightarrow C(-1;-2)$. \\
+Từ $\vt{AD}=\vt{BC} \Rightarrow D(-2;0)$.
+\deda{
+Cho $x,y,z$ là các số thực không âm thỏa mãn \\
+\cl{$0 < (x+y)^2 +(y+z)^2 +(z+x)^2 \leq 2$}
+Tìm giá trị lớn nhất của biểu thức:\\
+\cl{$P=4^x+4^y+4^z+\ln(x^4+y^4+z^4) - \dfrac{3}{4}(x+y+z)^4$}}
+\lgi
+Từ giả thiết, ta có: $\va{0 \leq x, y, z \leq 1 \\ x^2+y^2+z^2 \leq 1}$.\\
+Xét hàm số 
+$$g(t)=4^t-3t-1,\quad t \in [0;1]$$
+Ta có: $g'(t) = 4^t \ln 4 - 3$.
+$$g'(t)=0 \Leftrightarrow t=\log_4 \dfrac{3}{\ln 4} = t_0$$
+$$g'(t) > 0 \Leftrightarrow t > t_0; \quad g'(t) < 0 \Leftrightarrow t < t_0$$
+Vì $1 < \dfrac{3}{\ln 4} < 4$ nên $0 < t_0 < 1$.
+Bảng biến thiên của hàm số $g(t)$:
+\[\begin{tabvar}{C|CCCCC}
+
+t                                 &0             &        &t_0&      &1\\
+\hline
+g'(t)                             &                    &-       &0&+     & \\
+\hline
+\niveau{1}{2}\raisebox{0.5em}{$g(t)$}&\niveau{2}{2} 0 &\decroit&g(t_0)&\croit& 0 \\
+
+\end{tabvar}\]
+Suy ra $g(t) \leq 0, \forall t \in [0;1]$ hay
+$$4^t \leq 3t + 1,\quad \forall t \in [0;1]$$
+Mặt khác, do $0 \leq x,y,z \leq 1$ nên:
+$$x^4+y^4+z^4 \leq x^2+y^2+z^2 \leq 1$$
+Từ đó, ta có:
+\begin{align*}
+P & \leq 3 + 3 (x+y+z) + \ln (x^4+y^4+z^4) - \dfrac{3}{4}(x+y+z)^4 \\ & \leq 3 + 3 (x+y+z) - \dfrac{3}{4}(x+y+z)^4
+\end{align*} 
+Đặt $x+y+z=u$, khi đó: $u \geq 0$ và 
+$$P \leq 3 + 3u - \dfrac{3}{4}u^4$$
+Xét hàm số $f(u)= 3+3u-\dfrac{3}{4}u^4$ với $u \geq 0$. Ta có:
+$$f'(u) = 3-3u^3; \quad f'(u) = 0 \Leftrightarrow u = 1$$
+Bảng biến thiên của $f(u)$
+\[\begin{tabvar}{C|CCCCC}
+
+u                                 &0             &      &1&        &+\infty\\
+\hline
+f'(u)                             &                    &+     &0&-       & \\
+\hline
+\niveau{1}{2}\raisebox{0.5em}{$f(u)$}&\niveau{1}{2} &\croit&\dfrac{21}{4}&\decroit&\\
+
+\end{tabvar}\]
+Dựa vào bảng biến thiên, ta có
+$$f(u) \leq \dfrac{21}{4},\quad \forall u \geq 0$$
+Suy ra: $P \leq \dfrac{21}{4}$. Dấu đẳng thức xảy ra khi và chỉ khi $x=1,y=z=0$ hoặc các hoán vị.\\
+Vậy $\max P = \dfrac{21}{4}$.
+\section{THPT Thủ Đức (TP Hồ Chí Minh)}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho tam giác $ABC$ nhọn có $A(-1;4)$, các đường cao $AM,CN$ và trực tâm $H$. Tâm đường tròn ngoại tiếp tam giác $HMN$ là $I(2;0)$. Đường thẳng $BC$ đi qua $P(1;-2)$. Tìm tọa độ các đỉnh của tam giác, biết $B$ thuộc đường thẳng $d: x+2y-2=0$
+}
+\hda
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm,scale=.8]
+\draw [color=cqcqcq,, xstep=1.0cm,ystep=1.0cm] (-5.26,-4.52) grid (4.46,4.42);
+\draw[->,color=black] (-5.26,0.) -- (4.46,0.);
+\foreach \x in {-5,-4,-3,-2,-1,1,2,3,4}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0.,-4.52) -- (0.,4.42);
+\foreach \y in {-4,-3,-2,-1,1,2,3,4}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-5.26,-4.52) rectangle (4.46,4.42);
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (0.85,1.85) -- (1.,1.7) -- (1.15,1.85) -- (1.,2.) -- cycle; 
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (1.2012461179749812,-1.9329179606750062) -- (1.1341640786499876,-1.731671842700025) -- (0.9329179606750063,-1.7987538820250188) -- (1.,-2.) -- cycle; 
+\draw [color=uququq] (4.,-1.)-- (-1.,4.);
+\draw [color=uququq] (-5.,-4.)-- (-1.,4.);
+\draw [color=uququq] (-5.,-4.)-- (4.,-1.);
+\draw [color=uququq,domain=-5.26:4.46] plot(\x,{(-3.--9.*\x)/-3.});
+\draw [color=uququq,domain=-5.26:4.46] plot(\x,{(-5.-5.*\x)/-5.});
+\draw [color=uququq] (2.,0.) circle (2.23606797749979cm);
+\draw [color=uququq] (0.,1.)-- (4.,-1.);
+\begin{normalsize}
+\draw [fill=uququq] (-1.,4.) circle (1.5pt);
+\draw[color=uququq] (-1.22,4.18) node {$A$};
+\draw [fill=uququq] (4.,-1.) circle (1.5pt);
+\draw[color=uququq] (4.14,-1.18) node {$B$};
+\draw [fill=uququq] (2.,0.) circle (1.5pt);
+\draw[color=uququq] (2.14,0.28) node {$I$};
+\draw [fill=uququq] (1.,-2.) circle (1.5pt);
+\draw[color=uququq] (0.7,-2.4) node {$P\equiv M$};
+\draw [fill=uququq] (0.,1.) circle (1.5pt);
+\draw[color=uququq] (-0.34,1.22) node {$H$};
+\draw [fill=uququq] (-5.,-4.) circle (1.5pt);
+\draw[color=uququq] (-4.88,-4.2) node {$C$};
+\draw [fill=uququq] (1.,2.) circle (1.5pt);
+\draw[color=uququq] (1.02,2.4) node {$N$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Dễ thấy tứ giác $BMHN$ nội tiếp đường tròn tâm $I(2;0)$, đường kính $BH$.\\
+Giả sử $B(2-2b;b), H(2b+2;-b)$. Ta có:
+$\vt{AH}.\vt{BP}=0 \Rightarrow b=-1 \Rightarrow B(4;-1), H(0;1)$.
+Viết được phương trình đường thẳng $BC:x-3y-7=0,AC:2x-y+6=0$ và tìm được $C(-5;-4)$.
+\deda{
+Giải hệ phương trình \\
+\cl{ $\va{(1-y)\sqrt{x^2+2y^2}=x+2y+3xy \\ \sqrt{y+1}+\sqrt{x^2+2y^2}=2y-x}$}
+}
+\lgi
+ĐK: $y \geq -1$. \\
+Đặt $t=\sqrt{x^2+2y^2} \geq 0$. Phương trình đầu của hệ trở thành:
+\begin{align*}
+& t^2+(1-y)t-x^2-2y^2-x-2y-3xy=0 \\
+\Rightarrow & \hay{\sqrt{x^2+2y^2}=-x-y-1 \\ t = x+2y} \\
+\Leftrightarrow & \hay{\sqrt{x^2+2y^2}=-x-y-1 \\ \sqrt{x^2+2y^2} = x+2y}
+\end{align*}
+\begin{itemize}
+\item $\sqrt{x^2+2y^2} = -x-y-1$.
+Thay vào phương trình thứ hai của hệ, ta có:
+$$\sqrt{y+1}=3y+1 \Leftrightarrow \va{y\geq - \dfrac{1}{3} \\ 9y^2+5y=0} \Leftrightarrow y = 0$$
+Suy ra: $\sqrt{x^2}=-x-1$ (không thỏa mãn).
+\item $\sqrt{x^2+2y^2} = x+2y$.
+Ta có hệ:
+$$\va{\sqrt{y+1}=-2x \\ \sqrt{x^2+2y^2} = x+2y} \Leftrightarrow \va{x=\dfrac{-1-\sqrt{5}}{4} \\ y = \dfrac{1+\sqrt{5}}{2}} \quad \text{(thỏa mãn)}$$
+\end{itemize}
+Vậy hệ đã cho có nghiệm $\left(\dfrac{-1-\sqrt{5}}{4}; \dfrac{1+\sqrt{5}}{2} \right)$
+
+\deda{
+Cho $x,y,z$ là các số thực dương thỏa mãn \\
+\cl{$5(x^2+y^2+z^2)=9(xy+2yz+zx)$}
+Tìm giá trị lớn nhất của biểu thức:\\
+\cl{$P=\dfrac{x}{y^2+z^2}-\dfrac{1}{(x+y+z)^3}$}
+}
+\hda
+Từ giả thiết, ta có:
+$$5x^2-9x(y+z) = 18yz-5(y^2+z^2)$$
+Áp dụng BĐT Cauchy, ta có:
+$$\va{yz \leq \dfrac{1}{4}(y+z)^2 \\ y^2+z^2 \geq \dfrac{1}{2}(y+z)^2} \Rightarrow 18yz-5(y^2+z^2) \leq 2 (y+z)^2$$
+Do đó:
+\begin{align*}
+5x^2-9x(y+z) \leq 2(y+z)^2 & \Leftrightarrow [x-2(y+z)](5x+y+z)  \leq 0 \\
+& \Rightarrow x \leq 2(y+z)
+\end{align*}
+
+Suy ra:
+$$P \leq \dfrac{2x}{(y+z)^2}-\dfrac{1}{(x+y+z)^3} \leq \dfrac{4}{y+z}-\dfrac{1}{27(y+z)^3}$$
+Đặt $y+z=t>0$, ta có:
+$$P \leq 4t - \dfrac{1}{27t^3}=f(t)$$
+Lập bảng biến thiên của hàm số $f(t)$, ta thu được $P\leq 16$.\\
+Vậy $\max P = 16$ khi $x=\dfrac{1}{3}; y=z=\dfrac{1}{12}$
+
+\section{THPT Nông Cống 1 (Thanh Hóa) lần 2}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho đường tròn $(C)$ tâm $I$ có hoành độ dương. $(C)$ đi qua điểm $A(-2;3)$ và tiếp xúc với đường thẳng $(d_1):x+y+4=0$ tại điểm $B$. \\
+$(C)$ cắt đường thẳng $(d_2):3x+4y-16=0$ tại $C$ và $D$ sao cho $ABCD$ là hình thang $(AD // BC)$ có hai đường chéo $AC,BD$ vuông góc với nhau. Tìm tọa độ các điểm $B,C,D$.}
+\lgi
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.12941176470588237,0.12941176470588237,0.12941176470588237}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\draw[->,color=black] (-3.607548343675531,0.) -- (4.43848509766579,0.);
+\foreach \x in {-2,2,4}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0.,-3.2740744716195334) -- (0.,4.4313861256438285);
+\foreach \y in {-2,2,4}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-3.607548343675531,-3.2740744716195334) rectangle (4.43848509766579,4.4313861256438285);
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0.34035647933846586,0.6596435206615342) -- (0.18071295867693166,0.5) -- (0.3403564793384658,0.34035647933846586) -- (0.5,0.5) -- cycle; 
+\draw [shift={(4.,1.)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (161.56505117707798:0.31928704132306834) arc (161.56505117707798:206.56505117707798:0.31928704132306834) -- cycle;
+\draw [color=uququq] (-2.,3.)-- (4.,1.);
+\draw [color=uququq] (-2.,-2.)-- (-2.,3.);
+\draw [color=uququq] (4.,1.)-- (-2.,-2.);
+\draw [color=uququq] (0.5,0.5) circle (3.5355339059327378cm);
+\draw [color=uququq] (0.5,0.5)-- (-2.,-2.);
+\draw [color=uququq,domain=-3.607548343675531:4.43848509766579] plot(\x,{(-10.-2.5*\x)/2.5});
+\draw [color=uququq] (4.,1.)-- (0.,4.);
+\draw [color=uququq] (0.,4.)-- (-2.,3.);
+\draw [color=uququq] (-2.,-2.)-- (0.,4.);
+\draw [color=uququq,domain=-3.607548343675531:4.43848509766579] plot(\x,{(--16.-3.*\x)/4.});
+\draw [color=uququq](-3.1818322885781067,-1.1880658016421595) node[anchor=north west] {$d_1$};
+\draw (-2.,3.)-- (0.5,0.5);
+\draw (1.8416171615715013,2.9200941300479757) node[anchor=north west] {$d_2$};
+\begin{normalsize}
+\draw [fill=uququq] (-2.,3.) circle (1.5pt);
+\draw[color=uququq] (-2.1813995590991593,3.3032385796356567) node {$A$};
+\draw [fill=uququq] (-2.,-2.) circle (1.5pt);
+\draw[color=uququq] (-2.1175421508345456,-2.188498531121104) node {$B$};
+\draw [fill=uququq] (4.,1.) circle (1.5pt);
+\draw[color=uququq] (4.140483859097594,1.302373120677767) node {$C$};
+\draw [fill=uququq] (0.5,0.5) circle (1.5pt);
+\draw[color=uququq] (0.6496122072987129,0.7915138545608591) node {$I$};
+\draw [fill=uququq] (0.,4.) circle (1.5pt);
+\draw[color=uququq] (0.13875294118180367,3.7) node {$D$};
+\draw [fill=uququq] (-0.5,2.5) circle (1.5pt);
+\draw[color=uququq] (-0.2656773111607495,2.6646644969895217) node {$K$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Vì $ABCD$ là hình thang nội tiếp đường tròn nên nó là hình thang cân. \\
+Đặt $K = AC \cap BD$. Khi đó:
+\begin{equation} \label{the4}
+\triangle KBC \text{ vuông cân tại } K \Rightarrow \widehat{ACB}=45^o \Rightarrow \widehat{AIB} = 90^o \Rightarrow IB \perp AI.
+\end{equation}
+Mặt khác:
+\begin{equation} \label{the5}
+ (d_1)\text{ tiếp xúc với } (C) \text{ tại } B \Rightarrow  IB \perp (d_1).
+\end{equation}
+Từ $\eqref{the4}$ và $\eqref{the5}$ suy ra:
+$$IB= d_{\left( A,(d_1) \right)} = \dfrac{5}{\sqrt{2}}.$$
+Ta có phương trình đường thẳng $AI: x+y-1=0$. Vì $I \in AI$ nên $I(a;1-a)$.\\ Khi đó:
+$IA = \dfrac{5}{\sqrt{2}} \Leftrightarrow \hay{a=\dfrac{1}{2} \\ a=-\dfrac{9}{2} \quad \text{(loại)}} .$
+Vậy $I\left(\dfrac{1}{2}; \dfrac{1}{2}\right)$.
+Vì $B$ là hình chiếu của $I$ lên $(d_1)$ nên $B(-2;-2)$\\
+Phương trình của đường tròn $(C)$ là:
+$\left(x-\dfrac{1}{2}\right)^2+\left(y-\dfrac{1}{2}\right)^2 = \dfrac{25}{2}.$\\
+Hai điểm $C,D$ có tọa độ là nghiệm hệ phương trình:
+$$\va{\left(x-\dfrac{1}{2}\right)^2+\left(y-\dfrac{1}{2}\right)^2 = \dfrac{25}{2} \\ 3x+4y-16=0} \Leftrightarrow \hay{(x;y)=(0;4) \\ (x;y)=(4;1)}.$$
+Vì $AD//BC$ nên $C(4;1),D(0;4).$
+\deda{
+Giải hệ phương trình \\
+\cl{ $\va{\sqrt{x^2+xy+2y^2}+\sqrt{y^2+xy+2x^2}=2(x+y) \\ (8y-6)\sqrt{x-1}=\left(2+\sqrt{y-2} \right) \left(y + 4\sqrt{x-2}+3 \right)}.$}
+}
+\hda
+ĐK: $\va{x\geq 2 \\ y \geq 2}.$
+Phương trình đầu của hệ tương đương với:
+$$\sqrt{\left(\dfrac{x}{y}\right)^2+\dfrac{x}{y}+2}+\sqrt{2\left(\dfrac{x}{y}\right)^2+\dfrac{x}{y}+1}=2\left(\dfrac{x}{y}+1\right).$$
+Đặt $\dfrac{x}{y}=t>0$, ta được:
+$$\sqrt{t^2+t+2}+\sqrt{2t^2+t+1}=2(t+1) \Leftrightarrow t=1 \Leftrightarrow x= y.$$
+Thay $x=y$ vào phương trình thứ hai của hệ, ta có:
+$$(8x-6)\sqrt{x-1}=\left(2+\sqrt{x-2} \right) \left(x + 4\sqrt{x-2}+3 \right) \Leftrightarrow f\left(\sqrt{4x-4}\right) = f\left(2 + \sqrt{x-2}\right).$$
+Trong đó $f(t) = t^3+t$.\\
+Dễ thấy $f(t)$ đồng biến trên $\mathbb{R}$. Do đó:
+$$\sqrt{4x-4} = 2 + \sqrt{x-2}.$$ 
+Giải phương trình, ta thu được $x=2,x=\dfrac{34}{9}$.\\
+Hệ có hai nghiệm $(2;2);\left(\dfrac{34}{9}; \dfrac{34}{9}\right)$.
+\deda{
+Cho $x,y$ là các số thực không âm thỏa mãn: \\
+\cl{$\sqrt{2x^2+3xy+4y^2}+\sqrt{2y^2+3xy+4x^2}-3(x+y)^2 \leq 0.$}
+Tìm giá trị nhỏ nhất của biểu thức:\\
+\cl{$P=2(x^3+y^3)+2(x^2+y^2)-xy+\sqrt{x^2+1}+\sqrt{y^2+1}.$}
+}
+\lgi
+Đặt $Q=\sqrt{2x^2+3xy+4y^2}+\sqrt{2y^2+3xy+4x^2}$. Ta có:
+\begin{align*}
+Q & = \sqrt{\left(\sqrt{2}\left(x+\frac{3y}{4}\right)\right)
+^2+\left(\sqrt{\frac{23}{8}}y\right)^2}+ \sqrt{\left(\sqrt{2}\left(y+\frac{3x}{4}\right)\right)
+^2+\left(\sqrt{\frac{23}{8}}x\right)^2} \\ & \geq 3 |x+y|  = 3(x+y)
+\end{align*} 
+Dấu "$=$" xảy ra khi và chỉ khi $x=y\geq 0$. \\
+Đặt $t=x+y$, ta có:
+\begin{equation} \label{the6}
+\va{t^2-t\geq 0 \\ t \geq 0} \Rightarrow \hay{t=0 \\ t\geq 1}
+\end{equation}
+Mặt khác:
+\begin{align*}
+P & = 2t^3+2t^2-xy+\sqrt{x^2+1}+\sqrt{y^2+1} \\ 
+& \geq 2t^3+2t^2-\dfrac{t^2}{4}(6t+5)+\sqrt{t^2+4}
+\end{align*}
+hay
+$$4P \geq 2t^3+3t^2 + 4\sqrt{t^2+4}$$
+Xét hàm số $f(t)=2t^3+3t^2 + 4\sqrt{t^2+4}$ với $t$ thỏa mãn $\eqref{the6}$. Ta có:
+$$f'(t) = 6t^2+6t+\dfrac{4t}{\sqrt{t^2+4}} \geq 0, \quad \forall t \text{  thỏa mãn } \eqref{the6}$$
+Suy ra:
+$$f(t) \geq \max \lbrace f(0); f(1) \rbrace = f(0)=8$$
+Vậy $4P \geq 8$. Hay $\min P =2$ khi 
+$$\va{x=y\geq 0 \\ x+y=0} \Leftrightarrow x= y = 0.$$
+\section{THPT Nguyễn Trung Thiên lần 1}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho tam giác $ABC$ có trung điểm cạnh $BC$ là $M(3;-1)$. Điểm $E(-1;-3)$ nằm trên đường thẳng $\Delta$ chứa đường cao đi qua đỉnh $B$. Đường thẳng $AC$ đi qua $F(1;3)$. Tìm tọa độ các đỉnh của tam giác $ABC$, biết đường tròn ngoại tiếp tam giác $ABC$ có đường kính $AD$ với $D(4;-2)$.}
+\lgi
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\draw[->,color=black] (-1.56,0.) -- (5.56,0.);
+\foreach \x in {-1,1,2,3,4,5}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0.,-3.14) -- (0.,3.48);
+\foreach \y in {-3,-2,-1,1,2,3}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-1.56,-3.14) rectangle (5.56,3.48);
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (2.85,0.85) -- (3.,0.7) -- (3.15,0.85) -- (3.,1.) -- cycle; 
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (4.85,-0.85) -- (4.7,-1.) -- (4.85,-1.15) -- (5.,-1.) -- cycle; 
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (1.2012461179749812,-1.0670820393249938) -- (1.2683281572999747,-0.8658359213500126) -- (1.0670820393249938,-0.7987538820250188) -- (1.,-1.) -- cycle; 
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (1.601246117974981,0.1329179606750063) -- (1.6683281572999746,0.33416407864998743) -- (1.4670820393249937,0.4012461179749811) -- (1.4,0.2) -- cycle; 
+\draw [color=uququq] (1.,-1.)-- (2.,2.);
+\draw [color=uququq] (5.,-1.)-- (1.,-1.);
+\draw [color=uququq] (2.,2.)-- (5.,-1.);
+\draw [color=uququq,domain=-1.56:5.56] plot(\x,{(-4.--2.*\x)/2.});
+\draw [color=uququq,domain=-1.56:5.56] plot(\x,{(--12.-3.*\x)/3.});
+\draw [color=uququq] (3.,0.) circle (2.23606797749979cm);
+\draw [color=uququq] (2.,0.)-- (5.,-1.);
+\draw [color=uququq] (5.,-1.)-- (4.,-2.);
+\draw [color=uququq] (4.,-2.)-- (1.,-1.);
+\draw [color=uququq] (2.,0.)-- (4.,-2.);
+\draw [color=uququq] (1.4,0.2)-- (5.,-1.);
+\begin{normalsize}
+\draw [fill=uququq] (2.,2.) circle (1.5pt);
+\draw[color=uququq] (2.14,2.28) node {$A$};
+\draw [fill=uququq] (1.,-1.) circle (1.5pt);
+\draw[color=uququq] (0.74,-0.92) node {$B$};
+\draw [fill=uququq] (5.,-1.) circle (1.5pt);
+\draw[color=uququq] (5.34,-0.82) node {$C$};
+\draw [fill=uququq] (4.,-2.) circle (1.5pt);
+\draw[color=uququq] (4.1,-2.18) node {$D$};
+\draw [fill=uququq] (-1.,-3.) circle (1.5pt);
+\draw[color=uququq] (-0.86,-2.72) node {$E$};
+\draw [fill=uququq] (1.,3.) circle (1.5pt);
+\draw[color=uququq] (1.14,3.28) node {$F$};
+\draw [fill=uququq] (2.,0.) circle (1.5pt);
+\draw[color=uququq] (1.96,0.34) node {$H$};
+\draw [fill=uququq] (3.,-1.) circle (1.5pt);
+\draw[color=uququq] (3.14,-0.72) node {$M$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Gọi $H$ là trực tâm của tam giác $ABC$. Khi đó:
+$$\va{BH // CD \\ BD // CH} \Rightarrow BDCH \text{ là hình bình hành} \Rightarrow M \text{ là trung điểm } DH \Rightarrow H(2;0)$$
+Đường thẳng $AC$ đi qua $F(1;3)$ và nhận $\vt{HE}=(-3;-3)$ là vectơ pháp tuyến nên có phương trình: $x+y-4=0$.\\
+Đường cao $BH$ có phương trình: $x-y-2=0$.\\
+Giả sử $B(b;b-2), C(c;4-c)$. Do $M$ là trung điểm $BC$ nên:
+$$\va{b+c=6\\b-c+2=-2}\Leftrightarrow\va{b=1\\c=5}$$
+Vậy $B(1;-1), C(5;-1)$.\\
+Đường cao $AH$ đi qua $H$ và vuông góc với $BC$ nên có phương trình $x=2$. \\
+Tọa độ của $A$ là nghiệm của hệ phương trình:
+$$\va{x=2 \\ x+y+4=0 }\Leftrightarrow \va{x=2\\y=2}$$
+Vậy $A(2;2)$
+\deda{
+Giải phương trình \\
+\cl{ $(x+2)\left(\sqrt{x^2+4x+7}+1 \right) + x\left(\sqrt{x^2+3}+1\right)=0$}
+}
+\lgi
+Phương trình đã cho tương đương với:
+$$(x+2)\left(\sqrt{(x+2)^2+3}+1 \right) = -x\left(\sqrt{x^2+3}+1\right) \Leftrightarrow f(x+2)=f(-x)$$
+Trong đó $f(t) = t\left(\sqrt{t^2+3}+1\right)$.\\
+Ta có
+$$f'(t) = 1+ \sqrt{t^2+3}+\dfrac{t^2}{\sqrt{t^2+3}} > 0, \quad \forall t \in \mathbb{R}$$
+Do đó hàm số $f(t)$ đồng biến trên $\mathbb{R}$. Khi đó:
+$$f(x+2)=f(-x) \Leftrightarrow x+2 = -x \Leftrightarrow x= -1$$
+Vậy phương trình đã cho có nghiệm duy nhất $x=-1$.
+\deda{
+Cho $x,y,z$ là các số thực dương thỏa mãn $x^2+y^2+z^2=3$.\\
+Tìm giá trị nhỏ nhất của biểu thức:\\
+\cl{$P=\dfrac{x}{(y+z)^2}+\dfrac{y}{(x+z)^2}+\dfrac{z}{(x+y)^2}$}
+}
+\lgi
+Từ giả thiết suy ra $0<x,y,z<\sqrt{3}$. \\
+Ta chứng minh $\dfrac{x}{2(3-x^2)} \geq \dfrac{1}{4}x^2$. \\
+Thật vậy:
+$$\dfrac{x}{2(3-x^2)} \leq \dfrac{1}{4}x^2 \Leftrightarrow 2 \geq x(3-x^2) \Leftrightarrow (x-1)^2(x+2) \geq 0 \quad \text{(luôn đúng)}$$
+Ta có:
+$$(y+z)^2\leq 2(y^2+x^2) = 2(3-x^2) \Rightarrow \dfrac{x}{(y+z)^2} \geq \dfrac{x}{2(3-x^2)} \geq \dfrac{1}{4}x^2$$
+Tương tự:
+$$\dfrac{y}{2(3-y^2)} \geq \dfrac{1}{4}y^2; \quad \dfrac{z}{2(3-z^2)} \geq \dfrac{1}{4}z^2$$
+Từ đó suy ra:
+$$P=\dfrac{x}{(y+z)^2}+\dfrac{y}{(x+z)^2}+\dfrac{z}{(x+y)^2} \geq \dfrac{1}{4}(x^2+y^2+z^2)=\dfrac{3}{4}$$
+Dấu "$=$" xảy ra khi và chỉ khi $x=y=z=1$.\\
+Vậy $\min P=\dfrac{3}{4}$.
+
+\section{THPT Lam Kinh}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho hình bình hành $ABCD$ có diện tích bằng 4. Biết $A(1;0), B(0;2)$ và tâm $I$ của hình bình hành nằm trên đường thẳng $y=x$. Tìm tọa độ các đỉnh $C$ và $D$.}
+\lgi
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(0.62,-0.02) rectangle (9.16,3.5);
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (1.8516806551121867,1.8920798362219524) -- (1.9031302306549396,2.097878138392963) -- (1.6973319284839288,2.149327713935716) -- (1.6458823529411761,1.943529411764705) -- cycle; 
+\draw [color=uququq] (1.92,3.04)-- (8.82,3.04);
+\draw [color=uququq] (8.14,0.32)-- (8.82,3.04);
+\draw [color=uququq] (1.24,0.32)-- (8.82,3.04);
+\draw [color=uququq] (8.14,0.32)-- (1.92,3.04);
+\draw [color=uququq] (1.92,3.04)-- (1.24,0.32);
+\draw [color=uququq] (1.24,0.32)-- (8.14,0.32);
+\draw [color=uququq] (8.14,0.32)-- (1.6458823529411761,1.943529411764705);
+\begin{normalsize}
+\draw [fill=uququq] (1.92,3.04) circle (1.5pt);
+\draw[color=uququq] (2.06,3.32) node {$A$};
+\draw [fill=uququq] (8.82,3.04) circle (1.5pt);
+\draw[color=uququq] (8.96,3.32) node {$B$};
+\draw [fill=uququq] (8.14,0.32) circle (1.5pt);
+\draw[color=uququq] (8.48,0.2) node {$C$};
+\draw [fill=uququq] (1.24,0.32) circle (1.5pt);
+\draw[color=uququq] (0.86,0.36) node {$D$};
+\draw [fill=uququq] (5.03,1.68) circle (1.5pt);
+\draw[color=uququq] (5.16,1.96) node {$I$};
+\draw [fill=uququq] (1.6458823529411761,1.943529411764705) circle (1.5pt);
+\draw[color=uququq] (1.3,2.1) node {$H$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Ta có $\vt{AB}=(-1;2) \Rightarrow AB= \sqrt{5}$. Phương trình đường thẳng $AB$ là: $2x+y-2=0$.\\
+Giả sử  $I(t;t) \in (d): y=x$. Vì $I$ là trung điểm $AC$ và $BD$ nên ta có: $C(2t-1;2t), D(2t;2t-2)$. \\
+Gọi $CH$ là đường cao kẻ từ $C$ của hình bình hành. Theo giả thiết:
+$$S_{ABCD} = AB.CH = 4 \Rightarrow CH = \dfrac{4}{\sqrt{5}}$$
+Ta có:
+$$d_{(C;AB)}=CH \Leftrightarrow \dfrac{|6t-4|}{\sqrt{5}} = \dfrac{4}{\sqrt{5}} \Leftrightarrow \hay{t=\dfrac{4}{3} \\ t=0}$$
+Vậy $C\left(\dfrac{5}{3}; \dfrac{8}{3} \right), D\left(\dfrac{8}{3};\dfrac{2}{3} \right)$ hoặc $C(-1;0),D(0;-2)$. 
+\deda{
+Giải hệ phương trình \\
+\cl{ $\va{x^2+y^2+xy+1=4y\\y(x+y)^2=2x^2+7y+2}$
+}} 
+\lgi
+Nhận xét: Hệ đã cho không có nghiệm dạng $(x_0;0)$.\\
+Với $y \neq 0$, ta có:
+$$HPT \Leftrightarrow \va{\dfrac{x^2+1}{y}+x+y=4\\(x+y)^2-2\dfrac{x^2+1}{y}=7}$$
+Đặt $u=\dfrac{x^2+1}{y}, v=x+y$, ta có hệ phương trình:
+$$\va{u+v=4\\v^2-2u=7} \Leftrightarrow \va{u=4-v\\v^2-2v-15=0} \Leftrightarrow \hay{v=3;u=1\\v=-5;u=9}$$
+\begin{itemize}
+\item với $u=1;v=3$, ta có:
+$$\va{x^2+1=y \\ x+y=3} \Leftrightarrow \va{ x^2+1=y\\y=3-x} \Leftrightarrow \va{x^2+x-2 =0\\y=3-x} \Leftrightarrow \hay{x=1;y=2\\x=-2;y=5}$$
+\item với $u=9;v=-5$, ta có:
+$$\va{x^2+1=9y \\ x+y=-5} \Leftrightarrow \va{ x^2+1=y\\y=-5-x} \Leftrightarrow \va{x^2+9x+46 =0\\y=3-x}\quad \text{(vô nghiệm)}$$
+\end{itemize}
+Vậy hệ phương trình đã cho có hai nghiệm: $(1;2),(-2;-5)$.
+
+\deda{
+Cho $a,b,c$ là ba cạnh của một tam giác. Chứng minh rằng:\\
+\begin{equation}\label{the7}
+a\left(\dfrac{1}{3a+b}+\dfrac{1}{3a+c}+\dfrac{1}{2a+b+c}\right)+\dfrac{b}{3a+c}+\dfrac{c}{3a+b}< 2
+\end{equation}
+}
+\lgi
+Vì $a,b,c$ là các cạnh của 1 tam giác nên: $\va{a+b>c\\b+c>a\\c+a>b}$.\\
+Đặt $\va{\dfrac{a+b}{2}=x\\ \dfrac{c+a}{2}=y\\a=z}, (x,y,z>0)$. Ta có: $\va{x+y>z\\y+z>x\\z+x>y}$.\\
+Khi đó:
+$$VT\eqref{the7} = \dfrac{a+b}{3a+c}+\dfrac{a+c}{3a+b}+\dfrac{2a}{2a+b+c} = \dfrac{x}{y+z}+\dfrac{y}{z+x}
++\dfrac{z}{x+y}$$
+Ta có:
+$$x+y>z \Leftrightarrow z(x+y+z) < 2z(x+y) \Leftrightarrow \dfrac{2z}{x+y+z}> \dfrac{z}{x+y}$$
+Tương tự:
+$$ \dfrac{x}{y+z}< \dfrac{2x}{x+y+z}; \quad \dfrac{y}{z+x}< \dfrac{2y}{x+y+z}$$
+Do đó:
+$$\dfrac{x}{y+z}+\dfrac{y}{z+x}+\dfrac{z}{x+y} < \dfrac{2(x+y+z)}{x+y+z}=2$$
+Vậy:
+$$a\left(\dfrac{1}{3a+b}+\dfrac{1}{3a+c}+\dfrac{1}{2a+b+c}\right)+\dfrac{b}{3a+c}+\dfrac{c}{3a+b}< 2 \quad \text{(đpcm)}.$$
+\section{THPT Cù Huy Cận (Hà Tĩnh)}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho hình chữ nhật $ABCD$ có điểm $A$ thuộc đường thẳng $d_1:x-y-4=0$, điểm $C(-7;5)$, $M$ là điểm thuộc $BC$ sao cho $MB=3MC$, đường thẳng đi qua $D$ và $M$ có phương trình $d_2:3x-y+18=0$. Xác định tọa độ đỉnh $A,B$ biết điểm $B$ có tung độ dương.}
+\lgi
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\definecolor{cqcqcq}{rgb}{0.7529411764705882,0.7529411764705882,0.7529411764705882}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm,scale=.8]
+\draw [color=cqcqcq,, xstep=2.0cm,ystep=2.0cm] (-7.739969965645188,-1.5091351013238792) grid (6.146542543932531,7.706459564123083);
+\draw[->,color=black] (-7.739969965645188,0.) -- (6.146542543932531,0.);
+\foreach \x in {-6,-4,-2,2,4,6}
+\draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt) node[below] {\footnotesize $\x$};
+\draw[->,color=black] (0.,-1.5091351013238792) -- (0.,7.706459564123083);
+\foreach \y in {,2,4,6}
+\draw[shift={(0,\y)},color=black] (2pt,0pt) -- (-2pt,0pt) node[left] {\footnotesize $\y$};
+\draw[color=black] (0pt,-10pt) node[right] {\footnotesize $0$};
+\clip(-7.739969965645188,-1.5091351013238792) rectangle (6.146542543932531,7.706459564123083);
+\draw [color=uququq] (-7.,5.)-- (4.2,6.6);
+\draw [color=uququq] (4.2,6.6)-- (5.,1.);
+\draw [color=uququq] (5.,1.)-- (-6.2,-0.6);
+\draw [color=uququq] (-6.2,-0.6)-- (-7.,5.);
+\draw [color=uququq,domain=-7.739969965645188:6.146542543932531] plot(\x,{(-36.-6.*\x)/-2.});
+\draw [color=uququq,domain=-7.739969965645188:6.146542543932531] plot(\x,{(--4.-1.*\x)/-1.});
+\draw [color=uququq] (-7.,5.)-- (5.,1.);
+\draw (5.389096407046474,2.867220356239975) node[anchor=north west] {$d_1$};
+\draw (-5.50971189592513,1.4785691052822136) node[anchor=north west] {$d_2$};
+\begin{normalsize}
+\draw [fill=uququq] (-7.,5.) circle (1.5pt);
+\draw[color=uququq] (-7.445407579078388,5.434121153464928) node {$C$};
+\draw [fill=uququq] (5.,1.) circle (1.5pt);
+\draw[color=uququq] (5.473257088922702,1.0156853549629599) node {$A$};
+\draw [fill=uququq] (4.2,6.6) circle (1.5pt);
+\draw[color=uququq] (4.505409247346074,7.201495472865715) node {$B$};
+\draw [fill=uququq] (-6.2,-0.6) circle (1.5pt);
+\draw[color=uququq] (-6.814202465006674,-0.6254479416234855) node {$D$};
+\draw [fill=uququq] (-4.2,5.4) circle (1.5pt);
+\draw[color=uququq] (-4.583944395286616,6.149486949412866) node {$M$};
+\draw [fill=uququq] (-4.6,4.2) circle (1.5pt);
+\draw[color=uququq] (-4.33146234965793,3.7929878568784825) node {$I$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Giả sử $A(t;t-4) \in d_1$. Gọi $I = AC \cap DM$. Ta có: 
+$$\triangle IAD \sim \triangle ICM \Rightarrow \dfrac{IA}{IC}
+= \dfrac{AD}{CM} = 4 \Rightarrow \vt{IA}=-4\vt{IC}$$ 
+Giả sử $I(x;y)$, ta có: $\vt{IA}=(t-x;t-4-y); \vt{IC}=(-7-x;5-y)$. Khi đó:
+$$ \vt{IA}=-4\vt{IC} \Leftrightarrow \va{t-x=48+4x \\ t-4-y=-20+4y} \Leftrightarrow \va{x=\dfrac{t-28}{5}\\ y=\dfrac{t+16}{5}}$$
+Suy ra: $I\left( \dfrac{t-28}{5}; \dfrac{t+16}{5}\right)$.\\
+Vì $I \in DM$ nên:
+$$3\dfrac{t-28}{5}-\dfrac{t+16}{5}+18=0 \Leftrightarrow t=5$$
+Vậy $A(5;1)$.\\
+Từ giả thiết suy ra $\vt{CB}=4\vt{CM}$.\\ Giả sử $M(u;3u+18) \in d_2, B(a;b)$. Ta có: $\vt{CB}=(a+7;b-5);\vt{CM}=(u+7;3u+13)$.  Khi đó:
+$$\vt{CB}=4\vt{CM} \Leftrightarrow \va{a+7=4u+28\\b-5=12u+52} \Rightarrow B(4u+21;12u+57)$$
+Ta có: $\vt{CB}=(4u+28;12u+52);\vt{AB}=(4u+16;12u+56)$.\\
+Vì $ABCD$ là hình chữ nhật nên: 
+\begin{align*}
+\vt{CB}.\vt{AB}=0 & \Leftrightarrow 16(u+7)(u+4)+16(3u+13)(3u+14)=0 \\
+& \Leftrightarrow 5u^2+46u+105=0 \\
+&\Leftrightarrow \hay{u=-\dfrac{21}{5}\\u=-5}
+\end{align*}
+\begin{itemize}
+\item Với $u=-\dfrac{21}{5}$, ta có $B\left(\dfrac{21}{5}; \dfrac{33}{5}\right)$
+\item Với $u=-5$, ta có: $B(1;-3)$ không thỏa mãn.
+\end{itemize}
+Vậy $A(5;1), B\left(\dfrac{21}{5}; \dfrac{33}{5}\right)$.
+ 
+
+\deda{
+Giải hệ phương trình \\
+\cl{ $\va{x^2+2x-3=x+3\sqrt{x+y+3}\\6x^2+2xy+2\left(\sqrt{x}-1\right)\left(\sqrt{x}=1\right)=3(x^2-y-4)\sqrt[3]{2x^2+xy+3x+2}
+}$}}
+ĐK: $\va{x+y+3 \geq 0 \\ x \geq 0}$.\\
+Từ phương trình đầu của hệ, ta có:
+$$x^3+3x=x+y+3+3\sqrt{x+y+3} \Leftrightarrow f(x) = f\left( \sqrt{x+y+3} \right)$$
+Trong đó $f(t) = t^2+3t, \quad (t \geq 0)$. Ta có:
+$$f'(t) = 2t+3 >0, \quad \forall t \geq 0$$
+Hàm số $f(t)$ đồng biến trên $[0;+\infty)$. Do đó:
+$$f(x) = f\left( \sqrt{x+y+3} \right) \Leftrightarrow x = \sqrt{x+y+3} \Leftrightarrow y = x^2-x-3$$
+Thay vào phương trình thứ hai của hệ, ta có:
+\begin{align*}
+& 2x^3+6x^2-6x-2=3(x-1)\sqrt[3]{x^3+x^2+2} \\ \Leftrightarrow & (x-1) \left( 2x^2+6x+2-3 \sqrt[3]{x^3+x^2+2}\right) = 0 \\ \Leftrightarrow & \hay{x=1 \\ 2x^2+6x+2-3\sqrt[3]{x^3+x^2+2} = 0}
+\end{align*}
+\begin{itemize}
+\item Với $x=1$, ta có $y=-3$.
+\item Ta có:
+\begin{align*}
+& 2x^2+6x+2-3\sqrt[3]{x^3+x^2+2} = 0\\
+\Leftrightarrow & (x+1)^3+3(x+1) = x^3+x^2+2+3\sqrt[3]{x^3+x^2+2} \\ \Leftrightarrow & g(x+1) = g\left(\sqrt[3]{x^3+x^2+2}\right)
+\end{align*}
+Trong đó $g(t) = t^3+3t$. \\
+Ta có:
+$$g'(t) = 3t^2+3 > 0, \quad \forall t \in \mathbb{R}$$
+Suy ra hàm số $g(t)$ đồng biến trên $\mathbb{R}$. Do đó:
+\begin{align*}
+g(x+1) = g\left(\sqrt[3]{x^3+x^2+2}\right) & \Leftrightarrow
+x+1 =  \sqrt[3]{x^3+x^2+2} \\ & \Leftrightarrow 2x^2+3x-1=0 \\ & \Leftrightarrow \hay{x=\dfrac{-3+\sqrt{11}}{4} \\ x=\dfrac{-3-\sqrt{11}}{4} \quad \text{(loại)}}
+\end{align*}
+Với $x=\dfrac{-3\sqrt{11}}{4}$, ta có $y= \dfrac{-8-5\sqrt{11}}{8}$.
+\end{itemize}
+Vậy hệ phương trình đã cho có nghiệm: $(1;3), \left(\dfrac{-3\sqrt{11}}{4};\dfrac{-8-5\sqrt{11}}{8} \right)$
+\deda{
+Cho $x,y$ là các số thực thỏa mãn: $4x^2+y^2 \leq 8$. Tìm giá trị lớn nhất, giá trị nhỏ nhất của:
+\cl{$P=\dfrac{(2x+6)^2+(y+6)^2+4xy-32}{2x+y+6}$}
+}
+\lgi
+Ta có:
+\begin{align*}
+& 8 \geq 4x^2+y^2 \geq \dfrac{(2x+y)^2}{2} \\
+& \Leftrightarrow (2x+y)^2 \leq 16 \\
+& \Leftrightarrow -4 \leq 2x+y \leq 4 \\
+& \Leftrightarrow 2 \leq 2x +y +6 \leq 10
+\end{align*}
+Đặt $t=2x+y+6, t \in [2;10]$. Khi đó:
+$$P=2x+y+6 +\dfrac{4}{2x+y+6} = f(t) $$
+Xét hàm số: $f(t) = t+ \dfrac{4}{t}, \quad t \in [2;10]$. Ta có:
+$$f'(t)=1-\dfrac{4}{t^2}; \quad f'(t) = 0 \Leftrightarrow \hay{t=2 \\ t=-2 \quad \text{(loại)}}; \quad f(2)=4; f(10)=\dfrac{52}{5}.$$
+Vậy 
+$$\max P = \dfrac{52}{5} \Leftrightarrow  \va{x=1\\y=2}; \quad \min P = 4 \Leftrightarrow \va{x=-1\\y=-2}.$$
+\section{THPT Đa Phúc (Hà Nội)}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho hình vuông $ABCD$ có $E,F\left(\dfrac{11}{2};3\right)$ lần lượt là trung điểm $AB,AD$. Gọi $K$ là điểm thuộc cạnh $CD$ sao cho $KD=3KC$. Phương trình đường thẳng $EK:19x-8y-18=0$. Xác định tọa độ đỉnh $C$, biết điểm $E$ có hoành độ nhỏ hơn 3.}
+\lgi
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(1.8418411303797217,-5.820467629577106) rectangle (8.290207277897101,0.6278985179402793);
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (5.330453266118444,-1.64181306447378) -- (5.0381486835334,-1.7148892101200408) -- (5.111224829179662,-2.0071937927050842) -- (5.403529411764705,-1.9341176470588235) -- cycle; 
+\draw [color=uququq] (2.38,-0.12)-- (7.52,-0.12);
+\draw [color=uququq] (2.38,-0.12)-- (2.38,-5.26);
+\draw [color=uququq] (2.38,-5.26)-- (7.52,-5.26);
+\draw [color=uququq] (7.52,-5.26)-- (7.52,-0.12);
+\draw [color=uququq] (2.38,-0.12)-- (7.52,-5.26);
+\draw [color=uququq] (2.38,-2.69)-- (4.95,-0.12);
+\draw [color=uququq] (4.95,-0.12)-- (6.235,-5.26);
+\draw [color=uququq,domain=1.8418411303797217:8.290207277897101] plot(\x,{(-16.8849--1.285*\x)/5.14});
+\begin{normalsize}
+\draw [fill=uququq] (2.38,-0.12) circle (1.5pt);
+\draw[color=uququq] (2.580420512914752,0.2870157260010343) node {$A$};
+\draw [fill=uququq] (7.52,-0.12) circle (1.5pt);
+\draw[color=uququq] (7.722069291331693,0.2870157260010343) node {$B$};
+\draw [fill=uququq] (7.52,-5.26) circle (1.5pt);
+\draw[color=uququq] (7.892510687301315,-5.167108945026886) node {$C$};
+\draw [fill=uququq] (2.38,-5.26) circle (1.5pt);
+\draw[color=uququq] (2.0122825263493445,-5.3659572403247795) node {$D$};
+\draw [fill=uququq] (2.38,-2.69) circle (1.5pt);
+\draw[color=uququq] (2.0975032243341554,-2.3264190121998447) node {$F$};
+\draw [fill=uququq] (4.95,-0.12) circle (1.5pt);
+\draw[color=uququq] (5.137041452459087,0.2870157260010343) node {$E$};
+\draw [fill=uququq] (3.665,-1.405) circle (1.5pt);
+\draw[color=uququq] (3.6314757880607567,-0.9060740457863234) node {$I$};
+\draw [fill=uququq] (6.235,-5.26) circle (1.5pt);
+\draw[color=uququq] (6.443758821559525,-4.854633052415911) node {$K$};
+\draw [fill=uququq] (5.806666666666667,-3.5466666666666664) circle (1.5pt);
+\draw[color=uququq] (6.01765533163547,-3.150219092719687) node {$P$};
+\draw [fill=uququq] (5.403529411764705,-1.9341176470588235) circle (1.5pt);
+\draw[color=uququq] (5.591551841711413,-1.5310258310082725) node {$H$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Từ giả thiết, ta có cạnh của hình vuông bằng $5$ và $EF=\dfrac{5\sqrt{2}}{5}$.\\
+Phương trình đường tròn tâm $F$, bán kính $FE$ là
+$$\left(x-\dfrac{11}{2}\right)^2+\left(y-3\right)^3 = \dfrac{25}{2}$$
+Tọa độ điểm $E$ là thỏa mãn hệ phương trình:
+$$\va{\left(x-\dfrac{11}{2}\right)^2+\left(y-3\right)^3 = \dfrac{25}{2} \\ 19x-8y-18=0} \Rightarrow \va{x=2 \\ y=\dfrac{5}{2}}$$
+Vậy $E(\left(2;\dfrac{5}{2}\right)$.\\
+Đường thẳng $AC$ đi qua trung điểm $I$ của $EF$ và vuông góc với $EF$ nên có phương trình: $7x+y-29=0$.\\
+Đặt $P = AC \cap EK$. Tọa độ của $P$ là nghiệm của hệ phương trình:
+$$\va{7x+y-29=0 \\ 19x-8y-18=0} \Leftrightarrow \va{x=\dfrac{10}{3} \\y = \dfrac{17}{3}}$$
+Vậy $P \left(\dfrac{10}{3};\dfrac{17}{3}\right)$.\\
+Dễ thấy $\vt{IC}=\dfrac{9}{5}\vt{IP}$ nên $C(3;8)$.
+\deda{
+Giải hệ phương trình \\
+\cl{ $\va{\sqrt{\dfrac{x^2+y^2}{2}}+\sqrt{\dfrac{x^2+xy+y^2}{3}}=x+y\\x\sqrt{2xy+5x+3}=4xy-5x-3}$}}
+\lgi
+Điều kiện: $2xy+5x+3 \geq 0$. \\
+Ta có:
+$$\sqrt{\dfrac{x^2+y^2}{2}}+\sqrt{\dfrac{x^2+xy+y^2}{3}} \geq \dfrac{|x+y|}{2}+\dfrac{|x+y|}{2} = |x+y| \geq x+y$$
+\\
+Do đó phương trình đầu của hệ tương đương với:
+$$x=y\geq 0$$
+Thay vào phương trình thứ hai của hệ ta được:
+\begin{align*}
+& 6x^2-x\sqrt{2x^2+5x+3}-(2x^2+5x+3)=0 \\
+\Leftrightarrow & \hay{x=\dfrac{1}{2}\sqrt{2x^2+5x+3} \\ x = -\dfrac{1}{3}\sqrt{2x^2+5x+3} \quad \text{(phương trình vô nghiệm)}} \\
+\Leftrightarrow & \hay{x=3 \\x=-\dfrac{1}{2} \quad \text{(loại)}}
+\end{align*} 
+Từ $x=3$ suy ra $y=3$. \\
+Hệ đã cho có nghiệm duy nhất $(3;3)$.
+\deda{
+Cho $a,b, c$ là các số thực đôi một phân biệt thỏa mãn: $\va{a+b+c=1\\ab+bc+ca>0}$. Tìm giá trị nhỏ nhất của:
+\\
+\cl{$P=2\left(\sqrt{\dfrac{2}{(a-b)^2}+\dfrac{2}{(b-c)^2}}+\dfrac{1}{|c-a|} \right)+\dfrac{5}{\sqrt{ab+bc+ca}}$}
+}
+\lgi
+Ta có:
+$$\dfrac{x^2+y^2}{2}\geq \left(\dfrac{x+y}{2}\right)^2, \quad \forall x, y$$
+$$\dfrac{1}{x}+\dfrac{1}{y} \geq \dfrac{4}{x+y} \geq \dfrac{2\sqrt{2}}{\sqrt{x^2+y^2}}, \quad \forall x, y > 0$$
+Dấu "$=$ xảy ra khi và chỉ khi $x=y$.
+Mặt khác:
+$$P \geq \dfrac{2}{|a-b|}+\dfrac{2}{|b-c|}+\dfrac{2}{|c-a|}+\dfrac{5}{\sqrt{ab+ac+ca}}$$
+Giả sử: $a>b>c$. Khi đó:
+$$P \geq \dfrac{10}{|a-c}+\dfrac{10}{2\sqrt{ab+ac+ca}} \geq \dfrac{10\sqrt{2}}{\sqrt{(1-b)(1+3b)}}$$
+Ta có:
+$$(1-b)(1+3b)=\dfrac{1}{3}(3-3b)(1+3b) \leq \dfrac{4}{3}$$
+$\Rightarrow P \geq 10\sqrt{6}$.\\
+Vậy $\min P = 10\sqrt{6}$ khi và chỉ khi $a=\dfrac{2+\sqrt{6}}{6}, b=\dfrac{1}{2}, c=\dfrac{2-\sqrt{6}}{6}$ và các hoán vị.
+\section{THPT Lạng Giang I (Bắc Giang)}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho tam giác $ABC$. Gọi $E, F$ lần lượt là chân đường cao hạ từ $B,C$. Tìm tọa độ điểm $A$, biết $E(7;1), F\left( \dfrac{11}{5};\dfrac{13}{5} \right)$, phương trình đường thẳng $BC$ là $x+3y-4=0$ và điểm $B$ có tung độ dương.}
+\hda
+Gọi $K$ là trung điểm của $BC$. Khi đó, vì $K \in BC$ nên $K(4-3t;t)$.\\
+Vì $\widehat{BEC}=\widehat{BFC}=90^o$ nên $$KE=KF \Leftrightarrow (3+3t)^2+(t-1)^2 = \left(\dfrac{9}{5}-3t\right)^2 +\left(-\dfrac{13}{5}\right)^2 \Leftrightarrow t = 0$$
+Vậy $K(4;0)$.\\
+Vì $B\in BC$ nên $B(4-3b;b), b> 0$. Do $\widehat{BEC}=90^o$ nên $KB=KE$. Từ đó, tính được $B(1;1)$.\\
+Sử dụng tính chất trung điểm của $K$, ta tìm được $C(7;-1)$. \\
+Khi đó: $CE:x=7; \quad BF:4x-3y-1=0$.\\
+Vì $A=BF \cap CE$ nên $A(7;9)$
+\deda{
+Giải hệ phương trình \\
+\begin{equation} \label{the8}
+\va{(xy+3)^2+(x+y)^2=8 \\ \dfrac{x}{x^2+1}+\dfrac{y}{y^2+1}=-\dfrac{1}{4}}
+\end{equation}
+}
+\lgi
+Nhận xét: $(0;0)$ không phải là nghiệm của hệ.\\
+Với $x\neq 0, y\neq 0$, ta có:
+$$\eqref{the8} \Leftrightarrow \va{\dfrac{x^2+1}{x}.\dfrac{y^2+1}{y}=-8 \\ \dfrac{x}{x^2+1}+\dfrac{y}{y^2+1}=-\dfrac{1}{4}}$$
+Đặt $a=\dfrac{x^2+1}{x}, b=\dfrac{y^2+1}{y}$, ta được hệ phương trình:
+$$\va{a+b=-\dfrac{1}{4}\\ \dfrac{1}{ab}=-8} \Leftrightarrow \hay{(a;b) = \left(-\dfrac{1}{2};\dfrac{1}{4}\right) \\(a;b) = \left(\dfrac{1}{4};-\dfrac{1}{2}\right)}.$$
+Ta có hai trường hợp:
+\begin{itemize}
+\item $\va{a=-\dfrac{1}{2}\\b=\dfrac{1}{4}} \Leftrightarrow \va{x=-1 \\y=2\pm \sqrt{3}}$
+\item $\va{a=\dfrac{1}{4}\\b=-\dfrac{1}{2}} \Leftrightarrow \va{x=2\pm \sqrt{3} \\y=-1}$
+\end{itemize}
+Vậy hệ phương trình đã cho có 4 nghiệm:
+$$\left(-1;2\pm \sqrt{3}\right), \left(2\pm \sqrt{3};-1\right)$$
+
+
+\deda{
+Cho các số thực dương $x,y,z$. Tìm giá trị lớn nhất của biểu thức:\\
+\cl{$P=\dfrac{1}{\sqrt{x^2+y^2+z^2+4}}-\dfrac{8}{(x+2)(y+2)(z+2)}$}
+}
+\lgi
+Với mọi số thực dương $x,y,z$, ta có:
+$$x^2+y^2\geq \dfrac{(x+y)^2}{2}; \quad z^2+4 \geq \dfrac{(z+2)^2}{2}$$
+Suy ra:
+\begin{align*}
+& x^2+y^2+z^2+4 \geq \dfrac{1}{2}\left[(x+y)^2+(z+2)^2\right] \\
+\Rightarrow & x^2+y^2+z^2+4 \geq \dfrac{1}{2}\left(x+y+z+2\right)^2\\
+\Rightarrow & \dfrac{1}{\sqrt{x^2+y^2+z^2+4}} \leq \dfrac{2}{x+y+z+2}
+\end{align*}
+Mặt khác
+$$(x+2)(y+2)(z+2) \leq \dfrac{(x+y+z+6)^3}{27} $$
+$$ \Rightarrow - \dfrac{8}{(x+2)(y+2)(z+2)} \leq - \dfrac{216}{(x+y+z+6)^3}, \forall x, y, z > 0$$
+Do đó:
+$$P \leq \dfrac{2}{x+y+z+2}-\dfrac{216}{(x+y+z+6)^3}, \quad  \forall x, y, z > 0$$
+Đặt $t=x+y+z+2, t > 2$. Khi đó:
+$$P \leq \dfrac{2}{t}-\dfrac{216}{(t+4)^3}=f(t)$$
+Ta có:
+$$f'(t)=\dfrac{648}{(t+1)^4}-\dfrac{2}{t^2}, \forall t > 2;\quad \quad \va{f'(t) = 0 \\ t> 2} \Leftrightarrow t = 8$$
+Bảng biến thiên:
+\[\begin{tabvar}{C|CCCCC}
+t             &2&      &8          &        &+\infty\\
+\hline
+f'(t)         & 0&+     &0          &-       & \\
+\hline
+\niveau{1}{2}f(t)&0&\croit&\dfrac{1}{8}&\decroit&0\\
+\end{tabvar}\]
+Do đó:
+$$P \leq \max f(t) = f(8) = \dfrac{1}{8}$$
+Vậy $\max P = \dfrac{1}{8}$, đạt được khi và chỉ khi $x=y=z=2$.
+\section{THPT Lý Tự Trọng (Khánh Hòa)}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho hai điểm $A(1;2), B(4;1)$ và đường thẳng $d:3x-4y+5=0$. Viết phương trình đường tròn $(C)$ đi qua $A,B$ và cắt đường thẳng $d$ tại $C,D$ sao cho $CD=6$.}
+\lgi
+Nhận xét: Vì $A \in d$ nên $A \equiv C$ hoặc $A\equiv D$. Giả sử $A \equiv C$.\\
+Gọi $I$ là tâm đường tròn $(C)$, bán kính $R>0$. \\
+$(C)$ đi qua $A,B$ nên $I$ thuộc đường trung trực $\Delta$ của $AB$. Ta có phương trình của $\Delta: 3x-y-6=0.$ Khi đó: $I(a;3a-6).$\\
+Gọi $H$ là trung điểm $BC$, ta có:
+\begin{align*}
+IA=IC & \Leftrightarrow IA = \sqrt{CH^2+d_{(I,d)}^2} \\
+& \Leftrightarrow \sqrt{10a^2-50a+65} = \sqrt{9 + \dfrac{(9a-29)^2}{25}} \\
+& \Leftrightarrow 13a^2-56a+43 = 0 \\
+& \Leftrightarrow \hay{a=1\\a=\dfrac{43}{13}}
+\end{align*}
+Ta có hai trường hợp:
+\begin{itemize}
+\item $a=1$. Ta có $I(1;-3), R=5$. Phương trình đường tròn $(C)$ có dạng: $$(x-1)^2 +(y+3)^2=25.$$
+\item $a=\dfrac{43}{13}$. Ta có $I \left(\dfrac{43}{13};\dfrac{51}{13}\right), R=\dfrac{5\sqrt{61}}{13}$. Phương trình đường tròn $(C)$ có dạng: $$\left(x-\dfrac{43}{13} \right)^2 + \left(y - \dfrac{51}{13}\right)^2 =\dfrac{5\sqrt{61}}{13}.$$
+\end{itemize}
+\deda{
+Giải hệ phương trình \\
+\cl{ $\va{x^3-6x^2+13x=y^3+y+10 \\ \sqrt{2x+y+5}-\sqrt{3-x-y}=x^3-3x^2-10y+6}$}}
+\lgi
+Điều kiện: $\va{2x+y+5\geq 0\\3-x-y \geq 0}$\\
+Phương trình đầu của hệ tương đương với:
+$$(x-2)^3+(x-2)=y^3+y \Leftrightarrow f(x-2) = f(y)$$
+Trong đó $f(t)=t^3+t$ là hàm số xác định trên $\mathbb{R}$. Ta có:
+$$f'(t)=3t^2+1>0, \quad \forall t \in \mathbb{R}$$
+Suy ra hàm số $f(t)$ đồng biến trên $\mathbb{R}$. Do đó:
+$$f(x-2) = f(y) \Leftrightarrow x-3 =y$$
+Thay vào phương trình thứ hai của hệ, ta có:
+\begin{equation} \label{the9}
+\va{\sqrt{3x+3}-\sqrt{5-2x}=x^3-3x^2-10x+26 \\ -1\leq x \leq \dfrac{5}{2}}
+\end{equation}
+Xét hàm số $g(x) = \sqrt{3x+3}-\sqrt{5-2x}$ trên $\left[ -1; \dfrac{5}{2}\right]$. Ta có:
+$$g'(x) = \dfrac{3}{2\sqrt{3x+3}}+\dfrac{1}{\sqrt{5-2x}} > 0, \quad \forall x \in \left[ -1; \dfrac{5}{2}\right]$$
+Suy ra hàm số $g(x)$ đồng biến trên $\left[ -1; \dfrac{5}{2}\right]$.\\
+Xét hàm số $h(x) = x^3-3x^2-10x+26$ trên $\left[ -1; \dfrac{5}{2}\right]$. Ta có:
+$$h'(x) = 3x^2-6x-10 < 0, \quad \forall x \in \left[ -1; \dfrac{5}{2}\right]$$
+Suy ra hàm số $h(x)$ nghịch biến trên $\left[ -1; \dfrac{5}{2}\right]$.\\
+Mặt khác $g(2)=h(2)-2$. Do đó hệ $\eqref{the9}$ có nghiệm duy nhất $x=2$.\\Vậy hệ phương trình đã cho có nghiệm duy nhất $(2;0)$.
+\deda{
+Cho các số thực không âm $x,y,z$ thỏa mãn điều kiện: $x+y+z=3$. Tìm giá trị nhỏ nhất của biểu thức:\\
+\cl{$P=\dfrac{1}{4+2\ln (1+x)-y}+\dfrac{1}{4+2\ln (1+y)-z}+\dfrac{1}{4+2\ln (1+z)-x}$}
+}
+\lgi
+Áp dụng BĐT Cauchy cho ba số dương $a,b,c$, ta có:
+\begin{equation} \label{the10}
+(a+b+c)\left(\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}\right) \geq 9 \Rightarrow \dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c} \geq \dfrac{9}{a+b+c}
+\end{equation}
+Dấu "$=$" xảy ra khi và chỉ khi $a=b=c$.\\
+Áp dụng $\eqref{the10}$, ta có:
+$$P \geq \dfrac{9}{12+2\ln(1+x)-x+2\ln(1+y)-y=2\ln(1+z)-z}$$
+Xét hàm số $f(t)=2\ln(1+t)-t$ trên $[0;3]$. Ta có:
+$$f'(t) = \dfrac{2}{1+t}-1; \quad f'(t)=0 \Leftrightarrow t=1$$
+$$f(0) = 0; \quad f(1)=\ln 4 -1; \quad f(3) = 4\ln 2 - 3$$
+Do đó:
+$$4\ln 2 - 3 = \min_{[0;3]}f(t) \leq f(t) \leq \max_{[0;3]}f(t) = \ln 4 - 1$$
+Suy ra:
+\begin{align*}
+& 12\ln 2 - 9 \leq f(x) + f(y) + f(z) \leq 3 \ln 4 - 3 \\
+\Rightarrow & 12\ln 2 + 3 \leq f(x) + f(y) + f(z) +12 \leq 9 + 3\ln 4 \\
+\Rightarrow & P \geq \dfrac{9}{12+f(x)+f(y)+f(z)} \geq \dfrac{9}{9+3\ln 4} = \dfrac{3}{3+\ln 4}
+\end{align*}
+Vậy $\min P = \dfrac{3}{3+\ln 4} \Leftrightarrow x=y=z=1$.
+\section{THPT Quảng Hà}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho hình vuông $ABCD$ có đỉnh $A(2;2)$. Biết điểm $M(6;3)$ thuộc cạnh $BC$, điểm $N(4;6)$ thuộc cạnh $CD$. Tìm tọa độ đỉnh $C$.}
+\lgi
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(1.669834384607183,1.6634928372568538) rectangle (6.877756482868159,6.476331190132507);
+\draw[color=uququq,fill=uququq,fill opacity=0.1] (5.809522912160089,6.) -- (5.809522912160089,5.809522912160089) -- (6.,5.809522912160089) -- (6.,6.) -- cycle; 
+\draw [color=uququq] (4.,6.)-- (6.,3.);
+\draw [color=uququq] (5.,4.5) circle (1.8027756377319948cm);
+\draw [color=uququq] (2.,2.)-- (6.,6.);
+\draw [color=uququq] (3.5,3.5)-- (5.,4.5);
+\draw [color=uququq] (2.,2.)-- (2.,6.);
+\draw [color=uququq] (2.,6.)-- (6.,6.);
+\draw [color=uququq] (6.,6.)-- (6.,2.);
+\draw [color=uququq] (6.,2.)-- (2.,2.);
+\begin{normalsize}
+\draw [fill=uququq] (2.,2.) circle (1.5pt);
+\draw[color=uququq] (1.9,1.8) node {$A$};
+\draw [fill=uququq] (6.,6.) circle (1.5pt);
+\draw[color=uququq] (6.123505696223466,6.242872613313912) node {$C$};
+\draw [fill=uququq] (6.,3.) circle (1.5pt);
+\draw[color=uququq] (6.195339104475342,2.7) node {$M$};
+\draw [fill=uququq] (4.,6.) circle (1.5pt);
+\draw[color=uququq] (3.8966700404153243,6.278789317439849) node {$N$};
+\draw [fill=uququq] (5.,4.5) circle (1.5pt);
+\draw[color=uququq] (5.1178379806972085,4.752329392087496) node {$I$};
+\draw [fill=uququq] (3.5,3.5) circle (1.5pt);
+\draw[color=uququq] (3.232211014085476,3.6029948600574904) node {$E$};
+\draw [fill=uququq] (2.,6.) circle (1.5pt);
+\draw[color=uququq] (2.118793186181405,6.242872613313912) node {$D$};
+\draw [fill=uququq] (6.,2.) circle (1.5pt);
+\draw[color=uququq] (6.2,2.0) node {$B$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Gọi $I$ là trung điểm $MN$. Ta có $I\left(5; \dfrac{9}{2}\right)$. \\
+Do $\widehat{MCN}=90^o$ nên $C$ thuộc đường tròn tâm $I$ đường kính $MN$. \\
+Vì $CA$ là phân giác trong của góc $\widehat{MCN}$ nên $CA$ giao với đường tròn $(I)$ tại điểm $E$ là điểm chính giữa cung $MN$ không chứa $C$ ($E$ và $A$ cùng phía so với $MN$). Suy ra $E$ là giao điểm của $(I)$ và trung trực của $MN$.\\
+Phương trình đường tròn $(I): (x-5)^2 + \left(y-\dfrac{9}{2}\right)^2=\dfrac{13}{4}$.\\
+Phương trình trung trực của $MN$ là: $4x-6y+7=0$.\\
+Tọa độ của điểm $E$ là nghiệm của hệ phương trình:
+$$\va{(x-5)^2 + \left(y-\dfrac{9}{2}\right)^2=\dfrac{13}{4} \\ 4x-6y+7=0} \Leftrightarrow \hay{x=\dfrac{13}{2}, y=\dfrac{11}{2} \\ x=\dfrac{7}{2}, y= \dfrac{7}{2}}$$
+Vì $E, A$ cùng phía so với $MN$ nên chọn $E\left(\dfrac{7}{2};\dfrac{7}{2}\right)$.\\
+Phương trình đường thẳng $AE:x-y=0$. Do $C\in AE$ nên $C(c;c)$. Vì $C\in (I)$ nên 
+$$(c-5)^2 + \left(c-\dfrac{9}{2}\right)^2=\dfrac{13}{4} \Leftrightarrow \hay{c=6\\c=\dfrac{7}{2}\quad \text{(loại, vì trùng } E)}$$
+Vậy $C(6;6)$.
+\deda{
+Giải hệ phương trình \\
+\cl{ $\va{x^4+4y^3+(x^4-1)y+4y^2=1 \\ 8y^3+4\sqrt{x^2+1}=x^2+6y+2}$}}
+\lgi
+Ta có:
+\begin{align*}
+& x^4+4y^3+(x^4-1)y+4y^2=1 \\
+\Leftrightarrow & x^4(y+1) + 4y^2(y+1) = y +1 \\
+\Leftrightarrow & (x^4+4y^2-1)(y+1) = 0 \\
+\Leftrightarrow & \hay{y=-1 \\ x^4+4y^2=1}
+\end{align*}
+Ta xét hai trường hợp:
+\begin{itemize}
+\item Với $y=-1$, thay vào phương trình thứ hai của hệ, ta có:
+$$4\sqrt{x^2+1}=x^2+4 \Leftrightarrow \hay{x=0 \\ x = \pm \sqrt{2}}$$
+\item Với $x^4+4y^2=1 \Rightarrow \va{-1\leq x \leq 1\\-\dfrac{1}{2} \leq y \leq \dfrac{1}{2}}$. Phương trình thứ hai của hệ trở thành:
+\begin{equation} \label{the11}
+8y^3-6y-2+4\sqrt{x^2+1}-x^2=0
+\end{equation}
+Xét hàm số $f(x)=4\sqrt{x^2+1}-x^2$ trên $[-1;1]$, ta có:
+$$f'(x) = \dfrac{4x}{\sqrt{x^2+1}}-2x; \quad f'(x) = 0 \Leftrightarrow \hay{x=0 \\x=\pm \sqrt{3}}$$
+$$f(\pm 1) = 4\sqrt{2}-1; \quad f(0) = 4; \quad f(\pm \sqrt{3}) = 5$$
+Vậy $\min\limits_{[-1;1]} f(x)=f(0)=4$.\\
+Xét hàm số $g(y)=8y^3-6y-2$ trên $\left[-\dfrac{1}{2};\dfrac{1}{2}\right]$, ta có:
+$$g'(y) = 24y^2-6; \quad g'(y) = 0 \Leftrightarrow y = \pm \dfrac{1}{2}$$
+$$g\left(\dfrac{1}{2}\right) =-4; \quad g\left(-\dfrac{1}{2}\right)=0$$
+Vậy $\min\limits_{\left[-\frac{1}{2};\frac{1}{2}\right]}g(y)=g\left(\dfrac{1}{2}\right) =-4$.\\
+Do đó:
+$$f(x)+g(y) \geq 0, \quad \forall x \in [-1;1], \forall y \in \left[-\dfrac{1}{2};\dfrac{1}{2}\right].$$
+Dấu "$=$" xảy ra khi và chỉ khi $(x;y)=\left(0;\dfrac{1}{2}\right)$.\\
+Suy ra:
+$$\eqref{the11} \Leftrightarrow \va{x=0\\y=\dfrac{1}{2}}.$$
+Vậy hệ phương trình đã cho có nghiệm:
+$$\left(0;\dfrac{1}{2}\right), (0;-1), (2\sqrt{2};-1), (-2\sqrt{2};-1).$$
+\end{itemize}
+\deda{
+Cho các số thực dương $x,y,z$ thỏa mãn điều kiện: $x+y+z\geq 3$. Tìm giá trị nhỏ nhất của biểu thức:\\
+\cl{$P=\dfrac{x^2}{yz+\sqrt{8+x^3}}+ \dfrac{y^2}{zx+\sqrt{8+y^3}}+ \dfrac{z^2}{xy+\sqrt{8+z^3}}$}
+}
+\lgi
+Trước hết ta chứng minh rằng: với các số thực $a_1,a_2,b_1,b_2,c_1,c_2$ sao cho $a_2,b_2,c_2>0$, ta luôn có:
+\begin{equation}\label{the12}
+\dfrac{a_1^2}{a_2}+\dfrac{b_1^2}{b_2}+\dfrac{c_1^2}{c_2} \geq \dfrac{(a_1+b_1+c_1)^2}{a_2+b_2+c_2}
+\end{equation}
+\textit{Chứng minh}\\
+Áp dụng BĐT Bunhiacopxki cho hai bộ $\left(\dfrac{a_1}{\sqrt{a_2}};\dfrac{b_1}{\sqrt{b_2}}; \dfrac{c_1}{\sqrt{c_2}}\right)$ và $\left(\sqrt{a_2}; \sqrt{b_2}; \sqrt{c_2}\right)$, ta có:
+$$\left(\dfrac{a_1^2}{a_2}+\dfrac{b_1^2}{b_2}+\dfrac{c_1^2}{c_2}\right)(a_2+b_2+c_2) \geq (a_1+b_1+c_1)^2$$
+Do $a_2+b_2+c_2 > 0$ nên ta có điều phải chứng minh.\\
+\\
+Quay lại bài toán, áp dụng BĐT $\eqref{the11}$, ta có:
+$$P \geq \dfrac{(x+y+z)^2}{xy+yz+zx+\sqrt{8+x^3}+\sqrt{8+y^3}+\sqrt{8+z^3}}$$
+Mặt khác:
+$$\sqrt{8+x^3}=\sqrt{(2+x)(4-2x+x^2)} \leq \dfrac{6-x+x^2}{2}$$
+$$\sqrt{8+y^3}=\sqrt{(2+y)(4-2y+y^2)} \leq \dfrac{6-y+y^2}{2}$$
+$$\sqrt{8+z^3}=\sqrt{(2+z)(4-2z+z^2)} \leq \dfrac{6-z+z^2}{2}$$
+Do đó:
+$$P \geq \dfrac{2(x+y+z)^2}{2(xy+yz+zx)-(x+y+z)+x^2+y^2+z^2+18} = 2\dfrac{(x+y+z)^2}{(x+y+z)^2}-(x+y+z)+18$$
+Dấu bằng xảy ra khi và chỉ khi $x=y=z=1 $ hoặc $x=y=z=2$.\\
+Đặt $t=x+y+z\geq 3$, ta có:
+$$P\geq \dfrac{2t^2}{t^2-t+18}$$
+Xét hàm số $f(t) = \dfrac{2t^2}{t^2-t+18}$ trên $[3; +\infty)$. Ta có:
+$$f'(t)=\dfrac{-2t^2+72t}{(t^2-t+18)^2}; \quad f'(t)=0 \Leftrightarrow \hay{t=0\\t=36}; \quad \lim \limits_{x\to +\infty}f(t)=2$$
+Bảng biến thiên:
+\[\begin{tabvar}{C|CCCCC}
+t             &3&      &36          &        &+\infty\\
+\hline
+f'(t)         & &+     &0          &-       & \\
+\hline
+\niveau{1}{2}f(t)&\dfrac{3}{4}&\croit&\dfrac{144}{71}&\decroit&2\\
+\end{tabvar}\]
+Ta có: $\min\limits_{[3; +\infty)} f(t)=f(3) = \dfrac{3}{4}$.\\
+Vậy $\min P = \dfrac{3}{4}$ khi $x=y=z=1$.
+\section{THPT Thống nhất}
+\deda{Giải hệ phương trình \\
+\cl{ $\va{x-2y-\sqrt{xy}=0\\ \sqrt{x-1}-\sqrt{2y-1}=1}$}}
+\lgi
+ĐK: $\va{x\geq 1 \\y \geq \dfrac{1}{2}}.$ \\
+Phương trình đầu của hệ tương đương với:
+\begin{align*}
+& x-y-(y+\sqrt{xy})=0 \\
+\Leftrightarrow & \left(\sqrt{x}+\sqrt{y}\right)\left(\sqrt{x}-2\sqrt{y}\right) = 0\\
+\Leftrightarrow & \hay{\sqrt{x}-2\sqrt{y}=0 \\ \sqrt{x}+\sqrt{y}=0 \quad \text{(vô nghiệm)}} \\
+\Leftrightarrow & x=4y
+\end{align*}
+Thay vào phương trình thứ hai của hệ, ta có:
+\begin{align*}
+& \sqrt{4y-1}-\sqrt{2y-1}=1 \\
+\Leftrightarrow & \sqrt{4y-1}=\sqrt{2y-1}+1 \\
+\Leftrightarrow & 4y-1 = 2y-1 + 2\sqrt{2y-1}+1\\
+\Leftrightarrow & 2y-1 = 2\sqrt{2y-1}\\
+\Leftrightarrow & \hay{\sqrt{2y-1}=0\\ \sqrt{2y-1}=2 }\\
+\Leftrightarrow & \hay{y=\dfrac{1}{2}\\ y=\dfrac{5}{2} }
+\end{align*}
+Vậy hệ đã cho có nghiệm: $\left(2 ;\dfrac{1}{2}\right), \left(10; \dfrac{5}{3}\right)$.
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho các điểm $A(1;0), B(-2;4), C(-1;4),D(3;5)$ và đường thẳng $d:3x-y-5=0$. Tìm tọa độ điểm $M$ trên $d$ sao cho hai tam giác $MAB,MCD$ có diện tích bằng nhau.}
+\hda
+Ta có: $AB=5,CD=\sqrt{17}$ và:
+$$AB: 4x+3y-4=0; \quad CD:x-4y+17=0$$
+Vì $M \in d$ nên $M(m;3m-5)$.\\
+Yêu cầu của bài toán tương đương với:
+$$S_{\triangle MAB}=S_{\triangle MCD} \Leftrightarrow AB. d_{(M,AB)} = CD.d_{(M,CD)}$$
+Áp dụng công thức tính khoảng cách từ điểm đến đường thẳng, ta thu được 1 phương trình ẩn $m$. \\
+Giải phương trình, ta thu được:
+$M_1\left(\dfrac{7}{3};2\right), M_2(-9;-32)$.\\
+\textbf{Nhận xét}: Câu này không xứng tầm với đề thi THPT Quốc gia vì nó chỉ yêu cầu tính toán thông thường chứ không cần dùng các tính chất hình hoc đặc biệt.
+
+\deda{
+Cho các số thực dương $a,b,c$ thỏa mãn điều kiện: $a+b+c=1$. Chứng minh rằng:\\
+\begin{equation} \label{the13}
+\dfrac{a+b^2}{b+c}+ \dfrac{b+c^2}{c+a}+ \dfrac{c+a^2}{a+b}\geq 2
+\end{equation}
+}
+\lgi
+Ta có:
+$
+VT\eqref{the13} = \left(\dfrac{a}{b+c}+\dfrac{b}{c+a}+\dfrac{c}{a+b}\right) + \left(\dfrac{b^2}{b+c}+\dfrac{c^2}{c+a}+\dfrac{a^2}{a+b}\right)=A+B$\\
+Mặt khác:
+\begin{align*}
+A+3 & =\dfrac{1}{2}\left( (a+b)+(b+c)+(c+a) \right) \left( \dfrac{1}{a+b}+\dfrac{1}{b+c}+\dfrac{1}{c+a}\right) \\
+& \geq  \dfrac{3}{2}\sqrt[3]{(a+b)(b+c)(c+a)}.3\sqrt[3]{\dfrac{1}{(a+b)(b+c)(c+a)}} = \dfrac{9}{2}
+\end{align*}
+$\Rightarrow A \geq \dfrac{3}{2}$.
+Hơn nữa:
+$1 = (a+b+c)^2 \leq \left(\dfrac{b^2}{b+c}+\dfrac{c^2}{c+a}+\dfrac{a^2}{a+b}\right)(a+b+b+c+c+a) = 2B$\\
+$\Rightarrow B \geq \dfrac{1}{2}$.
+Từ đó ta có:
+$VT\eqref{the13} \geq \dfrac{3}{2}+\dfrac{1}{2}=2 = VP \eqref{the13}$\\
+Ta có điều phải chứng minh. Dấu đẳng thức xảy ra khi và chỉ khi $a=b=c=\dfrac{1}{3}$.
+\section{THPT Hồng Quang (Hải Dương)}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho tam giác $ABC$ có đường cao và đường trung tuyến kẻ từ đỉnh $A$ lần lượt là $d_1: x-3y=0$ và $d_2: x+5y=0$. Đỉnh $C$ nằm trên đường thẳng $\Delta: x+y-2=0$ và có hoành độ dương. Tìm tọa độ các đỉnh của tam giác, biết rằng đường trung tuyến kẻ từ $C$ đi qua điểm $E(-2;6)$}
+\lgi
+\begin{center}
+\definecolor{uququq}{rgb}{0.25098039215686274,0.25098039215686274,0.25098039215686274}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-0.32,-0.74) rectangle (7.2,4.5);
+\draw [color=uququq] (0.,0.)-- (3.96,3.96);
+\draw [color=uququq] (3.96,3.96)-- (6.76,0.);
+\draw [color=uququq] (6.76,0.)-- (0.,0.);
+\draw [color=uququq,domain=-0.32:7.2] plot(\x,{(-13.3848--1.98*\x)/-4.78});
+\draw [color=uququq,domain=-0.32:7.2] plot(\x,{(-0.--1.98*\x)/5.36});
+\draw [color=uququq,domain=-0.32:7.2] plot(\x,{(-0.--2.8*\x)/3.96});
+\draw [color=uququq,domain=-0.32:7.2] plot(\x,{(--6.76-1.*\x)/5.76});
+\draw [color=uququq](4.98,3.7) node[anchor=north west] {$d_1$};
+\draw [color=uququq](6.14,3) node[anchor=north west] {$d_2$};
+\draw [color=uququq](2.94,0.6) node[anchor=north west] {$\Delta$};
+\begin{normalsize}
+\draw [fill=uququq] (3.96,3.96) circle (1.5pt);
+\draw[color=uququq] (4.1,4.24) node {$B$};
+\draw [fill=uququq] (6.76,0.) circle (1.5pt);
+\draw[color=uququq] (6.9,0.28) node {$C$};
+\draw [fill=uququq] (0.,0.) circle (1.5pt);
+\draw[color=uququq] (-0.12,0.32) node {$A$};
+\draw [fill=uququq] (1.98,1.98) circle (1.5pt);
+\draw[color=uququq] (1.92,2.36) node {$D$};
+\draw [fill=uququq] (5.36,1.98) circle (1.5pt);
+\draw[color=uququq] (5.5,2.26) node {$M$};
+\draw [fill=uququq] (0.1845853658536596,2.7237073170731705) circle (1.5pt);
+\draw[color=uququq] (0.32,3.) node {$E$};
+\draw [fill=uququq] (3.5733333333333333,1.32) circle (1.5pt);
+\draw[color=uququq] (3.72,1.6) node {$G$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+Do $A = d_1 \cap d_2$ nên tọa độ điểm $A$ là nghiệm của hệ phương trình:
+$$\va{x-3y=0 \\ x+5y=0} \Leftrightarrow \va{x=0\\y=0}$$
+Vậy $A(0;0)$.\\
+Vì $C \in \Delta$ nên $C(c;2-c)$.
+Đường thẳng $BC$ đi qua $C$ và vuông góc với $d_1$ nên có phương trình dạng:
+$$3x+y-2c-2=0$$
+Gọi $M$ là trung điểm $BC$. Vì $M = BC \cap d_2$ nên tọa độ điểm $M$ là nghiệm của hệ phương trình:
+$$\va{x+5y=0\\3x+y-2c-2=0} \Leftrightarrow \va{x=\dfrac{5c+5}{7}\\y=-\dfrac{c+1}{7}}$$
+Vậy $M\left(\dfrac{5c+5}{7};-\dfrac{c+1}{7}\right)$.\\
+Gọi $G$ là trọng tâm tam giác, ta có:
+$\vt{AG}=\dfrac{2}{3}\vt{AM} \Leftrightarrow \va{x_G = \dfrac{10c+10}{21}\\y_G=\dfrac{-2c-2}{21}}$\\
+Khi đó:
+$\vt{EC} = (c+2;-4-c);\quad \vt{EG} = \left(\dfrac{10c+52}{21};\dfrac{-2c-128}{21}\right)$\\
+Vì $E,G,C$ thẳng hàng nên $\vt{EC},\vt{EG}$. Do đó:
+$$\dfrac{\frac{10c+52}{21}}{c+2}=\dfrac{\frac{-2c-128}{21}}{-c-4} \Leftrightarrow c^2-5c-6=0 \Leftrightarrow \hay{c=-1 \quad \text{(loại)} \\c=6} $$
+Vậy $C(6;-4)$.
+Khi đó: $M(5;-1)$. Suy ra $B(4;2)$.
+
+\deda{Giải hệ phương trình \\
+\cl{ $\va{x-\dfrac{1}{(x+1)^2}=\dfrac{y}{x+1}-\dfrac{1+y}{y}\\ \sqrt{8y+9}=(x+1)\sqrt{y}+2}$}}
+\lgi
+Điều kiện: $\va{x\neq -1 \\y > 0}$.\\
+Ta có:
+\begin{align*}
+x-\dfrac{1}{(x+1)^2}=\dfrac{y}{x+1}-\dfrac{1+y}{y} & \Leftrightarrow x+\dfrac{1+y}{y}=\dfrac{y}{x+1}+\dfrac{1}{(x+1)^2}\\
+& \Leftrightarrow \dfrac{xy+y+1}{y}-\dfrac{yx+y+1}{(x+1)^2}=0 \\
+&\Leftrightarrow \hay{xy+y+1=0\\ y=(x+1)^2}
+\end{align*}
+\begin{itemize}
+\item Với $y=(x+1)^2$, thay phương trình thứ hai của hệ, ta có:
+$$\sqrt{8(x+1)^2+9}=(x+1)|x+1|+2$$
+\begin{itemize}
+\item Trường hợp $x>-1$, đặt $t=x+1, (t > 0)$. Ta có phương trình:
+\begin{align*}
+\sqrt{8t^2+9}=t^2+2 & \Leftrightarrow 8t^2+9=t^4+4t^2+4 \\
+& \Leftrightarrow t^4-2t^2-5=0 \\
+&\Leftrightarrow t^2 = 5 \\
+&\Leftrightarrow \hay{t=\sqrt{5}\\t=-\sqrt{5} \quad \text{(loại)}} \\
+&\Leftrightarrow x = -1+\sqrt{5}
+\end{align*}
+Từ đó suy ra $y=5$.
+\item Trường hợp $x<-1$. đặt $t=x+1, (t < 0)$. Ta có phương trình:
+\begin{align*}
+\sqrt{8t^2+9}=-t^2+2 & \Leftrightarrow \va{8t^2+9=t^4-4t^2+4 \\ -t^2+2 \geq 0} \\
+& \Leftrightarrow \va{t^4-12t^2-5=0 \\t^2 \leq 2} \\
+&\Leftrightarrow \va{t^2 = 6+\sqrt{41} \\ t^2 \leq 2} \quad \text{(vô nghiệm)}
+\end{align*}
+\end{itemize}
+\item Với $(x+1)y=-1$, thay vào phương trình thứ hai của hệ, ta có:
+\begin{equation}\label{the14}
+\sqrt{8y+9}+\dfrac{1}{y}\sqrt{y}-2=0
+\end{equation}
+Mặt khác:
+$y>0 \Rightarrow 8y+9 > 9 \Rightarrow \sqrt{8y+9} > 3$
+Do đó phương trình $\eqref{the14}$ vô nghiệm.
+\end{itemize}
+Vậy hệ phương trình đã cho có nghiệm duy nhất $\left(-1+\sqrt{5};5\right)$.
+\deda{
+Cho các số thực dương $x,y,z$ thỏa mãn điều kiện: $x>y$ và $(x+z)(y+z)=1$. Tìm giá trị nhỏ nhất của biểu thức:\\
+\cl{$P = \dfrac{1}{(x-1)^2}+\dfrac{4}{(x+z)^2}+\dfrac{4}{(y+z)^2}$}}
+\lgi
+Đặt $x+y+z=a$. Từ giả thiết, ta có $(x+z)(y+z)=1$. Suy ra: $y+z=\dfrac{1}{a}$.\\
+Mặt khác:
+$$x>y \Rightarrow x+z>y+z \Rightarrow a > 1$$
+Ta có:
+$$x-y=x+z-(y+z)=a-\dfrac{1}{a}=\dfrac{a^2-1}{a}$$
+$$P=\dfrac{a^2}{(a^2-1)^2}+\dfrac{4}{a^2}+4a^2=\dfrac{a^2}{(a^2-1)^2}+3a^2+a^2+\dfrac{4}{a^2} \geq \dfrac{a^2}{(a^2-1)^2}+3a^2+4$$
+Đặt $t=a^2>1$. Xét hàm số $f(t) = \dfrac{t}{(t-1)^2}+3t+4$ trên $(1;+\infty)$. Ta có:
+$$f'(t) = -\dfrac{t+1}{(t-1)^3}+3; \quad f'(t) = 0 \Leftrightarrow t=2$$
+Bảng biến thiên của hàm số $f(t)$
+\[\begin{tabvar}{C|CCCCC}
+t                                 &1             &        &2&      &+\infty\\
+\hline
+f'(t)                             &                    &-       &0&+     & \\
+\hline
+\niveau{1}{2}\raisebox{0.5em}{$f$}&\niveau{2}{2} &\decroit&12&\croit& \end{tabvar}\]
+Từ bảng biến thiên , ta có:
+$$P\geq f(t) \geq 12, \forall t > 1$$
+Dấu đẳng thức xảy ra khi và chỉ khi:
+$\va{x+z=\sqrt{2}\\y+z=\dfrac{1}{\sqrt{2}}}.$\\
+Vậy $\min P =12$.
+\section{THPT Sông Lô (Vĩnh Phúc)}
+\deda{
+Trong mặt phẳng với hệ trục tọa độ $Oxy$, cho tam giác $ABC$ cân tại $A$, đường trung tuyến kẻ từ đỉnh $A$ là $d:2x+y-3=0$. Đỉnh $B$ thuộc trục hoành, đỉnh $C$ thuộc trục tung và diện tích tam giác $ABC$ bằng $5$. Tìm tọa độ các đỉnh của tam giác.}
+\lgi
+Giả sử $B(b;0,C(0;c)$. Khi đó $\vt{BC}=(-b;c)$. Gọi $H$ là trung điểm $BC$. Ta có $H\left(\dfrac{b}{2};\dfrac{c}{2}\right)$.\\
+Một vectơ chỉ phương của đường thẳng $d$ là $\vec{u}=(-1;2)$.\\
+Do tam giác $ABC$ cân tại $A$ nên:
+$$\va{\vt{BC}.\vec{u}=0\\H \in d}\Leftrightarrow \va{b+2c=0\\2b+c=6} \Leftrightarrow \va{b=4\\c=-2}$$
+Suy ra: $B(4;0),C(0;-2)$.\\
+Ta có $BC=2\sqrt{2}, H(2;-1)$.\\
+Mặt khác:
+$$S_{ABC}=\dfrac{1}{2}BC.AH \Leftrightarrow AH=\sqrt{5}$$
+Giả sử $A(a;3-2a)$. Ta có:
+$$AH=\sqrt{5} \Leftrightarrow \hay{a=1\\a=3}$$
+Vậy $A(1;1)$ hoặc $A(3;-3)$.
+\deda{Giải hệ phương trình \\
+\cl{ $\va{x+y+\sqrt{x^2-y^2}=12\\y\sqrt{x^2-y^2}=12}$}}
+\lgi
+Điều kiện $|x|\geq |y|$.\\
+Đặt $\va{u=\sqrt{x^2-y^2}, u \geq 0\\ v=x+y}.$\\
+Vì $x=-y$ không thỏa mãn hệ nên ta xét $x\neq -y$. Ta có $y=\dfrac{1}{2}\left(v-\dfrac{u^2}{v}\right)$.\\
+Hệ phương trình đã cho có dạng:
+$$\va{u+v=12\\ \dfrac{u}{2}\left(v-\dfrac{u^2}{v}\right)=12} \Leftrightarrow \hay{u=4;v=8 \\ u=3;v=9}$$
+\begin{itemize}
+\item $\va{u=4\\v=8} \Leftrightarrow \va{\sqrt{x^-y^2}=4\\x+y=8} \Leftrightarrow \va{x=5\\y=3} \quad \text{(thỏa mãn)}$.
+\item $\va{u=3\\v=9} \Leftrightarrow \va{\sqrt{x^-y^2}=3\\x+y=9} \Leftrightarrow \va{x=5\\y=4} \quad \text{(thỏa mãn)}$.
+\end{itemize}
+Vậy hệ phương trình đã cho có hai nghiệm: $(5;3),(5;4)$.
+
+\deda{
+Cho các số thực dương $a,b,c$ thỏa mãn điều kiện: $abc=1$. Chứng minh rằng:\\
+\cl{$\dfrac{\sqrt{a}}{2=b\sqrt{a}}+\dfrac{\sqrt{b}}{2+c\sqrt{b}}+\dfrac{\sqrt{c}}{2+a\sqrt{c}}\geq 1$}}
+\lgi
+Ta có:
+$$\dfrac{\sqrt{a}}{2+b\sqrt{a}}= \dfrac{a}{2\sqrt{a}+ba}\geq \dfrac{a}{1+a+ba} \quad\quad (\text{do } 1+a\geq 2\sqrt{a})$$
+Tương tự:
+$$\dfrac{\sqrt{b}}{2+c\sqrt{b}}\geq \dfrac{b}{1+b+bc}$$
+$$\dfrac{\sqrt{c}}{2+a\sqrt{c}}\geq \dfrac{c}{1+c+ac}$$
+Cộng theo vế các BĐT trên, ta có:
+\begin{align*}
+\dfrac{\sqrt{a}}{2=b\sqrt{a}}+\dfrac{\sqrt{b}}{2+c\sqrt{b}}+\dfrac{\sqrt{c}}{2+a\sqrt{c}} & \geq \dfrac{a}{1+a+ba}+\dfrac{b}{1+b+cb}+\dfrac{c}{1+c+ac}\\
+& = \dfrac{abc}{bc+bca+babc}\dfrac{b}{1+b+cb}+\dfrac{cb}{b+bc+abc}\\
+& = \dfrac{1}{bc+1+b}\dfrac{b}{1+b+cb}+\dfrac{cb}{b+bc+1}=1
+\end{align*}
+Ta có điều phải chứng minh. \\
+Dấu đẳng thức xảy ra khi và chỉ khi $a=b=c=1$.
+
+\section{Lời giải đề 70}
+\deda{Trong mặt phẳng hệ tọa độ $Oxy$ cho hình bình hành $ABCD$ có $N$ là trung điểm cạnh $CD$ và đường thẳng $BN$ có phương trình là $13x-10y+13=0$, điểm $M(-1;2)$ thuộc đoạn thẳng $AC$ sao cho $AC=4AM$. Gọi $H$ là điểm đối xứng với $N$ qua $C$. Tìm tọa độ các đỉnh $A,B,C,D$ biết rằng $3AC=2AB$ và điểm $H$ thuộc đường thẳng $\Delta: 	2x-3y=0$}
+\lgi 
+\begin{center}
+\definecolor{qqttcc}{rgb}{0.,0.2,0.8}
+\definecolor{ffqqqq}{rgb}{1.,0.,0.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-8.78,-2.48) rectangle (1.46,1.42);
+\draw [color=qqttcc] (2.,5.)-- (8.,5.);
+\draw [color=qqttcc] (2.,4.)-- (6.,4.);
+\draw [color=qqttcc] (-5.,1.)-- (1.,1.);
+\draw [color=qqttcc] (1.,1.)-- (-2.353513451652615,-1.99935142146037);
+\draw [color=qqttcc] (-5.,1.)-- (-8.353513451652613,-1.99935142146037);
+\draw [color=qqttcc] (-8.353513451652613,-1.99935142146037)-- (-2.353513451652615,-1.99935142146037);
+\draw [color=qqttcc] (-5.,1.)-- (-2.353513451652615,-1.99935142146037);
+\draw [color=qqttcc] (-8.353513451652613,-1.99935142146037)-- (1.,1.);
+\draw [color=qqttcc] (-2.353513451652615,-1.99935142146037)-- (0.6464865483473847,-1.99935142146037);
+\draw [color=qqttcc] (1.,1.)-- (-5.353513451652614,-1.99935142146037);
+\draw [color=qqttcc] (-4.470702690330523,0.400129715707926)-- (0.6464865483473847,-1.99935142146037);
+\draw [color=qqttcc] (-4.470702690330523,0.400129715707926)-- (-5.353513451652614,-1.99935142146037);
+\begin{scriptsize}
+\draw [fill=ffqqqq] (2.,5.) circle (1.0pt);
+\draw[color=ffqqqq] (2.18,5.3) node {$A_1$};
+\draw [fill=ffqqqq] (8.,5.) circle (1.0pt);
+\draw[color=ffqqqq] (8.18,5.3) node {$B_1$};
+\draw [fill=ffqqqq] (2.,4.) circle (1.0pt);
+\draw[color=ffqqqq] (2.18,4.3) node {$C_1$};
+\draw [fill=ffqqqq] (6.,4.) circle (1.0pt);
+\draw[color=ffqqqq] (6.18,4.3) node {$D_1$};
+\draw [fill=ffqqqq] (-5.,1.) circle (1.0pt);
+\draw[color=ffqqqq] (-4.86,1.24) node {$A$};
+\draw [fill=ffqqqq] (1.,1.) circle (1.0pt);
+\draw[color=ffqqqq] (1.14,1.24) node {$B$};
+\draw [fill=ffqqqq] (-2.353513451652615,-1.99935142146037) circle (1.0pt);
+\draw[color=ffqqqq] (-2.28,-2.2) node {$C$};
+\draw [fill=ffqqqq] (-8.353513451652613,-1.99935142146037) circle (1.0pt);
+\draw[color=ffqqqq] (-8.5,-2.2) node {$D$};
+\draw [fill=ffqqqq] (-5.353513451652614,-1.99935142146037) circle (1.0pt);
+\draw[color=ffqqqq] (-5.28,-2.2) node {$N$};
+\draw [fill=ffqqqq] (-4.470702690330523,0.400129715707926) circle (1.0pt);
+\draw[color=ffqqqq] (-4.34,0.64) node {$M$};
+\draw [fill=ffqqqq] (0.6464865483473847,-1.99935142146037) circle (1.0pt);
+\draw[color=ffqqqq] (0.78,-1.76) node {$H$};
+\draw [fill=ffqqqq] (-3.676756725826307,-0.49967571073018524) circle (1.0pt);
+\draw[color=ffqqqq] (-3.54,-0.26) node {$I$};
+\draw [fill=ffqqqq] (-3.235675634435077,-0.9995676143069137) circle (1.0pt);
+\draw[color=ffqqqq] (-3.28,-1.22) node {$G$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{center}
+\begin{itemize}[label=,leftmargin=*]
+\item Gọi $I$ là tâm hình bình hành $ABCD$. $G$ là giao điểm của $BN$ và $CI$. Dễ thấy $G$ là trọng tâm $\triangle BCD$.
+\item Suy ra $CG=\dfrac{2}{3}.CI=\dfrac{2}{3}.\dfrac{AC}{2}=\dfrac{AC}{3}$. Mà $MG=AC-AM-CG=AC-\dfrac{AC}{4}-\dfrac{AC}{3}=\dfrac{5}{12}$. 
+\item Vậy $CG=\dfrac{4}{5}.MG\Rightarrow d(C,BN)=\dfrac{4}{5}.d(M,BN)=\dfrac{4}{5}.\dfrac{20}{\sqrt{269}}=\dfrac{16}{\sqrt{269}}$
+\item Vì $H$ đối xứng với $N$ qua $C$ nên $HN=2CN\Rightarrow d(H,BN)=2d(C,BN)=\dfrac{32}{\sqrt{269}}$
+\item Vì $H\in \Delta \Rightarrow H(3a;2a)\Rightarrow d(H,BN)=\dfrac{|13.3a-10.2a+13|}{\sqrt{269}}$
+\item Từ đó ta có $\dfrac{|13.3a-10.2a+13|}{\sqrt{269}}=\dfrac{32}{\sqrt{269}}\Leftrightarrow \hay{a=1 \\ a=-\dfrac{45}{19}}$
+\item Vì $H$ và $M$ khác phía đối với $BN$ nên chọn $a=1$, tức $H(3;2)$.
+\item Lại có $NC=\dfrac{DC}{2}=\dfrac{AB}{2}=\dfrac{3AC}{4}=CM$, suy ra $CM=CH=CN$ dẫn tới $\triangle MNH$ vuông tại $M$.
+\item Phương trình $MH:y-2=0\Rightarrow MN:x+1=0\Rightarrow N(-1;0)\Rightarrow C(1;1),D(-3;-1)$.
+\item $\vv{CM}=3\vv{MA}	\Rightarrow A\left(-\dfrac{5}{3};\dfrac{7}{3} \right)\Rightarrow I\left(-\dfrac{1}{3};\dfrac{5}{3} \right)\Rightarrow B\left(\dfrac{7}{3};\dfrac{13}{3} \right)$
+\end{itemize}
+
+\deda{Giải hệ phương trình $\va{x^2+(y^2-y-1)\sqrt{x^2+2}-y^3+y+2=0 \\ \sqrt[3]{y^2-3}-\sqrt{xy^2-2x-2}+x=0} (x,y\in \mathbb{R})$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Điều kiện $\va{y^2 \ge 3 \\ xy^2-2x-2\ge 0}$
+\item Xét phương trình $x^2+(y^2-y-1)\sqrt{x^2+2}-y^3+y+2=0$ (1).
+\item Đặt $t=\sqrt{x^2+2}$ ($t\ge 2$), khi đó (1) trở thành 
+\item $t^2+(y^2-y-1)t-y^3+y=0\Leftrightarrow (t-y)(t^2+y^2-1)=0\Leftrightarrow \hay{t=y \\ t^2+y^2-1=0} (*)$
+\item Vì $t\ge 2$ nên $t^2+y^2-1>0$, do đó $(*)\Leftrightarrow t=y	\Leftrightarrow \sqrt{x^2+2}=y \Leftrightarrow \va{y \ge 0 \\ x^2+2=y^2}$
+\item Thay $y^2=x^2+2$ vào phương trình thứ hai ta được 
+\item $\sqrt[3]{x^2-1}-\sqrt{x^3-2}+x=0$ (điều kiện: $x\ge \sqrt[3]{2}$) $(**)$
+\item Phương trình $\begin{aligned}[t](**)&\Leftrightarrow \sqrt[3]{x^2-1}-\sqrt{x^3-2}+5+x-3=0 \\
+&\Leftrightarrow \dfrac{x^2-9}{\sqrt[3]{(x^2-1)^2}+2\sqrt[3]{x^2-1}+4}-\dfrac{x^3-27}{\sqrt{x^3-2}+5}+x-3=0 \\
+&\Leftrightarrow (x-3)\left[\dfrac{x+3}{\sqrt[3]{(x^2-1)^2}+2\sqrt[3]{x^2-1}+4}-\dfrac{x^2+3x+9}{\sqrt{x^3-2}+5}+1 \right]=0 \\
+&\Leftrightarrow \hay{x=3 \\ \dfrac{x+3}{\sqrt[3]{(x^2-1)^2}+2\sqrt[3]{x^2-1}+4}+1 =\dfrac{x^2+3x+9}{\sqrt{x^3-2}+5} \quad (3)}
+ \end{aligned}$
+\item Xét phương trình (3), ta sẽ chứng minh $VP(3)>2>VT(3)$
+\item Thật vậy $\dfrac{x^2+3x+9}{\sqrt{x^3-2}+5}>2 \Leftrightarrow (x^2+3x-1)^2>4(x^3-2) \Leftrightarrow (x^2+x)^2+(x-3)^2+5x^2>0 \ \forall x$
+\item Và $\dfrac{x+3}{\sqrt[3]{(x^2-1)^2}+2\sqrt[3]{x^2-1}+4}+1<2 \Leftrightarrow \sqrt[3]{(x^2-1)^2}+2\sqrt[3]{x^2-1}+1 >x $ (4)
+\item Đặt $t=\sqrt[3]{x^2-1}$ ($t>0$). Khi đó (4) trở thành $t^2+2t+1>\sqrt{t^3+1}\Leftrightarrow t^4+3t^2+6t^2+4>0$ (đúng $\forall t>0$)
+\item Vậy phương trình (3) vô nghiệm.
+\item Vậy hệ đã cho có nghiệm duy nhất $(x,y)=(3;\sqrt{11})$
+\end{itemize}
+
+\deda{Cho $a$ là số thực dương thuộc đoạn $[1;2]$. Chứng minh rằng
+$$(2^a+3^a+4^a)(6^a+8^a+12^a)<24^{a+1}$$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Chia hai vế cho $24^a$ ta được $(2^a+3^a+4^a)\left(\dfrac{1}{2^a}+\dfrac{1}{3^a}+\dfrac{1}{4^a} \right)<24$
+\item Đặt $\va{x=2^a (2\le x\le 4) \\ y=3^a (3\le y \le 9) \\ z=4^a (4\le z\le 16)}$, BĐT cần chứng minh trở thành $(x+y+z)\left(\dfrac{1}{x}+\dfrac{1}{y}+\dfrac{1}{z} \right)< 24$
+\item Đặt $P=(x+y+z)\left(\dfrac{1}{x}+\dfrac{1}{y}+\dfrac{1}{z} \right)=\dfrac{x}{y}+\dfrac{y}{z}+\dfrac{z}{x}+\dfrac{x}{z}+\dfrac{y}{x}+\dfrac{z}{y}+3$
+\item Không mất tính tổng quát giả sử $x\le y \le z$. 
+\item Khi đó $(x-y)(y-z)\ge 0\Leftrightarrow xy+yz \ge y^2+zx \Leftrightarrow \dfrac{x}{z}+1 \ge \dfrac{y}{z}+\dfrac{x}{y}$
+\item Cũng từ $xy+yz \ge y^2+zx \Rightarrow 1+\dfrac{z}{x}\ge \dfrac{y}{x}+\dfrac{z}{y}$
+\item Suy ra $\dfrac{y}{z}+\dfrac{x}{y}+\dfrac{y}{x}+\dfrac{z}{y}\le \dfrac{x}{z}+\dfrac{z}{x}+2$
+\item Từ đó $\dfrac{x}{y}+\dfrac{y}{z}+\dfrac{z}{x}+\dfrac{x}{z}+\dfrac{y}{x}+\dfrac{z}{y} \le 2+2\left( \dfrac{x}{z}+\dfrac{z}{x}\right)$
+\item Xét biểu thức $Q=\dfrac{x}{z}+\dfrac{z}{x}$. Đặt $t=\dfrac{z}{x}$, do $2\le x\le z \le 16$ nên $1\le t \le 8$. Khi đó $Q=t+\dfrac{1}{t}=f(t)$, khảo sát hàm số này trên $[1;8]$ ta được $Q\le \dfrac{65}{8}$
+\item Vậy nên $P\le 2+2.\dfrac{65}{8}+3=\dfrac{85}{4}<24$. 
+\item BĐT đã cho được chứng minh.
+\end{itemize}
+
+\section{Lời giải đề 71}
+
+\deda{Cho đường tròn $(C)$ có phương trình $x^2+y^2-2x-4y+1=0$ và $P(2;1)$. Một đường thẳng $d$ đi qua $P$ cắt đường tròn tại $A$ và $B$. Tiếp tuyến tại $A$ và $B$ của đường tròn cắt nhau tại $M$. Tìm tọa độ của $M$ biết $M$ thuộc đường tròn  $(C_1):x^2+y^2 -6x-4y+11=0$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Đường tròn $(C)$ có tâm $I(1;2)$, bán kính $R=2$.
+\item Gọi $M(a;b)$. Vì $M \in (C_1)$ nên $a^2+b^2-6a-4b+11=0$ (1)
+\item Gọi $K$ là trung điểm $IM$, suy ra $K\left(\dfrac{a+1}{2};\dfrac{b+2}{2} \right)$
+\item Phương trình đường tròn đường kính $IM: \left(x-\dfrac{a+1}{2} \right)^2+\left(y-\dfrac{b+2}{2} \right)^2=\dfrac{(a-1)^2}{4}+\dfrac{(b-2)^2}{4}$
+\item Hay $(IM):x^2+y^2-(a+1)x-(b+2)y-a-2b=0$
+\item Vì $A,B$ thuộc $(C)$ và $(IM)$ nên suy ra phương trình đường thẳng $AB$: $(a-1)x+(b-2)y+1-a-2b=0$ 
+\item Do $P\in AB\Rightarrow a-b-3=0$ (2)
+\item Từ (1) và (2) suy ra $\va{a=4 \\ b=1}\Rightarrow M(4;1)$
+\end{itemize}
+
+\deda{Giải hệ phương trình $\va{x+y+\sqrt{2y-1}+\sqrt{x-y}=5 \\ y^2+2=xy+y} (x,y\in \mathbb{R})$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Điều kiện $\va{2y-1\ge 0 \\ x-y \ge 0}\Leftrightarrow \va{y\ge \dfrac{1}{2} \\ x\ge y}$
+\item Đặt $a=\sqrt{2y-1},b=\sqrt{x-y}$ ($a,b\ge 0$). Khi đó $\va{y=\dfrac{a^2+1}{2} \\ x-y=b^2}\Rightarrow x+y=a^2+1+b^2$
+\item Khi đó hệ đã cho trở thành $\va{a^2+b^2+a+b-4=0 \\ a^2b^2+a^2+b^2-3=0}$
+\item Đặt $\va{S=a+b\\ P=ab}$ $(S,P\ge 0, S^2\ge 4P)$ ta được $\va{S^2+S-2P=4 \quad (3) \\ P^2+S^2-2P=3\quad (4)}$
+\item Trừ (3) cho (4) ta được $S-P^2=1 \Rightarrow S=P^2+1$
+\item Thay $S=P^2+1$ vào (4) ta được
+\item $\begin{aligned}[t]P^2+P^4+2P^2+1-2P=3 \Leftrightarrow P^4+3P^2-2P-2=0&\Leftrightarrow (P-1)(P^3+P^2+4P+2)=0\\
+&\Leftrightarrow \hay{P=1 \\ P^3+P^2+4P+2=0}  \end{aligned}(*)$
+\item Vì $P\ge 0$ nên $(*)\Leftrightarrow P=1\Rightarrow S=2$. Từ đó $a=b=1\Rightarrow \va{x=2\\ y=1}$
+\item Vậy hệ đã cho có nghiệm $(x;y)=(2;1)$
+\end{itemize}
+
+\deda{Với $a,b,c$ là các số thực thỏa mãn $a^2+b^2+c^2=3$. Tìm giá trị lớn nhất của biểu thức $$P=a^4+b^4+c^4+3(ab+bc+ca)$$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Bởi vì $P=a^4+b^4+c^4+3(ab+bc+ca)\le a^4+b^4+c^4+3\left(|a||b|+|b||c|+|c||a| \right)$
+\item do đó ta chỉ cần quan tâm trường hợp $a,b,c\ge 0$. Giả sử $a=\max \{a,b,c \}\Rightarrow 1 \le a\le \sqrt{3}$
+\item Khi đó $P\le a^4+2\left(\dfrac{3-a^2}{2} \right)^2 +3a\sqrt{2(3-a^2)}+3\left(\dfrac{3-a^2}{2} \right) $
+\end{itemize}
+
+\section{Lời giải đề 72}
+
+\deda{Trong mặt phẳng hệ tọa độ $Oxy$, cho tam giác $ABC$ có đường trung tuyến $AM$ và đường cao $AH$ lần lượt có phương trình $13x-6y-2=0$, $x-2y-14=0$. Tìm tọa độ các đỉnh của tam giác $ABC$ biết tâm đường tròn ngoại tiếp của tam giác $ABC$ là $I(-6;0)$.}
+\lgi 
+\begin{minipage}{12cm}
+\begin{itemize}[label=,leftmargin=*]
+\item Tọa độ $A$ là nghiệm của hệ 
+\item $\va{x-2y-14=0 \\ 13x-6y-2=0}\Rightarrow \va{x=-4 \\ y=-9} \Rightarrow A(-4;-9)$
+\item Kẻ đường kính $AA'$ của đường tròn ngoại tiếp $\triangle ABC$. 
+\item Khi đó $A'(-8;9)$.
+\item Gọi $K$ là trực tâm $\triangle ABC$.
+\item Dễ thấy $BKCA'$ có 2 cặp cạnh đối song song nên $BKCA'$ là hình bình hành. Do đó $M$ là trung điểm $A'K$.
+\item Vì $K$ và $M$ lần lượt nằm trên đường thẳng $AH$ và $AM$ nên tọa độ $K(2k+14,k)$ và $M\left(m,\dfrac{13m-2}{6}\right)$
+\end{itemize}
+\end{minipage}
+\begin{minipage}{6cm}
+\definecolor{ttttff}{rgb}{0.2,0.2,1.}
+\definecolor{qqttcc}{rgb}{0.,0.2,0.8}
+\definecolor{ffqqqq}{rgb}{1.,0.,0.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-0.6,-1.52) rectangle (5.6,4.62);
+\draw [color=qqttcc] (1.,4.)-- (0.,0.);
+\draw [color=qqttcc] (0.,0.)-- (5.,0.);
+\draw [color=qqttcc] (5.,0.)-- (1.,4.);
+\draw [color=ttttff] (2.5,1.5) circle (2.91547594742265cm);
+\draw [color=qqttcc] (1.,4.)-- (1.,0.);
+\draw [color=qqttcc] (1.,4.)-- (4.,-1.);
+\draw [color=qqttcc] (5.,0.)-- (4.,-1.);
+\draw [color=qqttcc] (1.,1.)-- (4.,-1.);
+\draw [color=qqttcc] (1.,1.)-- (0.,0.);
+\draw [color=qqttcc] (1.,1.)-- (5.,0.);
+\draw [color=qqttcc] (0.,0.)-- (4.,-1.);
+\draw [color=qqttcc] (2.5,1.5)-- (2.5,0.);
+\begin{scriptsize}
+\draw [fill=ffqqqq] (1.,4.) circle (1.0pt);
+\draw[color=ffqqqq] (0.96,4.36) node {$A$};
+\draw [fill=ffqqqq] (0.,0.) circle (1.0pt);
+\draw[color=ffqqqq] (-0.14,-0.16) node {$B$};
+\draw [fill=ffqqqq] (5.,0.) circle (1.0pt);
+\draw[color=ffqqqq] (5.12,-0.14) node {$C$};
+\draw [fill=ffqqqq] (1.,1.) circle (1.0pt);
+\draw[color=ffqqqq] (1.14,1.24) node {$K$};
+\draw [fill=ffqqqq] (1.,0.) circle (1.0pt);
+\draw[color=ffqqqq] (1.2,0.28) node {$H$};
+\draw [fill=ffqqqq] (2.5,0.) circle (1.0pt);
+\draw[color=ffqqqq] (2.5,-0.2) node {$M$};
+\draw [fill=ffqqqq] (2.5,1.5) circle (1.0pt);
+\draw[color=ffqqqq] (2.64,1.74) node {$I$};
+\draw [fill=ffqqqq] (4.,-1.) circle (1.0pt);
+\draw[color=ffqqqq] (4.22,-1.18) node {$A'$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{minipage}
+
+\begin{itemize}[label=,leftmargin=*]
+\item $M$ là trung điểm $A'K$, suy ra $\va{2k+14-8=2m \\ k+9=2.\dfrac{13m-2}{6}}\Rightarrow \va{k=-1 \\ m=2}\Rightarrow \va{K(12;-1) \\ M(2;4)}$
+\item Đường thẳng $BC$ đi qua $M$ và nhận $\vv{AK}$ làm vtpt nên $BC:2x+y-8=0$
+\item Giả sử $B(8;8-2b)$. Vì $I$ là tâm đường tròn ngoại tiếp $\triangle ABC$ nên
+\item $IA=IB\Leftrightarrow 4+81=(b+6)^2+(2b-8)^2\Leftrightarrow \hay{b=3 \\ b=1}$
+\item Với $b=3$ ta có $B(3;2)$. Do $C$ đối xứng với $B$ qua $M$ nên $C(1;6)$
+\item Với $b=1$ ta có $B(1;6)$. Do $C$ đối xứng với $B$ qua $M$ nên $C(3;2)$. 
+\end{itemize}
+
+\deda{Giải bất phương trình $2x+5\sqrt{x}>11+\dfrac{4}{x-2}$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Điều kiện $x\ge 0,x\ne 2$.
+\item Bất phương trình đã cho tương đương $2(x-2)+5\sqrt{x} >7+\dfrac{4}{x-2}\Leftrightarrow 2(x-2)+5\sqrt{x}>\dfrac{7x}{x-2}$
+\item Dễ thấy $x=0$ không làm nghiệm của bất phương trình.
+\item Xét $0<x\ne 2$, chia 2 vế của BPT cho $x$ ta được $\dfrac{2(x-2)}{\sqrt{x}}+5 >\dfrac{7\sqrt{x}}{x-2}$
+\item Đặt $t=\dfrac{x-2}{\sqrt{x}}$, khi đó BPT trở thành $2t+5>\dfrac{7}{t}\Leftrightarrow \dfrac{2t^2+5t-7}{t}>0 \Leftrightarrow t(2t+7)(t-1)>0\Leftrightarrow \hay{t>1 \\ -\dfrac{7}{2}<t<0}$
+\item Với $t>1$ ta có $\dfrac{x-2}{\sqrt{x}}>1$ hay $\dfrac{(\sqrt{x}+1)(\sqrt{x}-2)}{\sqrt{x}}>0\Leftrightarrow x>4$
+\item Với $-\dfrac{7}{2}<t<0$ ta có $-\dfrac{7}{2}<\dfrac{x-2}{\sqrt{x}}<0$ hay $\va{0<x<2 \\ (\sqrt{x}+4)(2\sqrt{x}-1)>0}\Leftrightarrow \dfrac{1}{4}<x<2$
+\item Vậy BPT đã cho có nghiệm là $\hay{x>4 \\ \dfrac{1}{4}<x<2}$
+\end{itemize}
+
+\deda{Giả sử $a,b,c$ là các số thực dương thỏa mãn $a+b+c=1$. Tìm giá trị nhỏ nhất của biểu thức
+$$P=\dfrac{a^2}{(b+c)^2+5bc}+\dfrac{b^2}{(c+a)^2+5ca}-\dfrac{3}{4}(a+b)^2$$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Sử dụng bất đẳng thức Cauchy, ta có $\dfrac{a^2}{(b+c)^2+5bc}\ge \dfrac{a^2}{(b+c)^2+\frac{5(b+c)^2}{4}}= \dfrac{4a^2}{9(b+c)^2}$
+\item Tương tự $\dfrac{b^2}{(c+a)^2+5ca}\ge \dfrac{4b^2}{9(c+a)^2}$
+\item Suy ra $\begin{aligned}[t]\dfrac{a^2}{(b+c)^2+5bc} +\dfrac{b^2}{(c+a)^2+5ca} &\ge \dfrac{4a^2}{9(b+c)^2}+\dfrac{4b^2}{9(c+a)^2}\ge \dfrac{4}{9}\left[\dfrac{a^2}{(b+c)^2}+\dfrac{b^2}{(c+a)^2} \right] \\
+&\ge \dfrac{2}{9}\left(\dfrac{a}{b+c}+\dfrac{b}{c+a} \right)^2\ge \dfrac{2}{9}\left[\dfrac{a^2+b^2+c(a+b)}{c^2+c(a+b)+ab} \right]^2 \\
+&\ge \left[\dfrac{\frac{(a+b)^2}{2}+c(a+b)}{c^2+c(a+b)+\frac{(a+b)^2}{4}} \right]^2 \\
+&=\dfrac{2}{9}\left[\dfrac{2(a+b)^2+4c(a+b)}{(a+b)^2+4c(a+b)+4c^2} \right]^2
+ \end{aligned}$
+ \item Vì $a+b+c=1$ nên $a+b=1-c$, do đó
+ \item $P\ge \dfrac{2}{9}\left[\dfrac{2(1-c)^2+4c(1-c)}{(1-c)^2+4c(1-c)+4c^2} \right]^2-\dfrac{3}{4}(1-c)^2=\dfrac{2}{9}\left[\dfrac{(1-c)(2+2c)}{(1+c)^2} \right]^2-\dfrac{3}{4}(1-c)^2=\dfrac{8}{9}\left(\dfrac{1-c}{1+c} \right)^2-\dfrac{3}{4}(1-c)^2$
+ \item Xét hàm số $f(c)=\dfrac{8}{9}	\left(\dfrac{1-c}{1+c} \right)^2-\dfrac{3}{4}(1-c)^2$ với $0<c<1$
+ \item $f'(c)=-\dfrac{16}{9}.\dfrac{1-c}{1+c}.\dfrac{2}{(1+c)^2}+\dfrac{3}{2}(c-1)=\dfrac{32}{9}.\dfrac{c-1}{(c+1)^3}-\dfrac{3}{2}(c-1)$
+ \item $f'(c)=0 \Leftrightarrow \hay{c=1 \\ c=\dfrac{1}{3}}\Leftrightarrow c=\dfrac{1}{3}$ (do $c<1$)
+ \item Lập bảng biến thiên ta được $f(c)\ge f\left(\dfrac{1}{3} \right)=-\dfrac{1}{9}$ với mọi $c\in (0;1)$
+ \item Vậy $P\ge -\dfrac{1}{9}$. Đẳng thức xảy ra khi $a=b=c=\dfrac{1}{3}$
+ \item Vậy $\min P=-\dfrac{1}{9}$
+\end{itemize}
+
+\section{Lời giải đề 73}
+\deda{Trong mặt phẳng hệ tọa độ $Oxy$ cho điểm $M(1;2)$ và hai đường thẳng $d_1:x-2y+1=0$ và $d_2:2x+y+2=0$. Gọi $A$ là giao điểm của $d_1$ và $d_2$. Viết phương trình đường thẳng $d$ đi qua $M$ và cắt các đường thẳng $d_1,d_2$ lần lượt tại $B,C$ ($B,C$ không trùng $A$) sao cho $\dfrac{1}{AB^2}+\dfrac{1}{AC^2}$ đạt giá trị nhỏ nhất.}
+\lgi 
+\begin{itemize}[leftmargin=*,label=]
+\item Dễ thấy $d_1\perp d_2$ và giao điểm $A(-1;0)$
+\item Gọi $H$ là hình chiếu vuông góc của $A$ trên $d$. Khi đó $\dfrac{1}{AB^2}+\dfrac{1}{AC^2}=\dfrac{1}{AH^2}\ge \dfrac{1}{AM^2}$
+\item Vậy $\dfrac{1}{AB^2}+\dfrac{1}{AC^2}$ đạt giá trị nhỏ nhất khi $H\equiv M$.
+\item $d\perp AM\Rightarrow d:x+y-3=0$
+\end{itemize}
+
+\deda{Giải hệ phương trình $\va{3x^2+12y^2+24xy-9(x+2y)\sqrt{2xy}=0
+\\
+5x^2-7y^2+xy=15
+} (x,y \in \mathbb{R})$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Điều kiện $xy \ge 0$.
+\item Đặt phương trình đầu là (1), phương trình sau là (2).
+\item Ta có $(1) \Leftrightarrow (x+2y)^2+4xy=3(x+2y)\sqrt{2xy}$ (3)
+\item Đặt $\va{u=x+2y \\ v=\sqrt{2xy}} (v\ge 0)$. Khi đó (3) trở thành $u^2+2v^2=3uv \Leftrightarrow \hay{u=v \\ u=2v} $
+\item Với $u=v \Rightarrow x+2y=\sqrt{2xy}\Leftrightarrow \va{x+2y \ge 0 \\ xy\ge 0 \\ x^2+4y^2+2xy=0} \Leftrightarrow \va{x+2y\ge 0 \\ xy\ge 0 \\  (x-2y)^2+6xy=0}\Leftrightarrow x=y=0 $
+\item Thế $x=y=0$ vào phương trình (2) thấy không thỏa, vậy $x=y=0$ không phải là nghiệm của hệ.
+\item Với $u=2v\Rightarrow x+2y=2\sqrt{2xy} \Leftrightarrow x=2y$
+\item Thay $x=2y$ vào (2) ta được $y^2=1 \Leftrightarrow y=\pm 1$
+\item Với $y=-1\Rightarrow x=-2$, thế vào (3) ta được $24=-24$ (loại trường hợp này).
+\item Với $y=1 \Rightarrow x=2$, thế vào (3) thấy thỏa.
+\item Vậy hệ đã cho có nghiệm $(x,y)=(2;1)$
+\end{itemize}
+
+\deda{Cho $a,b$ là các số thực dương thỏa mãn $a+b+ab=3$. Tìm giá trị nhỏ nhất của biểu thức 
+$$P=\dfrac{a^2}{1+b}+\dfrac{b^2}{1+a}+\dfrac{ab}{a+b}$$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Từ giả thiết suy ra $a+b+ab+1=4 \Leftrightarrow (a+1)(b+1)=4$
+\item Ta chứng minh được đánh giá sau $\dfrac{x^2}{a}+\dfrac{y^2}{b}\ge \dfrac{(x+y)^2}{a+b}$ với mọi $a,b>0, x,y \in \mathbb{R}$
+\item Áp dụng đánh giá trên ta có
+\item $P\ge \dfrac{(a+b)^2}{2+a+b}+\dfrac{3-(a+b)}{a+b}=\dfrac{(a+b)^2}{a+b+2}+\dfrac{3}{a+b}-1$
+\item Đặt $t=a+b$, thế thì do $3=a+b+ab\le a+b+\dfrac{(a+b)^2}{4}\Rightarrow a+b\ge 2$ nên $t\ge 2$.
+\item Khảo sát hàm số $f(t)=\dfrac{t^2}{t+2}+\dfrac{3}{t}-1$ với $t\ge 2$ ta thu được $f(t)\ge f(2)=\dfrac{3}{2}$
+\item Vậy $P\ge \dfrac{3}{2}$. Đẳng thức xảy ra khi $a=b=1$. Vậy $\min P=\dfrac{3}{2}$
+\item \textbf{Nhận xét.} Để tìm GTNN của biểu thức $\dfrac{t^2}{t+2}+\dfrac{3}{t}$ ta có thể sử dụng kĩ thuật thuần túy BĐT như sau:
+\item $\dfrac{t^2}{t+2}+\dfrac{3}{t}=\dfrac{t^2}{t+2}+\dfrac{t+2}{2t}+\dfrac{2}{t}-\dfrac{1}{2}\ge 3\sqrt[3]{\dfrac{t^2.(t+2).2}{(t+2).2t.t}}-\dfrac{1}{2}=\dfrac{5}{2}$. Đẳng thức xảy ra khi $t=2$ hay $a=b=1$.
+\end{itemize}
+
+\section{Lời giải đề 74}
+\deda{Trong mặt phẳng hệ tọa độ $Oxy$, cho hình thang cân $ABCD$ ($AD\parallel BC$) có phương trình đường thẳng $AB:x-2y+3=0$ và đường thẳng $AC:y-2=0$. Gọi $I$ là giao điểm của $AC$ và $BD$. Tìm tọa độ các đỉnh của hình thang cân $ABCD$, biết $IB=IA\sqrt{2}$, hoành độ $I$ lớn hơn $-3$ và $M(-1;3)$ nằm trên đường thẳng $BD$.}
+\lgi 
+\begin{minipage}{12cm}
+\begin{itemize}[label=,leftmargin=*]
+\item $A=AB \cap AC\Rightarrow A(1;2)$
+\item Lấy $E(0;2)\in AC$. Suy ra $EA=1$
+\item Qua $E$ kẻ đường thẳng song song $BD$ cắt $AB$ tại $F$. Theo định lý Thales thì $\dfrac{EA}{EF}=\dfrac{IA}{IB}\Rightarrow EF=EA\sqrt{2}=\sqrt{2}$ 
+\item Vì $F\in AB\Rightarrow F(2t-3;t)$. Do đó $\vv{EF}=(2t-3;t-2)$
+\end{itemize}
+\end{minipage}
+\begin{minipage}{6cm}
+\definecolor{qqttcc}{rgb}{0.,0.2,0.8}
+\definecolor{ffqqqq}{rgb}{1.,0.,0.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=0.9cm,y=0.9cm]
+\clip(2.64,0.56) rectangle (9.32,4.46);
+\draw [color=qqttcc] (4.,4.)-- (8.,4.);
+\draw [color=qqttcc] (8.,4.)-- (9.,1.);
+\draw [color=qqttcc] (9.,1.)-- (3.,1.);
+\draw [color=qqttcc] (3.,1.)-- (4.,4.);
+\draw [color=qqttcc] (4.,4.)-- (9.,1.);
+\draw [color=qqttcc] (8.,4.)-- (3.,1.);
+\draw [color=qqttcc] (5.361371443110979,3.1831771341334125)-- (3.3193142784445104,1.9579428353335313);
+\begin{scriptsize}
+\draw [fill=ffqqqq] (4.,4.) circle (1.0pt);
+\draw[color=ffqqqq] (4.14,4.24) node {$A$};
+\draw [fill=ffqqqq] (8.,4.) circle (1.0pt);
+\draw[color=ffqqqq] (8.14,4.24) node {$D$};
+\draw [fill=ffqqqq] (9.,1.) circle (1.0pt);
+\draw[color=ffqqqq] (9.06,0.78) node {$C$};
+\draw [fill=ffqqqq] (3.,1.) circle (1.0pt);
+\draw[color=ffqqqq] (2.84,0.9) node {$B$};
+\draw [fill=ffqqqq] (6.,2.8) circle (1.0pt);
+\draw[color=ffqqqq] (5.96,3.16) node {$I$};
+\draw [fill=ffqqqq] (7.077321049858838,3.4463926299153034) circle (1.0pt);
+\draw[color=ffqqqq] (7.28,3.36) node {$M$};
+\draw [fill=ffqqqq] (5.361371443110979,3.1831771341334125) circle (1.0pt);
+\draw[color=ffqqqq] (5.5,3.42) node {$E$};
+\draw [fill=ffqqqq] (3.3193142784445104,1.9579428353335313) circle (1.0pt);
+\draw[color=ffqqqq] (3.16,2.16) node {$F$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{minipage}
+
+\begin{itemize}[label=,leftmargin=*]
+\item Suy ra $(2t-3)^2+(t-2)^2=2 \Leftrightarrow \hay{t=1 \\ t=\dfrac{11}{5}}$
+\item Với $t=1$ thì $F(-1;1)\Rightarrow \vv{EF}=(-1;-1)$. Vì $EF\parallel BD$ nên $\vv{EF}$ là vtcp của $BD$, và do $M\in BD$ 
+nên phương trình $BD: x-y+4=0$. Và do $I=BD\cap AC\Rightarrow I(-2;2)$
+\item Vì $B=BD\cap AB\Rightarrow B(-5;-1)$
+\item Bởi vì $ABCD$ là hình thang cân nên $\dfrac{IB}{IA}=\dfrac{IB}{ID}\Rightarrow IB=\sqrt{2}.ID\Rightarrow \vv{IB}=-\sqrt{2}.\vv{ID}
+\Rightarrow D\left(\dfrac{3}{\sqrt{2}}-2;\dfrac{3}{\sqrt{2}}+2 \right)$
+\item $\vv{IA}=-\dfrac{1}{\sqrt{2}}.\vv{IC}\Rightarrow C(-3\sqrt{2}-2;2)$
+\item Với $t=\dfrac{11}{5}$ thì $\vv{EF}=\left(\dfrac{7}{5};\dfrac{1}{5} \right)$ là vtcp của $BD$, từ đó phương trình $BD:x-7y+22=0$.
+\item $I=BD \cap AC\Rightarrow I(-8;2)$ (loại do $x_I>-3$)
+\end{itemize}
+
+\deda{Giải hệ phương trình $\va{(1-y)(x-3y+3)-x^2=\sqrt{(y-1)^3}.\sqrt{x} \\ \sqrt{x^2-y}+2\sqrt[3]{x^3-4}=2(y-2)}(x,y \in \mathbb{R})$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Điều kiện $\va{y \ge 1 \\ x^2 \ge y \\x \ge 0} \Leftrightarrow \va{x^2\ge y \\ x\ge 1, y\ge 1}$
+\item Đánh số phương trình đầu là (1), phương trình sau là (2).
+\item $(1)\Leftrightarrow 3(y-1)^2-x(y-1)-x^2=(y-1)\sqrt{y-1}\sqrt{x}$
+\item Nhận xét $y=1$ không là nghiệm của hệ. Xét $y>1$, chia 2 vế của (1) cho $(y-1)^2$ ta được
+\item $3-\dfrac{x}{y-1}-\left(\dfrac{x}{y-1} \right)^2=\sqrt{\dfrac{x}{y-1}}$ (3)
+\item Đặt $t=\sqrt{\dfrac{x}{y-1}}$ ($t>0$), khi đó (3) trở thành
+\item $t^4+t^2+t-3=0 \Leftrightarrow \va{t=1 \\ t^3+t^2+2t+3=0}\Leftrightarrow t=1$ (do $t>0$)
+\item Với $t=1$ thì $y=x+1$, thay vào phương trình (2) ta được
+\item $\begin{aligned}[t]\sqrt{x^2-x-1}+2\sqrt[3]{x^3-4}=2(x-1)&\Leftrightarrow \sqrt{x^2-x-1}+2\left[\dfrac{x^3-4-(x-1)^3}{\sqrt[3]{(x^3-4)^2}+\sqrt[3]{x^3-4}.(x-1)+(x-1)^2} \right] =0
+\\
+& \Leftrightarrow \sqrt{x^2-x-1}+6.\dfrac{x^2-x-1}{\sqrt[3]{(x^3-4)^2}+\sqrt[3]{x^3-4}.(x-1)+(x-1)^2} =0
+\\
+&\Leftrightarrow \sqrt{x^2-x-1}\left[  1+ \dfrac{6\sqrt{x^2-x-1}}{\sqrt[3]{(x^3-4)^2}+\sqrt[3]{x^3-4}.(x-1)+(x-1)^2}    \right]=0
+\\
+&\Leftrightarrow x^2-x-1=0
+\\
+&\Leftrightarrow x=\dfrac{1+\sqrt{5}}{2} \quad (x\ge 1	)
+\end{aligned}$
+\item Với $x=\dfrac{1+\sqrt{5}}{2}\Rightarrow y=\dfrac{3+\sqrt{5}}{2}$
+\item So điều kiện hệ có nghiệm $(x,y)=\left(\dfrac{1+\sqrt{5}}{2},\dfrac{3+\sqrt{5}}{2} \right)$
+\end{itemize}
+
+\deda{Cho $x,y$ là hai số thực dương thỏa mãn $2x+3y\le 7$. Tìm giá trị nhỏ nhất của biểu thức 
+$$P=2xy+y+\sqrt{5(x^2+y^2)}-24\sqrt[3]{8(x+y)-(x^2+y^2+3)}$$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Ta có $\sqrt{5(x^2+y^2)}=\sqrt{(4+1)(x^2+y^2)}\ge 2x+y$
+\item Và $(x+y-3)^2=x^2+y^2+9+2xy-6(x+y)\ge 0$ nên $2(xy+x+y+3)\ge 8(x+y)-(x^2+y^2+3)$
+\item Từ đó suy ra $P\ge 2(xy+x+y)-24\sqrt[3]{2(xy+x+y+3)}$
+\item Mặt khác từ giả thiết suy ra
+\item $x+y+xy=(x+1)(y+1)-1=\dfrac{1}{6}(2x+2)(3y+3)-1\le \dfrac{(2x+3y+5)^2}{24}-1=5$
+\item Đặt $t=\sqrt[3]{2(x+y+xy+3)}$ thì $0<t\le 2\sqrt[3]{2}$. 
+\item Xét hàm số $f(t)=t^3-6-24t$ với $0<t\le 2\sqrt[3]{2}$. Ta có $f'(t)=3t^2-24<0 \ \forall t \in (0;2\sqrt[3]{2}]$
+\item Vậy $f(t)$ nghịch biến trên $(0;2\sqrt[3]{2}]$. Do đó $f(t)\ge f(2\sqrt[3]{2})=10-48\sqrt[3]{2}$
+\item Vậy $P\ge 10-48\sqrt[3]{2}$. Đẳng thức xảy ra khi $a=2,b=1$. Vậy $\min P=10-48\sqrt[3]{2}$.
+\end{itemize}
+
+\section{Lời giải đề 75}
+ \deda{Trong mặt phẳng với hệ tọa độ $Oxy$, cho tam giác $ABC$ có trọng tâm $G\left(\dfrac{8}{3};0\right)$ và có đường tròn ngoại tiếp là $(C)$ tâm $I$. Biết rằng các điểm $M(0;4), N(4;1)$ lần lượt đối xứng $I$ qua các đường thẳng $AB,AC$, đường thẳng $BC$ đi qua điểm $K(2;-1)$. Viết phương trình đường tròn $(C)$}
+ \lgi 
+ \begin{minipage}{10cm}
+\begin{itemize}[label=,leftmargin=*]
+\item Gọi $H,E$ là trung điểm của $MN,BC \Rightarrow H(2;1).$	
+\item Từ giả thiết ta suy ra $IAMB,IANC$ là các hình thoi. Suy ra $AMN,IBC$ là các tam giác cân bằng nhau.
+\item Suy ra, $AH \perp MN, IE \perp BC, AHEI$ là hình bình hành.
+\item Suy ra $G$ cũng là trọng tâm của tam giác $HEI \Rightarrow HG$ cắt $IE$ tại $F$ là trung điểm $IE$.
+\item Vì $BC \parallel MN$ và $K(2;-1) \in BC$. Suy ra $BC: y+1=0.$
+\item Từ $H(2;1), G\left(\dfrac{8}{3};0\right)$ và $\overline{HF}=\dfrac{3}{2}\overline{HG} \Rightarrow  \left(3;-\dfrac{1}{2}\right)$.
+\item $EF \perp BC \Rightarrow EF: x=3
+\Rightarrow E(3;-1).$
+\item VÌ $F$ là trung điểm của $IE$ nên $I(3;0)$ và 
+\item $R=IA=HE=\sqrt{5}$
+\item Suy ra phương trình $(C)$ là $(x-3)^2+y^2=5$
+\end{itemize}
+\end{minipage}
+\begin{minipage}{11cm}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{qqqqff}{rgb}{0.,0.,1.}
+\definecolor{ffqqqq}{rgb}{1.,0.,0.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=0.85cm,y=0.85cm]
+\clip(-1.8470908857103945,-2.751147851316372) rectangle (9.028253305074905,7.252967108715379);
+\draw [color=qqqqff] (4.24,1.94) circle (3.777100078102247cm);
+\draw [color=qqqqff] (0.10478380798801812,0.313350976601922)-- (7.9,-0.58);
+\draw [color=qqqqff] (0.10478380798801812,0.313350976601922)-- (3.2934749872961193,6.281669080011271);
+\draw [color=qqqqff] (3.2934749872961193,6.281669080011271)-- (7.9,-0.58);
+\draw [color=qqqqff] (3.2934749872961193,6.281669080011271)-- (4.00239190399401,-0.13332451169903897);
+\draw [color=qqqqff] (1.6991293976420687,3.2975100283065966)-- (7.9,-0.58);
+\draw [color=qqqqff] (-0.8417412047158634,4.655020056613193)-- (4.24,1.94);
+\draw [color=qqqqff] (4.24,1.94)-- (6.953474987296119,3.761669080011271);
+\draw [color=qqqqff,domain=-1.8470908857103945:9.028253305074905] plot(\x,{(--2.5362473237882344-0.893350976601922*\x)/7.795216192011982});
+\draw [color=qqqqff] (-0.8417412047158634,4.655020056613193)-- (6.953474987296119,3.761669080011271);
+\draw [color=qqqqff] (3.2934749872961193,6.281669080011271)-- (4.24,1.94);
+\draw [color=qqqqff] (4.24,1.94)-- (7.9,-0.58);
+\draw [color=qqqqff] (7.9,-0.58)-- (6.953474987296119,3.761669080011271);
+\draw [color=qqqqff] (6.953474987296119,3.761669080011271)-- (3.2934749872961193,6.281669080011271);
+\draw [color=qqqqff] (4.24,1.94)-- (0.10478380798801812,0.313350976601922);
+\draw [color=qqqqff] (0.10478380798801812,0.313350976601922)-- (-0.8417412047158634,4.655020056613193);
+\draw [color=qqqqff] (-0.8417412047158634,4.655020056613193)-- (3.2934749872961193,6.281669080011271);
+\draw [color=qqqqff] (3.2934749872961193,6.281669080011271)-- (3.0558668912901275,4.208344568312231);
+\draw [color=qqqqff] (4.24,1.94)-- (4.00239190399401,-0.13332451169903897);
+\draw [color=qqqqff] (3.0558668912901275,4.208344568312231)-- (4.00239190399401,-0.13332451169903897);
+\draw [color=qqqqff] (3.0558668912901275,4.208344568312231)-- (4.24,1.94);
+\draw [color=qqqqff] (3.0558668912901275,4.208344568312231)-- (4.116242936506006,0.8601186426260347);
+\begin{scriptsize}
+\draw [fill=ffqqqq] (4.24,1.94) circle (1.5pt);
+\draw[color=ffqqqq] (4.371683278633685,2.2959732096005476) node {$I$};
+\draw [fill=ffqqqq] (7.9,-0.58) circle (1.5pt);
+\draw[color=ffqqqq] (7.946727363449847,-0.8885198407398898) node {$B$};
+\draw [fill=ffqqqq] (0.10478380798801812,0.313350976601922) circle (1.5pt);
+\draw[color=ffqqqq] (-0.2248019732728085,0.04279416454835125) node {$C$};
+\draw [fill=ffqqqq] (3.2934749872961193,6.281669080011271) circle (1.5pt);
+\draw[color=ffqqqq] (3.1399454006718144,6.772288912437578) node {$A$};
+\draw [fill=uuuuuu] (1.6991293976420687,3.2975100283065966) circle (1.5pt);
+\draw [fill=ffqqqq] (4.00239190399401,-0.13332451169903897) circle (1.5pt);
+\draw[color=ffqqqq] (3.6506659842169804,-0.3177144826600001) node {$E$};
+\draw [fill=ffqqqq] (3.766086265094714,2.0050066855377304) circle (1.5pt);
+\draw[color=ffqqqq] (3.410326886078079,1.9655069496595585) node {$G$};
+\draw [fill=ffqqqq] (6.953474987296119,3.761669080011271) circle (1.5pt);
+\draw[color=ffqqqq] (7.165625294498417,3.7980925729686783) node {$M$};
+\draw [fill=ffqqqq] (-0.8417412047158634,4.655020056613193) circle (1.5pt);
+\draw[color=ffqqqq] (-1.306327914897866,4.759448965524282) node {$N$};
+\draw [fill=ffqqqq] (-1.0674544708655815,0.4476923707889289) circle (1.5pt);
+\draw[color=ffqqqq] (-0.8556921058874253,0.8539386207671418) node {$K$};
+\draw [fill=ffqqqq] (3.0558668912901275,4.208344568312231) circle (0.5pt);
+\draw[color=ffqqqq] (2.7493943661960993,4.038431671107579) node {$H$};
+\draw[color=qqqqff] (3.079860626137089,3.978346896572854) node {$c$};
+\draw [fill=ffqqqq] (4.116242936506006,0.8601186426260347) circle (0.5pt);
+\draw[color=ffqqqq] (4.281556116831597,0.9440657825692298) node {$F$};
+\end{scriptsize}
+\end{tikzpicture}
+\end{minipage}
+
+
+  \deda{ Giải bất phương trình: \qquad $3(x^2-1)\sqrt{2x+1}<	 2(x^3-x^2) \qquad(1)$. }
+ \lgi 
+ \begin{itemize}[label=,leftmargin=*]
+\item Điều kiện: $x\ge -\dfrac{1}{2}$.
+\item Với điều kiện trên, ta có:
+\item $\begin{aligned}[t] (1) &\Leftrightarrow (x-1)[2x^2-3(x+1)\sqrt{2x+1}]>0 \\
+  &\Leftrightarrow(x-1)[2(x+1)^2-3(x+1)\sqrt{2x+1} - 2(2x+1)]>0 \\
+&\Leftrightarrow(x-1)(x+1-2\sqrt{2x+1})[2(x+1)+\sqrt{2x+1}]>0 \\
+&\Leftrightarrow (x-1)(x+1-2\sqrt{2x+1}) >0 \qquad (1')
+\end{aligned}$
+\item Do $2(x+1)+\sqrt{2x+1}>0 \qquad \forall x \ge \dfrac{-1}{2}$
+\item Xét hai trường hợp sau:
+\item +) $-\dfrac{1}{2}\le x<1	$. Khi đó,
+\item  $(1)\Leftrightarrow(x+1-2\sqrt{2x+1}) <0 
+\Leftrightarrow x^2-6x-3<0 \Leftrightarrow 3-2\sqrt{3}<x<3+2\sqrt{3}$.
+\item Đối chiếu điều kiện, ta được nghiệm $3-2\sqrt{3}<x<1$.
+\item +) 	$x>1$. Khi đó,
+\item  $(1')\Leftrightarrow (x+1-2\sqrt{2x+1}) >0 
+\Leftrightarrow x^2-6x-3>0 
+\Leftrightarrow \hay{x>3+2\sqrt{3} \\ x<3-2\sqrt{3}}$
+\item Kết hợp điều kiện, ta được nghiệm $x>3+2\sqrt{3}$.
+\item Vậy ta được nghiệm của bất phương trình là $3-2\sqrt{3}<x<1$ và 
+ $x>3+2\sqrt{3}$.
+ \end{itemize}
+
+\deda{Giả sử $x,y,z$ là các số thực dương thỏa mãn $x+z\le 2y$ và $x^2+y^2+z^2 =1$. Tìm giá trị lớn nhất của biểu thức
+$$P=\dfrac{xy}{1+z^2}+\frac{yz}{1+x^2}-y^3 \left(\frac{1}{x^3} +\frac{1}{z^3}\right)$$
+}
+\lgi  
+\begin{itemize}[label=,leftmargin=*]
+\item Từ giả thiết ta có: $\sqrt{xz}\le y.$
+\item Chú ý rằng, với mọi $x,y \ge 0$ và mọi $a,b$ ta có $\dfrac{(x+y)^2}{a+b} \le \dfrac{x^2}{a}+\dfrac{y^2}{b}  \qquad (1)$
+\item Thật vậy, (1) tương đương với $(ay-bx)^2 \ge 0$
+\item Khi đó, $\begin{aligned}[t]
+P &=\dfrac{xy}{1+z^2}+\frac{yz}{1+x^2}-y^3 \left(\frac{1}{x^3} +\frac{1}{z^3}\right) \le \dfrac{(x+y)^2}{4(1+z^2)} +\dfrac{(z+y)^2}{4(1+x^2)}-y^3 \left(\frac{1}{x^3} +\frac{1}{z^3}\right) 
+\\
+&= \dfrac{(x+y)^2}{4(x^2 +y^2+2z^2)} + \dfrac{(z+y)}{4(2x^2+y^2+z^2)} -y^3 \left(\frac{1}{x^3} +\frac{1}{z^3}\right) 
+\\
+&\le \dfrac{1}{4}{\left(\dfrac{x^2}{x^2+z^2}+\dfrac{y^2}{z^2+y^2} +\dfrac{z^2}{x^2+z^2}+\dfrac{y^2}{x^2+y^2}\right)} -y^3 \left(\frac{1}{x^3} +\frac{1}{z^3}\right) 
+\\
+&= \dfrac{1}{4}+\dfrac{1}{4}\left( \dfrac{y^2}{z^2+y^2}+\dfrac{y^2}{x^2+y^2}\right)-y^3 \left(\frac{1}{x^3} +\frac{1}{z^3}\right) 
+\\
+&\le \dfrac{1}{4}+\dfrac{1}{4}\left( \dfrac{y^2}{2yz}+\dfrac{y^2}{2xy}\right)-y^3 \left(\frac{1}{x^3} +\frac{1}{z^3}\right) 
+\\
+&=\dfrac{1}{4}+\dfrac{1}{8}\left(\dfrac{y}{z}+\dfrac{y}{x}\right)- \left(\frac{y^3}{x^3} +\frac{y^3}{z^3}\right) 
+\\
+&\le \dfrac{1}{4}+\dfrac{1}{8}\left(\dfrac{y}{z}+\dfrac{y}{x}\right) -\left(\dfrac{y}{x}+\dfrac{y}{z}\right)^3 +3\dfrac{y^2}{xz}\left(\dfrac{y}{x}+\dfrac{y}{z}\right)
+\\
+&\le \dfrac{1}{4}+\dfrac{1}{8}\left(\dfrac{y}{z}+\dfrac{y}{x}\right) -\left(\dfrac{y}{x}+\dfrac{y}{z}\right)^3 + \dfrac{3}{4}\left(\dfrac{y}{x}+\dfrac{y}{z}\right)^2\left(\dfrac{y}{x}+\dfrac{y}{z}\right)
+\\
+&= \dfrac{1}{4}+\dfrac{1}{8}\left(\dfrac{y}{z}+\dfrac{y}{x}\right)-\dfrac{1}{4}\left(\dfrac{y}{z}+\dfrac{y}{x}\right)^3
+\end{aligned}$
+\item Đặt $t=\dfrac{y}{z}+\dfrac{y}{x}$, $t \ge 2 \sqrt{\dfrac{y^2}{zx}}\ge 2$. Khi đó 
+$P\le -\dfrac{1}{4}t^3+\dfrac{1}{8}t+\dfrac{1}{4}$
+\item Xét hàm số $f(t)=-\dfrac{1}{4}t^3+\dfrac{1}{8}t+\dfrac{1}{4}$ với $t \ge 2$
+ Ta có $f'(t)=\dfrac{3}{4}t^2+\dfrac{1}{8}<0 \ \forall t\ge2$
+ \item  Suy ra $\displaystyle \max_{[2;+\infty )}f(t)=f(2)=-\dfrac{3}{2}$
+ \item Suy ra $P\le -\dfrac{3}{2}$, dấu đẳng thức xảy ra khi $x=y=z=\dfrac{1}{\sqrt{3}}$
+ \item Vậy giá trị lớn nhất của $P$ là $ -\dfrac{3}{2}$, dấu$ "=" $xảy ra khi  $x=y=z=\dfrac{1}{\sqrt{3}}$
+  \end{itemize}
+
+\section{Lời giải đề 76}
+\deda{Trong mặt phẳng tọa độ $Oxy$, cho hình chữ nhật $ABCD$ có diện tích bằng 16, các đường thẳng $AB,BC,CD,DA$ lần lượt đi qua các điểm $M(4;5), N(6;5), P(5;2), Q(2;1)$. Viết phương trình đường thẳng $AB$.}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Trong mặt phẳng tọa độ $Oxy$, cho hình chữ nhật $ABCD$
+\item $AB$ đi qua $M(4;5)$ nên phương trình $AB$ có dạng: $ax+by-4a-5b=0 (a^2+b^2 \neq 0)$
+\item $BC \perp AB$ và $BC$ đi qua $N(6;5) \Rightarrow $ phương trình $BC$ có dạng $bx-ay-6b+5a=0$
+\item Ta có diện tích hình chữ nhật:
+\item $S=d(P;AB).d(Q.BC)=16 \Leftrightarrow \dfrac{|a-3b|}{\sqrt{a^2+b^2}}.\dfrac{|4a-4b|}{\sqrt{a^2+b^2}} \Leftrightarrow a^2-4ab+3b^2=\pm 4(a^2+b^2)$
+\item $ \Leftrightarrow	\hay{ 3a^2+4ab+b^2=0 \\
+5a^2-4ab+7b^2=0 (vn)}
+\Leftrightarrow \hay {a+b=0 \\ 3a+b=0}$
+\item +Với $a+b=0$, chọn $ a=1,b=-1$ ta được phương trình $AB$ là: $x-y+1=0$
+\item +Với $3a+b=0$, chọn $a=1,b=-3$ ta được phương trình $AB: x-3y+11=0$.
+\end{itemize}
+\deda {Giải hệ phương trình: $\va {  x^3-x^2y-y=2x^2-x+2 &  (1)\\
+y^2+4\sqrt{x+2} +\sqrt{16-3y}=2x^2-4x+12 & (2)} (x,y \in \mathbb{R})$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Phương trình $ (1) \Rightarrow 	(x-y-2).(x^2+1)=0 \Leftrightarrow y=x-2 $
+\item Thay vào phương trình (2) ta được:
+\item $(x-2)^2+4\sqrt{x+2}+\sqrt{16-3(x-2)}=2x^2-4x+12$
+\item $\Leftrightarrow 4\sqrt{x+2}+ \sqrt{22-3x}=x^2+8$
+\item $\Leftrightarrow (x^2-4) +4(2-\sqrt{x+2})	+(4-\sqrt{22-3x})=0$
+\item $\Leftrightarrow (x-2) \left[(x+2)-\dfrac{4}{2+\sqrt{x+2}}+\dfrac{3}{4+\sqrt{22-3x}} \right]=0$
+\item $\Leftrightarrow \hay{ x-2=0 \Rightarrow y=0 \\ 
+(x+2)-\dfrac{4}{2+\sqrt{x+2}}+\dfrac{3}{4+\sqrt{22-3x}}=0 \qquad (*)}$
+\item Giải (*), ta xét hàm số: $f(x)=(x+2)-\dfrac{4}{2+\sqrt{x+2}}+\dfrac{3}{4+\sqrt{22-3x}}$ trên đoạn $\left[-2;\dfrac{22}{3}\right]$
+\item $f'(x)=1+\dfrac{2}{\sqrt{x+2}(2+\sqrt{x+2})^2}+\dfrac{9}{2\sqrt{22-3x}(4+\sqrt{22-3x})^2} \ge 0 \qquad \forall x \in \left( -2;\dfrac{22}{3}\right)$
+\item $\Rightarrow f(x)$ liên tục và đồng biến trên đoạn $\left[-2;\dfrac{22}{3} \right]$, mà $-1 \in \left[-2;\dfrac{22}{3} \right]$ và $f(-1)=0$.
+\item 	 Từ đó, phương trình $(*) \Rightarrow f(x)=f(-1) \Leftrightarrow  x=-1 \Leftrightarrow y=-3$
+\item Vậy hệ phương trình có hai nghiệm là $(x;y)=(2;0)$ và $(x;y)=(-1;-3).$
+\end{itemize}
+
+\deda {Cho $x;y;z $ là 3 số thực thuộc đoạn  $[1;2]$. Tìm giá trị nhỏ nhất của biểu thức:
+$$P=\dfrac{(x+y)^2}{2(x+y+z)^2-2(x^2+y^2)-z^2}$$}
+\lgi 
+\begin{itemize}[label=,leftmargin=*]
+\item Ta có $P=\dfrac{(x+y)^2}{2(x+y+z)^2-2(x^2+y^2)-z^2}=\dfrac{(x+y)^2}{z^2+4(xy+yz+zx)}=\dfrac{(x+y)^2}{z^2+4(x+y)z+4xy}$
+\item  Ta có $4xy\le (x+y)^2$ nên
+ $P\ge \dfrac{(x+y)^2}{z^2+(x+y)z+(x+y)^2}=\dfrac{\left(\dfrac{x}{z}+\dfrac{y}{z}\right)}{1+4\left(\dfrac{x}{z}+\dfrac{y}{z}\right)+\left(\dfrac{x}{z}+\dfrac{y}{z}\right)^2}$
+ \item Đặt $t=\dfrac{x}{z}+\dfrac{y}{z}$, vì $x,y,z \in [1;2]$ nên $t \in [1;4]$
+ \item Ta có $f(t) = \dfrac{t}{1+4t+t^2},f'(t)=\dfrac{4t^2+2t}{(1+4t+t^2)^2} >0 \qquad t\in [1;4]$ \item Hàm số $f(t)$ đồng biến trên $[1;4]$	nên $f(t)$ đạt GTNN  bằng $\dfrac{1}{6}$  khi $t=1$	
+ \item Dấu $"="$ xảy ra khi $ \va {x=y \\ z=x+y \\
+ x,y,z \in [1;2]}\Leftrightarrow  \va{x=y=1 \\ z=2}$
+ \item Vậy $\min P=\dfrac{1}{6} $ khi $x=y=1; z=2$
+ \end{itemize}

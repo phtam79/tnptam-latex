@@ -1,0 +1,694 @@
+\part*{I. PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG}
+\addcontentsline{toc}{part}{I. PHƯƠNG PHÁP TỌA ĐỘ TRONG MẶT PHẲNG}
+\section{Lý thuyết chung}
+\subsection{Hệ tọa độ}
+Trong mặt phẳng với hệ tọa độ $Oxy$ cho các điểm: $A\left(x_A;y_A\right), B\left(x_B;y_B\right), C\left(x_C;y_C\right)$.
+\begin{itemize}
+\item Tọa độ vectơ: $\overrightarrow{AB} = \left(x_B-x_A;y_B-y_A\right)$
+\item Tọa độ trung điểm $J$ của đoạn thẳng $AB$, trọng tâm $G$ của tam giác $ABC$ lần lượt là: 
+$$J\left( \dfrac{x_A+x_B}{2}; \dfrac{y_A+y_B}{2}\right); \quad G\left( \dfrac{x_A+x_B+x_C}{3}; \dfrac{y_A+y_B+y_C}{3}\right)$$
+\end{itemize}
+\subsection{Phương trình đường thẳng}
+\subsubsection{ Vectơ chỉ phương và vectơ pháp tuyến của đường thẳng:}
+\begin{itemize}
+\item Vectơ $\overrightarrow u (\overrightarrow u \neq \overrightarrow 0) $ là \textbf{vectơ chỉ phương} của đường thẳng $d$ nếu nó có giá song song hoặc trùng với đường thẳng $d$.
+\item Vectơ $\overrightarrow n (\overrightarrow n \neq \overrightarrow 0) $ là \textbf{vectơ pháp tuyến} của đường thẳng $d$ nếu nó có giá vuông góc với đường thẳng $d$.
+\item Đường thẳng $ax + by + c = 0$ có một vectơ pháp tuyến là $\overrightarrow n = (a; b)$.
+\item Hai đường thẳng song song có cùng vectơ chỉ phương (vectơ pháp tuyến).
+\item Hai đường thẳng vuông góc có vectơ pháp tuyến của đường thẳng này là vectơ chỉ phương của đường thẳng kia.
+\item Nếu $\overrightarrow u, \overrightarrow n$ lần lượt là vectơ chỉ phương, vectơ pháp tuyến của đường thẳng $d$ thì $\overrightarrow u. \overrightarrow n = 0$. Do đó, nếu $\overrightarrow u = (a;b)$ thì $\overrightarrow n = (b; -a)$.
+\item Một đường thẳng có vô số vectơ pháp tuyến, vô số vectơ chỉ phương. Nếu $\overrightarrow n$ là một vectơ pháp tuyến (vectơ chỉ phương) của đường thẳng $d$ thì $k\overrightarrow n (k \neq 0)$ cũng là một vectơ pháp tuyến, vectơ chỉ phương của $d$.
+\end{itemize} 
+\subsubsection{Phương trình đường thẳng}
+\begin{itemize}
+\item \textbf{Phương trình tổng quát} của đường thẳng: 
+\begin{equation}
+ax + by + c = 0\quad (a^2+b^2>0)
+\end{equation}
+Đường thẳng đi qua điểm $M(x_0;y_0)$ và nhận $\overrightarrow n = (a; b)$ là vectơ pháp tuyến có phương trình dạng:
+\begin{equation}
+a(x-x_0) + b(y-y_0) = 0
+\end{equation}
+Đặc biệt: đường thẳng đi qua $(a; 0), (0; b)$ có \textbf{phương trình theo đoạn chắn}:
+\begin{equation}
+\dfrac{x}{a}+\dfrac{y}{b}=1
+\end{equation}
+* Đường thẳng đi qua $M(x_0; y_0)$ và nhận vectơ $\overrightarrow n=(p;q)$ làm vectơ chỉ phương, có \textbf{phương trình tham số} là:
+\begin{equation}
+\left\{\begin{array}{l} x=x_0+pt\\y=y_0+qt \end{array}\right.
+\end{equation}
+Có \textbf{phương trình chính tắc} là:
+\begin{equation}
+\dfrac{x-x_0}{p}=\dfrac{y-y_0}{q} \quad (p,q \neq 0)
+\end{equation}
+\textbf{Đặc biệt}: đường thẳng đi qua 2 điểm phân biệt $A\left(x_A;y_A\right), B\left(x_B;y_B\right)$ có phương trình dạng:
+\begin{equation}
+\dfrac{{x - x_A }}{{x_B - x_A }} = \dfrac{{y - y_A }}{{y_B - y_A }}
+\end{equation}
+\item Đường thẳng đi qua $M(x_0;y_0)$ và có hệ số góc $k$ thì có \textbf{phương trình đường thẳng với hệ số góc} dạng:
+\begin{equation}
+y=k(x-x_0)+y_0
+\end{equation}
+\textbf{Chú ý:}
+\begin{itemize}
+\item Không phải đường thẳng nào cũng có hệ số góc. Các đường thẳng dạng $x=a$ không có hệ số góc. Do vậy, khi giải các bài toán dùng hệ số góc, ta phải xét cả trường hợp đặc biệt này.
+\item Nếu $\overrightarrow n = (a; b)$ là vectơ pháp tuyến của đường thẳng thì hệ số góc của nó là $k = -\dfrac{a}{b}, b\neq 0.$
+\end{itemize}
+\end{itemize}
+\subsubsection{Vị trí tương đối của 2 điểm và 1 đường thẳng}
+Cho $A\left(x_A;y_A\right),B\left(x_B;y_B\right)$ và đường thẳng $\Delta: ax + by+ c = 0$. Khi đó:
+\begin{itemize}
+\item Nếu $\left(ax_A + by_A+ c \right)\left(ax_B + by_B+ c \right) <0$ thì $A,B$ ở về hai phía khác nhau đối với $\Delta$.
+\item Nếu $\left(ax_A + by_A+ c \right)\left(ax_B + by_B+ c \right) >0$ thì $A,B$ ở cùng một phía đối với $\Delta$
+\end{itemize}
+\subsection{Góc và khoảng cách}
+\begin{itemize}
+\item Góc giữa hai vectơ $\vec{v}, \vec{w}$ được tính dựa theo công thức:
+\begin{equation} \label{goc2vt}
+\cos (\vec{u}, \vec{w}) = \dfrac{\vec{u}.\vec{w}}{\left | \vec{v} \right|.\left | \vec{w} \right| }
+\end{equation}
+\item Giả sử $\overrightarrow n_1,\overrightarrow n_2$ lần lượt là vectơ pháp tuyến của các đường thẳng $d_1$ và $d_2$. Khi đó:
+\begin{equation} \label{goc2dt}
+cos(d_1, d_2) = \dfrac{{\left| {\overrightarrow n _1 .\overrightarrow n _2 } \right|}}{{\left| {\overrightarrow n _1 } \right|.\left| {\overrightarrow n _2 } \right|}}
+\end{equation}
+\item Độ dài vectơ $\vec{u}=(a;b)$ là: 
+\begin{equation}
+\left|\vec{u}\right| = \sqrt{a^2+b^2}
+\end{equation}
+\item Khoảng cách giữa hai điểm $A(x_A;y_A),B(x_B;y_B)$ là:
+\begin{equation}\label{ab}
+AB = \sqrt{\left(x_B-x_A\right)^2+\left(y_B-y_A\right)^2}
+\end{equation}
+\item Diện tích tam giác $ABC$ là:
+\begin{equation} \label{dttg}
+S=\dfrac{1}{2}\sqrt{\left ( AB.AC \right )^2 - \left (\overrightarrow{AB}.\overrightarrow{AC}  \right )^2}
+\end{equation}
+\item Khoảng cách từ điểm $M(x_0; y_0)$ đến đường thẳng $d:ax+by+c=0$ được tính bằng công thức:
+\begin{equation}\label{kc}
+d_{(M; d)} = \dfrac{{\left| {ax_0 + by_0 + c} \right|}}{{\sqrt {a^2 + b^2 } }}
+\end{equation}
+\end{itemize}
+\subsection{Phương trình đường tròn}
+\begin{itemize}
+\item Đường tròn tâm $I(a; b)$, bán kính $R$ có dạng:
+\begin{equation}
+(x-a)^2 + (y-b)^2 = R^2
+\end{equation}
+\item Phương trình:
+\begin{equation} \label{dtrtq}
+x^2 + y^2 + 2ax + 2by + c = 0, \quad (a^2 + b^2-c > 0)
+\end{equation}
+cũng là phương trình đường tròn với tâm $I(- a ;-b)$ và bán kính $R=\sqrt{a^2+b^2-c}$.
+\item Phương trình tiếp tuyến của đường tròn tại điểm $M(x_0 ; y_0)$
+\begin{equation}
+(x_0-a)(x-x_0) + (y_0-b)(y-y_0) = 0
+\end{equation}
+\item Vị trí tương đối của đường thẳng $\Delta$ và đường tròn $\left(C\right)$ tâm $I$, bán kính $R$.
+\begin{itemize}
+\item Nếu $d_{(I;\Delta)} > R$ thì $\Delta$ và $\left(C\right)$ không cắt nhau.
+\item Nếu $d_{(I;\Delta)} = R$ thì $\Delta$ và $\left(C\right)$ tiếp xúc tại $I'$ là hình chiếu của $I$ lên $d$.
+\item Nếu $d_{(I;\Delta)} < R$ thì $\Delta$ và $\left(C\right)$ cắt nhau tại hai điểm $M,N$. Khi đó trung điểm $H$ của $MN$ là hình chiếu của $I$ lên $MN$ và 
+\begin{equation}
+MN= 2\sqrt{R^2-d^2_{(I,\Delta)}}
+\end{equation}
+\end{itemize}
+\end{itemize} 
+\subsection{Phương trình Elip}
+\begin{itemize}
+\item Elip là tập hợp các điểm $M$ di động thỏa mãn $MF_1+MF_2=2a$ với $F_1, F_2$ cố định, $F_1F_2=2c$, $a>c>0$ là các số cho trước. 
+\item $F_1(-c;0)$,$F_2(c;0)$ được gọi là \textbf{tiêu điểm}, $F_1F_2=2c$ được gọi là \textbf{tiêu cự}. $MF_1,MF_2$ là các \textbf{bán kính qua tiêu}.
+\item Các điểm $A_1(-a;0)$, $A_2(a;0)$, $B_1(0;-b)$, $B_2(0;b)$ được gọi là các \textbf{đỉnh} của elip. Đoạn thẳng $A_1A_2=2a$ được gọi là \textbf{trục lớn}, $B_1B_2=2b$ được gọi là \textbf{trục nhỏ}.
+\item \textbf{Phương trình chính tắc của Elip} có hai tiêu điểm $F_1(-c;0)$, $F_2(c;0)$ là:
+\begin{equation} \label{pte}
+\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1
+\end{equation}
+Trong đó $a>b>0, b^2=a^2-c^2$.
+\item \textbf{Tâm sai} $e=\dfrac{c}{a}$.
+\item Cho elip $(E)$ có phương trình chính tắc $\eqref{pte}$. Hình chữ nhật $PQRS$ với $P(-a;b)$, $Q(a;b)$, $R(a;-b)$, $S(-a;-b)$ được gọi là \textbf{hình chữ nhật cơ sở} của Elip.
+\item Nếu $M\in (E)$ và $M,F_1,F_2$ không thẳng hàng thì đường thẳng phân giác ngoài của góc $\widehat{F_1MF_2}$ chính là tiếp tuyến của $(E)$ tại $M$.
+\end{itemize}
+\subsection{Tứ giác nội tiếp}
+Một số lợi ích có thể sử dụng của tứ giác nội tiếp:
+\begin{itemize}
+\item Viết được phương trình đường tròn ngoại tiếp.
+\item Sử dụng được tính chất: các góc nội tiếp chắn cùng 1 cung thì bằng nhau.
+\item Chứng minh được 1 điểm cách đều các điểm khác.
+\item ...
+\end{itemize}
+Các cách chứng minh tứ giác $ABCD$ nội tiếp:
+\begin{enumerate}
+\item Bốn đỉnh cùng cách đều 1 điểm.
+\item Có hai góc đối diện bù nhau.
+\item Hai đỉnh cùng nhìn đoạn thẳng (tạo bởi hai đỉnh còn lại) hai góc bằng nhau.
+\item $MA.MB=MC.MD$, trong đó: $M=AB\cap CD$; hoặc $NA.ND=NC.NB$, với $N=AD \cap BC$.
+\item $IA.IC=ID.IB$ với $I$ là giao điểm hai đường chéo.
+\item Tứ giác đó là hình thang cân, hình chữ nhật, hình vuông, ...
+\end{enumerate}
+\section{Một số kĩ thuật cơ bản}
+\subsection{Kĩ thuật xác định tọa độ điểm}
+\subsubsection{Dựa vào hệ điểm} 
+Xác định tọa độ điểm $M$ thỏa mãn điều kiện nào đó với hệ các điểm $A_1,A_2, ..., A_n$. Đối với bài toán này, ta đặt $M(x;y)$ và khai thác giả thiết.
+\vidu{ Cho tam giác $ABC$ có trọng tâm $G(1;2)$, trực tâm $H(-1;3)$. Tìm tọa độ tâm đường tròn ngoại tiếp $I$ của tam giác.
+}
+\lgi
+Giả sử $I(x;y)$. Ta có: $\overrightarrow{GH}=(-2;1); \overrightarrow{GI}=(x-1;y-2)$. Vì $\overrightarrow{GH}=-2\overrightarrow{GI}$ nên: \\
+\cl{$\begin{cases}-2(x-1)=-2\\-2(y-2)=1\end{cases} \Leftrightarrow \begin{cases} x=2 \\y = \dfrac{3}{2} \end{cases}$}
+Vậy $I \left(2; \dfrac{3}{2}\right).$
+\subsubsection{Xác định tọa độ giao điểm của hai đường}
+\subsubsection*{Giao của hai đường thẳng} 
+Tọa độ giao điểm của hai đường thẳng $d_1:ax+by+c=0, d_2: mx+ny+p=0$ (nếu có) là nghiệm của hệ phương trình:
+\begin{equation}
+\begin{cases} ax+by+c=0 \\ mx+ny+p=0 \end{cases}
+\end{equation}
+\subsubsection*{Giao của đường thẳng và đường tròn} 
+Cho đường thẳng $d: \begin{cases} x= x_0+mt \\y=y_0+nt\end{cases}$ và đường tròn $(C): (x-a)^2+(y-b)^2=R^2$. Tọa độ giao điểm (nếu có) của $d$ và $(C)$ là nghiệm của hệ phương trình:
+\begin{equation}
+\begin{cases} x= x_0+mt \\y=y_0+nt \\ (x-a)^2+(y-b)^2=R^2 \end{cases}
+\end{equation}
+\subsubsection*{Giao của đường thẳng và Elip} 
+Cho đường thẳng $d: \begin{cases} x= x_0+mt \\y=y_0+nt\end{cases}$ và elip $\left(E\right): \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$. Tọa độ giao điểm của $d$ và $\left(E\right)$ (nếu có) là nghiệm của hệ phương trình:
+\begin{equation}
+\begin{cases} x= x_0+mt \\y=y_0+nt \\ \dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1 \end{cases}
+\end{equation}
+\subsubsection*{Giao của hai đường tròn} 
+Tọa độ giao điểm của hai đường tròn:
+$$\left(C_1\right):x^2+y^2+2a_1x+2b_1y+c_1=0; \quad \left(C_2\right):x^2+y^2+2a_2x+2b_2y+c_2=0 $$
+(nếu có) là nghiệm của hệ phương trình:
+\begin{equation}
+\begin{cases}
+x^2+y^2+2a_1x+2b_1y+c_1=0 \\ x^2+y^2+2a_2x+2b_2y+c_2=0
+\end{cases}
+\end{equation}
+\vidu{ Cho hai đường tròn: $
+\left(C_1\right): (x-1)^2+(y-2)^2=25;\quad \left(C_2\right):\left(x-\dfrac{7}{2}\right)^2+\left(y+\dfrac{1}{2} \right)^2=\dfrac{25}{2}.
+$
+Tìm tọa độ giao điểm (nếu có) của chúng.
+}
+\lgi
+Tọa độ giao điểm (nếu có) của hai đường tròn là nghiệm của hệ phương trình:\\
+\cl{$\begin{cases}x^2+y^2-2x-4y-20=0 \\ x^2+y^2-7x+y=0 \end{cases} \Leftrightarrow  \begin{cases}x-y=4 \\ x^2+y^2-7x+y=0 \end{cases}  \Leftrightarrow  \begin{cases}x-y=4 \\ \left[ \begin{array}{l}x=6 \\x=1 \end{array} \right. \end{cases}$}\\
+Vậy hai đường tròn cắt nhau tại $A(6;2), B(1;-3).$
+\subsubsection{Điểm thuộc đường} 
+Để tìm tọa độ điểm $M$ thuộc đường thẳng $d: \begin{cases} x= x_0+mt \\y=y_0+nt\end{cases}$ thỏa mãn điều kiện nào đó. Ta lấy điểm $M(x_0+mt;y=y_0+nt)$ và áp dụng giả thiết, ta thu được phương trình ẩn $t$. Như thế, ta gọi là \textbf{tham số hóa} tọa độ điểm $M$.
+\vidu{Cho điểm $A(2;-1)$. Tìm tọa độ điểm $M$ thuộc đường thẳng $d:2x-y-4=0$ sao cho $AM=\sqrt{2}$}
+\lgi
+Giả sử $M(m;2m-4)$. Ta có: $AM = \sqrt{(m-2)^2+(2m-3)^2}$. Khi đó:
+$$AM=\sqrt{2}\Leftrightarrow 5m^2-16m+11 = 0 \Leftrightarrow \left[  \begin{array}{l}
+m = 1 \\ m =\dfrac{11}{5}\end{array}\right.$$
+Vậy các điểm cần tìm là $M_1(1;-2)$, $M_2\left(\dfrac{11}{5};\dfrac{2}{5}\right)$.
+\subsection{Tìm tọa độ hình chiếu của một điểm lên một đường thẳng}
+\begin{minipage}{0.42\textwidth}
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.12941176470588237,0.12941176470588237,0.12941176470588237}
+\definecolor{xdxdff}{rgb}{0.6588235294117647,0.6588235294117647,0.6588235294117647}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{qqqqff}{rgb}{0.3333333333333333,0.3333333333333333,0.3333333333333333}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(1.06,2.16) rectangle (7.1,5.4);
+\draw[line width=0.4pt,color=qqwuqq,fill=qqwuqq,fill opacity=0.15] (3.3998994432424787,3.147674708967659) -- (3.3016283853904382,3.3356715152933014) -- (3.1136315790647964,3.2374004574412614) -- (3.2119026369168364,3.049403651115619) -- cycle; 
+\draw (0.86,1.82)-- (7.9,5.5);
+\draw [domain=1.06:7.1] plot(\x,{(-33.8336--7.04*\x)/-3.68});
+\begin{normalsize}
+\draw[color=black] (5.8,4.16) node {$d$};
+\draw [fill=qqqqff] (2.6,4.22) circle (1.5pt);
+\draw[color=qqqqff] (2.42,4.08) node {$M$};
+\draw[color=black] (2.68,4.8) node {$\Delta$};
+\draw [fill=uuuuuu] (3.2119026369168364,3.049403651115619) circle (1.5pt);
+\draw[color=uuuuuu] (3.1,2.62) node {$H$};
+\draw [fill=xdxdff] (7.661525354969574,5.37534279918864) circle (1.5pt);
+\draw[color=xdxdff] (7.8,5.66) node {$C$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.55 \textwidth}
+Để tìm tọa độ hình chiếu $H$ của $M$ lên đường thẳng $d$ ta có 2 cách:
+\begin{itemize}
+\item Cách 1: Viết phương trình đường thẳng $\Delta$ đi qua $M$ và vuông góc với $d$. Điểm $H$ chính là giao điểm của $d$ và $\Delta$.
+\item Cách 2: Tham số hóa tọa độ của $H \in d$ và dựa vào điều kiện $MH\perp d$.\\
+\end{itemize}
+\end{minipage}
+\vidu{Tìm tọa độ hình chiếu $H$ của điểm $M(-1;-1)$ lên đường thẳng $d: x-y+2=0$.}
+\lgi
+\textbf{Cách 1}\\
+ Đường thẳng $\Delta$ đi qua $M$ và vuông góc với đường thẳng $d$ có phương trình dạng:
+$$1.(x+1)+1.(y+1) = 0 \Leftrightarrow x+y+2=0$$
+Do $H = d\cap \Delta$ nên tọa độ của $H$ là nghiệm của hệ phương trình:
+$$\begin{cases} x-y+2=0 \\x+y+2=0\end{cases}$$
+Giải hệ ta được $H(-2;0)$.\\
+\textbf{cách 2}\\
+Đường thẳng $d$ có vectơ chỉ phương $\vec{u}=(1;1)$. Giả sử $H(h;h+2) \in d$. Ta có: $\overrightarrow {MH} =(h+1;h+3)$
+$$\overrightarrow {MH}. \vec{u} =0 \Leftrightarrow 1.(h+1) + 1.(h+3) = 0 \Leftrightarrow h= -2$$
+Vậy $H(-2;0)$.
+\subsection{Tìm tọa độ điểm đối xứng của một điểm qua một đường thẳng}
+\begin{minipage}{0.55 \textwidth}
+Để tìm tọa độ điểm đối xứng $M'$ của $M$ qua đường thẳng $d$ ta có 2 cách:
+\begin{itemize}
+\item Cách 1: Tìm tọa độ điểm $H$ là hình chiếu của $M$ lên $d$. Do $H$ là trung điểm $MM'$ nên áp dụng công thức tìm tọa độ trung điểm, ta tìm được $M$ 
+\item Cách 2: Giả sử $M'(x;y)$ và $H$ là trung điểm của $MM'$. Khi đó ta có:
+$$\begin{cases}H \in d \\ \overrightarrow {MM'}. \vec{u} =0 \end{cases}  $$
+\end{itemize}
+\end{minipage}
+\begin{minipage}{0.43 \textwidth}
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.12941176470588237,0.12941176470588237,0.12941176470588237}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{qqqqff}{rgb}{0.3333333333333333,0.3333333333333333,0.3333333333333333}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(1.32,1.7) rectangle (7.26,5.26);
+\draw[line width=0.4pt,color=qqwuqq,fill=qqwuqq,fill opacity=0.15] (3.3998994432424787,3.147674708967659) -- (3.3016283853904382,3.3356715152933014) -- (3.1136315790647964,3.2374004574412614) -- (3.2119026369168364,3.049403651115619) -- cycle; 
+\draw (0.86,1.82)-- (7.9,5.5);
+\draw [domain=1.32:7.26] plot(\x,{(-33.8336--7.04*\x)/-3.68});
+\begin{normalsize}
+\draw[color=black] (5.8,4.16) node {$d$};
+\draw [fill=qqqqff] (2.6,4.22) circle (1.5pt);
+\draw[color=qqqqff] (2.42,4.08) node {$M$};
+\draw[color=black] (2.68,4.8) node {$\Delta$};
+\draw [fill=uuuuuu] (3.2119026369168364,3.049403651115619) circle (1.5pt);
+\draw[color=uuuuuu] (3.1,2.62) node {$H$};
+\draw [fill=qqqqff] (3.8238052738336705,1.8788073022312384) circle (1.5pt);
+\draw[color=qqqqff] (4.02,2.16) node {$M'$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\vidu{Tìm tọa độ điểm $M'$ là đối xứng của điểm $M(1;1)$ qua đường thẳng $d: x+y+2=0$.}
+\lgi
+\textbf{Cách 1}\\
+Đường thẳng $d$ có vectơ chỉ phương $\vec{u}=(1;-1)$. Hình chiếu của $M$ lên đường thẳng $d$ là $H(h;-h-2) \in d$. Ta có: $\overrightarrow {MH} =(h-1;-h-3)$. Do đó:
+$$\overrightarrow {MH}. \vec{u} =0 \Leftrightarrow 1.(h-1) - 1.(-h-3) = 0 \Leftrightarrow h= -1$$
+Vậy $H(-1;-1)$. \\
+Do $H$ là trung điểm của $MM'$ nên: 
+$$\begin{cases} x_{M'}=2x_H-x_M=-3 \\y_{M'}=2y_H-y_M=-3 \end{cases}$$
+Vậy $M'(-3;-3)$.\\
+\textbf{Cách 2}\\
+Đường thẳng $d$ có vectơ chỉ phương $\vec{u}=(1;-1)$.\\
+Giả sử $M'(x;y)$. Khi đó trung điểm $MM'$ là $H\left(\dfrac{x+1}{2};\dfrac{y+1}{2}\right) \in d$ và $\overrightarrow {MM'}. \vec{u} =0$. Ta có hệ:
+$$\begin{cases} \dfrac{x+1}{2}+\dfrac{y+1}{2} + 2=0\\ 1.(x-1) - 1.(y-1) = 0 \end{cases} \Leftrightarrow \begin{cases} x=-3 \\y=-3 \end{cases}$$
+Vậy $M'(-3;-3)$.
+\subsection{Viết phương trình đường thẳng đi qua 1 điểm, cách 1 điểm cho trước một khoảng cho trước}
+\begin{minipage}{0.43 \textwidth}
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.,0.39215686274509803,0.}
+\definecolor{sqsqsq}{rgb}{0.12549019607843137,0.12549019607843137,0.12549019607843137}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(2.04,-2.22) rectangle (8.08,2.12);
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (6.010379530080103,1.5072739550020466) -- (6.12518078873751,1.3288904607805374) -- (6.303564282959019,1.4436917194379444) -- (6.188763024301612,1.6220752136594534) -- cycle; 
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (6.746728772336625,-1.580084064428584) -- (6.542904495970455,-1.5212991653148908) -- (6.484119596856762,-1.725123441681061) -- (6.687943873222932,-1.7839083407947542) -- cycle; 
+\draw (1.12,-1.64)-- (7.18,2.26);
+\draw (0.78,-0.08)-- (8.2,-2.22);
+\draw (7.211796120715524,0.032439171539375145)-- (6.188763024301612,1.6220752136594534);
+\draw (7.211796120715524,0.032439171539375145)-- (6.687943873222932,-1.7839083407947542);
+\draw (6.8,1.2) node[anchor=north west] {$p$};
+\begin{normalsize}
+\draw[color=black] (4.74,1.02) node {$\Delta_1$};
+\draw[color=black] (4.8,-1.62) node {$\Delta_2$};
+\draw [fill=uuuuuu] (2.6886495618807627,-0.6304730542351527) circle (1.5pt);
+\draw[color=uuuuuu] (2.68,-0.28) node {$M$};
+\draw [fill=sqsqsq] (7.211796120715524,0.032439171539375145) circle (1.5pt);
+\draw[color=sqsqsq] (7.36,0.32) node {$N$};
+\draw [fill=uuuuuu] (6.188763024301612,1.6220752136594534) circle (1.5pt);
+\draw [fill=uuuuuu] (6.687943873222932,-1.7839083407947542) circle (1.5pt);
+\draw[color=black] (7.22,-0.84) node {$p$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.55 \textwidth}
+Để viết phương trình đường thẳng $\Delta$ đi qua điểm $M$ và cách điểm $N\left( x_N;y_N \right)$ một khoảng bằng $p$ ta thường giả sử vectơ pháp tuyến của đường thẳng là $\vec{n}=(a;b), \quad (a^2+b^2>0) $ và áp dụng công thức tính khoảng cách - công thức $\eqref{kc}$.
+\end{minipage}
+\vidu{ Viết phương trình đường thẳng $\Delta$ đi qua $A(1;3)$ và cách điểm $B(-2;1)$ một khoảng bằng $3$.}
+\lgi
+Giả sử $\vec{n}=(a;b), (a^2+b^2>0)$ là vectơ pháp tuyến của đường thẳng cần tìm. Phương trình đường thẳng có dạng:
+$$a(x-1)+b(y-3)=0 \Leftrightarrow ax + by -a-3b=0$$
+Khi đó:\\
+\cl{$
+d_{(B;\Delta)}=3 \Leftrightarrow  \dfrac{|-2a+b-a-3b|}{\sqrt{a^2+b^2}}=3  \Leftrightarrow  5a^2 -12ab=0 \Leftrightarrow  \left[ \begin{array}{l}b=0 \\ b=\dfrac{12}{5}a \end{array} \right.$}\\
+\begin{itemize}
+\item $b=0$, chọn $a=1$ ta có $\Delta_1: x-1=0$.
+\item $b=\dfrac{12}{5}a$, chọn $a=5,b=12$ ta có $\Delta_2: 5x+12y-41=0$.
+\end{itemize}
+Vậy có 2 đường thẳng thỏa mãn yêu cầu bài toán là: $\Delta_1 : x-1=0; \Delta_2 : 5x+12y-41=0
+$.
+\subsection{Viết phương trình đường thẳng đi qua 1 điểm, tạo với 1 đường thẳng khác một góc cho trước}
+\begin{minipage}{0.55 \textwidth}
+Để viết phương trình đường thẳng $\Delta$ đi qua điểm $M$ và tạo với đường thẳng $d$ một góc bẳng $\alpha$ ta thường giả sử vectơ pháp tuyến của đường thẳng là $\vec{n}=(a;b), \quad (a^2+b^2>0) $ và áp dụng công thức tính góc - công thức $\eqref{goc2dt}$.\\
+\end{minipage}
+\begin{minipage}{0.43 \textwidth}
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.12941176470588237,0.12941176470588237,0.12941176470588237}
+\definecolor{sqsqsq}{rgb}{0.12549019607843137,0.12549019607843137,0.12549019607843137}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(2.58,-2.38) rectangle (9.48,-0.54);
+\draw [shift={(3.6523809523809523,-1.04)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-19.463771796396152:0.6) arc (-19.463771796396152:0.:0.6) -- cycle;
+\draw [shift={(8.400096865451745,-1.04)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (180.:0.6) arc (180.:199.46377179639614:0.6) -- cycle;
+\draw (2.52,-1.04)-- (9.52,-1.04);
+\draw [domain=2.58:9.48] plot(\x,{(--0.23644616525091477-0.3332107589771663*\x)/0.9428523691977767});
+\draw (3.6523809523809523,-1.04)-- (6.026238908916349,-1.8789383505226385);
+\draw (6.026238908916349,-1.8789383505226385)-- (8.400096865451745,-1.04);
+\draw [domain=2.58:9.48] plot(\x,{(-9.515975683329286--0.8389383505226384*\x)/2.3738579565353968});
+\draw [domain=2.58:9.48] plot(\x,{(-0.5953101768739666--0.8389383505226384*\x)/-2.3738579565353963});
+\begin{normalsize}
+\draw[color=black] (5.76,-0.78) node {$d$};
+\draw [fill=uuuuuu] (3.6523809523809523,-1.04) circle (1.5pt);
+\draw [fill=sqsqsq] (6.026238908916349,-1.8789383505226385) circle (1.5pt);
+\draw[color=sqsqsq] (6.04,-2.12) node {$M$};
+\draw [fill=uuuuuu] (8.400096865451745,-1.04) circle (1.5pt);
+\draw[color=black] (4.8,-1.74) node {$\Delta_2$};
+\draw[color=black] (7.8,-1.56) node {$\Delta_1$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\vidu{
+Viết phương trình đường thẳng $\Delta$ đi qua $M(2;1)$ và tạo với đường thẳng $d: 2x+3y+4=0$ một góc $45^o$.}
+\lgi
+Giả sử $\vec{n}=(a;b), (a^2+b^2>0)$ là vectơ pháp tuyến của đường thẳng cần tìm. Phương trình đường thẳng có dạng:
+$$ax + by -2a-b=0$$
+Khi đó:\\
+\cl{$\cos (d;\Delta) = \dfrac{1}{\sqrt{2}}  \Leftrightarrow  \dfrac{|2a+3b|}{\sqrt{a^2+b^2}\sqrt{4+9}}=\dfrac{1}{\sqrt{2}}  \Leftrightarrow 5a^2 -24ab-5b^2=0  \Leftrightarrow  \left[ \begin{array}{l}a=5b \\ a=-\dfrac{1}{5}b \end{array} \right.
+$}\\
+\begin{itemize}
+\item $a=5b$, chọn $b=1,a=5$ ta có $\Delta_1: 5x+y-11=0$.
+\item $a=-\dfrac{1}{5}b$, chọn $b=5,a=-1$ ta có $\Delta_2: -x+5y-3=0$.
+\end{itemize}
+Vậy có 2 đường thẳng thỏa mãn yêu cầu bài toán là: $\Delta_1: 5x+y-11=0; \Delta_2: -x+5y-3=0.$
+\subsection{Viết phương trình đường phân giác trong của một góc}
+Để viết phương trình đường phân giác trong của góc $\widehat{BAC}$ ta có nhiều cách. Dưới đây là 3 cách thường sử dụng:\\
+\begin{minipage}{0.55 \textwidth}
+\textbf{Cách 1}:\\ Dựa vào tính chất đường phân giác là tập hợp các điểm cách đều hai đường thẳng $AB:ax+by+c=0$ và $AC: mx+ny+p=0$, ta có:
+$$\dfrac{|ax+by+c|}{\sqrt{a^2+b^2}}=\dfrac{|mx+ny+p|}{\sqrt{m^2+n^2}}$$
+Hai đường thu được là phân giác trong và phân giác ngoài của góc $\widehat{ABC}$.\\
+\end{minipage}
+\begin{minipage}{0.43 \textwidth}
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.12941176470588237,0.12941176470588237,0.12941176470588237}
+\definecolor{xdxdff}{rgb}{0.6588235294117647,0.6588235294117647,0.6588235294117647}
+\definecolor{qqqqff}{rgb}{0.3333333333333333,0.3333333333333333,0.3333333333333333}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(2.16,-2.38) rectangle (10.02,1.26);
+\draw [shift={(4.16,0.12)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-74.27415519827318:0.3) arc (-74.27415519827318:-17.999484399432905:0.3) -- cycle;
+\draw [shift={(4.16,0.12)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-130.54882599711345:0.4) arc (-130.54882599711345:-74.27415519827319:0.4) -- cycle;
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (4.8484787231943915,-0.3267416164774759) -- (5.050228866676739,-0.3922922046125348) -- (5.115779454811798,-0.19054206113018698) -- (4.91402931132945,-0.12499147299512811) -- cycle; 
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (3.8057728788417435,-0.6203405775858981) -- (3.9436790257431666,-0.45915157471410456) -- (3.7824900228713734,-0.3212454278126812) -- (3.64458387596995,-0.48243443068447467) -- cycle; 
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (3.4578083928822605,-0.7007434368908649) -- (3.296619390010467,-0.5628372899894416) -- (3.1587132431090437,-0.7240262928612353) -- (3.3199022459808374,-0.8619324397626585) -- cycle; 
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (2.865426295631281,0.31757144662967207) -- (3.067176439113629,0.2520208584946132) -- (3.132727027248688,0.45377100197696096) -- (2.93097688376634,0.5193215901120198) -- cycle; 
+\draw (4.16,0.12)-- (2.62,-1.68);
+\draw (2.62,-1.68)-- (9.7,-1.68);
+\draw (9.7,-1.68)-- (4.16,0.12);
+\draw [domain=2.16:10.02] plot(\x,{(--4.0368136414120075-0.9625695868848455*\x)/0.27103466642541774});
+\draw [domain=2.16:10.02] plot(\x,{(-1.0119958619035563--0.27103466642541774*\x)/0.9625695868848455});
+\draw [domain=2.159999999999998:9.7] plot(\x,{(-8.1528--1.8*\x)/-5.54});
+\draw (4.54703167089238,-1.2545286552292212)-- (4.91402931132945,-0.12499147299512811);
+\draw (4.634119859118297,-0.6952363802812701) -- (4.80531053259237,-0.7508578987385508);
+\draw (4.655750449629462,-0.6286622294857975) -- (4.826941123103535,-0.6842837479430782);
+\draw (2.6644073645623716,-0.30112015232686024)-- (2.93097688376634,0.5193215901120198);
+\draw (2.7120967874273187,0.13691147812122034) -- (2.883287460901392,0.0812899596639397);
+\draw (4.54703167089238,-1.2545286552292212)-- (3.64458387596995,-0.48243443068447467);
+\draw (4.063893979075829,-0.9596215985298246) -- (4.180911225045395,-0.8228481941498123);
+\draw (4.010704321816936,-0.9141148917638836) -- (4.1277215677865025,-0.7773414873838712);
+\draw (2.6644073645623716,-0.30112015232686024)-- (3.3199022459808374,-0.8619324397626585);
+\draw (3.0506634282563887,-0.5131395938547539) -- (2.933646182286822,-0.6499129982347663);
+\draw (4.84,-1.9) node[anchor=north west] {$d$};
+\draw (5.12,0.92) node[anchor=north west] {$d'$};
+\begin{normalsize}
+\draw [fill=qqqqff] (4.16,0.12) circle (1.5pt);
+\draw[color=qqqqff] (4.3,0.48) node {$A$};
+\draw [fill=qqqqff] (2.62,-1.68) circle (1.5pt);
+\draw[color=qqqqff] (2.4,-1.84) node {$B$};
+\draw [fill=qqqqff] (9.7,-1.68) circle (1.5pt);
+\draw[color=qqqqff] (9.84,-1.94) node {$C$};
+\draw[color=black] (3.18,4.44) node {$d$};
+\draw[color=black] (-3.14,-1.58) node {$e$};
+\draw [fill=xdxdff] (2.6644073645623716,-0.30112015232686024) circle (1.5pt);
+\draw [fill=xdxdff] (4.54703167089238,-1.2545286552292212) circle (1.5pt);
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\\
+Sau đó, ta cần dựa vào vị trí tương đối của hai điểm $B,C$ với hai đường vừa tìm được để phân biệt phân giác trong, phân giác ngoài. Cụ thể, nếu $B,C$ ở cùng một phía thì đó là phân giác ngoài, ở khác phía thì là phân giác trong.\\
+\\
+\begin{minipage}{0.43 \textwidth}
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.12941176470588237,0.12941176470588237,0.12941176470588237}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{sqsqsq}{rgb}{0.12549019607843137,0.12549019607843137,0.12549019607843137}
+\definecolor{qqqqff}{rgb}{0.3333333333333333,0.3333333333333333,0.3333333333333333}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(0.04,-1.66) rectangle (7.54,1.8);
+\draw [shift={(1.58,1.32)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-100.61965527615514:0.4) arc (-100.61965527615514:-61.612197311387376:0.4) -- cycle;
+\draw [shift={(1.58,1.32)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-61.612197311387376:0.3) arc (-61.612197311387376:-22.60473934661962:0.3) -- cycle;
+\draw (1.58,1.32)-- (1.16,-0.92);
+\draw (1.16,-0.92)-- (6.96,-0.92);
+\draw (1.58,1.32)-- (6.96,-0.92);
+\draw [domain=1.58:7.540000000000002] plot(\x,{(--3.9707792092468477-1.7314256335367655*\x)/0.9357020517111803});
+\draw (1.3466240092911175,0.07532804955262866)-- (2.5157020517111803,-0.4114256335367654);
+\draw (2.5157020517111803,-0.4114256335367654)-- (2.749078042420062,0.8332463169106058);
+\draw (3.2,-1.24) node[anchor=north west] {$d$};
+\begin{normalsize}
+\draw [fill=qqqqff] (1.58,1.32) circle (1.5pt);
+\draw[color=qqqqff] (1.72,1.6) node {$A$};
+\draw [fill=qqqqff] (1.16,-0.92) circle (1.5pt);
+\draw[color=qqqqff] (0.8,-0.9) node {$B$};
+\draw [fill=qqqqff] (6.96,-0.92) circle (1.5pt);
+\draw[color=qqqqff] (7.24,-0.88) node {$C$};
+\draw [fill=sqsqsq] (2.5157020517111803,-0.4114256335367654) circle (1.5pt);
+\draw[color=sqsqsq] (2.38,-0.6) node {$D$};
+\draw [fill=uuuuuu] (1.3466240092911175,0.07532804955262866) circle (1.5pt);
+\draw[color=uuuuuu] (1.14,0.3) node {$B'$};
+\draw [fill=uuuuuu] (2.749078042420062,0.8332463169106058) circle (1.5pt);
+\draw[color=uuuuuu] (2.94,1.12) node {$C'$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.55 \textwidth}
+\textbf{Cách 2}: \\
+ Lấy $B',C'$ lần lượt thuộc $AB,AC$ sao cho:
+$$\overrightarrow{AB'}=\dfrac{1}{AB}.\overrightarrow{AB}; \overrightarrow{AC'}=\dfrac{1}{AC}.\overrightarrow{AC}.$$ Giả sử $\overrightarrow{AD}=\overrightarrow{AB'}+\overrightarrow{AC'}$ Khi đó tứ giác $AB'DC'$ là hình thoi (Vì sao?). 
+\end{minipage}
+\\Do đó, $\overrightarrow{AD}$ là vectơ chỉ phương của đường phân giác cần tìm.\\
+\\
+\textbf{Cách 3}: \\
+Giả sử $\vec{u}=(a;b)$ là vectơ chỉ phương của đường phân giác cần tìm. Ta có: \\
+\cl{$\cos (\overrightarrow{AB}, \vec{u}) = \cos (\overrightarrow{AC}, \vec{u}) \Leftrightarrow  \dfrac{\overrightarrow{AB}.\vec{u}}{\left|\overrightarrow{AB}\right|} = \dfrac{\overrightarrow{AC}.\vec{u}}{\left|\overrightarrow{AC}\right| }$}
+\vidu{
+Viết phương trình đường phân giác trong góc $A$ của tam giác $ABC$ biết $A(1;1)$, $B(4;5)$, $C(-4;-11)$.}
+\lgi
+\textbf{Cách 1.}
+Ta có phương trình các cạnh:
+$$AB: 4x-3y-1=0; AC: 12x-5y-7=0$$
+Phương trình hai đường phân giác góc $A$ là:
+$$\left[ \begin{array}{l}
+\dfrac{4x-3y-1}{5}=\dfrac{12x-5y-7}{13}\\ \dfrac{4x-3y-1}{5}=-\dfrac{12x-5y-7}{13}
+\end{array} \right. \Leftrightarrow \left[ \begin{array}{lc}
+4x+7y-11=0 &  (d_1) \\56x-32y-24=0 & (d_2)
+\end{array} \right.$$
+Ta có:
+$$\left(4x_C + 7y_C -11 \right)\left(4x_B + 7y_B-11 \right) <0$$
+Do đó $B,C$ khác phía so với $(d_1)$ hay $(d_1)$ là đường phân giác cần tìm.\\
+\textbf{Cách 2.}
+Ta có $$\overrightarrow{AB} = (3;4); AB=5; \overrightarrow{AB'}=\dfrac{1}{5}\overrightarrow{AB}=\left(\dfrac{3}{5};\dfrac{4}{5}\right)$$
+$$\overrightarrow{AC} = (-5;-12); AC=13; \overrightarrow{AC'}=\dfrac{1}{13}\overrightarrow{AC}=\left(-\dfrac{5}{13};-\dfrac{12}{13}\right)$$
+Ta có: $\overrightarrow{AB'}+\overrightarrow{AC'}=\left(\dfrac{14}{65};-\dfrac{8}{65}\right)$. Vậy vectơ chỉ phương của đường phân giác cần tìm là: $\vec{u}= (7;-4)$.
+Do đó phương trình đường phân giác cần tìm là:
+\begin{displaymath}
+4(x-1)+7(y-1)=0 \Leftrightarrow 4x+7y-11=0 \end{displaymath}
+\textbf{Cách 3.}
+Giả sử $\vec{u}=(a;b)$ là vectơ chỉ phương của đường phân giác cần tìm. Ta có $$\dfrac{\overrightarrow{AB}.\vec{u}}{\left|\overrightarrow{AB}\right|} = \dfrac{\overrightarrow{AC}.\vec{u}}{\left|\overrightarrow{AC}\right| } \Leftrightarrow \dfrac{3a+4b}{5}=\dfrac{-5a-12b}{13} \Leftrightarrow a=-\dfrac{7}{4}b$$
+Vậy vectơ chỉ phương của đường phân giác cần tìm là: $\vec{u}= (7;-4)$.
+Do đó phương trình đường phân giác cần tìm là:
+\begin{displaymath}
+4(x-1)+7(y-1)=0 \Leftrightarrow 4x+7y-11=0 \end{displaymath}
+\subsection{Viết phương trình đường tròn đi qua ba điểm}
+Để viết phương trình đường tròn đi qua ba điểm, ta sử dụng phương trình dạng $\eqref{dtrtq}$ và thay tọa độ ba điểm đó vào, thu được 1 hệ phương trình.\\
+\vidu{Viết phương trình đường tròn ngoại tiếp tam giác $ABC$ biết:
+$A(1;3)$,$B(-1;-1)$,$C(2;0)$.}
+\lgi
+Giả sử phương trình đường tròn $\left(C \right)$ cần tìm có dạng 
+\begin{equation*}
+x^2 + y^2 + 2ax + 2by + c = 0, \ \ \ (a^2 + b^2-c > 0)
+\end{equation*}
+Do $A,B,C \in \left(C \right)$ nên:
+$$\begin{cases}1+9+2a+6b+c=0 \\ 1+ 1-2a-2b+c=0 \\4+2a+c=0\end{cases}\Leftrightarrow \begin{cases}a=0 \\ b=-1 \\c=-4\end{cases} \text{(Thỏa mãn)}$$
+Vậy $\left(C\right):x^2+y^2-2y-4=0.$
+\subsection{Viết phương trình đường thẳng đi qua hai tiếp điểm của đường tròn}
+Cho điểm $A\left(x_A; y_A \right)$ nằm ngoài đường tròn $(C)$ tâm $I$ bán kính $R$. Từ $A$, kẻ hai tiếp tuyến $AT_1$, $AT_2$ tới $(C)$. Hãy viết phương trình đường thẳng $T_1,T_2$.\\
+\\
+Giả sử $T(x;y)$, $I(a;b)$ là tiếp điểm ($T$ là $T_1$ hoặc $T_2$). Khi đó, ta có:
+\begin{equation} \label{pttd}
+\begin{cases} T \in (C) \\ \overrightarrow{AT}.\overrightarrow{IT}=0
+\end{cases} \Leftrightarrow \begin{cases} (x-a)^2+(y-b)^2=R^2\\ \left(x -x_A \right)(x-a)+\left(y -y_A \right)(y-b)=0 \end{cases}
+\end{equation}
+Trừ từng vế 2 phương trình của $\eqref{pttd}$ ta thu được 1 phương trình đường thẳng. Đó là phương trình cần tìm.\\
+\vidu{ Cho đường tròn $(C)$ có phương trình $(x-4) ^{2}+y^{2}=4$ và điểm $M=(1; -2)$. Tìm tọa độ điểm $N$ thuộc $Oy$ sao cho từ $N$ kẻ được 2 tiếp tuyến $NA, NB$ đến $(C)$ ($A,B$ là tiếp điểm) đồng thời đường thẳng $AB$ đi qua $M$.}
+\lgi
+Gọi $I$ và $T$ lần lượt là tâm và tiếp điểm của đường tròn $(C)$ ($T$ là $A$ hoặc $B$). Ta có:
+$$N\left( {0;n} \right),I\left( {4;0} \right),T\left( {x_0 ;y_0 } \right),\overrightarrow {NT} = \left( {x_0 ;y_0 - n} \right),\overrightarrow {IT} = \left( {x_0 - 4;y_0 } \right) $$
+Khi đó
+$$\begin{cases} T \in (C) \\ \overrightarrow {NT} .\overrightarrow {IT} = 0 \end{cases} \Leftrightarrow \begin{cases} x_0^2 + y_0^2 - 8x_0 + 12 = 0 \\ x_0^2 - 4x_0 + y_0^2 - ny_0 = 0 \end{cases}$$
+Trừ từng vế hai phương trình của hệ, ta có: $4x_0 - ny_0 - 12 = 0 $.\\
+Vậy $AB$ có phương trình là: $4x - ny - 12 = 0$. \\
+Vì $AB$ đi qua $M(1;-2)$ nên: 
+$$4 + 2n -12 = 0 \Rightarrow n = 4$$
+ Vậy $N(0;4)$.
+\section{Phương pháp giải toán}
+Phương pháp chung để giải quyết bài toán hình học giải tích phẳng gồm các bước sau:
+\begin{itemize}
+\item Vẽ hình, xác định các yếu tố đã biết lên hình
+\item Khám phá các tính chất khác của hình (nếu cần). Chú ý tìm các đường vuông góc, song song, đồng quy; các đoạn bằng nhau, góc bằng nhau; các góc đặc biệt; quan hệ thuộc giữa điểm và đường thẳng, đường tròn, ...
+\item Xác định các điểm, đường thẳng (theo các kĩ thuật đã học) để thực hiện yêu cầu bài toán.
+\end{itemize}
+\vidu{Cho hình bình hành $ABCD$ có $A(-2;-1)$. Điểm $C$ thuộc đường thẳng $d: x-y-3=0$. Gọi $H,K,E$ lần lượt là hình chiếu của $A$ lên $CD,BD,BC$. Đường tròn ngoại tiếp tam giác $HEK$ là $(C):x^2+y^2+x+4y+3=0$. Tìm tọa độ các đỉnh $B$,$C$,$D$ }
+\begin{minipage}{0.57 \textwidth}
+\begin{center}
+\definecolor{qqwuqq}{rgb}{0.,0.39215686274509803,0.}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{qqqqff}{rgb}{0.,0.,1.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-3.88,-0.22) rectangle (5.46,3.76);
+\draw [shift={(1.7222641509433962,0.1520754716981132)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (132.51044707800085:0.3) arc (132.51044707800085:161.32124082097388:0.3) -- cycle;
+\draw [shift={(1.7222641509433962,0.1520754716981132)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (113.83168789897476:0.6) arc (113.83168789897476:132.51044707800085:0.6) -- cycle;
+\draw [shift={(2.8,1.14)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (151.18920625702697:0.6) arc (151.18920625702697:180.:0.6) -- cycle;
+\draw [shift={(-1.2,3.34)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-28.810793742973072:0.3) arc (-28.810793742973072:0.:0.3) -- cycle;
+\draw [shift={(-1.2,3.34)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-47.48955292199915:0.6) arc (-47.48955292199915:-28.810793742973072:0.6) -- cycle;
+\draw [shift={(-1.2,3.34)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-137.48955292199915:0.6) arc (-137.48955292199915:-90.:0.6) -- cycle;
+\draw [shift={(-0.823529411764706,1.8341176470588232)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-165.96375653207355:0.3) arc (-165.96375653207355:-118.47420361007437:0.3) -- cycle;
+\draw [shift={(-0.823529411764706,1.8341176470588232)},color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (0,0) -- (-118.47420361007437:0.6) arc (-118.47420361007437:14.036243467926484:0.6) -- cycle;
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (-1.2,1.3521320343559642) -- (-1.412132034355964,1.3521320343559642) -- (-1.412132034355964,1.14) -- (-1.2,1.14) -- cycle; 
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (-0.8749789873074586,2.039915949229834) -- (-1.0807772894784693,1.9884663736870811) -- (-1.0293277139357166,1.7826680715160705) -- (-0.823529411764706,1.8341176470588232) -- cycle; 
+\draw[color=qqwuqq,fill=qqwuqq,fill opacity=0.1] (1.8786381583381013,0.2954183118099261) -- (1.7352953182262882,0.4517923192046311) -- (1.5789213108315834,0.30844947909281817) -- (1.7222641509433962,0.1520754716981132) -- cycle; 
+\draw (-1.2,3.34)-- (-3.6,1.14);
+\draw (-3.6,1.14)-- (2.8,1.14);
+\draw (-3.6,1.14)-- (5.2,3.34);
+\draw (-1.2,3.34)-- (2.8,1.14);
+\draw (-1.2,1.14)-- (1.7222641509433962,0.1520754716981132);
+\draw (1.7222641509433962,0.1520754716981132)-- (0.8,2.24);
+\draw (-0.823529411764706,1.8341176470588232)-- (-1.2,1.14);
+\draw (-1.2,3.34)-- (5.2,3.34);
+\draw [domain=-3.8800000000000003:5.2] plot(\x,{(--4.961569811320755-3.1879245283018873*\x)/-3.4777358490566037});
+\draw (-1.2,3.34)-- (-1.2,1.14);
+\draw (-1.2,3.34)-- (-0.823529411764706,1.8341176470588232);
+\draw (-1.2,3.34)-- (1.7222641509433962,0.1520754716981132);
+\begin{normalsize}
+\draw [fill=qqqqff] (-1.2,3.34) circle (1.5pt);
+\draw[color=qqqqff] (-1.34,3.48) node {$A$};
+\draw [fill=qqqqff] (-3.6,1.14) circle (1.5pt);
+\draw[color=qqqqff] (-3.72,1.46) node {$B$};
+\draw [fill=qqqqff] (2.8,1.14) circle (1.5pt);
+\draw[color=qqqqff] (3.14,1.12) node {$C$};
+\draw [fill=qqqqff] (5.2,3.34) circle (1.5pt);
+\draw[color=qqqqff] (5.14,3.6) node {$D$};
+\draw [fill=uuuuuu] (1.7222641509433962,0.1520754716981132) circle (1.5pt);
+\draw[color=uuuuuu] (1.9,0.) node {$H$};
+\draw [fill=uuuuuu] (-1.2,1.14) circle (1.5pt);
+\draw[color=uuuuuu] (-1.24,0.96) node {$E$};
+\draw [fill=uuuuuu] (-0.823529411764706,1.8341176470588232) circle (1.5pt);
+\draw[color=uuuuuu] (-0.68,2.12) node {$K$};
+\draw [fill=uuuuuu] (0.8,2.24) circle (1.5pt);
+\draw[color=uuuuuu] (0.94,2.52) node {$I$};
+\draw[color=qqwuqq] (1.1,0.54) node {1};
+\draw[color=qqwuqq] (1.22,0.9) node {2};
+\draw[color=qqwuqq] (2.0,1.4) node {5};
+\draw[color=qqwuqq] (-0.5,3.20) node {4};
+\draw[color=qqwuqq] (-0.3,2.68) node {3};
+\draw[color=qqwuqq] (-1.32,3.05) node {6};
+\draw[color=qqwuqq] (-1.09,1.56) node {7};
+\draw[color=qqwuqq] (-0.6,1.6) node {8};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.45 \textwidth}
+\begin{center}
+\textbf{Phân tích}
+\end{center}
+Bằng cách vẽ thử đường tròn ngoại tiếp tam giác $HKE$, ta dễ thấy nó đi qua tâm $I$ của hình bình hành. Ta cần chứng minh điều đó.\\
+Tham số hóa điểm $C$ ta tìm được tọa độ của $I$ theo tham số. Vì $I \in (C)$ nên ta thay tọa độ của $I$ (có tham số $t$) vào phương trình $(C)$. Từ đó ta tìm được $t$. Dễ dàng suy ra tọa độ $A,I,C$.\\
+Vì $\widehat{AHC}=\widehat{AEC}=90^o$ nên $H,E$ nằm trên đường tròn $(T)$ đường kính $AC$.
+\end{minipage}
+Do đó $H,E$ là giao điểm của $(C)$ và $(T)$. Ta tìm được $H,E$.\\
+Viết phương trình $CH, CE$, tham số hóa rồi sử dụng tính chất trung điểm $I$, ta tìm được $B,D$.
+\lgi
+Gọi $I$ là tâm hình bình hành. \\
+Ta có $\widehat{AHC}=\widehat{AEC}=90^o$ nên tứ giác $AEHC$ nội tiếp đường tròn $(T)$ đường kính $AC$. Suy ra:
+\begin{equation} \label{gt1}
+ \begin{cases} \widehat{H_1} = \widehat{C_5}= \widehat{A_4} \\ \widehat{H_2}=\widehat{A_3}  \end{cases} \Rightarrow \widehat{EHI} = \widehat{H_1}+\widehat{H_2} = \widehat{A_3}+\widehat{A_4} =\widehat{HAD}
+\end{equation}
+Mặt khác:
+\begin{equation} \label{gt2}
+\widehat{EAD} = \widehat{BAH} = 90^0  \Rightarrow \widehat{HAD} = \widehat{A_6}
+\end{equation}
+\begin{equation} \label{gt3}
+\widehat{AEB} = \widehat{BKA} = 90^0  \Rightarrow AKEB \text{ nội tiếp } \Rightarrow \widehat{A_6}=\widehat{K_7} = 180^o-\widehat{K_8}
+\end{equation}
+Từ $\eqref{gt1}, \eqref{gt2}, \eqref{gt3}$ suy ra $\widehat{EHI}+\widehat{K_8}=180^o$. Do đó tứ giác $HEKI$ nội tiếp.\\
+Giả sử $C(c;c-3) \in d$. Khi đó $I\left(\dfrac{c-2}{2};\dfrac{c-4}{2}\right)$. Vì $I \in (C)$ nên:
+$$\left(\dfrac{c-2}{2}\right)^2+ \left(\dfrac{c-4}{2}\right)^2+\dfrac{c-2}{2}+2(c-4)+3=0 \Leftrightarrow \hay{c=2 \\c=-1}$$
+Dễ thấy $\{ E, H \} = (C) \cap (T)$.
+\begin{itemize}
+\item \textbf{Trường hợp 1.} $C_1(2;-1), I_1(0;-1)$. Ta có phương trình đường tròn $(T):$
+$$x^2+(y+1)^2 = 4$$
+Tọa độ của $E,H$ là nghiệm của hệ phương trình:
+$$\begin{cases}x^2+(y+1)^2 = 4 \\  x^2+y^2+x+4y+3=0 \end{cases} \Leftrightarrow \hay{(x;y) = \left(-\dfrac{8}{5};\dfrac{11}{5}\right) \\(x;y)=(0;-3)}$$
+$C_1H, C_1E$ là hai đường thẳng có phương trình:
+$$x-y-3=0; \quad  x-3y-5=0$$
+$B_1,D_1$ thuộc hai đường thẳng trên và nhận $I_1$ làm trung điểm. Giả sử $(t;t-3),(3t'+5;t')$ là hai điểm đó. Ta có
+$$\begin{cases}\dfrac{t+3t'+5}{2}= 0 \\ \dfrac{t+t'-3}{2} = -1\end{cases} \Leftrightarrow \begin{cases}t=4\\t'=-3\end{cases}$$
+Vậy $B_1,D_1 \in \{ (4;1), (-4;-3) \}$
+\item \textbf{Trường hợp 2.} $C_2(-1;-4)$. Bằng cách tương tự, ta có $B_2,D_2 \in \{(-1;0), (-2;-5) \}$
+\end{itemize}
+\vidu{Cho tam giác $ABC$ có điểm $A(2;3)$, tâm đường tròn ngoại tiếp $I(1;0)$, chân đường phân giác trong góc $A$ là $D(3;1)$. Tìm tọa độ các điểm $B$ và $C$.}
+\lgi
+\begin{minipage}{0.33 \textwidth}
+\begin{center}
+\definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
+\definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1.}
+\definecolor{qqqqff}{rgb}{0.,0.,1.}
+\begin{tikzpicture}[line cap=round,line join=round,>=triangle 45,x=1.0cm,y=1.0cm]
+\clip(-4.898756056057441,-2.7131091984349776) rectangle (-0.328360461492955,1.6211773986243208);
+\draw(-2.706315364937946,-0.5543983641019417) circle (2.0018890225971977cm);
+\draw (-4.38478643647689,-1.645404560602252)-- (-4.017413620360298,0.9584073152315373);
+\draw (-4.017413620360298,0.9584073152315373)-- (-1.1464165124974368,-1.8090996149779999);
+\draw [domain=-4.898756056057441:-0.328360461492955] plot(\x,{(-3.486113731516516-0.9454599622814062*\x)/0.32573833014068543});
+\draw (-4.38478643647689,-1.645404560602252)-- (-1.1464165124974368,-1.8090996149779999);
+\draw (-2.706315364937946,-0.5543983641019417)-- (-2.8073790106877983,-2.5537347035663425);
+\begin{normalsize}
+\draw [fill=qqqqff] (-2.706315364937946,-0.5543983641019417) circle (1.5pt);
+\draw[color=qqqqff] (-2.571395937792131,-0.7567775048206639) node {$I$};
+\draw [fill=xdxdff] (-4.017413620360298,0.9584073152315373) circle (1.5pt);
+\draw[color=xdxdff] (-4.25788877711482,1.0646347616478349) node {$A$};
+\draw [fill=xdxdff] (-4.38478643647689,-1.645404560602252) circle (1.5pt);
+\draw[color=xdxdff] (-4.713241843731946,-1.6843485664481401) node {$C$};
+\draw [fill=xdxdff] (-1.1464165124974368,-1.8090996149779999) circle (1.5pt);
+\draw[color=xdxdff] (-0.9354978836491229,-1.7180784232345938) node {$B$};
+\draw [fill=uuuuuu] (-2.8073790106877983,-2.5537347035663425) circle (1.5pt);
+\draw[color=uuuuuu] (-2.589450436544719,-2.42521584539076) node {$D$};
+\end{normalsize}
+\end{tikzpicture}
+\end{center}
+\end{minipage}
+\begin{minipage}{0.67 \textwidth}
+Ta có:\\
+Đường tròn tâm $I$ bán kính $IA$: $(x - 1)^2 + y^2 = 10$.\\
+Đường thẳng $AD$: $2x + y - 7 = 0$.\\
+\\
+Gọi $E = AD \cap (I)$. Khi đó tọa độ điểm $E$ là nghiệm của hệ phương trình:
+$$\va{ 2x + y - 7 = 0 \\  (x - 1)^2  + y^2  = 10 } \Leftrightarrow \va{ x = 4 \\  y =  - 1 }$$
+Vậy $E(4;-1).$
+\end{minipage}
+$$\widehat{CAE} = \widehat{EAB} \Rightarrow EC = EB \Rightarrow IE \bot BC$$
+
+Đường thẳng $BC$ đi qua điểm $D$ và có vectơ pháp tuyến $\vt{IB}$ nên có phương trình: $3x-y-8=0$.\\
+Tọa độ của $B$ và $C$ là nghiệm của hệ:
+$$
+\va{
+ 3x - y - 8 = 0 \\ 
+ (x - 1)^2  + y^2  = 10 } \Leftrightarrow \va{
+ x = \frac{{5 - \sqrt 3 }}{2};y =  - \frac{{1 + 3\sqrt 3 }}{2} \\ 
+ x = \frac{{5 + \sqrt 3 }}{2};y = \frac{{3\sqrt 3  - 1}}{2} }
+$$
+Vậy $B,C \in \left\{ {\left( {\frac{{5 - \sqrt 3 }}{2}; - \frac{{1 + 3\sqrt 3 }}{2}} \right),\left( {\frac{{5 + \sqrt 3 }}{2};\frac{{3\sqrt 3  - 1}}{2}} \right)} \right\}$

@@ -1,0 +1,311 @@
+
+\baitracnghiem{thttlatex:01}{%601
+Trong môi trường tabular, thông số nào sau đây cố định độ rộng một cột
+}{
+\bonpa{2}
+{@$\{$2cm$\}$}
+{p$\{$2cm$\}$}
+{l}
+{r}
+}{ }
+
+\baitracnghiem{thttlatex:02}{%602
+Lệnh ngắt dòng nào sau đây khi ngắt dòng dồn đều các chữ còn lại trên dòng vừa ngắt:
+}{%[2]
+\bonpa{4}
+{$\setminus$newline}
+{$\backslash\backslash$ }
+{$\backslash$cr}
+{$\backslash$break}
+}{ }
+
+\baitracnghiem{thttlatex:03}{%603
+Tệp ảnh có đuôi nào sau đây không dịch ra tệp PDF được khi đưa vào bằng lệnh\\
+$\backslash$includegraphics[scale=1]$\{....\}$
+}{%[2]
+\bonpa{3}
+{*.pdf}
+{*.jpg}
+{*.bmp}
+{*.tif}
+}{ }
+
+\baitracnghiem{thttlatex:04}{%604
+Lệnh nào sau đây luôn luôn định nghĩa một lệnh mới mà không thông báo lỗi:
+}{%[2]
+\bonpa{1}
+{$\backslash$renewcommand}
+{$\backslash$def}
+{$\backslash$newcommand}
+{$\backslash$newenvironment}
+}{ }
+
+\baitracnghiem{thttlatex:05}{%605
+Lệnh nào sau đây đưa vào tiêu đề và mục lục nội dung khác nhau:
+}{
+\bonpa{2}
+{$\backslash$section*[short-title]$\{$title$\}$}
+{$\backslash$section[short-title]$\{$title$\}$}
+{$\backslash$section$\{$title$\}$}
+{$\backslash$section*$\{$title$\}$}
+}{ }
+
+
+\baitracnghiem{thttlatex:06}{%605
+Lệnh nào sau đây chỉ đánh số trang và không tiêu đề chạy:
+}{
+\bonpa{3}
+{$\backslash$pagestyle$\{$empty$\}$}
+{$\backslash$pagestyle$\{$myheading$\}$}
+{$\backslash$pagestyle$\{$plain$\}$}
+{$\backslash$thispagestyle$\{$empty$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:07}{%605
+Nguyên tắc dấu trắng nào coi như không có dấu trắng:
+}{
+\bonpa{4}
+{Hai hoặc nhiều dấu trắng liền nhau}
+{Dấu cách (tabs)}
+{Dấu xuống dòng}
+{Các dấu trắng bắt đầu một dòng}
+}{ }
+
+\baitracnghiem{thttlatex:08}{%605
+Muốn chủ động ngắt một từ ra làm đôi ở cuối dòng, thì ta làm cách nào sau đây: Ví dụ ngắt từ database thành data và base
+}{
+\bonpa{1}
+{data$\backslash$-base}
+{data$\backslash$newline base}
+{data\~{}base}
+{data base}
+}{ }
+
+\baitracnghiem{thttlatex:09}{%605
+Một môi trường itemize như sau
+$\backslash$begin$\{$itemize$\}$
+$\backslash$item[(1)] Ví dụ
+$\backslash$end$\{$itemize$\}$\\
+khả năng nào là đúng
+}{
+\bonpa{2}
+{$\bullet$ Ví dụ}
+{(1) Ví dụ}
+{$\bullet$ (1) Ví dụ}
+{\textbf{Ví dụ}}
+}{ }
+
+\baitracnghiem{thttlatex:10}{%605
+Để nội dung định lý không dùng chữ nghiêng, trước lệnh $\backslash $newtheorem$\{$theorem$\}\{$Định lý$\}$ người ta dùng lệnh nào sau đây:
+}{
+\bonpa{3}
+{$\backslash$theoremstyle$\{$plain$\}$}
+{$\backslash$theoremstyle$\{$main$\}$}
+{$\backslash$theoremstyle$\{$definition$\}$}
+{$\backslash$theoremstyle$\{$remark$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:11}{%605
+Những lệnh nào sau đây không dùng trong môi trường bảng:
+}{
+\bonpa{4}
+{$\backslash$hline}
+{$\backslash$cline$\{$1-3$\}$}
+{$\backslash\backslash$[4pt]}
+{$\backslash$vline}
+}{ }
+
+\baitracnghiem{thttlatex:12}{%605
+Ký tự $\mathbb{R}$ là do lệnh nào dưới đây sinh ra:
+}{
+\bonpa{1}
+{$\backslash$mathbb$\{$R$\}$}
+{$\backslash$mathcal$\{$R$\}$}
+{$\backslash$mathfrak$\{$R$\}$}
+{$\backslash$mathscr$\{$R$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:13}{%605
+Đặt số trang dùng lệnh $\backslash$setcounter$\{<$số đếm$>\}\{$n$\}$, lệnh nào sau đây đặt lại số trang bằng 5:
+}{
+\bonpa{2}
+{$\backslash$setcounter$\{$onpage$\}\{$5$\}$}
+{$\backslash$setcounter$\{$page$\}\{$5$\}$}
+{$\backslash$setcounter$\{\backslash $thepage$\}\{$5$\}$}
+{$\backslash$setcounter$\{$lastpage$\}\{$5$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:14}{%605
+Mỗi dòng của trang văn bản được định nghĩa bằng 
+$\backslash$setlength$\{\backslash$baselineskip$\}\{$14truept$\}$
+Khi đó định nghĩa độ cao của trang bằng các lệnh sau, lệnh nào đặt không đúng.
+}{
+\bonpa{3}
+{$\backslash$setlength$\{\backslash $textheight$\}\{$21truecm$\}$}
+{$\backslash$setlength$\{\backslash $textheight$\}\{$20$\backslash$baselineskip$\}$}
+{$\backslash$setlength$\{\backslash $textheight$\}\{$13$\}$}
+{$\backslash$setlength$\{\backslash $textheight$\}\{$6in$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:15}{%605
+Lệnh gán nhãn
+$\backslash$label$\{$nhanso$\}$
+Lệnh nào sau đây dùng nhãn sai
+}{
+\bonpa{4}
+{$\backslash$ref$\{$nhanso$\}$}
+{$\backslash$pageref$\{$nhanso$\}$}
+{$\backslash$eqref$\{$nhanso$\}$}
+{$\backslash$cite$\{$nhanso$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:16}{%605
+Lệnh nào dùng thiết lập giao diện cho trình chiếu beamer sau đây:
+}{
+\bonpa{1}
+{$\backslash$usetheme$\{$Antibes$\}$}
+{$\backslash$usecolortheme$\{$Antibes$\}$}
+{$\backslash$usefonttheme$\{$Antibes$\}$}
+{$\backslash$usepackage$\{$Antibes$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:17}{%605
+Cặp lệnh nào sau đây làm ký hiệu biên tương ứng với nội dung bên trong công thức
+}{
+\bonpa{2}
+{$\backslash$bigl( ...$\backslash$bigr)}
+{$\backslash$left(...$\backslash$right)}
+{$\backslash$Big(...$\backslash$Big)}
+{$\backslash$Biggl(...$\backslash$Biggr)}
+}{ }
+
+\baitracnghiem{thttlatex:18}{%605
+Để làm một ký tự đậm trong công thức toán, ta dùng lệnh nào sau đây:
+}{
+\bonpa{3}
+{$\backslash$pmb$\{$...$\}$}
+{$\backslash$bolsymbol$\{$...$\}$}
+{$\backslash$mathbf$\{$...$\}$}
+{$\backslash$textbf$\{$...$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:19}{%605
+Để cho một hình cố định tại vị trí đưa lệnh vào thì phần đầu tùy chọn nào hoặc không tùy chọn sau đây
+}{
+\bonpa{1}
+{$\backslash$begin$\{$figure$\}[h]$}
+{$\backslash$begin$\{$figure$\}[t]$}
+{$\backslash$begin$\{$figure$\}[p]$}
+{$\backslash$begin$\{$figure$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:20}{%605
+Đặt cỡ phông chữ cho văn bản $\backslash$documentcls[12pt]$\{$article $\}$, muốn tăng cỡ chữ lên 14pt ta thực hiện lệnh nào sau đây phù hợp nhất:
+}{
+\bonpa{1}
+{Đặt lại $\backslash$documentcls[14pt]$\{$article$\}$}
+{Dùng lệnh $\backslash$large}
+{Dùng lệnh $\backslash$LARGE}
+{Dùng lệnh $\backslash$huge}
+}{ }
+
+\baitracnghiem{thttlatex:21}{%605
+Lệnh nào sau đây đánh lại số trang theo i,ii,iii,iv,....
+}{
+\bonpa{2}
+{$\backslash$pagenumbering$\{$arabic$\}$}
+{$\backslash$pagenumbering$\{$roman$\}$}
+{$\backslash$pagenumbering$\{$alph$\}$}
+{$\backslash$pagenumbering$\{$Alph$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:22}{%605
+Lệnh $\{\backslash$ allowdisplaybreaks ... $\}$ dùng ngắt khối nào sau đây
+}{
+\bonpa{2}
+{Một bảng dài hơn một trang}
+{Một khối dóng công thức cuối trang}
+{Bất cứ một khối công thức nào dài quá 1 trang}
+{Một hình lớn quá một trang}
+}{ }
+
+\baitracnghiem{thttlatex:23}{%605
+Lệnh nào sau đây tách hai dòng trong một bảng
+}{
+\bonpa{3}
+{$\backslash$hspace$\{$0.2cm$\}$}
+{$\backslash$vspace$\{$0.2cm$\}$}
+{$\backslash\backslash$[0.2cm]}
+{$\backslash$cline$\{$0.2cm$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:24}{%605
+Lệnh đặc biệt nào chỉ dùng trong định nghĩa lệnh
+}{
+\bonpa{1}
+{\#}
+{\%}
+{\&}
+{@}
+}{ }
+
+\baitracnghiem{thttlatex:25}{%605
+Làm lệnh phủ định một ký hiệu như $\not\subset$ ta dùng lệnh nào sau đây
+}{
+\bonpa{1}
+{$\backslash$not$\{$...$\}$}
+{$\backslash$overline$\{$...$\}$}
+{$\backslash$overset$\{$/$\}$ $\{$...$\}$}
+{$\backslash$stackrel$\{$...$\}$ $\{$/$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:26}{%605
+Môi trường nào sau đây dóng công thức nhiều dòng và thẳng hàng
+}{
+\bonpa{2}
+{equation}
+{align}
+{multline}
+{displaymath}
+}{ }
+
+\baitracnghiem{thttlatex:27}{%605
+Dùng Geogebra khi Export ra tệp hình, sau đó đưa tệp hình vào văn bản TeX. Cách nào sau đây làm không đúng
+}{
+\bonpa{4}
+{Đưa ra hình chọn đuôi *.png}
+{Đưa ra tệp TeX, dùng standalone ra hình tệp *.pdf}
+{Đưa ra tệp TeX, rồi đưa vào bằng $\backslash$input$\{$*.tex$\}$}
+{Đưa ra tệp TeX, bỏ đầu, cuối, đưa vào $\backslash$input$\{$*.tex$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:28}{%605
+Nhận định nào về môi trường minipage thực hiện việc dóng song song sau đây là sai?
+}{
+\bonpa{2}
+{dóng hai hình}
+{dóng hai bảng}
+{dóng một bảng và một hình}
+{không dóng song song được}
+}{ }
+
+\baitracnghiem{thttlatex:29}{%605
+Lệnh nào sau đây làm chữ trong dấu ngoặc nhọn không có chân như: \textsf{không chân}
+}{
+\bonpa{3}
+{$\backslash $textrm $\{$...$\}$}
+{$\backslash$ texttt $\{$...$\}$}
+{$\backslash$ textsf $\{$...$\}$}
+{$\backslash$ textit $\{$...$\}$}
+}{ }
+
+\baitracnghiem{thttlatex:30}{%605
+Lệnh phép đồng dư nào sau đây làm ra : $x\equiv v \pmod{\theta}$
+}{
+\bonpa{3}
+{\$x$\backslash$equiv v $\backslash$mod$\{\backslash $theta$\}$\$}
+{\$x$\backslash $equiv v $\backslash$bmod$\{\backslash $theta$\}$\$}
+{\$x$\backslash $equiv v $\backslash$pmod$\{\backslash $theta$\}$\$}
+{\$x$\backslash $equiv v $\backslash $pod$\{\backslash $theta$\}$\$}
+}{ }
+

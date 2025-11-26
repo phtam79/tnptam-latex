@@ -1,0 +1,72 @@
+\section*{Vận dụng đạo hàm để giải quyết một số bài toán tối ưu trong kinh tế}
+
+	\subsection*{1 Vận dụng đạo hàm để giải quyết một số bài toán tối ưu trong kinh tế}
+	Trong phần này, chúng ta sẽ thảo luận về một số ứng dụng của đạo hàm trong kinh tế học. Đầu tiên, chúng ta giới thiệu một số hàm số trong kinh tế học.
+
+		\subsubsection*{- Hàm chi phí}
+		Nếu $C(x)$ là tổng chi phí mà doanh nghiệp phải trả để sản xuất $x$ đơn vị hàng hoá thì $C(x)$ được gọi là hàm chi phí và chi phí sản xuất trung bình (chi phí sản xuất bình quân) cho mỗi đơn vị hàng hoá là $c(x) = \frac{C(x)}{x}$.
+
+		\subsubsection*{- Hàm cầu}
+		Gọi $p(x)$ là giá bán mỗi đơn vị hàng hoá khi giao dịch $x$ đơn vị hàng hoá. Khi đó $p(x)$ được gọi là hàm cầu (hay hàm giá) và hàm số này được kì vọng là hàm giảm theo biến $x$.
+
+		\subsubsection*{- Hàm doanh thu}
+		Nếu $x$ đơn vị hàng hoá được bán với giá mỗi đơn vị là $p(x)$, thì hàm doanh thu, kí hiệu là $R(x)$, được tính bởi công thức
+		$R(x) = x \cdot p(x)$.
+
+		\subsubsection*{- Hàm lợi nhuận}
+		Nếu $x$ đơn vị hàng hoá được bán với giá mỗi đơn vị là $p(x)$, thì hàm lợi nhuận, kí hiệu là $P(x)$, được tính bởi công thức
+		$P(x) = R(x) - C(x) = x \cdot p(x) - C(x)$.
+
+	\subsection*{Hàm chi phí biên, doanh thu biên và lợi nhuận biên}
+	Chi phí biên là tốc độ thay đổi của hàm chi phí $C(x)$ đối với $x$, tức là đạo hàm $C'(x)$.
+
+	Đạo hàm $R'(x)$ của hàm doanh thu $R(x)$ được gọi là hàm doanh thu biên và là tốc độ thay đổi của doanh thu đối với số lượng đơn vị sản phẩm bán ra.
+
+	Hàm lợi nhuận biên là đạo hàm $P'(x)$ của hàm lợi nhuận $P(x)$.
+
+	\subsection*{Các bài toán tối ưu trong kinh tế}
+	Doanh thu lớn nhất, chi phí sản xuất nhỏ nhất, chi phí sản xuất bình quân nhỏ nhất, lợi nhuận lớn nhất, tốc độ bán hàng lớn nhất,...
+
+	Các em chú ý với $x$ đơn vị hàng hóa thì $x \in \mathbb{N}^*$. Do vậy khi khảo sát hàm số đã biết $\min_{D} f(x) = f(x_0)$ hoặc $\max_{D} f(x) = f(x_0)$ với $x_0 \notin \mathbb{Z}$ ta kiểm tra thêm các giá trị $f(\lfloor x_0 \rfloor)$, $f(\lfloor x_0 \rfloor + 1)$.
+
+	\subsection*{a) Bài toán cho trước các hàm}
+
+	\subsection*{b) Bài toán tăng giảm theo tỉ lệ}
+	Một sản phẩm bán ra với giá $p_1$ đồng bán được $x_1$ sản phẩm.
+
+	Giảm giá bán $a$ đồng bán được thêm $b$ sản phẩm.
+
+	Vậy giảm giá bán $ay$ đồng bán được thêm $by$ sản phẩm.
+
+	Gía bán lúc này là $p(x) = p_1 - ay$ đồng và số lượng sản phẩm bán ra là $x = x_1 + by \Rightarrow p(x) = p_1 - a \cdot \frac{x-x_1}{b}$ chính là hàm cầu.
+
+	Ngoài ra ta có thể xây dựng hàm cầu bậc nhất khi biết $p(x_1) = p_1$; $p(x_2) = p_2$ thì $p(x) = \frac{p_2 - p_1}{x_2 - x_1}(x-x_1) + p_1$.
+
+	Ví dụ. Với $p(100) = 10$; $p(120) = 9 \Rightarrow p(x) = \frac{9 - 10}{120 - 100}(x - 100) + 10 = 15 - \frac{x}{20}$.
+
+		\subsubsection*{Tương tự khi tăng giá bán:}
+		Một sản phẩm bán ra với giá $p_1$ đồng bán được $x_1$ sản phẩm.
+
+		Tăng giá bán $a$ đồng số lượng bán ra giảm $b$ sản phẩm.
+
+		Vậy tăng giá bán $ay$ đồng số lượng bán ra giảm $by$ sản phẩm.
+
+		Gía bán lúc này là $p(x) = p_1 + ay$ đồng và số lượng sản phẩm bán ra là $x = x_1 - by \Rightarrow p(x) = p_1 - a \cdot \frac{x-x_1}{b}$ chính là hàm cầu.
+
+	\subsection*{c) Bài toán quản trị hàng tồn kho}
+		\subsubsection*{Lưu trữ nguyên liệu trong một chu kì sản xuất}
+		Trong một chu kì sản xuất $n$ ngày. Giả sử mỗi ngày cần $x$ đơn vị nguyên liệu để sản xuất thì trong $n$ ngày số đơn vị nguyên liệu cần để sản xuất là $nx$ và trung bình mỗi ngày cần lưu trữ trong kho $\frac{nx}{2}$ đơn vị nguyên liệu.
+
+		Chứng minh. Ngày 1 lấy ra $x$ đơn vị nguyên liệu để sản xuất nên lưu trữ trong kho $nx - x = (n-1)x$ đơn vị nguyên liệu.
+
+		Ngày 2 lấy ra $x$ đơn vị nguyên liệu để sản xuất nên lưu trữ trong kho $(n-1)x - x = (n-2)x$ đơn vị nguyên liệu.
+		...
+
+		Ngày $n-1$ lấy ra $x$ đơn vị nguyên liệu để sản xuất nên lưu trữ trong kho $nx - (n-1)x = x$ đơn vị nguyên liệu.
+
+		Ngày $n$ lấy ra $x$ đơn vị nguyên liệu còn lại trong kho để sản xuất nên ngày này không cần lưu trữ trong kho.
+
+		Vậy trung bình mỗi ngày cần lưu trữ trong kho $\frac{(n-1)x + (n-2)x + \dots + x}{n-1} = \frac{\frac{x(n-1)n}{2}}{n-1} = \frac{nx}{2}$ đơn vị nguyên liệu.
+
+		\subsubsection*{Lưu trữ hàng tồn kho trong một chu kì bán hàng}
+		Trong một chu kì bán hàng $n$ ngày. Giả sử mỗi ngày bán được $x$ sản phẩm thì trong $n$ ngày bán được $nx$ sản phẩm và trung bình mỗi ngày cần lưu trữ trong kho $\frac{nx}{2}$ sản phẩm.

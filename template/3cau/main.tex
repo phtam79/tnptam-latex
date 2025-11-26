@@ -1,0 +1,155 @@
+%\title{3cauVMF}
+\documentclass[12pt,twoside]{article} 
+\usepackage[a4paper,tmargin=1.5cm, bmargin=2cm, lmargin=1.5cm, rmargin=1.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,latexsym,amsfonts, bbm,mathtools, enumitem,esvect,commath,pifont}
+\usepackage{fourier}
+\usepackage[utf8]{vietnam}
+\usepackage{tabvar}
+\usepackage{tikz,pgf,tkz-tab}
+\usepackage{multicol}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead[]{}\chead[]{}\rhead[]{}
+\lfoot[\sl Trang \thepage]{\it http://diendantoanhoc.net}\cfoot[]{}\rfoot[\it http://diendantoanhoc.net]{\sl Trang \thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{1pt}  
+\setlength{\parindent}{0pt}
+
+%%---code dùng để đóng khung 
+\usepackage[framemethod=tikz]{mdframed}
+\usetikzlibrary{shadows}
+\newcounter{bai}[section]
+\newenvironment{Fancybox}[1][\textwidth]
+{\stepcounter{bai}%
+  \mdfsetup{
+      singleextra={%
+      \node[draw=gray!100,anchor=east,rectangle, thick,font=\color{black},
+     top color=green!40, bottom color=blue!5,
+     rounded corners=3pt,minimum height=5mm, minimum width = 15mm] at ([xshift=60pt]O|-P){\strut \bf Bài~\thebai}; 
+		},%
+    apptotikzsetting={\tikzset{mdfbackground/.append style={shade, left color=blue!25, right color=white}}},
+    frametitleaboveskip=\dimexpr-\ht\strutbox\relax,
+   % skipabove=\topskip,
+    skipbelow=\topskip,
+    rightline=true,
+    innertopmargin=18pt,innerleftmargin=10pt,innerrightmargin=10pt,
+    roundcorner=5pt,
+    linecolor=gray,%
+    innerlinewidth=1pt,
+    topline=true,
+    shadow=true,
+    shadowsize=5pt,
+    shadowcolor=gray!100
+  }
+  \begin{mdframed}[userdefinedwidth=#1]\relax%
+}
+{\end{mdframed}}
+
+\newcounter{vdu}[section]
+\newenvironment{Fancyboxv}[1][\textwidth]
+{\stepcounter{vdu}%
+  \mdfsetup{
+      singleextra={%
+      \node[draw=gray!100,anchor=east,rectangle, thick,font=\color{black},
+     top color=green!40, bottom color=blue!5,
+     rounded corners=3pt,minimum height=5mm, minimum width = 15mm] at ([xshift=60pt]O|-P){\strut \bf Ví dụ~\thevdu}; 
+		},%
+    apptotikzsetting={\tikzset{mdfbackground/.append style={shade, left color=blue!25, right color=white}}},
+    frametitleaboveskip=\dimexpr-\ht\strutbox\relax,
+   % skipabove=\topskip,
+    skipbelow=\topskip,
+    rightline=true,
+    innertopmargin=18pt,innerleftmargin=10pt,innerrightmargin=10pt,
+    roundcorner=5pt,
+    linecolor=gray,%
+    innerlinewidth=1pt,
+    topline=true,
+    shadow=true,
+    shadowsize=5pt,
+    shadowcolor=gray!100
+  }
+  \begin{mdframed}[userdefinedwidth=#1]\relax%
+}
+{\end{mdframed}}
+
+% - các newcommand để gõ tắt kí hiệu
+
+\newcounter{debai}[section]
+\def\thedebai{\arabic{debai}}
+\newcommand{\debai}[1]{\refstepcounter{debai}{\strut \bf Bài ~\thedebai. } #1 \bigskip}
+\newcommand{\deda}[1]{\begin{Fancybox}#1 \end{Fancybox}}
+\newcommand{\vidu}[1]{\begin{Fancyboxv}#1 \end{Fancyboxv}}
+\newcommand{\lgi}{\begin{center} \bf Lời giải \end{center} } 
+\newcommand{\hda}{\begin{center} \bf Hướng dẫn \end{center} } 
+\newcommand{\nxe}{\textbf{Nhận xét:} } 
+\newcommand{\cl}[1]{\centerline{#1}}
+\newcommand{\hay}[1]{\left[\begin{array}{ll}#1\end{array}\right.}
+\newcommand{\va}[1]{\left\{\begin{array}{ll}#1\end{array}\right.}
+\newcommand{\vt}[1]{\overrightarrow{#1}}
+\newcommand{\bd}{Trong mặt phẳng với hệ tọa độ $Oxy$,\,}
+\newcommand{\hpt}[1]{\left\{ \begin{array}{l} #1 \end{array}\right.}
+\newcommand{\goc}[1]{\widehat{#1}}
+\newcommand{\hoac}[1]{\left[ \begin{array}{l} #1 \end{array}\right.}
+
+\title{TUYỂN TẬP BỘ BA CÂU PHÂN LOẠI\\ TRONG ĐỀ THI THỬ \\ TRUNG HỌC PHỔ THÔNG QUỐC GIA 2015}
+\author{VMF}
+\date{Ngày 6 tháng 10 năm 2015}
+
+\everymath{\displaystyle}
+\begin{document}
+\includepdf[pages={1},scale=1.0]{bia.pdf}
+\newpage
+\thispagestyle{empty}
+\text{ }
+
+\newpage
+\maketitle
+\thispagestyle{empty}
+{\Large LỜI NÓI ĐẦU}
+
+\hspace{10mm} Xuất phát từ thực tế kì thi THPT Quốc gia 2015, với các bạn sử dụng kết quả môn Toán để xét tuyển đại học, thì sự cạnh tranh chủ yếu diễn ra ở bộ ba câu phân loại. Bộ ba câu này thường rơi vào các chủ đề Phương trình - Bất phương trình - Hệ phương trình, Hình học tọa độ phẳng, Bất đẳng thức - Tìm GTLN NN.
+\vspace{5mm}
+ 
+\hspace{10mm} Nhằm mục đích cung cấp thêm cho các bạn chuẩn bị tham gia kì thi THPT Quốc gia 2016 một tài liệu tham khảo hữu ích, các thành viên của diễn đàn toán học VMF đã cùng nhau biên soạn tài liệu này. Tài liệu tổng hợp lại các câu hỏi thuộc 3 chủ đề nói trên trong các đề thi thử năm học 2014 - 2015. Phần hướng dẫn, đáp số chúng tôi chủ yếu dựa trên đáp án của đơn vị ra đề, tuy nhiên trong một số bài toán chúng tôi có đưa ra cách tiếp cận khác, hoặc chỉ hướng dẫn sơ lược có đáp số nhằm giúp bạn đọc chủ động hơn trong quá trình đọc tài liệu. Chúng tôi nhấn mạnh rằng, cách làm trong tài liệu này chưa hẳn là tốt nhất, bạn đọc cũng không nên quá coi trọng các lời giải mang đậm chất kĩ thuật, khó định hướng tự nhiên.
+\vspace{5mm}
+ 
+
+\hspace{10mm} Nhóm biên soạn tài liệu này gồm có\\
+•Bạn Trần Tuấn Anh, Nguyễn Nguyên Trang - Sinh viên khoa Toán ĐHSP TP.HCM (Katyusha);\\
+•Bạn Trương Việt Hoàng - THPT Nguyễn Du, Thái Bình (Viet Hoang 99);\\
+•Thầy Châu Ngọc Hùng - Ninh Thuận (hungchng);\\
+•Thầy Nguyễn Công Định - Cà Mau (CD13);\\
+•Thầy Hoàng Ngọc Thế - Hà Nội (E.Galois);\\
+•Thầy Lê Minh An - Nam Định (leminhansp).
+\vspace{5mm}
+
+\hspace{10mm} Mặc dù chúng tôi đã cùng nhau biên soạn tài liệu này với tất cả sự tận tâm, tinh thần vì cộng đồng vô tư. Nhưng sự tỉ mỉ và cố gắng của chúng tôi chắc chắn chưa thể kiểm soát được hết các sai sót. Vì vậy sự nhiệt tâm từ phía bạn đọc cũng sẽ giúp tài liệu hoàn thiện hơn. Mọi trao đổi hãy chia sẻ với chúng tôi tại diễn đàn toán học VMF.
+http://diendantoanhoc.net/forum/
+\vspace{5mm}
+
+\hspace{10mm} Sau cùng, chúng tôi hi vọng cộng đồng chia sẻ trực tuyến sẽ dành cho chúng tôi sự tôn trọng tối thiểu bằng cách ghi rõ nguồn tài liệu khi chia sẻ. Không dùng tài liệu này để trục lợi cá nhân. Chúng tôi xin cảm ơn!
+\vspace{5mm}
+
+\hspace{12cm} Nhóm biên tập
+
+%\newpage\tableofcontents
+
+%\newpage\input{oxy.tex}
+%\newpage\input{pt.tex}
+%\newpage\input{bdt.tex}
+
+%\newpage\input{de1-15.tex}
+%\input{de16-30.tex}
+%\input{de31-45.tex}
+%\input{de46-55.tex}
+%\input{de57-77.tex}
+
+\newpage\input{giai1-15.tex}
+\input{giai16-30.tex}
+%\input{giai31-45.tex}
+%\input{giai46-55.tex}
+%\input{giai57-77.tex}
+
+\end{document}

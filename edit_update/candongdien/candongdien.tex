@@ -1,0 +1,165 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{enumerate}
+\usepackage{fontawesome}
+
+\usepackage{tikz}
+\usetikzlibrary{math,through,calc,intersections,angles,quotes,shapes,shapes.geometric,arrows,patterns,snakes,matrix,chains,arrows.meta,decorations.shapes,decorations.fractals,decorations.markings,shadows}
+\usepackage{longtable,multirow,makecell}
+\usepackage{arydshln}
+\usepackage{diagbox}
+
+\usepackage[loigiai]{ex_test}
+
+\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+
+\renewcommand{\labelitemi}{\faFacebookOfficial}
+\renewcommand{\labelitemii}{\faAmazon}
+
+\renewcommand{\labelenumi}{\Roman{enumi})}
+\renewcommand{\labelitemii}{\faAmazon}
+\def\canhgiua{\centering\arraybackslash}
+
+\setlength{\parindent}{0pt}
+
+
+\begin{document}
+
+\begin{minipage}[t]{7cm}
+	\begin{center}
+		\textbf{BỘ GIÁO DỤC VÀ ĐÀO TẠO \\[3pt]
+			ĐỀ CHÍNH THỨC}
+	\end{center}
+\end{minipage}
+\hspace{3cm}
+\begin{minipage}[t]{7cm}
+	\begin{center}
+		\textbf{ĐỀ KIỂM TRA\\[3pt]
+			Môn: VẬT LÍ}
+	\end{center}
+\end{minipage}\\[6pt]
+
+\begin{ex}
+	Một nhóm học sinh thực hiện thí nghiệm xác định độ lớn cảm ứng từ. Bộ dụng cụ bao gồm: dây dẫn CD mang dòng điện không đổi (1), nam châm hình chữ U tạo từ trường đều (2), cân điện tử (3). Nhóm lắp đặt các dụng cụ như hình vẽ, dây CD được cố định theo phương ngang giữa hai cực của nam châm, dòng điện chạy qua đoạn dây có gắn ampe kế. Ban đầu nhóm ngắt công tắc điện k, điều chỉnh cân về số chỉ 0. Sau đó đóng công tắc k để có dòng điện chạy qua dây CD, đọc giá trị cường độ dòng điện và số chỉ của cân. Lặp lại thí nghiệm với 5 lần đo và ghi số liệu vào bảng. Lấy $g = 9{,}80 \, \mathrm{m/s^2}$. Chiều dài phần dây trong từ trường là $10 \, \mathrm{cm}$.
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			Lần đo & 1 & 2 & 3 & 4 & 5 \\
+			\hline
+			$I \, (\mathrm{A})$ & $2{,}51$ & $3{,}22$ & $4{,}36$ & $5{,}02$ & $6{,}74$ \\
+			\hline
+			$m \, (\mathrm{g})$ & $4{,}10$ & $5{,}31$ & $7{,}15$ & $8{,}16$ & $11{,}00$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\choiceTF
+	{\True Số chỉ của cân tăng lên chứng tỏ có một lực tác dụng lên nam châm theo phương thẳng đứng, chiều hướng xuống}
+	{Sợi dây chịu tác dụng của lực từ có độ lớn chính là số chỉ của cân theo đơn vị N}
+	{Chiều dòng điện là chiều từ D đến C}
+	{Từ bảng số liệu, giá trị trung bình của cảm ứng từ là $B = 0{,}15 \, \mathrm{T}$}
+	\loigiai{}
+\end{ex}
+
+\begin{ex}
+	Một đoạn dây dẫn CD nằm ngang được giữ cố định ở vùng từ trường đều trong khoảng không gian giữa hai cực của nam châm. Nam châm này được đặt trên một cái cân như hình vẽ. Phần đoạn dây dẫn CD nằm trong từ trường có chiều dài là $10{,}0 \, \mathrm{cm}$. Khi không có dòng điện chạy trong đoạn dây, số chỉ của cân là $500{,}68 \, \mathrm{g}$. Khi có dòng điện cường độ $0{,}34 \, \mathrm{A}$ chạy trong đoạn dây, số chỉ của cân là $500{,}12 \, \mathrm{g}$. Lấy $g = 9{,}80 \, \mathrm{m/s^2}$.
+	\choiceTF
+	{Số chỉ của cân giảm đi chứng tỏ có một lực từ tác dụng lên nam châm theo chiều thẳng đứng hướng lên trên}
+	{Lực tác dụng làm cho số chỉ của cân giảm là lực từ tác dụng lên đoạn dây và có chiều hướng lên}
+	{Dòng điện trong dây dẫn có chiều từ C sang D}
+	{Độ lớn cảm ứng từ giữa hai cực của nam châm là $0{,}16 \, \mathrm{T}$}
+\end{ex}
+
+\begin{ex}
+	Trong thí nghiệm đo lực từ tác dụng lên đoạn dây dẫn mang dòng điện, một học sinh bố trí như sau: một đoạn dây dẫn CD được giữ cố định nằm ngang trên giá đỡ và đặt vuông góc với các đường sức từ trong khoảng không gian giữa hai cực của nam châm hình chữ U, nam châm đặt cố định trên một cái cân điện tử, sau đó hiệu chỉnh cân về số 0. Cho dòng điện có cường độ $0{,}4 \, \mathrm{A}$ chạy qua dây dẫn thì thấy cân chỉ $0{,}5 \, \mathrm{gam}$. Biết chiều dài đoạn dây nằm trong từ trường là $3{,}5 \, \mathrm{cm}$. Lấy $g = 9{,}8 \, \mathrm{m/s^2}$.
+	\choiceTF
+	{Số chỉ của cân tăng lên chứng tỏ có một lực tác dụng lên nam châm theo phương thẳng đứng, chiều hướng xuống}
+	{Lực từ tác dụng vào điểm chính giữa của sợi dây CD}
+	{Dòng điện có chiều từ D đến C}
+	{Độ lớn cảm ứng từ giữa hai cực của nam châm $0{,}35 \, \mathrm{T}$}
+\end{ex}
+
+\begin{ex}
+	Người ta tiến hành thí nghiệm như hình bên để xác định cảm ứng từ $B$ trong lòng của nam châm. Nam châm được đặt trên cân điện tử. PQ là một thanh cứng thẳng dẫn điện, đặt cố định nằm ngang, vuông góc với từ trường giữa các cực của nam châm và được nối với nguồn điện không đổi. Chiều dài của đoạn dây nằm trong lòng nam châm là $l = 20 \, \mathrm{cm}$, coi từ trường trong lòng nam châm là đều, lực từ tác dụng lên phần thanh PQ ở bên ngoài nam châm là không đáng kể. Tăng dần cường độ dòng điện $I$ chạy trong dây PQ và ghi lại số chỉ $m$ của cân, người ta vẽ được đồ thị về sự phụ thuộc khối lượng $m$ hiển thị trên cân theo cường độ dòng điện $I$ như hình vẽ. Dùng thước đo góc, xác định được $\alpha = 28^\circ$. Lấy $g = 10 \, \mathrm{m/s^2}$.
+	\choiceTF
+	{Độ lớn cảm ứng từ đo được trong lòng của nam châm là $26{,}6 \, \mathrm{T}$ (kết quả làm tròn đến một chữ số thập phân)}
+	{Khối lượng của thanh cứng dẫn điện PQ là $80 \, \mathrm{g}$}
+	{Số chỉ của cân thay đổi là do lực từ tác dụng lên dây dẫn PQ mang dòng điện có cường độ dòng điện $I$ thay đổi}
+	{Dòng điện có chiều từ Q đến P}
+\end{ex}
+
+\begin{ex}
+	Một học sinh bố trí thí nghiệm như hình để xác định cảm ứng từ trong lòng nam châm chữ U. Phần nằm trong từ trường của đoạn dây dẫn có chiều dài $1{,}5 \, \mathrm{cm}$, nguồn điện có suất điện động $1{,}5 \, \mathrm{V}$, điện trở toàn mạch $2{,}0 \, \Omega$. Lấy $g = 9{,}8 \, \mathrm{m/s^2}$. Khi tiến hành thí nghiệm, số chỉ của cân là $78{,}60 \, \mathrm{g}$.
+	\choiceTF
+	{Lực tổng hợp tác dụng lên cân có độ lớn là $0{,}77 \, \mathrm{N}$}
+	{Lực từ tác dụng lên đoạn dây dẫn mang dòng điện đặt trong nam châm và lực từ tác dụng lên nam châm là hai lực có cùng độ lớn, ngược chiều nhau nên chúng là hai lực cân bằng}
+	{Lực từ tác dụng lên nam châm có phương thẳng đứng và có chiều hướng lên trên}
+	{Học sinh tiến hành đảo hai cực của nam châm thì thấy số chỉ của cân thay đổi $0{,}46 \, \mathrm{g}$. Học sinh tính được cảm ứng từ trong lòng của nam châm chữ U trong thí nghiệm này có độ lớn là $0{,}4 \, \mathrm{T}$}
+\end{ex}
+
+\begin{ex}
+	Một nhóm học sinh thực hiện thí nghiệm xác định độ lớn cảm ứng từ. Bộ dụng cụ bao gồm: dây dẫn CD mang dòng điện không đổi (1), nam châm hình chữ U tạo từ trường đều (2), cân điện tử (3). Nhóm lắp đặt các dụng cụ như hình vẽ, dây CD được cố định theo phương ngang giữa hai cực của nam châm, dòng điện chạy qua đoạn dây có gắn ampe kế. Ban đầu nhóm ngắt công tắc điện k, điều chỉnh cân về số chỉ 0. Sau đó đóng công tắc k để có dòng điện chạy qua dây CD, đọc giá trị cường độ dòng điện và số chỉ của cân. Lặp lại thí nghiệm với 5 lần đo và ghi số liệu vào bảng. Lấy $g = 9{,}8 \, \mathrm{m/s^2}$. Chiều dài phần dây trong từ trường là $10 \, \mathrm{cm}$.
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|c|}
+			\hline
+			Lần đo & 1 & 2 & 3 & 4 & 5 \\
+			\hline
+			$I \, (\mathrm{A})$ & $2{,}51$ & $3{,}22$ & $4{,}36$ & $5{,}02$ & $6{,}74$ \\
+			\hline
+			$m \, (\mathrm{g})$ & $4{,}10$ & $5{,}31$ & $7{,}15$ & $8{,}16$ & $11{,}00$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\choiceTF
+	{Có thể bỏ qua bước điều chỉnh cân về số 0 để thực hiện thí nghiệm này}
+	{Sợi dây chịu tác dụng của lực từ có độ lớn chính là số chỉ của cân theo đơn vị N}
+	{Chiều dòng điện là chiều từ D đến C}
+	{Từ bảng số liệu, giá trị trung bình của cảm ứng từ là $B = 0{,}15 \, \mathrm{T}$}
+\end{ex}
+
+\begin{ex}
+	Có thể sử dụng bộ thí nghiệm như hình bên để tìm hiểu về mối liên hệ giữa lực từ tác dụng lên một đoạn dây dẫn đặt trong từ trường đều và cường độ dòng điện chạy qua dây dẫn đó.
+	\begin{center}
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			Lần đo & 1 & 2 & 3 & 4 \\
+			\hline
+			$I \, (10^2 \, \mathrm{A})$ & $0{,}6$ & $1{,}3$ & $1{,}8$ & $2{,}3$ \\
+			\hline
+			$F \, (\mathrm{N})$ & $0{,}08$ & $0{,}17$ & $0{,}24$ & $0{,}31$ \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\choiceTF
+	{Trình tự thí nghiệm: Xoay gia trọng để hiệu chỉnh cho cân thăng bằng và lực kế chỉ số 0; điều chỉnh mặt phẳng khung dây song song với mặt phẳng các nam châm; bật công tắc nguồn điện; thay đổi cường độ dòng điện qua đoạn dây; ghi giá trị cường độ dòng điện và giá trị của lực ứng với mỗi lần đo}
+	{Với chiều dòng điện trong khung dây như hình vẽ, lực từ tác dụng lên đoạn dây AB có chiều từ trên xuống dưới}
+	{Với kết quả thu được ở bảng bên, trong phạm vi sai số cho phép, lực từ tỉ lệ thuận với cường độ dòng điện}
+	{Thí nghiệm này cho phép ta viết được hệ thức $F = BI l \sin\alpha$ (với $B$ là hệ số tỉ lệ, $I$ là cường độ dòng điện, $l$ là chiều dài đoạn dây dẫn, $\alpha$ là góc hợp bởi dòng điện và đường sức từ)}
+\end{ex}
+
+\begin{ex}
+	Bạn Trang đã tiến hành thí nghiệm như hình để xác định cảm ứng từ $B$ trong lòng của nam châm. Nam châm được đặt trên cân điện tử. $PQ$ là một thanh cứng thẳng dẫn điện, đặt cố định nằm ngang, vuông góc với từ trường giữa các cực của nam châm và được nối với nguồn điện. Chiều dài của nam châm $l = 15 \, \mathrm{cm}$, coi từ trường trong lòng nam châm là đều, lực từ tác dụng lên phần thanh $PQ$ ở bên ngoài nam châm là không đáng kể, tăng dần cường độ dòng điện $I$ chạy trong dây $PQ$ và ghi lại số chỉ $m$ của cân, bạn Trang vẽ được đồ thị $m$ theo $I$ như hình vẽ. Dùng thước đo góc, bạn xác định được $\alpha = 28^\circ$; lấy $g = 9{,}8 \, \mathrm{m/s^2}$.
+	\choiceTF
+	{Dòng điện có chiều từ $Q$ đến $P$}
+	{Khối lượng của thanh cứng dẫn điện $PQ$ là $80 \, \mathrm{g}$}
+	{Số chỉ của cân thay đổi là do lực từ tác dụng lên dây dẫn $PQ$ mang dòng điện có cường độ dòng điện $I$ thay đổi}
+	{Độ lớn cảm ứng từ đo được trong lòng của nam châm là $34{,}7 \, \mathrm{mT}$ (kết quả được làm tròn đến chữ số hàng phần mười)}
+\end{ex}
+
+\begin{ex}
+	Để kiểm chứng tính chất của lực từ tác dụng lên một đoạn dây có dòng điện đặt trong từ trường đều, một học sinh dùng bộ thí nghiệm gồm có: nguồn điện một chiều, biến trở, thanh nhôm, nam châm hình chữ U, cân điện tử, kẹp cố định, dây nối có điện trở không đáng kể.
+	\begin{itemize}
+		\item Một nam châm vĩnh cửu hình chữ U đang nằm trên một cân điện tử làm cân chỉ $82{,}0 \, \mathrm{g}$.
+		\item Một thanh nhôm nằm giữa hai cực (không chạm) nam châm, được kẹp giữ cố định và kết nối với hệ thống cấp điện trên hình.
+		\item Khi nguồn điện một chiều được bật, cân điện tử hiển thị giá trị $82{,}4 \, \mathrm{g}$. Lấy $g = 10 \, \mathrm{m/s^2}$.
+	\end{itemize}
+	Học sinh trên rút ra kết luận:
+	\choiceTF
+	{Số chỉ của cân điện tử khác đi sau khi cấp điện là do nhiễu của từ trường dòng điện lên cân điện tử làm cho nó hiển thị giá trị khác với lúc đầu}
+	{Khi bật điện, lực từ tác dụng vào thanh nhôm hướng xuống dưới gia tăng áp lực lên cân làm số chỉ của cân tăng lên}
+	{Nếu điều chỉnh biến trở giảm đi thì số chỉ trên bảng điện tử tăng lên, bởi vì lực từ tác dụng lên thanh nhôm cố định tăng làm thanh nhôm gia tăng phản lực lên nam châm}
+	{Lực từ tác dụng lên thanh nhôm là $4 \mathrm{mN}$}
+\end{ex}
+
+\end{document}

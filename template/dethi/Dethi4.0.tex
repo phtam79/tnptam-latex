@@ -1,0 +1,135 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+\usepackage{graphicx}
+\usepackage{picinpar}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+%\usepackage{tikz-3dplot-circleofsphere}
+\usetikzlibrary{calc,patterns,intersections,angles,arrows,matrix,quotes,patterns}
+%\usepackage{tkz-euclide}
+\usepackage{tkz-tab}
+%\usepackage{tabvar}
+\usepackage{tkz-base}
+\usepackage{longtable}%
+\usepackage[colorlinks,hyperindex,plainpages=false,unicode]{hyperref}
+\usepackage{calc}
+\usepackage{mathpazo} 
+\def\dx{\mathrm{\, d}x}
+%%%%%%%%%\hoffset=-2.8cm
+\voffset=-2.5cm
+\textheight 25truecm 
+\textwidth 19truecm 
+%  \usepackage[paperwidth=16truecm,paperheight=24truecm]{geometry}
+% \textheight 19.5truecm %%16.2truecm 
+% \textwidth 12 truecm 
+\parskip 3pt
+\headsep=12pt
+\usepackage[baitap]{dethi}
+
+\tentruong{UBND THỊ XÃ DUY TIÊN}
+\tenkhoa{\underline{TRUNG TÂM GDNN-GDTX}}
+\madethi{104} 
+\loaidethi{(Đề gồm  0\pageref{dbPage} trang)}
+
+\tenkythi{ĐỀ KIỂM TRA GIỮA HỌC KÌ I}
+\namhoc{Năm học: 2024-2025}
+\tenmonhoc{Môn: TOÁN lớp 12}
+\thoigian{\underline{Thời gian làm bài: 90 phút, không kể thời gian giao đề}}   
+%\tieudetrenbaitap{Bùi Quỹ - Trung tâm GDNN-GDTX Duy Tiên}
+%\tieudeduoibaitap{LaTeX - TikZ - năm 2021}
+
+\trangcuoi{dbPage}
+\hovaten{Họ và tên}         %Nếu không muốn có dòng này không gõ lệnh
+\tenlop{Lớp}         %Nếu không muốn có dòng này không gõ lệnh
+%\sobaodanh{Số báo danh}  %Nếu không muốn có dòng này không gõ lệnh
+%\khoanhd{\cboxv}{}
+\daungoac{\cboxx}{}
+\chuphuongan{\small\bfseries\Alph}
+\mauchu{blue}
+\PSNrandseed{\time}
+\parindent 10pt
+%\graphicspath{{hinh-duan07/}{temp/}}
+% \nguondetrue
+\duongkefalse
+\usepackage{nonfloat}
+\setlength{\baselineskip}{12truept}
+\def\v#1{\overrightarrow{#1}} %Làm vectơ
+\everymath{\displaystyle}
+\def\cung#1{\stackrel\frown{#1}}
+\usepackage{times}
+\fontsize{13pt}{13pt}\selectfont
+%\chucauhoi{Bài }
+%\chuloigiai{Hướng dẫn:}
+\makeatletter
+\def\@makechapterhead#1{%
+	\begin{tikzpicture}
+		\path (0,0) node[text width=.8\textwidth,align=center](Chapnum){\Large\bfseries\MakeUppercase{\@chapapp}\space\thechapter.}
+		(Chapnum.south)node[text width=.9\textwidth,align=center,below]{\Large\bfseries\MakeUppercase{#1}};
+	\end{tikzpicture}
+	\vspace*{1.5cm}            
+}
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+	{-3.5ex \@plus -1ex \@minus -.2ex}%
+	{2.3ex \@plus.2ex}%
+	{\normalfont\large\bfseries\MakeUppercase}}
+
+\renewcommand\thechapter{\Roman{chapter}}
+\renewcommand\thesection{\arabic{section}.}
+\renewcommand{\@oddhead}{\parbox{\textwidth}{\href{https://www.facebook.com/bvquy77/}{ dethiV4.0 - Bùi Quỹ}\hfill \thepage\hrule}}
+\renewcommand{\@oddfoot}{ \parbox{\textwidth}{\hrule\vspace*{.5em} \href{https://www.facebook.com/bvquy77/}{Hướng dẫn dethiV4.0 - Bùi Quỹ} \hfill \thepage}}
+\renewcommand{\@evenhead}{ \parbox{\textwidth}{Làm đề thi với dethi.sty\hrule}}
+\renewcommand{\@evenfoot}{\parbox{\textwidth}{\hrule\vspace*{.5em}  \href{https://www.facebook.com/bvquy77/}{Làm chuyên đề với dethi.sty} \hfill \thepage }}
+\makeatother
+
+\newcounter{hoitg}
+\renewcommand\thehoitg{\arabic{hoitg}:}
+\newcommand{\hoi}{\stepcounter{hoitg}\par\noindent{\bfseries\itshape Hỏi \thehoitg\ }}
+\newcommand{\dap}{\par\noindent{\bfseries\itshape Đáp \thehoitg\ }}
+\begin{document}
+	\fontsize{13pt}{13pt}\selectfont
+	\tableofcontents
+	%\soanthao
+	%%%%%%%%%%%%%
+	%\loadallproblems[tnhamso]{Data/tnhamso}
+	%\loadallproblems[tnsophuc]{Data/tnsophuc}
+	%\loadallproblems[tuluan]{Data/tuluan}
+	%\loadallproblems[chontu]{Data/tnchontu}
+	%\loadallproblems[gachduoi]{Data/gachduoi}
+	%\loadallproblems[dungsai]{Data/dung-sai}
+	%\loadallproblems[dienchotrong]{Data/dienchotrong}
+	%%%%%%%%
+	
+	%\loadrandomproblems[TNKQ115]{12}{Data/De01TNKQ}
+	%\loadrandomproblems[DS115]{4}{Data/De01DS}
+	%\loadrandomproblems[TLN115]{3}{Data/De01TLN}
+	%\loadrandomproblems[107]{5}{Data/tnhamso}
+	%\loadrandomproblems[tnsophuc]{5}{Data/tnsophuc}
+	%\loadrandomproblems[tuluan]{5}{Data/tuluan}
+	%\loadrandomproblems[chontu]{5}{Data/tnchontu}
+	%\loadrandomproblems[gachduoi]{5}{Data/gachduoi}
+	%\loadrandomproblems[dungsai]{5}{Data/dung-sai}
+	%\loadrandomproblems[dienchotrong]{5}{Data/dienchotrong}
+	%%%%%%%%%%%%%%%%%
+	%\laydulieulamde{a}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\laydulieulamde{b}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\laydulieulamde{c}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\laydulieulamde{d}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\soanthao
+	\indebailoigiai
+	\input{Data/Help}
+	\label{dbPage}
+	%\indebai
+	%\lamtieudetracnghiem
+	%\soanthao
+	%\lamdethi{a}
+	%\lamdethi{b}
+	%\lamdethi{c}
+	%\lamdethi{d}
+	%\lamdethi{101}{TNKQ101}{DS101}{TLN101}
+	%\lamdethi{112}{TNKQ112}{DS112}{TLN112}
+	%\lamdethi{115}{TNKQ115}{DS115}{TLN115}
+\end{document}
+
+
+%%23:28:22 15/11/2024Last Modification of contents

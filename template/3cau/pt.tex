@@ -1,0 +1,719 @@
+\setcounter{section}{0}
+\part*{II. MỘT SỐ PHƯƠNG PHÁP GIẢI PHƯƠNG TRÌNH}
+\addcontentsline{toc}{part}{II. MỘT SỐ PHƯƠNG PHÁP GIẢI PHƯƠNG TRÌNH}
+\section{ Trục căn thức }
+\subsection{ Trục căn thức để xuất hiện nhân tử chung }
+\subsubsection{Phương pháp}
+Với một số phương trình ta có thể nhẩm được nghiệm $x_0$ như vậy phương trình luôn đưa về được dạng tích 
+$$\left( {x - x_0 } \right)A\left( x \right) = 0$$ 
+ta có thể giải phương trình 
+$A\left( x \right) = 0$ hoặc chứng minh nó vô nghiệm , chú ý điều kiện của nghiệm của phương trình để ta có thể đánh giá
+\subsubsection{Ví dụ}
+\vidu{Giải phương trình sau: 
+$$\sqrt {3x^2 - 5x + 1} - \sqrt {x^2 - 2} = \sqrt {3\left( {x^2 - x - 1} \right)} - \sqrt {x^2 - 3x + 4} $$}
+\hda
+Ta nhận thấy:  $$\left( {3x^2 - 5x + 1} \right) - \left( {3x^2 - 3x - 3} \right) = - 2\left( {x - 2} \right)$$ 
+ $$\left( {x^2 - 2} \right) - \left( {x^2 - 3x + 4} \right) = 3\left( {x - 2} \right)$$
+Ta có thể chuyển vế rồi trục căn thức 2 vế:  $$\dfrac{{ - 2x + 4}}{{\sqrt {3x^2 - 5x + 1} + \sqrt {3\left( {x^2 - x + 1} \right)} }} = \dfrac{{3x - 6}}{{\sqrt {x^2 - 2} + \sqrt {x^2 - 3x + 4} }}$$
+Dể dàng nhận thấy $x=2$ là nghiệm duy nhất của phương trình.
+\vidu{ Giải phương trình sau:  
+$$\sqrt {x^2 + 12} + 5 = 3x + \sqrt {x^2 + 5} $$}
+\hda
+Để phương trình có nghiệm thì:  $$\sqrt {x^2 + 12} - \sqrt {x^2 + 5} = 3x - 5 \ge 0 \Leftrightarrow x \ge \dfrac{5}{3}$$
+Ta nhận thấy:  x = 2 là nghiệm của phương trình, như vậy phương trình có thể phân tích về dạng 
+$$\left( {x - 2} \right)A\left( x \right) = 0$$ để thực hiện được điều đó ta phải nhóm, tách các số hạng như sau: 
+\begin{align*}
+& \sqrt {x^2 + 12} - 4 = 3x - 6 + \sqrt {x^2 + 5} - 3\\
+ \Leftrightarrow & \dfrac{{x^2 - 4}}{{\sqrt {x^2 + 12} + 4}} = 3\left( {x - 2} \right) + \dfrac{{x^2 - 4}}{{\sqrt {x^2 + 5} + 3}} \\ 
+ \Leftrightarrow & \left( {x - 2} \right)\left( {\dfrac{{x + 2}}{{\sqrt {x^2 + 12} + 4}} - \dfrac{{x +2}}{{\sqrt {x^2 + 5} + 3}} - 3} \right) = 0 
+\end{align*}
+Dễ dàng chứng minh được:  $$\dfrac{{x + 2}}{{\sqrt {x^2 + 12} + 4}} - \dfrac{{x + 2}}{{\sqrt {x^2 + 5} + 3}} - 3 < 0, \forall x > \dfrac{5}{3}$$
+\vidu{Giải phương trình:
+$$\sqrt[3]{{x^2 - 1}} + x = \sqrt {x^3 - 2} $$}
+\hda
+ Đk $x \ge \sqrt[3]{2}$\\
+Nhận thấy $x = 3$ là nghiệm của phương trình, nên ta biến đổi phương trình 
+\begin{align*}
+& \sqrt[3]{{x^2 - 1}} - 2 + x - 3 = \sqrt {x^3 - 2} - 5\\
+ \Leftrightarrow & \left( {x - 3} \right)\left[ {1 + \dfrac{{x + 3}}{{\sqrt[3]{{\left( {x^2 - 1} \right)^2 }} + 2\sqrt[3]{{x^2 - 1}} + 4}}} \right] = \dfrac{{\left( {x - 3} \right)\left( {x^2 + 3x + 9} \right)}}{{\sqrt {x^3 - 2} + 5}}
+\end{align*}
+Ta chứng minh được: 
+$$1 + \dfrac{{x + 3}}{{\sqrt[3]{{\left( {x^2 - 1} \right)^2 }} + 2\sqrt[3]{{x^2 - 1}} + 4}} = 1 + \dfrac{{x + 3}}{{\left( {\sqrt[3]{{x^2 - 1}} + 1} \right)^2 + 3}} < 2 < \dfrac{{x^2 + 3x + 9}}{{\sqrt {x^3 - 2} + 5}}$$
+Vậy phương trình có nghiệm duy nhất $x=3$.
+\subsection{ Đưa về “hệ tạm”}
+\subsubsection{ Phương pháp }
+Nếu phương trình vô tỉ có dạng 
+$$\sqrt A + \sqrt B = C$$ mà 
+$A - B = \alpha C$, 
+Ta có thể giải như sau:
+$$\dfrac{{A - B}}{{\sqrt A - \sqrt B }} = C \Rightarrow \sqrt A - \sqrt B = \alpha $$, khi đó ta có hệ: $$\va{
+ \sqrt A + \sqrt B = C \\ 
+ \sqrt A - \sqrt B = \alpha } \Rightarrow 2\sqrt A = C + \alpha $$
+\subsubsection{ Ví dụ }
+\vidu{Giải phương trình sau: $$\sqrt {2x^2 + x + 9} + \sqrt {2x^2 - x + 1} = x + 4$$}
+\lgi
+Ta thấy:  $$\left( {2x^2 + x + 9} \right) - \left( {2x^2 - x + 1} \right) = 2\left( {x + 4} \right)$$
+Mặt khác $\forall x \leq -4$ không phải là nghiệm của phương trình.\\
+Xét $x > - 4$, trục căn thức ta có:  
+\begin{align*}
+& \dfrac{{2x + 8}}{{\sqrt {2x^2 + x + 9} - \sqrt {2x^2 - x + 1} }} = x + 4 \\
+\Rightarrow & \sqrt {2x^2 + x + 9} - \sqrt {2x^2 - x + 1} = 2
+\end{align*}
+Vậy ta có hệ: 
+\begin{align*}
+& \va{ \sqrt {2x^2 + x + 9} - \sqrt {2x^2 - x + 1} = 2 \\ \sqrt {2x^2 + x + 9} + \sqrt {2x^2 - x + 1} = x + 4 } \\
+  \Rightarrow & 2\sqrt {2x^2 + x + 9} = x + 6 \\
+  \Leftrightarrow & \hay{
+ x = 0 \\ 
+ x = \dfrac{8}{7} }
+\end{align*}
+Vậy phương trình có 2 nghiệm:  $x = 0$ và $x =\dfrac{8}{7}$.
+\vidu{Giải phương trình:  $$\sqrt {2x^2 + x + 1} + \sqrt {x^2 - x + 1} = 3x$$}
+\hda
+Ta thấy:  
+$$\left( {2x^2 + x + 1} \right) - \left( {x^2 - x + 1} \right) = x^2 + 2x$$
+( không có dấu hiệu trên ).\\
+Ta có thể chia cả hai vế cho $x$ và đặt $t = \dfrac{1}{x}$ thì bài toán trở nên đơn giản hơn.
+\section{ Biến đổi về phương trình tích }
+\subsection{Các biến đổi thường dùng }
+\begin{align}
+u + v = 1 + uv &\Leftrightarrow \left( {u - 1} \right)\left( {v - 1} \right) = 0\\
+au + bv = ab + vu &\Leftrightarrow \left( {u - b} \right)\left( {v - a} \right) = 0\\
+A^k=B^k & \Leftrightarrow A=B \quad (k \quad \text{(lẻ)} \\
+A^k=B^k & \Leftrightarrow A=\pm B \quad (k \quad \text{(chẵn)} 
+\end{align}
+\subsection{Ví dụ}
+\vidu{Giải phương trình:
+$$\sqrt[3]{{x + 1}} + \sqrt[3]{{x + 2}} = 1 + \sqrt[3]{{x^2 + 3x + 2}}$$}
+\hda
+Ta có:
+\begin{align*} PT & \Leftrightarrow \left( {\sqrt[3]{{x + 1}} - 1} \right)\left( {\sqrt[3]{{x + 2}} - 1} \right) = 0 \\
+& \Leftrightarrow \hay{
+ x = 0 \\ 
+ x = - 1 } \end{align*}
+\vidu{Giải phương trình:  $$
+\sqrt[3]{{x + 1}} + \sqrt[3]{{x^2 }} = \sqrt[3]{x} + \sqrt[3]{{x^2 + x}}
+$$}
+\hda
+Dễ thấy $x=0$ không phải là nghiệm của phương trình.\\
+Với $x \neq 0$, chia hai vế cho $x$, ta được:
+\begin{align*}
+& \sqrt[3]{{\dfrac{{x + 1}}{x}}} + \sqrt[3]{x} = 1 + \sqrt[3]{{x + 1}} \\
+\Leftrightarrow & \left( {\sqrt[3]{{\dfrac{{x + 1}}{x}}} - 1} \right)\left( {\sqrt[3]{x} - 1} \right) = 0 \\ \Leftrightarrow & x = 1
+\end{align*}
+\vidu{ Giải phương trình: $$\sqrt {x + 3} + 2x\sqrt {x + 1} = 2x + \sqrt {x^2 + 4x + 3} $$}
+\hda
+ĐK: $x \ge - 1$. Ta có:
+\begin{align*}
+PT & \Leftrightarrow \left( {\sqrt {x + 3} - 2x} \right)\left( {\sqrt {x + 1} - 1} \right) = 0 \\ & \Leftrightarrow \hay{ x = 1 \\  x = 0 }
+\end{align*}
+\vidu{Giải phương trình:  $$\sqrt {x + 3} + \dfrac{{4x}}{{\sqrt {x + 3} }} = 4\sqrt x $$}
+\hda
+ĐK: $x \ge 0$. \\
+Chia cả hai vế cho $\sqrt {x + 3} $, ta có:
+\begin{align*}
+& 1 + \dfrac{{4x}}{{x + 3}} = 2\sqrt {\dfrac{{4x}}{{x + 3}}} \\
+ \Leftrightarrow & \left( {1 - \sqrt {\dfrac{{4x}}{{x + 3}}} } \right)^2 = 0 \\
+  \Leftrightarrow & x = 1
+\end{align*}
+\vidu{ Giải phương trình:  $$\sqrt {\sqrt 3 - x} = x\sqrt {\sqrt 3 + x} $$}
+\hda
+ĐK: $0 \le x \le \sqrt 3 $. \\
+Khi đó phương trình đã cho tương đương: 
+\begin{align*} & x^3 + \sqrt 3 x^2 + x - \sqrt 3 = 0 \\
+ \Leftrightarrow & \left( {x + \dfrac{1}{{\sqrt 3 }}} \right)^3 = \dfrac{{10}}{{3\sqrt 3 }} \\
+ \Leftrightarrow & x = \dfrac{{\sqrt[3]{{10}} - 1}}{{\sqrt 3 }} \end{align*}
+\vidu{ Giải phương trình sau: $$2\sqrt {x + 3} = 9x^2 - x - 4$$}
+\hda
+Đk:$x \ge - 3$.\\
+Ta có:
+\begin{align*}
+PT & \Leftrightarrow \left( {1 + \sqrt {3 + x} } \right)^2 = 9x^2 \\
+& \Leftrightarrow \hay{
+ \sqrt {x + 3} + 1 = 3x \\ 
+ \sqrt {x + 3} + 1 = - 3x } \\
+ & \Leftrightarrow \hay{ x = 1 \\  x = \dfrac{{ - 5 - \sqrt {97} }}{{18}}}\end{align*}
+\vidu{ Giải phương trình sau:  $$2 + 3\sqrt[3]{{9x^2 \left( {x + 2} \right)}} = 2x + 3\sqrt[3]{{3x\left( {x + 2} \right)^2 }}$$}
+\hda
+$$PT \Leftrightarrow \left( {\sqrt[3]{{x + 2}} - \sqrt[3]{{3x}}} \right)^3 = 0 \Leftrightarrow x = 1$$
+\section{Phương pháp đặt ẩn phụ}
+\subsection{Phương pháp đặt ẩn phụ thông thường}
+Đối với nhiều phương trình vô tỉ, để giải chúng ta có thể đặt $t = f\left( x \right)$ và chú ý điều kiện của $t$. Nếu phương trình ban đầu trở thành phương trình chứa một biến $t$ quan trọng hơn ta có thể giải được phương trình đó theo $t$ thì việc đặt phụ xem như “hoàn toàn”. Nói chung những phương trình mà có thể đặt hoàn toàn $t=f(x)$ thường là những phương trình dễ .
+\vidu{Giải phương trình: $$\sqrt {x - \sqrt {x^2 - 1} } + \sqrt {x + \sqrt {x^2 - 1} } = 2$$}
+\lgi
+ĐK: $x \ge 1$.\\
+Nhận xét: 
+$$\sqrt {x - \sqrt {x^2 - 1} } .\sqrt {x + \sqrt {x^2 - 1} } = 1$$
+Đặt $t = \sqrt {x - \sqrt {x^2 - 1} } $ thì phương trình có dạng: 
+$$t + \dfrac{1}{t} = 2 \Leftrightarrow t = 1$$
+Từ đó ta có $x = 1$ (thỏa mãn điều kiện).
+\vidu{Giải phương trình: $$2x^2 - 6x - 1 = \sqrt {4x + 5} $$}
+\lgi
+ĐK: $x \ge - \dfrac{4}{5}$.\\
+Đặt $t = \sqrt {4x + 5} (t \ge 0)$ thì $x = \dfrac{{t^2 - 5}}{4}$. Khi đó ta có phương trình sau:
+\begin{align*}
+&2.\dfrac{{t^4 - 10t^2 + 25}}{{16}} - \dfrac{6}{4}(t^2 - 5) - 1 = t \\
+ \Leftrightarrow & t^4 - 22t^2 - 8t + 27 = 0 \\
+ \Leftrightarrow &(t^2 + 2t - 7)(t^2 - 2t - 11) = 0
+\end{align*}
+Ta tìm được bốn nghiệm là: $$t_{1,2} = - 1 \pm 2\sqrt 2 ;\quad t_{3,4} = 1 \pm 2\sqrt 3 $$
+Do $t\geq 0$ nên chỉ nhận các giá trị $t_1 = - 1 + 2\sqrt 2 ,t_3 = 1 + 2\sqrt 3 $.\\
+Từ đó tìm được các nghiệm của phương trình đã cho là: $$x = 1 - \sqrt 2 ; \quad x = 2 + \sqrt 3 $$
+\textbf{Cách 2:} Ta có thể bình phương hai vế của phương trình với điều kiện $2x^2 - 6x - 1 \ge 0$
+Ta được: $$x^2 (x - 3)^2 - (x - 1)^2 = 0$$, từ đó ta tìm được nghiệm tương ứng.\\
+\textbf{Cách 3} Đặt: $2y - 3 = \sqrt {4x + 5} $ và đưa về hệ đối xứng.
+\vidu{Giải phương trình sau: $$x + \sqrt {5 + \sqrt {x - 1} } = 6$$}
+\lgi
+ĐK: $1 \le x \le 6$\\
+Đặt $y = \sqrt {x - 1}$ ta có $0 \leq y \le \sqrt{5}$. Khi đó phương trình đã cho trở thành:
+\begin{align*}
+ & y^2 + \sqrt {y + 5} = 5\\
+  \Leftrightarrow & y^4 - 10y^2 - y + 20 = 0 \\
+\Leftrightarrow & (y^2 + y - 4)(y^2 - y - 5) = 0 \\
+\Leftrightarrow & \hay{ y = \dfrac{{1 - \sqrt {21} }}{2} \quad \text{(loại)} \\ y = \dfrac{{1 + \sqrt {21} }}{2}\quad \text{(loại)}  \\y = \dfrac{{ - 1 + \sqrt {17} }}{2} \\ y = \dfrac{{ - 1 - \sqrt {17} }}{2} \quad \text{(loại)} }
+\end{align*} 
+Từ đó ta tìm được $x = \dfrac{{11 - \sqrt {17} }}{2}$ là nghiệm duy nhất của phương trình.
+\vidu{ Giải phương trình sau: $$x = \left( {2004 + \sqrt x } \right)\left( {1 - \sqrt {1 - \sqrt x } } \right)^2 $$}
+\hda ĐK $0 \le x \le 1$.\\
+Đặt $y = \sqrt {1 - \sqrt x }$, ta có
+\begin{align*}
+& 2\left( {1 - y} \right)^2 \left( {y^2 + y - 1002} \right) = 0\\
+ \Leftrightarrow & y = 1 \\
+ \Leftrightarrow & x = 0
+\end{align*} 
+\vidu{Giải phương trình sau:  $$x^2 + 2x\sqrt {x - \dfrac{1}{x}} = 3x + 1$$}
+\hda
+Điều kiện: $ - 1 \le x < 0$. \\Chia cả hai vế cho $x$ ta nhận được:
+$$x + 2\sqrt {x - \dfrac{1}{x}} = 3 + \dfrac{1}{x}$$
+Đặt $t = x - \dfrac{1}{x}$, ta quy được về phương trình bậc hai
+\vidu{ Giải phương trình:  $$x^2 + \sqrt[3]{{x^4 - x^2 }} = 2x + 1$$}
+\hda
+Dễ thấy $x=0$ không phải là nghiệm. Chia cả hai vế cho $x$ ta được:
+ $$\left( {x - \dfrac{1}{x}} \right) + \sqrt[3]{{x - \dfrac{1}{x}}} = 2$$
+Đặt t=$\sqrt[3]{{x - \dfrac{1}{x}}}$, Ta có:  
+$$t^3 + t - 2 = 0 \Leftrightarrow t = 1 \Leftrightarrow x = \dfrac{{1 \pm \sqrt 5 }}{2}$$
+\subsection{Đặt ẩn phụ đưa về phương trình thuần nhất bậc 2 đối với 2 biến }
+Ta nhắc lại cách giải phương trình: 
+\begin{equation} \label{eq2}
+u^2 + \alpha uv + \beta v^2 = 0
+\end{equation}
+\begin{itemize}
+\item Nếu $v \neq 0$, chia cả hai vế cho $v^2$, phương trình trở thành:
+ $$\left( {\dfrac{u}{v}} \right)^2 + \alpha \left( {\dfrac{u}{v}} \right) + \beta = 0$$
+\item Nếu $v=0$ thì thử trực tiếp vào phương trình.
+\end{itemize}
+Có một số dạng phương trình cũng quy được về $\eqref{eq2}$
+\subsubsection{Phương trình dạng: $a.A\left( x \right) + bB\left( x \right) = c\sqrt {A\left( x \right).B\left( x \right)} $}
+Như vậy phương trình $$Q\left( x \right) = \alpha \sqrt {P\left( x \right)} $$ có thể giải bằng phương pháp trên nếu 
+ $$\left\{ \begin{array}{l}
+ P\left( x \right) = A\left( x \right).B\left( x \right) \\ 
+ Q\left( x \right) = aA\left( x \right) + bB\left( x \right) \\ 
+ \end{array} \right.$$
+Lưu ý một số đẳng thức: 
+\begin{align}
+x^3 + 1 &= \left( {x + 1} \right)\left( {x^2 - x + 1} \right) \\
+ x^4 + x^2 + 1 &=  \left( {x^2 + x + 1} \right)\left( {x^2 - x + 1} \right) \\
+x^4 + 1 & = \left( {x^2 - \sqrt 2 x + 1} \right)\left( {x^2 + \sqrt 2 x + 1} \right) \\
+4x^4 + 1 & = \left( {2x^2 - 2x + 1} \right)\left( {2x^2 + 2x + 1} \right)
+\end{align}
+\vidu{Giải phương trình:  $$2\left( {x^2 + 2} \right) = 5\sqrt {x^3 + 1} $$}
+\hda
+ĐK: $x\ge -1$.\\
+ Đặt $\va{u = \sqrt {x + 1} \\v = \sqrt {x^2 - x + 1} }$ . Phương trình trở thành:  
+\begin{align*}
+& 2\left( {u^2 + v^2 } \right) = 5uv \\ \Leftrightarrow & \hay{
+ u = 2v \\  u = \dfrac{v}{2} }
+\end{align*}
+Từ đó, ta tìm được: $x = \dfrac{{5 \pm \sqrt {37} }}{2}$.
+\vidu{Giải phương trình: $$x^2 - 3x + 1 = - \dfrac{{\sqrt 3 }}{3}\sqrt {x^4 + x^2 + 1} $$}
+\hda
+Bạn đọc tự giải
+\vidu{Giải phương trình sau: $$2x^2 + 5x - 1 = 7\sqrt {x^3 - 1} $$}
+\hda 
+Đk: $x \ge 1$.\\
+Ta cần tìm $\alpha, \beta$ sao cho: $$\alpha \left( {x - 1} \right) + \beta \left( {x^2 + x + 1} \right) = 7\sqrt {\left( {x - 1} \right)\left( {x^2 + x + 1} \right)} $$
+Đồng nhất thức ta được
+$$3\left( {x - 1} \right) + 2\left( {x + x + 1} \right) = 7\sqrt {\left( {x - 1} \right)\left( {x^2 + x + 1} \right)} $$
+Đặt $\va{u = x - 1 \ge 0  \\ v = x^2 + x + 1 > 0}$, ta được: 
+\begin{align*}
+& 3u + 2v = 7\sqrt {uv} \\
+\Leftrightarrow & \hay{
+ v = 9u \\ 
+ v = \dfrac{u}{4}} \end{align*}
+ta có nghiệm: $x = 4 \pm \sqrt 6 $.
+\vidu{ Giải phương trình: $$x^3 - 3x^2 + 2\sqrt {\left( {x + 2} \right)^3 } - 6x = 0$$}
+\hda
+ĐK: $x\ge -2$.\\
+Đặt $y = \sqrt {x + 2} $ ta biến phương trình về dạng phương trình thuần nhất bậc 3 đối với $x$ và $y$:
+\begin{align*}
+& x^3 - 3x^2 + 2y^3 - 6x = 0 \\ \Leftrightarrow & x^3 - 3xy^2 + 2y^3 = 0\\
+ \Leftrightarrow  & \hay{
+ x = y \\ 
+ x = - 2y }
+ \end{align*}
+Ta có nghiệm: $x = 2, x = 2 - 2\sqrt 3 $
+\subsubsection{Phương trình dạng:  $\alpha u + \beta v = \sqrt {mu^2 + nv^2 } $}
+Phương trình cho ở dạng này thường khó “phát hiện” hơn dạng trên, nhưng nếu ta bình phương hai vế thì đưa về được dạng trên.
+\vidu{Giải phương trình:  $$x^2 + 3\sqrt {x^2 - 1} = \sqrt {x^4 - x^2 + 1} $$}
+\hda
+ĐK: $|x| \geq 1$.\\
+Ta đặt: $$\left\{ \begin{array}{l}
+ u = x^2 \\ 
+ v = \sqrt {x^2 - 1} \\ 
+ \end{array} \right.$$
+Khi đó phương trình trở thành:  $$u + 3v = \sqrt {u^2 - v^2 } $$
+\vidu{Giải phương trình sau:  $$\sqrt {x^2 + 2x} + \sqrt {2x - 1} = \sqrt {3x^2 + 4x + 1} $$}
+\hda
+ĐK: $x \ge \dfrac{1}{2}$. Bình phương 2 vế ta có:  
+\begin{align*}
+& \sqrt {\left( {x^2 + 2x} \right)\left( {2x - 1} \right)} = x^2 + 1 \\ \Leftrightarrow & \sqrt {\left( {x^2 + 2x} \right)\left( {2x - 1} \right)} = \left( {x^2 + 2x} \right) - \left( {2x - 1} \right)
+\end{align*}
+Ta có thể đặt: $\va{
+ u = x^2 + 2x \\ 
+ v = 2x - 1 }$. Khi đó ta có:
+\begin{align*}
+& uv = u^2 - v^2 \\
+& \Leftrightarrow \hay{
+ u = \dfrac{{1 - \sqrt 5 }}{2}v \\ 
+ u = \dfrac{{1 + \sqrt 5 }}{2}v }
+\end{align*}
+Do $u,v \ge 0$ nên 
+$$u = \dfrac{{1 + \sqrt 5 }}{2}v \quad \Leftrightarrow x^2 + 2x = \dfrac{{1 + \sqrt 5 }}{2}\left( {2x - 1} \right)$$
+\vidu{Giải phương trình:  $$\sqrt {5x^2 - 14x + 9} - \sqrt {x^2 - x - 20} = 5\sqrt {x + 1} $$}
+\hda
+ĐK $x\geq 5$.\\
+Chuyển vế bình phương ta được: 
+$$2x^2 - 5x + 2 = 5\sqrt {\left( {x^2 - x - 20} \right)\left( {x + 1} \right)} $$
+Dễ thấy không tồn tại số $\alpha ,\beta $ sao cho:
+$$2x^2 - 5x + 2 = \alpha \left( {x^2 - x - 20} \right) + \beta \left( {x + 1} \right)$$ 
+Vậy ta không thể đặt 
+$\va{
+ u = x^2 - x - 20 \\ 
+ v = x + 1 }$.
+Nhưng may mắn ta có:  $$\left( {x^2 - x - 20} \right)\left( {x + 1} \right) = \left( {x + 4} \right)\left( {x - 5} \right)\left( {x + 1} \right) = \left( {x + 4} \right)\left( {x^2 - 4x - 5} \right)$$
+Ta viết lại phương trình: $$2\left( {x^2 - 4x - 5} \right) + 3\left( {x + 4} \right) = 5\sqrt {(x^2 - 4x - 5)(x + 4)} $$ Đến đây bài toán được giải quyết . 
+\subsection{Phương pháp đặt ẩn phụ không hoàn toàn} 
+Từ những phương trình tích 
+$$\left( {\sqrt {x + 1} - 1} \right)\left( {\sqrt {x + 1} - x + 2} \right) = 0$$
+$$\left( {\sqrt {2x + 3} - x} \right)\left( {\sqrt {2x + 3} - x + 2} \right) = 0$$
+Khai triển và rút gọn ta sẽ được những phương trình vô tỉ không tầm thường chút nào, độ khó của phương trình dạng này phụ thuộc vào phương trình tích mà ta xuất phát.\\
+Từ đó chúng ta mới đi tìm cách giải phương trình dạng này. Phương pháp giải được thể hiện qua các ví dụ sau .
+\vidu{ Giải phương trình: $$x^2 + \left( {3 - \sqrt {x^2 + 2} } \right)x = 1 + 2\sqrt {x^2 + 2} $$}
+\hda 
+Đặt $t = \sqrt {x^2 + 2}$ , ta có: 
+\begin{align*}
+& t^2 - \left( {2 + x} \right)t - 3 + 3x = 0 \\
+ \Leftrightarrow & \hay{
+ t = 3 \\ 
+ t = x - 1 }
+\end{align*}
+\vidu{Giải phương trình:  $$\left( {x + 1} \right)\sqrt {x^2 - 2x + 3} = x^2 + 1$$}
+\hda
+Đặt: $t = \sqrt {x^2 - 2x + 3} , t \ge \sqrt 2 $. Khi đó phương trình trở thành:  
+\begin{align*}
+& \left( {x + 1} \right)t = x^2 + 1 \\ \Leftrightarrow & x^2 + 1 - \left( {x + 1} \right)t = 0
+\end{align*}
+Bây giờ ta thêm bớt, để được phương trình bậc 2 theo $t$:  
+\begin{align*}
+& x^2 - 2x + 3 - \left( {x + 1} \right)t + 2\left( {x - 1} \right) = 0\\ \Leftrightarrow & t^2 - \left( {x + 1} \right)t + 2\left( {x - 1} \right) = 0 \\ \Leftrightarrow & \hay{
+ t = 2 \\ 
+ t = x - 1 }
+\end{align*}
+\vidu{ Giải phương trình sau:  $$4\sqrt {x + 1} - 1 = 3x + 2\sqrt {1 - x} + \sqrt {1 - x^2 } $$}
+\hda
+ĐK: $|x| \leq 1$.\\
+Đặt $t = \sqrt {1 - x}$, phương trình trở thành 
+\begin{equation} \label{eq3}
+4\sqrt {1 + x} = 3x + 2t + t\sqrt {1 + x}
+\end{equation}
+Suy ra
+$$3t^2 - \left( {2 + \sqrt {1 + x} } \right)t + 4\left( {\sqrt {1 + x} - 1} \right) = 0$$
+Nhưng không có sự may mắn để giải được phương trình theo $t$
+$$\Delta = \left( {2 + \sqrt {1 + x} } \right)^2 - 48\left( {\sqrt {x + 1} - 1} \right)$$ 
+không có dạng bình phương.\\
+Muốn đạt được mục đích trên thì ta phải tách $3x$ theo $\left( {\sqrt {1 - x} } \right)^2 , \left( {\sqrt {1 + x} } \right)^2 $. Cụ thể như sau:  
+$$3x = - \left( {1 - x} \right) + 2\left( {1 + x} \right)$$ 
+Thay vào phương trình $\eqref{eq3}$.
+\vidu{Giải phương trình: $$2\sqrt {2x + 4} + 4\sqrt {2 - x} = \sqrt {9x^2 + 16} $$}
+\hda
+ĐK: $|x| \leq 2$.\\
+Bình phương 2 vế ta có:
+$$4\left( {2x + 4} \right) + 16\sqrt {2\left( {4 - x^2 } \right)} + 16\left( {2 - x} \right) = 9x^2 + 16$$
+Ta đặt: $t = \sqrt {2\left( {4 - x^2 } \right)} \ge 0$. Ta được: 
+$$9x^2 - 16t - 32 + 8x = 0$$
+Ta phải tách $$9x^2 = \alpha 2\left( {4 - x^2 } \right) + \left( {9 + 2\alpha } \right)x^2 - 8\alpha $$ sao cho $\Delta _t $ có dạng số chính phương.\\
+\textbf{Nhận xét:}  Thông thường ta chỉ cần nhóm sao cho hết hệ số tự do thì sẽ đạt được mục đích.
+\section{Phương pháp đưa về hệ phương trình}
+\subsection{ Đặt ẩn phụ đưa về hệ thông thường} 
+Đặt $\va{u = \alpha \left( x \right) \\ v = \beta \left( x \right)}$ và tìm mối quan hệ giữa $\alpha \left( x \right)$ và $\beta \left( x \right)$ từ đó tìm được hệ theo $u,v$. 
+\vidu{ Giải phương trình: $$x\sqrt[3]{{35 - x^3 }}\left( {x + \sqrt[3]{{35 - x^3 }}} \right) = 30$$}
+Đặt $y = \sqrt[3]{{35 - x^3 }} \Rightarrow x^3 + y^3 = 35$.\\
+Khi đó phương trình chuyển về hệ phương trình sau: 
+$$\va{
+ xy(x + y) = 30 \\ 
+ x^3 + y^3 = 35 }$$
+Giải hệ này ta tìm được nghiệm $(2;3), (3;2)$. Suy ra nghiệm của phương trình đã cho là $x= 2, x=3.$
+\vidu{Giải phương trình: $$\sqrt {\sqrt 2 - 1 - x} + \sqrt[4]{x} = \dfrac{1}{{\sqrt[4]{2}}}$$}
+\hda
+ĐK: $0 \le x \le \sqrt 2 - 1$\\
+Đặt 
+$$\va{
+ \sqrt {\sqrt 2 - 1 - x} = u \\ 
+ \sqrt[4]{x} = v } \Rightarrow \va{0 \le u \le \sqrt {\sqrt 2 - 1}  \\ 0 \le v \le \sqrt[4]{{\sqrt 2 - 1}}}$$
+Ta đưa về hệ phương trình sau: 
+$$\va{
+ u + v = \dfrac{1}{{\sqrt[4]{2}}} \\ 
+ u^2 + v^4 = \sqrt 2 - 1 } \Leftrightarrow \va{
+ u = \dfrac{1}{{\sqrt[4]{2}}} - v \\ 
+ \left( {\dfrac{1}{{\sqrt[4]{2}}} - v} \right)^2 + v^4 = \sqrt 2 - 1 }$$
+Giải phương trình thứ 2:
+ $$(v^2 + 1)^2 - \left( {v + \dfrac{1}{{\sqrt[4]{2}}}} \right)^2 = 0$$
+Từ đó tìm ra rồi thay vào tìm nghiệm của phương trình.
+\vidu{ Giải phương trình sau: $$x + \sqrt {5 + \sqrt {x - 1} } = 6$$}
+ĐK: $x \ge 1$.\\
+Đặt $\va{a = \sqrt {x - 1} \ge 0 \\ b = \sqrt {5 + \sqrt {x - 1} } \ge 0} $, ta đưa về hệ phương trình sau:
+\begin{align*}
+& \va{ a^2 + b = 5 \\ 
+ b^2 - a = 5 } \\
+ \Rightarrow & (a + b)(a - b + 1) = 0 \\ \Rightarrow & a - b + 1 = 0 \\
+ \Rightarrow & a = b - 1 
+\end{align*}
+Do đó:
+\begin{align*}
+& \sqrt {x - 1} + 1 = \sqrt {5 + \sqrt {x - 1} }\\
+ \Leftrightarrow & \sqrt {x - 1} = 5 - x \\ 
+ \Rightarrow & x = \dfrac{{11 - \sqrt {17} }}{2}
+\end{align*}
+\vidu{Giải phương trình: $$\dfrac{{6 - 2x}}{{\sqrt {5 - x} }} + \dfrac{{6 + 2x}}{{\sqrt {5 + x} }} = \dfrac{8}{3}$$}
+\hda
+ĐK: $ - 5 < x < 5$.\\
+Đặt $\va{u = \sqrt {5 - x}  \\ v = \sqrt {5 - y}}, \quad  \left( {0 < u,v < \sqrt {10} } \right)$.\\
+Khi đó ta được hệ phương trình: $$\va{
+ u^2 + v^2 = 10 \\ 
+ - \dfrac{4}{u} - \dfrac{4}{v} + 2(u + z) = \dfrac{8}{3} } \Leftrightarrow \va{
+ (u + v)^2 = 10 + 2uv \\ 
+ (u + v)\left( 1 - \dfrac{2}{{uv}} \right) = \dfrac{4}{3} }$$
+\subsection{Đặt ẩn phụ đưa về hệ đối xứng loại II}
+\subsubsection{Hệ đối xứng}
+Ta hãy đi tìm nguồn gốc của những bài toán giải phương trình bằng cách đưa về hệ đối xứng loại II.\\
+Ta xét một hệ phương trình đối xứng loại II sau:
+\begin{equation} \label{eq4}
+\va{\left( {x + 1} \right)^2 = y + 2\\\left( {y + 1} \right)^2 = x + 2}
+\end{equation}
+việc giải hệ này khá đơn giản.\\
+Bây giờ ta sẽ biến hệ thành phương trình. Từ phương trình thứ nhất của $\eqref{eq4}$, ta suy ra:
+$$y= \sqrt {x + 2} - 1$$
+Thế vào phương trình còn lại, ta có
+$$\left( {x + 1} \right)^2 = (\sqrt {x + 2} - 1) + 1 \Leftrightarrow x^2 + 2x = \sqrt {x + 2} $$
+Vậy để giải phương trình:  $$x^2 + 2x = \sqrt {x + 2} $$ ta đặt lại như trên và đưa về hệ.\\
+Bằng cách tương tự xét hệ tổng quát dạng bậc 2:  
+$$\left\{ \begin{array}{l}
+ \left( {\alpha x + \beta } \right)^2 = ay + b \\ 
+ \left( {\alpha y + \beta } \right)^2 = ax + b \\ 
+ \end{array} \right.$$
+Đặt $\alpha y + \beta = \sqrt {ax + b} $, ta có phương trình:  $$\left( {\alpha x + \beta } \right)^2 = \dfrac{a}{\alpha }\sqrt {ax + b} + b - \dfrac{\beta }{\alpha }$$
+Tương tự cho bậc cao hơn:  $$\left( {\alpha x + \beta } \right)^n = \dfrac{a}{\alpha }\sqrt[n]{{ax + b}} + b - \dfrac{\beta }{\alpha }$$
+Tóm lại phương trình thường cho dưới dạng khai triển ta phải viết về dạng: $$\left( {\alpha x + \beta } \right)^n = p\sqrt[n]{{a'x + b'}} + \gamma $$ và đặt $\alpha y + \beta = \sqrt[n]{{ax + b}}$ để đưa về hệ, chú ý về dấu của $\alpha$.\\
+Việc chọn $\alpha ;\beta $ thông thường chúng ta chỉ cần viết dưới dạng $$\left( {\alpha x + \beta } \right)^n = p\sqrt[n]{{a'x + b'}} + \gamma $$ là chọn được.
+\vidu{ Giải phương trình: $$x^2 - 2x = 2\sqrt {2x - 1} $$}
+\hda
+ĐK: $x \ge \dfrac{1}{2}$.\\
+Ta có phương trình được viết lại là: 
+$$(x - 1)^2 - 1 = 2\sqrt {2x - 1} $$
+Đặt $y - 1 = \sqrt {2x - 1} $ thì ta đưa về hệ sau: 
+$$\va{ x^2 - 2x = 2(y - 1) \\ 
+ y^2 - 2y = 2(x - 1) }$$
+Trừ hai vế của phương trình ta được $$(x - y)(x + y) = 0$$
+Giải ra ta tìm được nghiệm của phương trình là: $x = 2 + \sqrt 2 $.
+\vidu{Giải phương trình: $$2x^2 - 6x - 1 = \sqrt {4x + 5} $$}
+\hda
+ĐK: $x \ge - \dfrac{5}{4}$.\\
+Ta biến đổi phương trình như sau: 
+\begin{align*}
+& 4x^2 - 12x - 2 = 2\sqrt {4x + 5} \\ \Leftrightarrow & (2x - 3)^2 = 2\sqrt {4x + 5} + 11
+\end{align*}
+Đặt ta được hệ phương trình sau:
+\begin{align*}
+& \va{ (2x - 3)^2 = 4y + 5 \\ 
+ (2y - 3)^2 = 4x + 5 } \\
+ \Rightarrow & (x - y)(x + y - 1) = 0 \\
+ \Rightarrow & \hay{x=y \\ x+y-1=0}
+\end{align*}
+\begin{itemize}
+\item Với $x = y$ ta có:
+$$2x - 3 = \sqrt {4x + 5} \Rightarrow x = 2 + \sqrt 3 $$
+\item Với $x + y - 1 = 0$ ta có:
+$$y = 1 - x \to x = 1 - \sqrt 2 $$
+\end{itemize} 
+Kết luận: Tập nghiệm của phương trình đã cho là $\{ 1 - \sqrt 2 ; 1 + \sqrt 3 \} $.
+\subsubsection{Dạng hệ gần đối xứng}
+Ta xét hệ sau:  
+\begin{equation} \label{eq5}
+\va{
+ (2x - 3)^2 = 2y + x + 1 \\ 
+ (2y - 3)^2 = 3x + 1 }
+\end{equation}
+Đây không phải là hệ đối xứng loại II nhưng bằng cách tương tự, ta vẫn xây dựng được phương trình sau:
+\vidu{Giải phương trình: $$4x^2 + 5 - 13x + \sqrt {3x + 1} = 0$$}
+\textbf{Nhận xét:} Nếu chúng ta nhóm như những phương trình trước: 
+$$\left( {2x - \dfrac{{13}}{4}} \right)^2 = \sqrt {3x + 1} - \dfrac{{33}}{4}$$
+Đặt $2y - \dfrac{{13}}{4} = \sqrt {3x + 1} $ thì chúng ta không thu được hệ phương trình mà chúng ta có thể giải được.\\
+Để thu được hệ $\eqref{eq5}$ ta đặt:  $$\alpha y + \beta = \sqrt {3x + 1} $$ chọn $\alpha, \beta$ sao cho hệ có thể giải được.\\
+Ta có hệ:  
+$$\va{
+ \left( {\alpha y + \beta } \right)^2 = 3x + 1 \\ 
+ 4x^2 - 13x + 5 = - \alpha y - \beta } \Leftrightarrow \va{
+ \alpha ^2 y^2 + 2\alpha \beta y - 3x + \beta ^2 - 1 = 0  \\ 
+ 4x^2 - 13x + \alpha y + 5 + \beta = 0} $$
+Điều kiện của hệ trên có nghiệm là:
+$$\dfrac{{\alpha ^2 }}{4} = \dfrac{{2\alpha \beta - 3}}{{\alpha - 13}} = \dfrac{{\beta ^2 - 1}}{{5 + \beta }}$$
+Ta chọn được ngay $\alpha = - 2; \beta = 3$.\\
+Ta có lời giải như sau: 
+\lgi
+ĐK: $x \ge - \dfrac{1}{3}$\\
+Đặt $\sqrt {3x + 1} = - (2y - 3), (y \le \dfrac{3}{2})$. Ta có hệ phương trình sau: $$\va{
+ (2x - 3)^2 = 2y + x + 1 \\ 
+ (2y - 3)^2 = 3x + 1 } \Rightarrow (x - y)(2x + 2y - 5) = 0$$
+\begin{itemize}
+\item Với $x = y$, ta có $x = \dfrac{{15 - \sqrt {97} }}{8}$.
+\item Với $2x + 2y - 5 = 0$ ta có $x = \dfrac{{11 + \sqrt {73} }}{8}$.
+\end{itemize}
+Kết luận: tập nghiệm của phương trình là: $$\left\{ {\dfrac{{15 - \sqrt {97} }}{8};\dfrac{{11 + \sqrt {73} }}{8}} \right\}$$
+\textbf{Một cách tổng quát.}
+Xét hệ: $$\va{
+ f(x) = A.x + B.y + m & \quad (i)   \\ 
+ f(y) = A'.x + m' & \quad (ii) } $$ 
+Để hệ có nghiệm $x = y$ thì:  $\va{A - A'= B \\ m = m'}$.\\
+Nếu từ $(ii)$ tìm được hàm ngược $y = g\left( x \right)$ thay vào $(i)$ ta được 1 phương trình.\\
+Như vậy để xây dựng phương trình theo lối này ta cần xem xét để có hàm ngược và tìm được và hơn nữa hệ phải giải được.
+\section{Phương pháp lượng giác hóa}
+\subsection{Một số kiến thức cơ bản}
+$$\begin{array}{|c|c|c|}
+\hline
+\textbf{Dấu hiệu} & \textbf{Phép thế} & \textbf{Điều kiện}\\
+\hline
+\left| x \right| \le a,\quad (a > 0) & x = a.\sin \alpha & \alpha \in \left[ {\dfrac{{ - \pi }}{2};\dfrac{\pi }{2};} \right]\\
+\hline
+a^2 x^2 + b^2 y^2 = c^2; \quad (a,b,c > 0)  & \va{x = \dfrac{c}{a}.\sin \alpha \\ y = \dfrac{c}{b}.\cos \alpha} & \alpha \in \left( {\dfrac{{ - \pi }}{2};\dfrac{\pi }{2}} \right) \\
+\hline
+\sqrt{a^2+x^2} & x = a.\tan \alpha \quad
+ \Rightarrow \sqrt {a^2  + x^2 }  = \dfrac{a}{{\cos \alpha }}
+ & \alpha \in \left( {\dfrac{{ - \pi }}{2};\dfrac{\pi }{2}} \right) \\
+\hline
+\sqrt {a^2 - x^2 } & x = \dfrac{a}{\cos \alpha }\quad \Rightarrow \sqrt {a^2 - x^2 } = a\tan \alpha & \alpha  \in \left[ {0;\dfrac{\pi }{2}} \right) \cup \left[ {\pi ;\dfrac{{3\pi }}{2}} \right)\\
+\hline 
+\sqrt {1 \pm x} ; \quad \left| x \right| \le 1 & x = \cos 2x & \alpha  \in \left[ {0;\dfrac{\pi }{2}} \right] \\
+\hline
+\dfrac{{a \pm b}}{{1 \pm a.b}} & \va{a = \tan \alpha  \\b = \tan \beta } & \alpha ;\beta  \in \left( {\dfrac{{ - \pi }}{\alpha };\dfrac{\pi }{\alpha }} \right)\\
+\hline
+a+b+c=abc & \va{
+ a = \tan \alpha  \\ 
+ b = \tan \beta  \\ 
+ c = \tan \gamma} & \alpha, \beta, \gamma \text{ là 3 góc của tam giác}\\
+ \hline
+\end{array}$$
+\begin{align}
+\va{\alpha + \beta + \gamma = k\pi  \\
+\alpha ;\beta ;\gamma \ne \dfrac{k\pi }{2} } & \Leftrightarrow \tan \alpha + \tan \beta + \tan \gamma = \tan \alpha .\tan \beta .\tan \gamma  \\
+\va{\alpha + \beta + \gamma = \dfrac{\pi }{2} + k.\pi  \\
+\alpha ;\beta ;\gamma \ne \dfrac{k\pi }{2} + k\pi } & \Leftrightarrow \tan \alpha .\tan \beta + \tan \beta .\tan \gamma + \tan \gamma .\tan \alpha = 1 \\
+\va{\alpha + \beta + \gamma = \dfrac{\pi }{4} + k.\pi  \\
+\alpha ;\beta ;\gamma \ne \dfrac{k\pi }{2} + k\pi } & 
+ \Leftrightarrow (1 + \tan \alpha )(1 + \tan \beta )(1 + \tan \gamma ) = 2(1 + \tan \alpha .\tan \beta .\tan \gamma )
+\end{align}
+\subsection{Xây dựng phương trình vô tỉ bằng phương pháp lượng giác hóa}
+Từ các phương trình lượng giác đơn giản: $$\cos 3t = \sin t$$
+ta có thể tạo ra được phương trình vô tỉ.\\
+Chú ý:  $$\cos 3t = 4\cos ^3 t - 3\cos t$$ ta có phương trình vô tỉ: 
+\begin{equation} \label{eq6}
+4x^3 - 3x = \sqrt {1 - x^2 } 
+\end{equation}
+Nếu thay $x$ bằng $\dfrac{1}{x}$ ta lại có phương trình: 
+\begin{equation} \label{eq7}
+4 - 3x^2 = x^2 \sqrt {x^2 - 1}
+\end{equation}
+Nếu thay $x$ trong phương trình $\eqref{eq7}$ bởi $(x-1)$ ta sẽ có phương trình vô tỉ khó: 
+\begin{equation} \label{eq8}
+4x^3 - 12x^2 + 9x - 1 = \sqrt {2x - x^2 }
+\end{equation}
+Việc giải phương trình $\eqref{eq7}$ và $\eqref{eq8}$ không đơn giản chút nào ?\\
+Tương tự như vậy từ công thức $\sin 3x, \sin 4x ,... $ bạn hãy xây dựng những phương trình vô tỉ theo kiểu lượng giác.
+\subsection{ Một số ví dụ }
+\vidu{ Giải phương trình sau:  $$\sqrt {1 + \sqrt {1 - x^2 } } \left[ {\sqrt {\left( {1 + x} \right)^3 } - \sqrt {\left( {1 - x} \right)^3 } } \right] = \dfrac{2}{{\sqrt 3 }} + \sqrt {\dfrac{{1 - x^2 }}{3}} $$}
+\hda
+ĐK: $\left| x \right| \le 1$.\\
+Với $x \in [ - 1;0]$ thì $$\sqrt {\left( {1 + x} \right)^3 } - \sqrt {\left( {1 - x} \right)^3 } \le 0 \quad \text{(vô nghiệm)}$$ 
+Với $x \in [0;1]$ ta đặt: $x = \cos t, t \in \left[ {0;\dfrac{\pi }{2}} \right]$. Khi đó phương trình trở thành: 
+$$2\sqrt 6 \cos x\left( {1 + \dfrac{1}{2}\sin t} \right) = 2 + \sin t \Leftrightarrow \cos t = \dfrac{1}{{\sqrt 6 }}$$
+Vậy phương trình có nghiệm: $x = \dfrac{1}{{\sqrt 6 }}$.
+\vidu{ Giải các phương trình sau:  
+\begin{enumerate}
+\item $\sqrt {1 - 2x} + \sqrt {1 + 2x} = \sqrt {\dfrac{{1 - 2x}}{{1 + 2x}}} + \sqrt {\dfrac{{1 + 2x}}{{1 - 2x}}} $
+\item $\sqrt {1 + \sqrt {1 - x^2 } } = x\left( {1 + 2\sqrt {1 - x^2 } } \right)$
+\item $x^3 - 3x = \sqrt {x + 2} $
+\end{enumerate}}
+ \hda
+ HD: $\tan x = \sqrt {\dfrac{{1 + 2\cos x}}{{1 - 2\cos x}}} $.\\
+ ĐS: $x = \dfrac{1}{2}$.\\
+ HD: chứng minh $\left| x \right| > 2$. PT vô nghiệm.
+\vidu{Giải phương trình sau: $$\sqrt[3]{{6x + 1}} = 2x$$}
+\lgi Lập phương 2 vế ta được: $$8x^3 - 6x = 1 \Leftrightarrow 4x^3 - 3x = \dfrac{1}{2}$$
+Với $\left| x \right| \le 1$, đặt $x = \cos t, t \in \left[ {0;\pi } \right]$.\\ Khi đó ta được $S = \left\{ {\cos \dfrac{\pi }{9};\cos \dfrac{{5\pi }}{9};\cos \dfrac{{7\pi }}{9}} \right\}$.\\
+Mà phương trình bậc 3 có tối đa 3 nghiệm vậy đó cũng chính là tập nghiệm của phương trình.
+\vidu{Giải phương trình $$x^2 \left( {1 + \dfrac{1}{{\sqrt {x^2 - 1} }}} \right) = 1$$}
+\lgi
+ĐK: $\left| x \right| > 1$.\\
+Ta có thể đặt $x = \dfrac{1}{{\sin t}}, t \in \left( { - \dfrac{\pi }{2};\dfrac{\pi }{2}} \right)$.\\
+Khi đó ta có: 
+$$\dfrac{1}{{\sin ^2 x}}\left( {1 + \cot t} \right) = 1 \Leftrightarrow \hay{
+ \cos t = 0 \\ 
+ \sin 2t = - \dfrac{1}{2} }$$
+Phương trình có nghiệm:  $x = - \sqrt 2 \left( {\sqrt 3 + 1} \right)$.
+\vidu{Giải phương trình:  $$\sqrt {x^2 + 1} = \dfrac{{x^2 + 1}}{{2x}} + \dfrac{{\left( {x^2 + 1} \right)^2 }}{{2x\left( {1 - x^2 } \right)}}$$}
+\lgi 
+ĐK $x \ne 0,x \ne \pm 1$.\\
+Ta có thể đặt: $x = \tan t, t \in \left( { - \dfrac{\pi }{2};\dfrac{\pi }{2}} \right)$
+Khi đó ta có: $$2\sin t\cos 2t + \cos 2t - 1 = 0 \Leftrightarrow \sin t\left( {1 - \sin t - 2\sin ^2 t} \right) = 0$$
+Kết hợp với điều kiện ta có nghiệm $x = \dfrac{1}{{\sqrt 3 }}$.
+\section{Phương pháp dùng Bất đẳng thức}
+Một số phương trình được tạo ra từ dấu bằng của BĐT: 
+$$\va{
+ A \ge m \\ 
+ B \le m }$$ 
+nếu dấu bằng ở hai BĐT đó cùng đạt được tại $x_0$ thì $x_0$ là nghiệm của phương trình $A=B$.\\
+Chẳng hạn
+$$\sqrt {1 + 2015x} + \sqrt {1 - 2015x} \le 2$$ Dấu "=" xảy ra khi và chỉ khi $x=0$ và 
+$$\sqrt {x + 1} + \dfrac{1}{{\sqrt {x + 1} }} \ge 2$$
+Dấu "=" xảy ra khi và chỉ khi $x = 0$. Vậy ta có phương trình: 
+$$\sqrt {1 - 2015x} + \sqrt {1 + 2015x} = \dfrac{1}{{\sqrt {x + 1} }} + \sqrt {1 + x} $$
+Đôi khi một số phương trình được tạo ra từ ý tưởng:  $$\va{
+ A \ge f\left( x \right) \\ 
+ B \le f(x) }$$ 
+ Khi đó:  
+ $$A = B \Leftrightarrow \va{
+ A = f\left( x \right) \\ 
+ B = f\left( x \right) }$$
+Chú ý: Khi giải phương trình vô tỷ bằng bất đẳng thức qua các phương trình hệ quả thì đến cuối bài toán phải thế nghiệm vào phương trình đầu để loại nghiệm ngoại lai. \\
+ Tóm tắt một vài bất đẳng thức cơ bản thường dùng để giải phương trình vô tỷ.
+\begin{enumerate}
+\item ${ A}^{2n} \ge 0, - { A}^{2n} \le 0\left( {n \in { N}^* } \right)
+$\\
+ Dấu “=” xảy ra khi và chỉ khi $A = 0$
+\item $
+\left| { A} \right| \ge { A}
+$.\\
+ Dấu “=” xảy ra khi và chỉ khi $A \geq 0$.
+\item \textbf{Bất đẳng thức Cauchy với $n$ số không âm}:\\
+Nếu $a_1; a_2; ...; a_n$ không âm thì 
+$$a_1 + a_2 + ... + a_n \ge n\sqrt[n]{a_1 + a_2 + ...a_n }$$
+Dấu “=” xảy ra khi và chỉ khi $a_1 = a_2 = \cdots =a_n$.
+\item \textbf{Bất đẳng thức Bunhiacopxki} với 2 bộ số $(a_1; a_2; ...; a_n), (b_1; b_2; ..., b_n)$ ta có:
+$$\left( {a_1 b_1 + a_2 b_2 + ....+ a_n b_n } \right)^2 \le \left( {a_1^2 + a_2^2 + ... + a_n^2 } \right).\left( {b_1^2 + b_2^2 + ... + b_n^2 } \right) $$
+Dấu “=” xảy ra khi và chỉ khi
+$$ \dfrac{{a_1 }}{{b_1 }} = \dfrac{{a_2 }}{{b_2 }} = ... = \dfrac{{a_n }}{{b_n }}
+$$
+Quy ước nếu mẫu bằng $0$ thì tử cũng phải bằng $0$.
+\end{enumerate}
+\vidu{Giải phương trình: $$\dfrac{{2\sqrt 2 }}{{\sqrt {x + 1} }} + \sqrt x = \sqrt {x + 9} $$}
+\lgi
+ĐK: $x\geq 0$.\\
+Ta có:  
+$$\left( {\dfrac{{2\sqrt 2 }}{{\sqrt {x + 1} }} + \sqrt x } \right)^2 \le \left[ {\left( {2\sqrt 2 } \right)^2 + x + 1} \right]\left[ {\dfrac{1}{{x + 1}} + \left( {\dfrac{{\sqrt x }}{{\sqrt {x + 1} }}} \right)^2 } \right] = x + 9 \quad \forall x \geq 0$$
+Dấu "=" xảy ra khi và chỉ khi: $$\dfrac{{2\sqrt 2 }}{{\sqrt {x + 1} }} = \dfrac{1}{{\sqrt {x + 1} }} \Leftrightarrow x = \dfrac{1}{7}$$
+Vậy $x = \dfrac{1}{7}$ là nghiệm duy nhất của phương trình.
+\vidu{ Giải phương trình:  $$13\sqrt {x^2 - x^4 } + 9\sqrt {x^2 + x^4 } = 16$$}
+\lgi
+ĐK: $ - 1 \le x \le 1$.\\
+Biến đổi phương trình ta có:  $$x^2 \left( {13\sqrt {1 - x^2 } + 9\sqrt {1 + x^2 } } \right)^2 = 256$$
+Áp dụng bất đẳng thức Bunhiacopxki: 
+$$\left( {\sqrt {13} .\sqrt {13} .\sqrt {1 - x^2 } + 3.\sqrt 3 .\sqrt 3 \sqrt {1 + x^2 } } \right)^2 \le \left( {13 + 27} \right)\left( {13 - 13x^2 + 3 + 3x^2 } \right) = 40\left( {16 - 10x^2 } \right)$$
+Áp dụng bất đẳng thức Côsi: $$10x^2 \left( {16 - 10x^2 } \right) \le \left( {\dfrac{{16}}{2}} \right)^2 = 64$$
+Dấu "=" xảy ra khi và chỉ khi
+$$\va{ \sqrt {1 - x^2 } = \dfrac{{\sqrt {1 + x^2 } }}{3} \\ 
+ 10x^2 = 16 - 10x^2} \Leftrightarrow \hay{
+ x = \dfrac{2}{{\sqrt 5 }} \\ 
+ x = - \dfrac{2}{\sqrt 5 }}$$
+ Vậy nghiệm của phương trình là $x=\pm \dfrac{2}{\sqrt 5 }$.
+\vidu{Giải phương trình: $$x^{3`} - 3x^2 - 8x + 40 - 8\sqrt[4]{{4x + 4}} = 0$$}
+\hda
+Ta chứng minh: $8\sqrt[4]{{4x + 4}} \le x + 13$ và $$x^3 - 3x^2 - 8x + 40 \ge 0 \Leftrightarrow \left( {x - 3} \right)^2 \left( {x + 3} \right) \ge x + 13$$
+\section{Phương pháp hàm số}
+Sử dụng các tính chất của hàm số để giải phương trình là dạng toán khá quen thuộc. Ta có 3 hướng áp dụng sau đây:
+\begin{enumerate}
+\item Thực hiện theo các bước:
+\begin{itemize}
+\item Bước 1: Chuyển phương trình về dạng: $f(x) = k$
+\item Bước 2: Xét hàm số $y=f(x)$. Chứng minh hàm số này đồng biến hoặc nghịch biến. Giả sử hàm số đồng biến.
+\item Bước 3: Nhẩm nghiệm $x_0$ và nhận xét
+\begin{itemize}
+\item Với $x> x_0$, ta có 
+$f(x) > f(x_0 ) = k \quad \text{(không thỏa mãn)}$
+\item Với $x < x_0$, ta có 
+$f(x) < f(x_0 ) = k \quad \text{(không thỏa mãn)}$
+\end{itemize}
+Vậy $x_0$ là nghiệm duy nhất của phương trình
+\end{itemize}
+\item Hướng 2: thực hiện theo các bước
+\begin{itemize}
+\item Bước 1: Chuyển phương trình về dạng: $f(x)=g(x)$.
+\item Bước 2: Dùng lập luận khẳng định rằng $f(x)$ và $g(x)$ có những tính chất đơn điệu trái ngược nhau.
+\item Bước 3: Xác định $x_0$ sao cho $
+f(x_0 ) = g(x_0 )
+$. Khi đó $x_0$ là nghiệm duy nhất của phương trình.
+\end{itemize}
+\item Hướng 3: Thực hiện theo các bước:
+\begin{itemize}
+\item Bước 1: Chuyển phương trình về dạng $f(u)=f(v)$.
+\item Bước 2: Xét hàm số $y=f(x)$, dùng lập luận khẳng định hàm số đơn điệu.
+\item Bước 3: Khi đó 
+$$
+f(u) = f(v) \Leftrightarrow u = v
+$$
+\end{itemize}
+\end{enumerate}
+\vidu{ Giải phương trình:  $$\left( {2x + 1} \right)\left( {2 + \sqrt {4x^2 + 4x + 4} } \right) + 3x\left( {2 + \sqrt {9x^2 + 3} } \right) = 0$$}
+\hda
+\begin{align*}
+PT & \Leftrightarrow \left( {2x + 1} \right)\left( {2 + \sqrt {\left( {2x + 1} \right)^2 + 3} } \right) = \left( { - 3x} \right)\left( {2 + \sqrt {\left( { - 3x} \right)^2 + 3} } \right)\\ 
+& \Leftrightarrow  f\left( {2x + 1} \right) = f\left( { - 3x} \right) 
+\end{align*}
+Xét hàm số $f\left( t \right) = t\left( {2 + \sqrt {t^2 + 3} } \right)$, là hàm đồng biến trên $\mathbb{R}$.\\
+Do đó $x = - \dfrac{1}{5}$ là nghiệm duy nhất của phương trình.\\
+\subsection*{Nhận xét}
+Dựa vào kết quả: Nếu $y=f(t)$ là hàm đơn điệu thì $$f\left( x \right) = f\left( t \right) \Leftrightarrow x = t$$
+Ta có thể xây dựng được những phương trình vô tỉ.\\
+Xuất phát từ hàm đơn điệu:  
+$$y = f\left( x \right) = 2x^3 + x^2 + 1$$
+trên $[0 ;+\infty)$.\\
+Ta xây dựng phương trình: 
+$$f\left( x \right) = f\left( {\sqrt {3x - 1} } \right) \Leftrightarrow 2x^3 + x^2 + 1 = 2\left( {\sqrt {3x - 1} } \right)^3 + \sqrt {(3x - 1} )^2 + 1$$
+ Rút gọn ta được phương trình 
+$$2x^3 + x^2 - 3x + 1 = 2\left( {3x - 1} \right)\sqrt {3x - 1} $$
+Từ phương trình $$f\left( {x + 1} \right) = f\left( {\sqrt {3x - 1} } \right)$$ 
+thì bài toán sẽ khó hơn 
+$$2x^3 + 7x^2 + 5x + 4 = 2\left( {3x - 1} \right)\sqrt {\left( {3x - 1} \right)} $$
+Để giải hai bài toán trên chúng ta có thể làm như sau: \\
+Đặt $y=\sqrt{3x+1}$ khi đó ta có hệ: $$\va{
+ 2x^3 + 7x^2 + 5x + 4 = 2y^3 \\ 
+ 3x - 1 = y^2 }$$ cộng hai phương trình ta được:
+$$2\left( {x + 1} \right)^3 + \left( {x + 1} \right)^2 =2y^3 + y^2 $$
+\vidu{Giải phương trình:  $$\left( {2x + 1} \right)\left( {2 + \sqrt {4x^2 + 4x + 4} } \right) + 3x\left( {2 + \sqrt {9x^2 + 3} } \right) = 0 $$}
+\hda
+\begin{align*}
+PT \Leftrightarrow & \left( {2x + 1} \right)\left( {2 + \sqrt {\left( {2x + 1} \right)^2 + 3} } \right) = \left( { - 3x} \right)\left( {2 + \sqrt {\left( { - 3x} \right)^2 + 3} } \right) \\
+ \Leftrightarrow & f\left( {2x + 1} \right) = f\left( { - 3x} \right)
+\end{align*}
+Xét hàm số $f\left( t \right) = t\left( {2 + \sqrt {t^2 + 3} } \right)$, là hàm đồng biến trên $\mathbb{R}$.\\
+Ta có $x = - \dfrac{1}{5}$ là nghiệm duy nhất.
+\vidu{ Giải phương trình $$x^3 - 4x^2 - 5x + 6 = \sqrt[3]{{7x^2 + 9x - 4}}$$}
+\hda Đặt $y = \sqrt[3]{{7x^2 + 9x - 4}}$, ta có hệ:  $$\va{
+ x^3 - 4x^2 - 5x + 6 = y \\ 
+ 7x^2 + 9x - 4 = y^3 } \Rightarrow y^3 + y = \left( {x + 1} \right)^3 + \left( {x + 1} \right)$$
+Xét hàm số: $f(t)=t^3+t$, là hàm đơn điệu tăng. Ta có
+\begin{align*}
+& f\left( y \right) = f\left[ {\left( {x + 1} \right)} \right]\\
+ \Leftrightarrow & y = x + 1 \\ \Leftrightarrow & \left( {x + 1} \right) = \sqrt[3]{{7x^2 + 9x - 4}} \\
+  \Leftrightarrow &\hay{
+ x = 5 \\ 
+ x = \dfrac{{ - 1 \pm \sqrt 5 }}{2}}
+\end{align*}

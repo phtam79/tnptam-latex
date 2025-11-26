@@ -1,0 +1,529 @@
+\chapter{Các dạng cấu trúc câu hỏi}
+\section{Câu hỏi trắc nghiệm 4 phương án}
+Để soạn thảo câu hỏi trắc nghiệm bốn phương án ta dùng cấu trúc câu hỏi như sau:
+\begin{verbatim}
+	\baitracnghiem{TNKQ:01}{
+		Nội dung câu hỏi
+	}{
+		\bonpa{1}
+		{Phương án 1}
+		{Phương án 2}
+		{Phương án 3}
+		{Phương án 4}
+	}{
+		Nội dung lời giải chi tiết
+	}
+\end{verbatim}
+
+Với cách soạn câu hỏi như vậy, khi biên dịch sẽ hiển thị được như sau:
+\loadallproblems[tracnghiem]{Data/Tracnghiem}
+\indebailoigiai
+\setcounter{socauhoi}{0}
+\begin{enumerate}[]
+	\foreachproblem[tracnghiem]{\item\causo\thisproblem}
+\end{enumerate}
+
+Như ở trên, ta chú ý rằng TNKQ:01 là mã của câu hỏi, khi soạn câu hỏi tiếp theo ta phải đảm bảo rằng các câu hỏi khác nhau phải có mã trùng nhau. Tương tự như vậy, lệnh \verb'\bonpa{1}' ta thay đổi số 1 thành các số khác (2, 3, 4) với ý nghĩa số 1 thì phương án đầu tiên là đáp án đúng, số 2 thì phương án thứ hai là đáp án đúng, số 3 thì phương án thứ ba là đáp án đúng và số 4 thì phương án thứ tư là đáp án đúng.
+
+Bạn có thể soạn hàng loạt các câu hỏi trắc nghiệm như thế để lưu vào một file nguồn, khi cần ta có thể lấy những câu hỏi này để làm đề thi hoặc đưa vào các chuyên đề của mình.
+
+\section{Câu hỏi trắc nghiệm đúng sai}
+Giống như câu hỏi trắc nghiệm bốn phương án, ta cũng có cấu trúc soạn thảo các câu hỏi dạng đúng sai như sau:
+\begin{verbatim}
+	\baitndungsai{DS:01}{
+		Nội dung câu hỏi
+	}{\bonpads
+		{\dungsai{\dsdung}{Phương án 1.}}
+		{\dungsai{\dsdung}{Phương án 2.}}
+		{\dungsai{\dssai}{Phương án 3.}}
+		{\dungsai{\dsdung}{Phương án 4.}}
+	}{
+		Nội dung lời giải chi tiết.
+	}
+\end{verbatim}
+
+Với cấu trúc này, ta để mã câu hỏi cũng như câu hỏi trắc nghiệm bốn phương án. Ngoài ra lệnh \verb'\bonpads' sẽ có thêm các lệnh con bên trong. \verb'\dsdung' để chỉ rằng phương án đó có đáp án là đúng, \verb'\dssai' để chỉ rằng phương án đó có đáp án là sai.
+
+Khi biên dịch dạng câu hỏi này, bốn phương án sẽ được hoán vị ngẫu nhiên (khi làm đề) hoặc theo thứ tự nhập vào (khi soạn thảo để kiểm tra tính đắn của câu hỏi) tùy ý thông qua việc sử dụng lệnh \verb'\soanthao'.
+
+\loadallproblems[dungsai]{Data/Dungsai}
+\indebailoigiai
+\setcounter{socauhoi}{0}
+\begin{enumerate}[]
+	\foreachproblem[dungsai]{\item\causo\thisproblem}
+\end{enumerate}
+
+Thêm nữa, lệnh \verb'\bonpads' còn có tùy chọn kiểu \verb'\bonpads[1]'. Tùy vào thông số nhập vào tùy chọn thay thế số 1 ta sẽ có tương ứng cách tráo đổi các phương án khi làm đề thi. Chẳng hạn dùng \verb'\bonpads[1]' thì sẽ chỉ đảo hai phương án giữa, \verb'\bonpads[2]' thì sẽ đảo ba phương án phía sau, phương án đầu luôn giữ nguyên. Còn nếu dùng \verb'\bonpads[3]' hoặc một số bất kỳ khác thì sẽ đảo cả bốn phương án. Như vậy phù hợp với các dạng của câu hỏi đúng sai (đồng đẳng thì có thể đảo cả bốn phương án, nhưng nếu không đồng đẳng thì phải giữ thứ tự một số phương án nào đó). 
+
+Ngoài ra, nếu bạn muốn soạn câu hỏi đúng sai với số phương án tùy ý (nhiều hơn hoặc ít hơn bốn phương án), ta có thể sử dụng cấu trúc như sau:
+
+\begin{verbatim}
+	\baitndungsai{DS:02}{
+		Nội dung câu hỏi đúng sai
+	}{\phuongands
+		\dungsai{\dsdung}{Phương án 1}
+		\dungsai{\dssai}{Phương án 2}
+		\dungsai{\dssai}{Phương án 3}
+		\dungsai{\dsdung}{Phương án 4}
+		\dungsai{\dssai}{Phương án 5}
+	}{
+		Nội dung lời giải chi tiết
+	}
+\end{verbatim}
+
+Như vậy ta cũng có thể hiển thị câu hỏi đúng sai với 5 phương án:
+
+\loadallproblems[dungsain]{Data/Dungsain}
+\indebailoigiai
+\setcounter{socauhoi}{0}
+\begin{enumerate}[]
+	\foreachproblem[dungsain]{\item\causo\thisproblem}
+\end{enumerate}
+
+\section{Câu trả lời ngắn}
+Cấu trúc soạn câu hỏi trả lời ngắn như sau:
+
+\begin{verbatim}
+	\baitraloingan{TLN:01}{
+		Nội dung câu hỏi
+	}{
+		\dapantln{-}{0}{,}{4}
+	}{
+		Nội dung lời giải chi tiết.
+	}
+\end{verbatim}
+
+Trong đó lệnh \verb'\dapantln{-}{0}{,}{4}' ta điền vào bốn thông số của đáp án (bốn kí tự điền vào của đáp án). Như ở lệnh trên thì đáp án cần điền sẽ là $-0,4$.
+
+Ta sẽ được hiển thị khi biên dịch như sau:
+
+\loadallproblems[traloingan]{Data/Traloingan}
+\indebailoigiai
+\setcounter{socauhoi}{0}
+\begin{enumerate}[]
+	\foreachproblem[traloingan]{\item\causo\thisproblem}
+\end{enumerate}
+\section{Câu hỏi tự luận}
+Đối với câu hỏi tự luận, cấu trúc của câu hỏi như sau:
+
+\begin{verbatim}
+	\baituluan{TL:01}{
+		Nội dung câu hỏi
+	}{
+		Nội dung lời giải chi tiết.
+	}
+\end{verbatim}
+
+Giống như các cấu trúc câu hỏi khác, mã câu hỏi của các câu hỏi đưa vào buộc phải đôi một khác nhau do người soạn tùy chọn. Ta sẽ hiển thị được câu hỏi tự luận sau khi biên dịch:
+
+\loadallproblems[tuluan]{Data/Tuluan}
+\indebailoigiai
+\setcounter{socauhoi}{0}
+\begin{enumerate}[]
+	\foreachproblem[tuluan]{\item\causo\thisproblem}
+\end{enumerate}
+
+Ngoài ra, chúng ta còn có một số mẫu câu hỏi dạng gach chân, điền khuyết (do ta ít sử dụng nên không đề cập ở đây, có thể tìm thấy trong Helpdethi3.5 của thầy Nguyễn Hữu Điển)
+
+Cũng cần chú ý rằng, khi ta sử dụng lệnh \verb'\soanthao' để kiểm tra dữ liệu, thì nhiều khai báo đã được mở ra mà không thể đóng lại nên trong một file biên dịch, ta chỉ có thể dùng khai báo của soạn thảo hoặc khai báo của việc trộn đề được. Nghĩa là khi bạn đã sử dụng lệnh \verb'\soanthao', thì các dữ liệu được đưa vào với lệnh \verb'\input', còn khi file biên dịch không sử dụng lệnh \verb'\soanthao' thì các dữ liệu được đưa vào bằng cách \verb'\loadallproblems' hoặc \verb'\loadrandomproblems'.
+
+\chapter{Các hình thức hiển thị khi biên dịch}
+\section{Các hình thức in ra câu hỏi}
+Để chỉ in ra nội dung câu hỏi, ta sử dụng lệnh \verb'\indebai' trước khi đưa câu hỏi ra để in.
+
+Để in ra cả đề bài và đáp án của câu hỏi, ta sử dụng lệnh \verb'\indebaidapan'
+
+Để in ra chỉ riêng đáp án của câu hỏi, ta sử dụng lệnh \verb'\indapantnkq' đối với câu hỏi trắc nghiệm bốn phương án, lệnh \verb'\indapanlietke' đối với câu hỏi đúng sai và câu trả lời ngắn.
+
+Để in ra cả đáp án và lời giải chi tiết, ta sử dụng lệnh \verb'\indapanloigiai'
+
+Để in ra cả đề bài, đáp án và lời giải chi tiết, ta sử dụng lệnh \verb'\indebailoigiai'
+\section{Soạn thảo}
+Để kiểm tra tính đúng đắn của câu hỏi, các lỗi soạn thảo, ta thường biên dịch nguyên bản câu hỏi nhập vào để kiểm tra lại.
+
+Khi đã biên soạn được các file câu hỏi nguồn, ta biên dịch để kiểm tra với lệnh \verb'\soanthao' ngay sau \verb'\begin{document}' rồi \verb'\input' các file câu hỏi vào. Như vậy các câu hỏi sẽ được hiển thị theo thứ tự nhập vào để kiểm tra chính xác từng câu hỏi.
+	
+	Chẳng hạn, ta có các file nguồn các câu hỏi là các file tnkq.tex, tnds.tex, tln.tex và tuluan.tex trong thư mục Data. Thế thì ta chỉ việc dùng
+	
+	\begin{verbatim}
+		\input{Data/tnkq}
+		\input{Data/tnds}
+		\input{Data/tln}
+		\input{Data/tuluan}
+	\end{verbatim}
+	
+	Như vậy các file đã được input vào để biên dịch cho ta kiểm tra. Chú ý rằng cách biên dịch này sẽ biên dịch toàn bộ những gì ta nhập vào ở file nguồn câu hỏi đã được soạn.
+	
+	\section{Làm chuyên đề với gói dethi.sty}
+	Giống như việc soạn thảo hoặc làm đề. Bạn hoàn toàn có thể soạn thảo các chuyên đề với gói dethi.sty với các chương, phần, mục bằng \verb'\chapter', \verb'\section', \verb'\subsection' giống như ở file hướng dẫn này. Việc này hoàn toàn tùy ý bạn ở việc soạn các câu hỏi nguồn và có muốn chúng xáo trộn các phương án hay không. Nếu không muốn xáo trộn các phương án, bạn chỉ việc dùng \verb'\soanthao' ở ngay đầu tài liệu còn nếu không thì bạn không cần dùng lệnh này.
+	
+	Bạn cũng có thể sắp xếp giống như khi làm đề để đưa vào các đề bài (không hiển thị đáp án và lời giải) bằng việc sử dụng lệnh \verb'\indebai'. Sau khi viết thêm thì đến phần hiển thị đáp án và lời giải chi tiết bạn lại gọi đáp án và lời giải ra với lệnh \verb'\indapanloigiai' mà thôi.
+	
+	Dưới đây là các ví dụ hiển thị để làm chuyên đề tùy ý. Trước hết bạn cần có một file nguồn câu hỏi. Chẳng hạn ta có file nguồn câu hỏi là Maucauhoi.tex trong thư mục Data. Thế thì ta load câu hỏi bằng lệnh:
+	
+	\begin{verbatim}
+		\loadallproblems[maucau]{Data/Maucauhoi}
+	\end{verbatim}
+	
+	\loadallproblems[maucau]{Data/Maucauhoi}
+	
+	Như vậy ta đã có nguồn câu hỏi với mã là maucau. Bây giờ ta chỉ hiển thị riêng đề bài:
+	
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\indebai
+		\begin{enumerate}[]
+			\foreachproblem[maucau]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	
+	\setcounter{socauhoi}{0}
+	\indebai
+	\begin{enumerate}[]
+		\foreachproblem[maucau]{\item\causo\thisproblem}
+	\end{enumerate}
+	
+	Hoặc ta có thể in ra cả đề bài và đáp án:
+	
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\indebaidapan
+		\begin{enumerate}[]
+			\foreachproblem[maucau]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	
+	\setcounter{socauhoi}{0}
+	\indebaidapan
+	\begin{enumerate}[]
+		\foreachproblem[maucau]{\item\causo\thisproblem}
+	\end{enumerate}
+	
+	Hoặc in ra cả đề bài, đáp án và lời giải chi tiết, tất nhiên với từng loại câu hỏi ta có thể dùng các lệnh khác nhau như \verb'\indebailoigiai' hay \verb'\indebaidapan' hoặc \verb'\indapanloigiai'.
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\indapanloigiai
+		\begin{enumerate}[]
+			\foreachproblem[maucau]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	
+	\setcounter{socauhoi}{0}
+	\indapanloigiai
+	\begin{enumerate}[]
+		\foreachproblem[maucau]{\item\causo\thisproblem}
+	\end{enumerate}
+	
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\indebaidapan
+		\begin{enumerate}[]
+			\foreachproblem[maucau]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	\setcounter{socauhoi}{0}
+	\indebaidapan
+	\begin{enumerate}[]
+		\foreachproblem[maucau]{\item\causo\thisproblem}
+	\end{enumerate}
+	
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\indebailoigiai
+		\begin{enumerate}[]
+			\foreachproblem[maucau]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	\setcounter{socauhoi}{0}
+	\indebailoigiai
+	\begin{enumerate}[]
+		\foreachproblem[maucau]{\item\causo\thisproblem}
+	\end{enumerate}
+	
+	\section{Hình thức đề thi}
+	Để làm được một đề thi theo hình thức chuẩn như các đề thi đang được lưu hành, ta cần đến cách bố trí các phần hiển thị cho cả một đề thi bao gồm:
+	\subsection{Tiêu đề}
+	Với tiêu đề, gói dethi.sty đã làm mẫu một tiêu đề và bạn có thể nhập vào các thông tin của tiêu đề bao gồm:
+	\begin{verbatim}
+		\tentruong{UBND THỊ XÃ DUY TIÊN}
+		\tenkhoa{\underline{TRUNG TÂM GDNN-GDTX}}
+		\madethi{104} 
+		\loaidethi{(Đề gồm  0\pageref{dbPage} trang)}
+		
+		\tenkythi{ĐỀ KIỂM TRA GIỮA HỌC KÌ I}
+		\namhoc{Năm học: 2024-2025}
+		\tenmonhoc{Môn: TOÁN lớp 12}
+		\thoigian{\underline{Thời gian làm bài: 90 phút}}   
+		%\tieudetrenbaitap{Bùi Quỹ - Trung tâm GDNN-GDTX Duy Tiên}
+		%\tieudeduoibaitap{LaTeX - TikZ - năm 2021}
+		
+		\trangcuoi{dbPage}
+		\hovaten{Họ và tên}         %Nếu không muốn có dòng này không gõ lệnh
+		\tenlop{Lớp}         %Nếu không muốn có dòng này không gõ lệnh
+		%\sobaodanh{Số báo danh}  %Nếu không muốn có dòng này không gõ lệnh
+	\end{verbatim}
+	
+	Đoạn này đã được nhập vào trong đầu mỗi file biên dịch. Khi bạn muốn thay đổi các thông tin ở đó bạn cứ thay đổi tùy ý cho phù hợp.
+	
+	Tất nhiên ở trên mới chỉ là thông tin nhập vào, để hiển thị được tiêu đề, bạn phải dùng thêm lệnh như sau:
+	\begin{verbatim}
+		\lamtieudetracnghiem
+		\lamtieude
+	\end{verbatim}
+	\lamtieudetracnghiem
+	\lamtieude
+	
+	Sau khi bạn làm tiêu đề như trên thì in phần đề như ở trên một cách thật là đơn giản.
+	\subsection{Header và footer}
+	Ta có thể làm header và footer của đề thi (có thể sử dụng với bất kì tài liệu biên dịch latex nào khác) không dùng đến gói fancyhdr như sau:
+	\begin{verbatim}
+		\makeatletter
+		\renewcommand{\@oddhead}{%Header
+			\parbox{\textwidth}{%
+				
+			}
+		}
+		\renewcommand{\@evenhead}{%Header
+			\parbox{\textwidth}{%
+				
+			}
+		}
+		\renewcommand{\@oddfoot}{%footer
+			\parbox{\textwidth}{%
+				\hfill Trang\ \thepage/\pageref{dbPage} - Mã đề thi\ \@madethi
+			}
+		}
+		\renewcommand{\@evenfoot}{%footer
+			\parbox{\textwidth}{%
+				Trang\ \thepage/\pageref{dbPage} - Mã đề thi\ \@madethi
+			}
+		}
+		\makeatother
+	\end{verbatim}
+	
+	Như trong đoạn code này, chính là chân trang và đầu trang của tài liệu. Trên đầu trang hiện không có gì nên không hề hiển thị gì khi biên dịch. Còn dưới chân trang ta thấy sẽ hiển thị số trang/ số trang của đề thi với label  \verb'dbPage'  và mã đề thi với macro \verb'\@madethi'.
+	
+	Nếu bạn muốn hiển thị bất kỳ điều gì ở header và footer, bạn chỉ cần thay đổi các thông tin nhập vào là xong. Để ý rằng even là trang chẵn, odd là trang lẻ. Việc định nghĩa lại đầy đủ cả trang chẵn và trang lẻ đảm bảo cho bạn tùy chọn kiểu trang thoải mái.
+	\section{Làm đề thi}
+	\subsection{Làm đề thi đối với riêng từng loại câu hỏi}
+	Để làm đề thi với riêng từng loại câu hỏi, ta sẽ lấy ngẫu nhiên một số câu hỏi trong file nguồn để biên dịch ra thành đề thi.
+	
+	Chẳng hạn với file De01TNKQ.tex  có sẵn trong thư mục Data gồm 14 câu hỏi. Bạn muốn lấy ra 5 câu hỏi ngẫu nhiên trong 14 câu có sẵn đó, ta sẽ dùng lệnh lấy câu hỏi
+	\begin{verbatim}
+		\loadrandomproblems[115]{5}{Data/De01TNKQ}
+	\end{verbatim}
+	Trong lệnh trên ta đã có 5 câu hỏi ngẫu nhiên trong 14 câu hỏi có sẵn được load vào mã đề 115. Bây giờ muốn in các câu hỏi này ra thì ta dùng tiếp lệnh:
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\begin{enumerate}[]
+			\foreachproblem[115]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	
+	Cụ thể với hai lệnh trên ta có hiển thị như sau:
+	\loadrandomproblems[115]{5}{Data/De01TNKQ}
+	\setcounter{socauhoi}{0}
+	\indebai
+	\begin{enumerate}[]
+		\foreachproblem[115]{\item\causo\thisproblem}
+	\end{enumerate}
+	
+	In đề bài ra rồi, để in đáp án của mã đề này ta sử dụng đoạn lệnh sau:
+	
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\indapantnkq{4}{115}
+	\end{verbatim}
+	
+	Như vậy sẽ hiển thị được đáp án của 5 câu hỏi của mã đề 115 ở trên với 4 cột (cho gọn hình thức hiển thị).
+	
+	\setcounter{socauhoi}{0}
+	\indapantnkq{4}{115}
+	
+	Cũng hoàn toàn tương tự khi lấy các câu hỏi định dạng đúng sai, trả lời ngắn hoặc tự luận vào một mã đề nào đó bằng lệnh 
+	
+	\begin{verbatim}
+		\loadrandomproblems[mã đề]{số câu hỏi}{đường dẫn đến file nguồn đề}
+	\end{verbatim}
+	
+	Và chúng ta có thể in các câu hỏi ra bằng lệnh
+	\begin{verbatim}
+		\setcounter{socauhoi}{0}
+		\indebai
+		\begin{enumerate}[]
+			\foreachproblem[mã đề đã load]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	
+	Chú ý rằng, không những việc lấy các câu hỏi từ nguồn ra được ngẫu nhiên, mà thứ tự sắp xếp các câu hỏi lấy ra để in cũng lại được sắp xếp ngẫu nhiên. Hơn thế nữa, các đáp án (4 phương án) trong mỗi câu hỏi trắc nghiệm, câu hỏi đúng sai cũng được xắp xếp lại một cách ngẫu nhiên mà không theo trình tự nhập vào. Riêng câu hỏi đúng sai thì phương án thứ nhất được nhập vào luôn được đảm bảo không bị xáo trộn. Hoặc với câu hỏi đúng sai mà ta dùng số phương án khác 4 (không dùng lệnh \verb'\bonpads') thì khi in đề cũng sẽ không xáo trộn các phương án.
+	\subsection{Làm đề thi với nhiều loại câu hỏi}
+	Giống như làm đề thi với từng loại câu hỏi. Khi làm đề thi với nhiều loại câu hỏi bạn có thể dùng nhiều lần lệnh \verb'\loadrandomproblems', mỗi lệnh với một mã khác nhau rồi in chúng liên tiếp.
+	
+	Chẳng hạn như tôi làm một đề thi gồm 4 câu hỏi trắc nghiệm, 2 câu hỏi đúng sai và 2 câu trả lời ngắn tôi sẽ load như sau:
+	\begin{verbatim}
+		\loadrandomproblems[tnkq]{4}{Data/De01TNKQ}
+		\loadrandomproblems[ds]{2}{Data/De01DS}
+		\loadrandomproblems[tln]{2}{Data/De01TLN}
+	\end{verbatim}
+	
+	Sau khi lấy câu hỏi rồi, ta sẽ in cả ba loại câu hỏi này trong một đề:
+	\begin{verbatim}
+		\madethi{201}
+		\lamtieude
+		\noindent{\bfseries Phần I. Câu trắc nghiệm nhiều phương án lựa chọn} 
+		\setcounter{socauhoi}{0}
+		\begin{enumerate}[]
+			\foreachproblem[tnkq]{\item\causo\thisproblem}
+		\end{enumerate}
+		\noindent{\bfseries Phần II. Câu trắc nghiệm đúng sai} 
+		\setcounter{socauhoi}{0}
+		\begin{enumerate}[]
+			\foreachproblem[ds]{\item\causo\thisproblem}
+		\end{enumerate}
+		\noindent{\bfseries Phần III. Câu trả lời ngắn}
+		\setcounter{socauhoi}{0}
+		\begin{enumerate}[]
+			\foreachproblem[tln]{\item\causo\thisproblem}
+		\end{enumerate}
+		\label{dbPage}
+		\centerline{\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots Hết \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots}
+		%%%%Phần đáp án
+		\centerline{\bfseries ĐÁP ÁN MÃ ĐỀ 201}
+		\noindent{\bfseries Phần I. Trắc nghiệm nhiều phương án lựa chọn}
+		\setcounter{socauhoi}{0}
+		\indapantnkq{4}{tnkq}
+		\noindent{\bfseries Phần II. Trắc nghiệm đúng sai}
+		\setcounter{socauhoi}{0}
+		\indapanlietke
+		\begin{multicols}{4}
+			\begin{enumerate}[]
+				\foreachproblem[ds]{\item\causo\thisproblem}
+			\end{enumerate}
+		\end{multicols}
+		\noindent{\bfseries Phần III. Trả lời ngắn}
+		\setcounter{socauhoi}{0}
+		\indapanlietke
+		\begin{multicols}{3}
+			\begin{enumerate}[]
+				\foreachproblem[tln]{\item\causo\thisproblem}
+			\end{enumerate}
+		\end{multicols}
+	\end{verbatim}
+	
+	Khi đó ta được hiển thị như sau:
+	\loadrandomproblems[tnkq]{4}{Data/De01TNKQ}
+	\loadrandomproblems[ds]{2}{Data/De01DS}
+	\loadrandomproblems[tln]{2}{Data/De01TLN}
+	
+	\madethi{201}
+	\lamtieude
+	\noindent{\bfseries Phần I. Câu trắc nghiệm nhiều phương án lựa chọn} 
+	\setcounter{socauhoi}{0}
+	\begin{enumerate}[]
+		\foreachproblem[tnkq]{\item\causo\thisproblem}
+	\end{enumerate}
+	\noindent{\bfseries Phần II. Câu trắc nghiệm đúng sai} 
+	\setcounter{socauhoi}{0}
+	\begin{enumerate}[]
+		\foreachproblem[ds]{\item\causo\thisproblem}
+	\end{enumerate}
+	\noindent{\bfseries Phần III. Câu trả lời ngắn}
+	\setcounter{socauhoi}{0}
+	\begin{enumerate}[]
+		\foreachproblem[tln]{\item\causo\thisproblem}
+	\end{enumerate}
+	\label{dbPage}
+	\centerline{\ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots Hết \ldots\ldots\ldots\ldots\ldots\ldots\ldots\ldots}
+	%%%%Phần đáp án
+	\centerline{\bfseries ĐÁP ÁN MÃ ĐỀ 201}
+	\noindent{\bfseries Phần I. Trắc nghiệm nhiều phương án lựa chọn}
+	\setcounter{socauhoi}{0}
+	\indapantnkq{4}{tnkq}
+	\noindent{\bfseries Phần II. Trắc nghiệm đúng sai}
+	\setcounter{socauhoi}{0}
+	\indapanlietke
+	\begin{multicols}{4}
+		\begin{enumerate}[]
+			\foreachproblem[ds]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{multicols}
+	\noindent{\bfseries Phần III. Trả lời ngắn}
+	\setcounter{socauhoi}{0}
+	\indapanlietke
+	\begin{multicols}{3}
+		\begin{enumerate}[]
+			\foreachproblem[tln]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{multicols}
+	
+	\section{Làm đề thi chuẩn theo cấu trúc 2025}
+	Với cấu trúc đề thi 2025 của bộ GD. Gói dethi đã tiện giản cho bạn để làm đề thi đúng cấu trúc và số câu hỏi cố định bằng hai lệnh gộp:
+	\begin{verbatim}
+		\laydulieulamde{a}{Nguồn câu TN}{Nguồn câu DS}{Nguồn câu TLN}
+	\end{verbatim}
+	Và để in ra một đề thi cùng với đáp án ta sẽ dùng lệnh
+	\begin{verbatim}
+		\lamdethi{a}
+	\end{verbatim}
+	Khi đó dethi sẽ lấy ngẫu nhiên một con số gồm 3 chữ số làm mã đề cho đề thi của bạn. Chỉ cần mã \verb'a'  trong lệnh \verb'\lamdethi' đã được gọi ra từ lệnh \verb'\laydulieulamde' là xong. Thật không có gì đơn giản hơn.
+	
+	Nếu bạn cần làm nhiều đề cùng lúc, bạn có thể lấy dữ liệu nhiều lần liên tiếp (với các mã a,b,c,\ldots phải không trùng nhau) rồi làm đề với các mã đã có là bạn hoàn toàn có thể hoàn thành việc làm đề thi rồi.
+	
+	Sau đây tôi sẽ làm liên tiếp 4 đề thi từ nguồn dữ liệu đã có bằng đoạn lệnh như sau:
+	\begin{verbatim}
+		\laydulieulamde{b}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+		\laydulieulamde{c}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+		\laydulieulamde{d}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+		\laydulieulamde{e}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+		\lamdethi{b}
+		\lamdethi{c}
+		\lamdethi{d}
+		\lamdethi{e}
+	\end{verbatim}
+	
+	\laydulieulamde{b}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	\laydulieulamde{c}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	\laydulieulamde{d}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	\laydulieulamde{e}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	\lamdethi{b}
+	\lamdethi{c}
+	\lamdethi{d}
+	\lamdethi{e}
+	
+	\chapter{Một số câu hỏi thường gặp}
+	\hoi Tôi muốn thay chữ Câu 1, Câu 2,\ldots thành Bài 1, Bài 2\ldots thì tôi phải làm gì?
+	\dap Bạn có thể dùng lệnh \verb'\chucauhoi{Bài }'. Chú ý rằng trong lệnh này sau chữ Bài phải có dấu trắng, nếu không sẽ bị nối liền kiểu Bài01, Bài 02 chứ không phải là Bài 01, Bài 02\ldots
+	Tương tự như vậy nếu bạn muốn thay đổi chữ Câu thành Ví dụ hoặc chữ gì khác.
+	\hoi Khi in phần hướng dẫn giải chi tiết, tôi không muốn hiển thị chữ Lời giải mà thay vào đó là chữ Hướng dẫn hoặc chữ nào đó khác?
+	\dap Bạn có thể dùng lệnh \verb'\chuloigiai{Hướng dẫn}' hoặc chữ nào bạn muốn.
+	\hoi Trong một bài soạn tôi muốn đánh số lại câu hỏi từ đầu, chẳng hạn đến Câu 11 tôi muốn câu tiếp theo là Câu 1 thì tôi cần làm gì?
+	\dap Bạn có thể dùng \verb'\setcounter{question}{0}' nếu đang dùng lệnh \verb'\soanthao'. Còn không bạn có thể dùng lệnh \verb'\setcounter{socauhoi}{0}'.
+	\hoi Tôi có thể thay đổi cách đánh số thứ tự các phương án trong câu hỏi đúng sai từ a, b, c, d\ldots thành i, ii, iii, iv\ldots hoặc 1, 2, 3, 4\ldots được không?
+	\dap Hoàn toàn có thể được bằng cách \verb'\renewcommand{\thepads}{\roman{pads}}' hoặc các kiểu khác tương tự như \verb'\Roman', \verb'\Alph', \verb'\arabic'\ldots
+	\hoi Khi tôi đang sử dụng lệnh \verb'\soanthao' để kiểm tra các câu hỏi. Trong cùng file biên dịch này tôi load dữ liệu vào để in ra dạng đề thi có được không?
+	\dap Khi đã sử dụng lệnh \verb'\soanthao' thì không thể đưa dữ liệu vào để làm đề được. Phải tạo một file biên dịch khác mà file đó không sử dụng lệnh \verb'\soanthao'.
+	\hoi Tôi muốn soạn chuyên đề mà một phần trước là lý thuyết rồi đến bài tập (chưa có đáp án, lời giải). Sau khi hết lý thuyết tôi lại muốn đưa ra đáp án của những bài tập trước đó có được không?
+	\dap Bạn có thể đưa bài tập vào phần trước bằng cách \verb'\loadallproblems' và in ra với lệnh \verb'\indebai'. Đến khi nào bạn cần đưa ra đáp án, lời giải thì bạn lại đưa phần bài tập đã load trước đó ra với lệnh \verb'\indapanloigiai' hoặc \verb'\indebailoigiai' (chú ý phải chính xác mã của dữ liệu khi load để gọi ra cho đúng).
+	\hoi Khi làm đề thi bằng lệnh \verb'\lamdethi{}' thì mã đề thi ở đâu? có phải nhập vào không?
+	\dap Khi làm đề thi bằng lệnh \verb'\lamdethi{}' thì mã đề thi hiển thị ở trên đề là một số ngẫu nhiên có 3 chữ số. Bạn muốn đưa mã đề thi của riêng mình thì phải dùng lệnh:
+	\begin{verbatim}
+		\madethi{mã bạn nhập vào}
+		\setcounter{socauhoi}{0}
+		\begin{enumerate}[]
+			\foreachproblem[mã load]{\item\causo\thisproblem}
+		\end{enumerate}
+	\end{verbatim}
+	\hoi Khi làm đề thi, tôi không muốn có header và footer (để trắng) thì tôi làm thế nào?
+	\dap Nếu bạn không muốn có header và footer trong đề thi, bạn cứ xóa hết nội dung trong định nghĩa lại \verb'\@oddhead', \verb'\@evenhead',\ldots là được.
+	\hoi Khi làm đề thi, tôi không muốn có dòng họ tên, số báo danh,\ldots thì làm sao?
+	\dap Bạn có thể dùng \% trước các lệnh \verb'\hovaten',\ldots ở phần khai báo là xong.
+	\hoi Khi soạn câu hỏi, trong câu hỏi có một hình vẽ nhỏ, tôi muốn đặt hình vẽ một bên và văn bản một bên thì làm thế nào?
+	\dap Bất kì đoạn văn bản nào khi sử dụng gói dethi mà bạn cần đặt hình vẽ một bên, chữ một bên, bạn có thể dùng lệnh \verb'\dathinhw{phần văn bản}{phần hình vẽ}'. Trong đó phần hình vẽ bạn có thể đặt code vẽ hoặc \verb'\includegraphis' đều được. 
+	\vfill
+	Chúc các bạn dễ dàng hơn trong việc soạn thảo và làm đề với dethi.sty v4.0. Mọi chi tiết hướng dẫn các bạn có thể tìm hiểu và tham khảo tại:
+	
+	Facebook: \href{https://www.facebook.com/bvquy77/}{Bùi Quỹ}
+	
+	
+	%%21:10:55 14/11/2024Last Modification of contents
+	%%6:29:8 15/11/2024Last Modification of contents

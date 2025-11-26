@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.25)  25 OCT 2025 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.25)  21 NOV 2025 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2042,28 +2042,1015 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen388
 \titlewidthlast=\dimen389
 \titlewidthfirst=\dimen390
+) (titledot.sty
+Package: titledot 
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2025/01/04 v2.17 TOC entries
+\ttl@leftsep=\dimen391
+))
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count473
+)
+\c@myphantich=\count474
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.
+sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count475
+) 
+)) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrextend.st
+y
+Package: scrextend 2025/09/09 v3.48 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hoo
+k.sty
+Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 370.
+))
+
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+) (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen392
+\ESO@tempdimb=\dimen393
+)
+\AM@pagewidth=\dimen394
+\AM@pageheight=\dimen395
+\AM@fboxrule=\dimen396
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count476
+\AM@pagebox=\box183
+\AM@global@opts=\toks82
+\AM@pagecnt=\count477
+\AM@toc@title=\toks83
+\AM@lof@heading=\toks84
+\c@AM@survey=\count478
+\AM@templatesizebox=\box184
+)
+\c@muccon=\count479
+) (main-vatli.aux)
+\openout1 = `main-vatli.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 15.
+LaTeX Font Info:    Trying to load font information for T5+cmr on input line 15
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5cmr.fd
+File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 497.92325pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=497.92325pt
+* \textheight=731.23584pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-45.36449pt
+* \headheight=12.0pt
+* \headsep=18.0pt
+* \topskip=11.0pt
+* \footskip=26.0pt
+* \marginparwidth=53.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=12.75pt plus 5.66606pt minus 2.83394pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count480
+\scratchdimen=\dimen397
+\scratchbox=\box185
+\nofMPsegments=\count481
+\nofMParguments=\count482
+\everyMPshowfont=\toks85
+\MPscratchCnt=\count483
+\MPscratchDim=\dimen398
+\MPnumerator=\count484
+\makeMPintoPDFobject=\count485
+\everyMPtoPDFconversion=\toks86
+)
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
+
+Package hyperref Info: Link coloring OFF on input line 15.
+(main-vatli.out) (main-vatli.out)
+\@outlinefile=\write7
+\openout7 = `main-vatli.out'.
+
+\c@lstlisting=\count486
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nome
+tadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+<biasach/biasach-so5-ban1.pdf, id=66, 597.50829pt x 845.0471pt>
+File: biasach/biasach-so5-ban1.pdf Graphic file (type pdf)
+<use biasach/biasach-so5-ban1.pdf>
+Package pdftex.def Info: biasach/biasach-so5-ban1.pdf  used on input line 21.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<biasach/biasach-so5-ban1.pdf, id=68, page=1, 597.50829pt x 845.0471pt>
+File: biasach/biasach-so5-ban1.pdf Graphic file (type pdf)
+<use biasach/biasach-so5-ban1.pdf, page 1>
+Package pdftex.def Info: biasach/biasach-so5-ban1.pdf , page1 used on input lin
+e 21.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: biasach/biasach-so5-ban1.pdf Graphic file (type pdf)
+<use biasach/biasach-so5-ban1.pdf, page 1>
+Package pdftex.def Info: biasach/biasach-so5-ban1.pdf , page1 used on input lin
+e 21.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: biasach/biasach-so5-ban1.pdf Graphic file (type pdf)
+<use biasach/biasach-so5-ban1.pdf, page 1>
+Package pdftex.def Info: biasach/biasach-so5-ban1.pdf , page1 used on input lin
+e 21.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: biasach/biasach-so5-ban1.pdf Graphic file (type pdf)
+<use biasach/biasach-so5-ban1.pdf, page 1>
+Package pdftex.def Info: biasach/biasach-so5-ban1.pdf , page1 used on input lin
+e 21.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+
+
+File: biasach/biasach-so5-ban1.pdf Graphic file (type pdf)
+<use biasach/biasach-so5-ban1.pdf, page 1>
+Package pdftex.def Info: biasach/biasach-so5-ban1.pdf , page1 used on input lin
+e 21.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+[1
+
+
+ <./biasach/biasach-so5-ban1.pdf{C:/Users/DELL/AppData/Local/MiKTeX/fonts/map/p
+dftex/pdftex.map}>]
+LaTeX Font Info:    Trying to load font information for T5+qag on input line 25
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t5qag.fd
+File: t5qag.fd 2009/09/25 v1.2 font definition file for T5/qag
+)
+LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <25> not available
+(Font)              Font shape `T5/qag/b/n' tried instead on input line 25.
+
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+(main-vatli.toc
+LaTeX Font Info:    Trying to load font information for T5+lmss on input line 1
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lm\t5lmss.fd
+File: t5lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 1--1
+ [] [][][][][][]
+ []
+
+
+Overfull \hbox (6.59999pt too wide) detected at line 2
+ \T5/lmss/bx/n/12 1
+ []
+
+
+Overfull \hbox (5.87498pt too wide) detected at line 3
+ \T5/lmss/m/n/12 1
+ []
+
+
+Overfull \hbox (5.87498pt too wide) detected at line 6
+ \T5/lmss/m/n/12 1
+ []
+
+
+Overfull \hbox (5.87498pt too wide) detected at line 7
+ \T5/lmss/m/n/12 2
+ []
+
+
+Overfull \hbox (5.87498pt too wide) detected at line 8
+ \T5/lmss/m/n/12 8
+ []
+
+)
+\tf@toc=\write8
+\openout8 = `main-vatli.toc'.
+
+
+
+[1
+
+{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-t5.enc}
+{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-t5.enc}]
+Chuy√™n ƒë·ªÅ 1.
+LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <23> not available
+(Font)              Font shape `T5/qag/b/n' tried instead on input line 29.
+
+Underfull \hbox (badness 1348) in paragraph at lines 29--29
+ [][][]\T5/qag/b/n/23 50 DÑNG TOÅN THPT QU»C GIA[]
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 29--29
+ [][][]\T5/qag/b/n/23 50 DÑNG TOÅN THPT QU»C GIA[]
+ []
+
+LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <15> not available
+(Font)              Font shape `T5/qag/b/n' tried instead on input line 29.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/generic/pgfornament/vectorian\
+vectorian4.pgf) (data/THPT-Dang1.tex
+LaTeX Font Info:    Trying to load font information for T5+put on input line 2.
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5put.fd
+File: t5put.fd 2006/07/30 Fontinst v1.927 font definitions for T5/put.
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+5.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+5.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 5.
+
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
+5.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/yhmath\omxyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 
+5.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.fd
+File: uesvect.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Output from handle ans going to ans/ANS-DANG-1.tex
+\ans@file=\write9
+\openout9 = `ans/ANS-DANG-1.tex'.
+
+LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <12> not available
+(Font)              Font shape `T5/qag/b/n' tried instead on input line 19.
+Package hyperref Info: bookmark level for unknown vd defaults to 0 on input lin
+e 19.
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 25--25
+[][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for T5+pag on input line 42
+.
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pag.fd
+File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pag.
+)
+LaTeX Font Info:    Font shape `T5/pag/bx/n' in size <12> not available
+(Font)              Font shape `T5/pag/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 42.
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 42.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesome
+two.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 )
 
-! LaTeX Error: File `titledot.sty' not found.
+LaTeX Font Warning: Font shape `U/fontawesometwo/bx/n' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 42.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+Package hyperref Info: bookmark level for unknown myphantich defaults to 0 on i
+nput line 42.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.80 \setcounter
-                {secnumdepth}{4} %ƒê·ªô s√¢u ƒë√°nh s·ªë^^M
-*** (cannot \read from terminal in nonstop modes)
 
- 
+[1
+
+
+{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}{C:/U
+sers/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Us
+ers/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/D
+ELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/DELL/
+AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/DELL/A
+ppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}]
+Package hyperref Info: bookmark level for unknown ex defaults to 0 on input lin
+e 47.
+LaTeX Font Info:    Calculating math sizes for size <10.00012> on input line 49
+.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.00012> on input line 49.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7.00005> on input line 49.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.00006> on input line 49.
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 86--86
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 86--86
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 86--86
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 86--86
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 99--99
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 99--99
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 99--99
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 99--99
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 111--111
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 111--111
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 111--111
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 111--111
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 122--122
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 122--122
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 122--122
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 122--122
+[][] 
+ []
+
+
+
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
+ut line 126.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesome
+one.fd
+File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
+)
+LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
+nput line 126.
+
+(C:\Users\DELL\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome\ufontawesome
+three.fd
+File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 126.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 126.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 126.
+ [2{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fon
+tawesomeone.enc}{C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fo
+ntawesome/fontawesomethree.enc}]
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 135--135
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 135--135
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 135--135
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 135--135
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 149--149
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 163--163
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 163--163
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 163--163
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 163--163
+[][] 
+ []
+
+
+
+[3]
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 191--191
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 191--191
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 191--191
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 191--191
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 203--203
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 203--203
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 203--203
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 203--203
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 218--218
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 218--218
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 218--218
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 218--218
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 230--230
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 230--230
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 230--230
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 230--230
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 272--272
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 272--272
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 272--272
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 272--272
+[][] 
+ []
+
+
+
+[4]
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 286--286
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 286--286
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 286--286
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 286--286
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 301--301
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 301--301
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 301--301
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 301--301
+[][] 
+ []
+
+
+
+[5]
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 356--356
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 356--356
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 356--356
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 356--356
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 374--374
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 374--374
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 374--374
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 374--374
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 389--389
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 389--389
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 389--389
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 389--389
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 406--406
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 406--406
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 406--406
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 406--406
+[][] 
+ []
+
+
+
+[6]
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 423--423
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 423--423
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 423--423
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 423--423
+[][] 
+ []
+
+
+Overfull \hbox (1.23584pt too wide) in paragraph at lines 449--449
+[][] 
+ []
+
+
+Overfull \hbox (0.85254pt too wide) in paragraph at lines 449--449
+[][] 
+ []
+
+
+Overfull \hbox (0.97559pt too wide) in paragraph at lines 449--449
+[][] 
+ []
+
+
+Overfull \hbox (1.35352pt too wide) in paragraph at lines 449--449
+[][] 
+ []
+
+
+
+[7] (ans/ANS-DANG-1.tex
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 31--31
+[]\T5/lmr/m/n/12 1.10. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 34--34
+[]\T5/lmr/m/n/12 1.11. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 37--37
+[]\T5/lmr/m/n/12 1.12. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 40--40
+[]\T5/lmr/m/n/12 1.13. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 43--43
+[]\T5/lmr/m/n/12 1.14. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 46--46
+[]\T5/lmr/m/n/12 1.15. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 49--49
+[]\T5/lmr/m/n/12 1.16. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 52--52
+[]\T5/lmr/m/n/12 1.17. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 55--55
+[]\T5/lmr/m/n/12 1.18. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 58--58
+[]\T5/lmr/m/n/12 1.19. 
+ []
+
+
+Overfull \hbox (3.36707pt too wide) in paragraph at lines 61--61
+[]\T5/lmr/m/n/12 1.20. 
+ []
+
+))
+\tf@thm=\write10
+\openout10 = `main-vatli.thm'.
+
+
+
+[8] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(main-vatli.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `main-vatli.out' has not changed.
+(rerunfilecheck)             Checksum: C2E1FC7C434B462F440AD4DABDE2FC5F;988.
+ ) 
 Here is how much of TeX's memory you used:
- 50650 strings out of 468251
- 1192232 string characters out of 5440535
- 1781538 words of memory out of 5000000
- 78185 multiletter control sequences out of 15000+600000
- 635978 words of font info for 43 fonts, out of 8000000 for 9000
+ 54456 strings out of 468251
+ 1263951 string characters out of 5440535
+ 1897898 words of memory out of 5000000
+ 81700 multiletter control sequences out of 15000+600000
+ 819258 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 124i,7n,126p,1207b,702s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 124i,17n,126p,1207b,1349s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/F
+ontAwesome.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/fourier/fourier-mlit.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/lm/lmbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/lm/lmbx12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmmi10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmmi12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/lm/lmr10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/lm/lmr12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/lm/lmr8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/lm/lmri12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/lm/lmss10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/lm/lmss12.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/lm/lmss8.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmssbx10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/lm/lmsy10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/symbols/msam10.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/font
+s/type1/vntex/vntopia/putb8v.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/tex-gyre/qagb.pfb><C:/Users/DELL/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/tex-gyre/qcsb.pfb><C:/Users/DELL/AppData/Local/Programs/Mi
+KTeX/fonts/type1/vntex/urwvn/uagd8v.pfb><C:/Users/DELL/AppData/Local/Programs/M
+iKTeX/fonts/type1/vntex/urwvn/uncb8v.pfb><C:/Users/DELL/AppData/Local/Programs/
+MiKTeX/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/DELL/AppData/Local/Program
+s/MiKTeX/fonts/type1/vntex/urwvn/uncr8v.pfb>
+Output written on main-vatli.pdf (10 pages, 531290 bytes).
+PDF statistics:
+ 340 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+

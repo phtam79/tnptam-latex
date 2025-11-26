@@ -1,0 +1,138 @@
+\documentclass[11pt]{book}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+\usepackage{graphicx}
+\usepackage{picinpar}
+\usepackage{mathrsfs}
+\usepackage{tikz}
+%\usepackage{tikz-3dplot-circleofsphere}
+\usetikzlibrary{calc,patterns,intersections,angles,arrows,matrix,quotes,patterns}
+%\usepackage{tkz-euclide}
+\usepackage{tkz-tab}
+%\usepackage{tabvar}
+\usepackage{tkz-base}
+\usepackage{longtable}%
+\usepackage[colorlinks,hyperindex,plainpages=false,unicode]{hyperref}
+\usepackage{calc}
+\usepackage{mathpazo} 
+\def\dx{\mathrm{\, d}x}
+%%%%%%%%%\hoffset=-2.8cm
+\voffset=-2.5cm
+\textheight 25truecm 
+\textwidth 19truecm 
+%  \usepackage[paperwidth=16truecm,paperheight=24truecm]{geometry}
+% \textheight 19.5truecm %%16.2truecm 
+% \textwidth 12 truecm 
+\parskip 3pt
+\headsep=12pt
+\usepackage[baitap]{dethi}
+
+\tentruong{UBND THỊ XÃ DUY TIÊN}
+\tenkhoa{\underline{TRUNG TÂM GDNN-GDTX}}
+\madethi{104} 
+\loaidethi{(Đề gồm  0\pageref{dbPage} trang)}
+
+\tenkythi{ĐỀ KIỂM TRA GIỮA HỌC KÌ I}
+\namhoc{Năm học: 2024-2025}
+\tenmonhoc{Môn: TOÁN lớp 12}
+\thoigian{\underline{Thời gian làm bài: 90 phút, không kể thời gian giao đề}}   
+%\tieudetrenbaitap{Bùi Quỹ - Trung tâm GDNN-GDTX Duy Tiên}
+%\tieudeduoibaitap{LaTeX - TikZ - năm 2021}
+
+\trangcuoi{dbPage}
+\hovaten{Họ và tên}         %Nếu không muốn có dòng này không gõ lệnh
+\tenlop{Lớp}         %Nếu không muốn có dòng này không gõ lệnh
+%\sobaodanh{Số báo danh}  %Nếu không muốn có dòng này không gõ lệnh
+%\khoanhd{\cboxv}{}
+\daungoac{\cboxx}{}
+\chuphuongan{\small\bfseries\Alph}
+\mauchu{blue}
+\PSNrandseed{\time}
+\parindent 10pt
+%\graphicspath{{hinh-duan07/}{temp/}}
+% \nguondetrue
+\duongkefalse
+\usepackage{nonfloat}
+\setlength{\baselineskip}{12truept}
+\def\v#1{\overrightarrow{#1}} %Làm vectơ
+\everymath{\displaystyle}
+\def\cung#1{\stackrel\frown{#1}}
+\usepackage{times}
+\fontsize{13pt}{13pt}\selectfont
+%\chucauhoi{ }
+
+\makeatletter
+\renewcommand{\@oddhead}{%Header
+	\parbox{\textwidth}{%
+		
+	}
+}
+\renewcommand{\@evenhead}{%Header
+	\parbox{\textwidth}{%
+		
+	}
+}
+\renewcommand{\@oddfoot}{%footer
+	\parbox{\textwidth}{%
+		\hfill Trang\ \thepage/\pageref{dbPage} - Mã đề thi\ \@madethi
+	}
+}
+\renewcommand{\@evenfoot}{%footer
+	\parbox{\textwidth}{%
+		Trang\ \thepage/\pageref{dbPage} - Mã đề thi\ \@madethi
+	}
+}
+\makeatother
+
+\begin{document}
+	%\soanthao
+	%%%%%%%%%%%%%
+	%\loadallproblems[tnhamso]{Data/tnhamso}
+	%\loadallproblems[tnsophuc]{Data/tnsophuc}
+	%\loadallproblems[tuluan]{Data/tuluan}
+	%\loadallproblems[chontu]{Data/tnchontu}
+	%\loadallproblems[gachduoi]{Data/gachduoi}
+	%\loadallproblems[dungsai]{Data/dung-sai}
+	%\loadallproblems[dienchotrong]{Data/dienchotrong}
+	%%%%%%%%
+	\loadrandomproblems[TNKQ106]{12}{Data/De01TNKQ}
+	\loadrandomproblems[DS106]{4}{Data/De01DS}
+	\loadrandomproblems[TLN106]{6}{Data/De01TLN}
+	
+	\loadrandomproblems[TNKQ101]{12}{Data/De01TNKQ}
+	\loadrandomproblems[DS101]{4}{Data/De01DS}
+	\loadrandomproblems[TLN101]{6}{Data/De01TLN}
+	
+	\loadrandomproblems[TNKQ112]{12}{Data/De01TNKQ}
+	\loadrandomproblems[DS112]{4}{Data/De01DS}
+	\loadrandomproblems[TLN112]{6}{Data/De01TLN}
+	
+	\loadrandomproblems[TNKQ115]{12}{Data/De01TNKQ}
+	\loadrandomproblems[DS115]{4}{Data/De01DS}
+	\loadrandomproblems[TLN115]{6}{Data/De01TLN}
+	%\loadrandomproblems[107]{5}{Data/tnhamso}
+	%\loadrandomproblems[tnsophuc]{5}{Data/tnsophuc}
+	%\loadrandomproblems[tuluan]{5}{Data/tuluan}
+	%\loadrandomproblems[chontu]{5}{Data/tnchontu}
+	%\loadrandomproblems[gachduoi]{5}{Data/gachduoi}
+	%\loadrandomproblems[dungsai]{5}{Data/dung-sai}
+	%\loadrandomproblems[dienchotrong]{5}{Data/dienchotrong}
+	%%%%%%%%%%%%%%%%%
+	\laydulieulamde{a}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\laydulieulamde{b}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\laydulieulamde{c}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\laydulieulamde{d}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	\loaddatadt[2][2][1]{made}{Data/De01TNKQ}{Data/De01DS}{Data/De01TLN}
+	%\indebai
+	%\lamtieudetracnghiem
+	%\soanthao
+	\lamdethi{a}
+	%\lamdethi{b}
+	%\lamdethi{c}
+	%\lamdethi{d}
+	\lamdethi{made}
+	%\lamdethi{101}{TNKQ101}{DS101}{TLN101}
+	%\lamdethi{112}{TNKQ112}{DS112}{TLN112}
+	%\lamdethi{115}{TNKQ115}{DS115}{TLN115}
+\end{document}
+

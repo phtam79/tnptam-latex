@@ -1,0 +1,684 @@
+
+\baitracnghiem{thtt:01}{%1
+Tên biến nào sau đây là sai trong Maple 
+}{
+\bonpa{3}
+{d2DYDX}
+{'myname'}
+{14thangbay}
+{'filelog.m'}
+}{ }
+
+
+
+\baitracnghiem{thtt:02}{%2M8
+Hai hàm in ra màn hình print và lprint trong Maple có đặc tính chung nào?
+}{
+\bonpa{2}
+{Phân cách giữa các biến bằng dấu phẩy.}
+{Dấu nháy ' quanh tên biến không đưa ra.}
+{Không có dấu phẩy giữa các biến.}
+{Đưa ra kết quả trên một dòng.}
+}{ }
+
+\baitracnghiem{thtt:03}{%3
+Hàm subs không thực hiện các chức năng nào sau đây? 
+}{
+\bonpa{4}
+{Dùng thử lại nghiệm phương trình.}
+{Thay thế biến từ trái qua phải.}
+{Thay thế đồng thời nhiều biến.}
+{Thay thế cả phương trình.}
+}{ }
+
+\baitracnghiem{thtt:04}{%4M10
+Trong bài toán tính toán khoa học phần nào có thể không cần có
+}{
+\bonpa{4}
+{Dữ liệu đầu vào}
+{Phương pháp tính toán}
+{Phân tích kết quả tính toán}
+{Các hình thức biểu diễn kết quả}
+}{ }
+
+\baitracnghiem{thtt:05}{%5
+Nhận định nào sau đây sai về biến địa phương trong một thủ tục của Maple:
+}{
+\bonpa{4}
+{Không đưa giá trị biến ra ngoài;}
+{Làm biến tính toán trung gian;}
+{Không ảnh hưởng tới biến bên ngoài;}
+{Để Maple không báo lỗi khi chạy;}
+}{ }
+
+
+\baitracnghiem{thtt:06}{%6M2
+Một chương trình tính toán có nhiều dòng lệnh, cách nào sau đây không sử dụng để nhập mã nguồn:
+}{
+\bonpa{3}
+{Gọi một tệp *.txt bằng lệnh read}
+{Nhập các dòng lệnh với [Shift]+[Enter] }
+{Nhập từng dòng lệnh sau dấu $>$}
+{Gọi một tệp *.mws bằng lệnh  read}
+}{ }
+
+\baitracnghiem{thtt:07}{%7
+Lệnh  $>$for i from 1 to 4 do print (i\^{}2): od: thực hiện đúng là
+}{
+\bonpa{1}
+{In ra màn hình 1, 2, 9, 16;}
+{Không hiện gì trên màn hình;}
+{Maple sẽ báo lỗi cú pháp;}
+{In ra màn hình số 1, 2, 3, 4;}
+}{ }
+
+
+\baitracnghiem{thtt:08}{%8
+Câu lệnh $>$ for t from 0 by evalf(Pi/5) to evalf(Pi) do s1:=evalf(sin(t)); od; là
+}{
+\bonpa{3}
+{Sai, do dùng số thực}
+{Sai, do dùng lệnh evalf}
+{Đúng, do dùng số thực}
+{Đúng, do lệnh evalf làm tròn số}
+}{ }
+
+\baitracnghiem{thtt:09}{%9
+Lệnh nào không hiện kết quả lên màn hình khi được thực hiện:
+}{
+\bonpa{1}
+{$>$ for i from 1 to 10 do i\^{}2; od:}
+{$>$ for i from 1 to 10 do i\^{}2; od:}
+{$>$ for i from 1 to 10 do i\^{}2; od;}
+{$>$ for i from 1 to 10 do i\^{}2: od;}
+}{ }
+
+\baitracnghiem{thtt:10}{%10
+Cách thiết lập hàm hai biến trong Maple như thế nào thì đúng
+}{
+\bonpa{2}
+{$>$ f:=x-$>$x\^{}2+3*x*y+y\^{}2;}
+{$>$ f:=(x,y)-$>$x\^{}2+3*x*y+y\^{}2;}
+{$>$ f:=y-$>$x\^{}2+3*x*y+y\^{}2;}
+{$>$ f(x,y)-$>$x\^{}2+3*x*y+y\^{}2;}
+}{ }
+
+
+\baitracnghiem{thtt:11}{%11
+Cho $\delta =1.0$ đoạn lệnh sau đây $>$for k from 1 to 10 while abs(delta)>10.0\^{}(-8) do vòng lặp sẽ không dừng khi
+}{
+\bonpa{4}
+{$k=11$ và $\delta <10^{-8}$}
+{$k=11$ và $\delta$ bất kì}
+{$k$ bất kì và $\delta <10^{-8}$}
+{$k$ bất kì và $\delta >10^{-8}$}
+}{ }
+
+\baitracnghiem{thtt:12}{%12
+Cách khai báo mảng sau đây sai ở phương án nào:
+}{
+\bonpa{4}
+{$>$ t:=array(0..10);}
+{$>$ t:=array(1..5,[2, 4, 6, 8, 10]);}
+{$>$ t:=array(1..20,[seq(2*i, i=1..20)]);}
+{$>$ t:=array(1..3,[]);}
+}{ }
+
+\baitracnghiem{thtt:13}{%13
+Một mảng số chẵn >t:=array(1..20,[seq(2*i,i=1..20)]); khi đó t[8]+t[12] là
+}{
+\bonpa{2}
+{39}
+{40}
+{41}
+{42}
+}{ }
+
+\baitracnghiem{thtt:14}{%14
+Loại dữ liệu trong Maple numeric là
+}{
+\bonpa{4}
+{cho số nguyên dương}
+{cho số thập phân}
+{mọi số thực dương}
+{mọi số thực}
+}{ }
+
+\baitracnghiem{thtt:15}{%15
+Để khai báo lấy ra của một thủ tục với đối số thì dùng loại dữ liệu nào 
+}{
+\bonpa{3}
+{range}
+{rational}
+{evaln}
+{negin}
+}{ }
+
+\baitracnghiem{thtt:16}{%16
+Lập một thủ tục sqrt3:=proc(a::numeric, a::numeric, a::numeric, ans::evaln) ans:=sqrt(a*b*c); end; khi đó $[>$sqrt3(s,5,5,ans); sẽ cho kết quả
+}{
+\bonpa{2}
+{5}
+{Thông báo lỗi do s}
+{Thông báo lỗi do ans}
+{Không thực hiện gì}
+}{ }
+
+\baitracnghiem{thtt:17}{%17
+Hai lệnh x:=rand(); và evalf(a+(b-a)*x/999999999999); sinh ra số ngẫu nhiên trong khoảng $[a,b]$ là vì
+}{
+\bonpa{2}
+{rand() sinh ra như vậy}
+{do biểu thức trong evalf}
+{do có 12 con số 9}
+{do x là số có 12 chữ số nguyên}
+}{ }
+
+\baitracnghiem{thtt:18}{%18
+Trong chế độ mặc định thì hai lệnh >evalf[10](Pi); và >evalf(Pi); là
+}{
+\bonpa{4}
+{Nhận giá trị khác nhau}
+{Giá trị thứ nhất lớn hơn thứ hai}
+{Nhận giá trị như nhau}
+{Giá trị thứ nhất nhỏ hơn thứ hai}
+}{ }
+
+\baitracnghiem{thtt:19}{%19
+Đối với các hàm int, sum, limits, sin để tính giá trị ta phải dùng 
+}{
+\bonpa{2}
+{Hàm evalf()}
+{Lệnh trực tiếp }
+{Hàm value()}
+{Hàm evalhf()}
+}{ }
+
+\baitracnghiem{thtt:20}{%20M12
+Nếu số Digits nhỏ hơn evalfh(Digits) thì tính biểu thức theo
+}{
+\bonpa{1}
+{Hàm evalf(evalhf())}
+{Hàm evalf()}
+{Hàm evalhf()}
+{Hàm evalhf(evalf())}
+}{ }
+
+\baitracnghiem{thtt:21}{%21
+Cấu trúc try $<$lệnh tính toán$>$; catch: end try; dùng để
+}{
+\bonpa{2}
+{Bắt lỗi chương trình}
+{Bắt lỗi tính toán}
+{Cho qua các lỗi}
+{Điều khiển chương trình}
+}{ }
+
+\baitracnghiem{thtt:22}{%22M13
+Phương pháp Newton khi thiết lập thủ tục cấn các đối số 
+}{
+\bonpa{4}
+{(df::procedure, x0::numeric, N::posint)}
+{(f::procedure, df::procedure,  N::posint)}
+{(f::procedure, df::procedure, x0::numeric, N::posint)}
+{(f::procedure, x0::numeric, N::posint)}
+}{ }
+
+\baitracnghiem{thtt:23}{%23
+Ta thực hiện lệnh $>$pi:=evalf(Pi); và $>$er:=evalf[15](pi-Pi); cho kết quả er bằng 
+}{
+\bonpa{2}
+{0}
+{số âm}
+{số dương}
+{thông báo lỗi}
+}{ }
+
+\baitracnghiem{thtt:24}{%24
+Nếu ta cho $>$Digits:=10; thì hai phép toán
+1234567890*1937128552 và\\
+evalf(1234567890)*evalf(1937128552)! cho
+}{
+\bonpa{2}
+{Cùng kết quả}
+{Số thứ hai lớn hơn số thứ nhất}
+{Số thứ nhất lớn hơn số thứ hai}
+{Không đánh giá được}
+}{ }
+
+% \baitracnghiem{thtt:25}{%25
+% Lập trình mô phỏng rút ngẫu nhiên một quả bóng, trước tiên người ta thực hiện điều nào sau đây là đúng
+% }{
+% \bonpa{1}
+% {Dùng số ngẫu nhiên thay cho bóng}
+% {Đánh số ngẫu nhiên các bóng}
+% {Gán cho các quả bóng một số}
+% {Tính toán trên số ngẫu nhiên}
+% }{ }
+
+\baitracnghiem{thtt:25}{%26m1
+Phương pháp nào thiết lập một hàm trong maple sau đây là sai?
+}{
+\bonpa{4}
+{$>f:=x->x^2;$}
+{$>f:=proc(x) x^2 end;$}
+{$>f:=$unapply($x^2$);}
+{$>f:=x^2$;}
+}{ }
+
+
+% \baitracnghiem{thtt:26}{%26m1
+% Thuật toán rút nhiều quả bóng không trả lại ta đã dùng kỹ thuật
+% }{
+% \bonpa{2}
+% {Đánh số lại quả bóng}
+% {Đổi bóng đã rút ra xuống cuối}
+% {Dùng mảng để lưu giữ vết}
+% {Dùng ngăn xếp để lưu trữ}
+% }{ }
+
+ \baitracnghiem{thtt:26}{%27
+Hàm nào sau đây để bắt lỗi khi chạy chương trình và thông báo lỗi cho ta biết?
+}{
+\bonpa{3}
+{error}
+{traperror}
+{lasterror}
+{return}
+}{ }
+
+% 
+%  \baitracnghiem{thtt:27}{%27
+% Mô phỏng xác xuất rút quả bóng trong hộp ra màu đỏ trong $n$ lần thử, người ta đã dùng phương pháp:
+% }{
+% \bonpa{3}
+% {Phương pháp loại trừ}
+% {Bộ đếm để tính}
+% {Mô phỏng rút bóng ngẫu nhiên}
+% {Phép xáo trộn khi lấy bóng}
+% }{ }
+ \baitracnghiem{thtt:27}{%27
+Hàm nào sau đây dùng để đổi hệ tọa  độ trong Maple
+}{
+\bonpa{1}
+{changecoords}
+{changecoords3D}
+{changecoords2D}
+{changevar}
+}{ }
+
+\baitracnghiem{thtt:28}{%28M14
+Hàm rand() là hàm của
+}{
+\bonpa{4}
+{Phần cứng máy tính}
+{Ta xây dựng ra}
+{Hàm của hệ điều hành}
+{Thư viện phần mềm Maple}
+}{ }
+
+% \baitracnghiem{thtt:29}{%29
+% Trong chương trình mô phỏng rút ngẫu nhiên $k$ quân bài người ta dùng 
+% }{
+% \bonpa{2}
+% {Hàm sinh số ngẫu nhiên của hệ thống}
+% {Hàm sinh số ngẫu nhiên tự xây dựng với hàm thư viện}
+% {Hàm sinh số ngẫu nhiên của phần mềm}
+% {Hàm sinh số ngẫu nhiên tự xây dựng}
+% }{ }
+
+\baitracnghiem{thtt:29}{%29
+Biến chung args dùng lập trình một hàm có
+}{
+\bonpa{4}
+{hai đối số}
+{ba đối số}
+{Hai đối số trở lên}
+{số lượng đối số ất kỳ}
+}{ }
+
+\baitracnghiem{thtt:30}{%30
+Hàm RETURN() là hàm
+}{
+\bonpa{1}
+{kết thúc thuật toán}
+{nhảy ra khỏi chương trình}
+{lưu dữ kết quả tính toán}
+{ngắt thủ tục và chạy tiếp chương trình}
+}{ }
+
+\baitracnghiem{thtt:31}{%31
+Muốn trả một biến x đang tính toán về nguyên bản thì ta dùng các lệnh
+}{
+\bonpa{1}
+{$>$'x';}
+{$>$restart;}
+{$>$x:=0;}
+{$>$>x;}
+}{ }
+
+\baitracnghiem{thtt:32}{%32
+Cách nào sau đây không thiết lập một hàm mới để thực hiện trong Maple:
+}{
+\bonpa{3}
+{Gán hàm vào vế phải của :=}
+{Gán theo ánh xạ -$>$}
+{Lập một thủ tục proc()}
+{Lập một module()}
+}{ }
+
+\baitracnghiem{thtt:33}{%33
+Các khai báo nào không có trong các thành phần  của một module()
+}{
+\bonpa{3}
+{export E thủ tục E đưa ra ngoài}
+{option tùy chon của thủ tục}
+{Gobal G; hàm G có thể xuất ra}
+{description D mô tả toán tử D}
+}{ }
+% 
+% \baitracnghiem{thtt:34}{%34m6
+% Thực hiện lệnh z6:-add(5,4); thì hàm add(5,4) lấy 
+% }{
+% \bonpa{2}
+% {trong module z6}
+% {định nghĩa trước đó}
+% {trong thư viện của Maple}
+% {trong thư viện hệ điều hành}
+% }{ }
+\baitracnghiem{thtt:34}{%34m6
+Để gọi trợ giúp một hàm số, đưa con trỏ nhấp nháy về tên hàm đó và thực hiện thao tác nhấn nào sau đây 
+}{
+\bonpa{2}
+{F1}
+{F2}
+{ESC}
+{Ctr+Shift}
+}{ }
+
+\baitracnghiem{thtt:35}{%35
+Hàm $>$solve(); dùng để
+}{
+\bonpa{1}
+{giải mọi loại phương trình}
+{giải phương trình đa thức}
+{chỉ giải hệ tuyến tính}
+{giải bài toán nghiệm tường minh}
+}{ }
+
+\baitracnghiem{thtt:36}{%36
+Nghiệm của phương trình $>$solve(q\^{}3-k,q); là một
+}{
+\bonpa{3}
+{dãy}
+{mảng}
+{tập hợp}
+{chuỗi}
+}{ }
+
+\baitracnghiem{thtt:37}{%37
+Hàm fsolve() dùng để giải
+}{
+\bonpa{3}
+{phương trình vi phân}
+{chỉ giải phương trình phi tuyến}
+{giải số các phương trình}
+{giải cho nghiệm tường minh}
+}{ }
+
+\baitracnghiem{thtt:38}{%38M11
+Lệnh nào không có trong Maple để tìm nghiệm phương trình
+}{
+\bonpa{4}
+{dsolve()}
+{rsolve()}
+{isolve()}
+{ksolve()}
+}{ }
+
+\baitracnghiem{thtt:39}{%39
+Lệnh vẽ đồ thị nào là không đúng 
+}{
+\bonpa{1}
+{$>$plot(sin(1/x));}
+{$>$plot(sin(1/x),x=0.15..1.15);}
+{$>$plot(sin(1/x),y=0.5..1.0);}
+{$>$plot(sin(1/x),x=0.15..1.15,y=0.5..1.0);}
+}{ }
+
+
+\baitracnghiem{thtt:40}{%40
+Lệnh nào sau đây là lệnh vẽ đồ thị và là gói lệnh đồ thị
+}{
+\bonpa{4}
+{plot()}
+{polarplot()}
+{Plot()}
+{plots()}
+}{ }
+
+\baitracnghiem{thtt:41}{%41
+Tùy chọn nào sau đây để hàm plot3d() điều chỉnh hệ tọa độ hiện ra màn hình tốt nhất
+}{
+\bonpa{2}
+{WIRFRAME}
+{UNCONSTRAINED}
+{CONSTRAINED}
+{FRAME}
+}{ }
+
+\baitracnghiem{thtt:42}{%42
+Để tìm kiếm kết quả đang thực hiện người ta dùng thủ tục
+}{
+\bonpa{4}
+{untrace()}
+{printlevel}
+{@@}
+{trace()}
+}{ }
+
+\baitracnghiem{thtt:43}{%43
+Để tránh đứng máy khi tính toán người ta dùng hàm
+}{
+\bonpa{2}
+{ERROR()}
+{traperror()}
+{try ...catch: ...end try}
+{lasterror()}
+}{ }
+
+\baitracnghiem{thtt:44}{%44
+Lệnh nào sau đây không bị Maple báo lỗi
+}{
+\bonpa{2}
+{$>$(a+b))/2+c;}
+{$>$(a+b)*(c/d);}
+{$>$4+5-;}
+{$>$x\^{}3\^{}4;}
+}{ }
+
+
+\baitracnghiem{thtt:45}{%45M3
+Để kiểm tra loại dữ liệu người ta dùng hàm
+}{
+\bonpa{1}
+{type()}
+{whattype()}
+{op()}
+{nops()}
+}{ }
+
+\baitracnghiem{thtt:46}{%46
+Biểu thức nào đúng
+}{
+\bonpa{4}
+{$>$-5*-2;}
+{$>$x*x*x*;}
+{$>$2\^{}3\^{}6;}
+{$>$x**3;}
+}{ }
+% 
+\baitracnghiem{thtt:47}{%47
+Đại lượng nào không phải là hằng số
+}{
+\bonpa{1}
+{Digits}
+{infinity}
+{gamma}
+{true}
+}{ }
+
+\baitracnghiem{thtt:48}{%48
+Lệnh nào không phải là phép toán trong Maple
+}{
+\bonpa{4}
+{iquo()}
+{irem()}
+{abs()}
+{factor()}
+}{ }
+
+\baitracnghiem{thtt:49}{%49
+Trong gói linalg cho a là một mảng hai chiều thì lệnh print(a) cho kết quả nào sau đây
+}{
+\bonpa{4}
+{Maple báo lỗi}
+{Cho chỉ số ma trận}
+{Liệt kê các hàng ma trận}
+{Cho một ma trận}
+}{ }
+
+\baitracnghiem{thtt:50}{%50
+Hàm evalm() thực hiện toán tử ma trận, hàm này dùng phép toán nào để nhân ma trận với một vectơ 
+}{
+\bonpa{4}
+{\&}
+{*}
+{\&*()}
+{\&*}
+}{ }
+
+\baitracnghiem{thtt:51}{%51
+Khi dùng một gói lệnh có nhiều hàm người ta có thể sử dụng nhiều cách gọi hàm trong gói lệnh, ví dụ gói lệnh linalg không thể gọi hàm bằng cách nào:
+}{
+\bonpa{2}
+{linalg[tên hàm](đối số);}
+{$<$tên hàm$>$[linalg](đối số);}
+{with(linalg);}
+{with(linalg,$<$tên hàm$>$);}
+}{ }
+
+\baitracnghiem{thtt:52}{%52M5
+Câu lệnh subs và use đều dùng thay thế có điểm nào chung sau đây: 
+}{
+\bonpa{3}
+{Thay thế trong biểu thức}
+{Thay thế trong thủ tục}
+{Thay biến bởi một giá trị}
+{Định nghĩa lại phép toán}
+}{ }
+
+\baitracnghiem{thtt:53}{%53M15
+Lệnh nào sau đây lấy tích phân ba lớp?
+}{
+\bonpa{1}
+{tripleint}
+{inparts}
+{lineint}
+{doubleint}
+}{ }
+
+% \baitracnghiem{thtt:54}{%54M9
+% Trong mô phỏng tính xấp xỉ xác suất người ta thường không thiết kế  
+% mô đul nào sau đây:
+% }{
+% \bonpa{4}
+% {đếm số lần thành công}
+% {vào số lần phép thử}
+% {tính tỷ số thành công và số lần thử}
+% {tính sai số của phép tính}
+% }{ }
+
+% \baitracnghiem{thtt:55}{%55M7
+% Trong mô phỏng ngẫu nhiên người ta thường dùng hàm int$\_{}$ran() và  read$\_{}$ran() thực hiện tính toán trong chương trình, phần nào dưới đây không áp dụng nó:
+% }{
+% \bonpa{3}
+% {bộ đếm của chương trình}
+% {thực hiện thao tác mô phỏng}
+% {Kiểm tra thử nghiệm thành công}
+% {Tính xác suất}
+% }{ }
+
+\baitracnghiem{thtt:56}{%56
+Để vẽ nghiệm của phương trình vi phân với vec tơ trường người ta dùng cách thức: 
+}{
+\bonpa{3}
+{Hàm plots[display]()}
+{Hàm dfieldplots()}
+{Hàm dfieldplot()}
+{Hàm plot()}
+}{ }
+
+\baitracnghiem{thtt:57}{%57M4
+Toán tử điều khiển break, next trong các vòng lặp while hoặc for 
+không làm được việc nào sau đây
+}{
+\bonpa{3}
+{Chu trình lặp kết thúc}
+{Chuyển sang bước lặp tiếp theo}
+{Thủ tục được kết thúc}
+{ Lặp tiếp và chu trình kết thúc}
+}{ }
+
+\baitracnghiem{thtt:58}{%58
+Trong vẽ đồ thị style =  thông số nào dưới đây để vẽ đồ thị có lưới  
+}{
+\bonpa{4}
+{POINT}
+{HIDDEN}
+{PATCH}
+{WIRFRAME}
+}{ }
+
+\baitracnghiem{thtt:59}{%59
+Lệnh  $>$lst:=[8,4,2,16]; map(x-$>$x/8, lst) cho kết quả
+}{
+\bonpa{3}
+{[1,0,0,2]}
+{[64,32,16,108]}
+{[1,1/2,1/4,2]}
+{[9,4.5,2.25,18]}
+}{ }
+
+\baitracnghiem{thtt:60}{%60
+Sau khi dùng lệnh solve giải phương trình cho nhiều nghiệm, muốn gán từng thành phần riêng thì làm thế nào đúng, ví dụ 
+$>$sol:=solve(\{y+x=3, x\^{}3+y\^{}2=5\},\{x,y\});
+}{
+\bonpa{3}
+{sol$[0]$; cho x, sol$[1]$; cho y}
+{sol; cho cả x và y}
+{asign(sol)}
+{simpify(sol)}
+}{ }
+
+\baitracnghiem{thtt:61}{%60
+Khối lệnh nào sau đây không có trong Maple? 
+}{
+\bonpa{3}
+{\textbf{if ... then ... else ... fi;}}
+{\textbf{while .... do .....od;}}
+{\textbf{case ... do ....od;}}
+{\textbf{for i to n do .... od;}}
+}{ }
+
+\baitracnghiem{thtt:62}{%60
+Trong lệnh giải phương trình vi phân $[>$dsolve(\textit{phương trình, biến độc lập, tùy chọn});, tùy chọn cách giải nào sau đây cần đến lệnh \textbf{oder}?
+}{
+\bonpa{2}
+{\textbf{laplace}}
+{\textbf{series}}
+{\textbf{explicit}}
+{\textbf{numeric}}
+}{ }
+
+%%23:50:9 14/9/2012Last Modification of contents
