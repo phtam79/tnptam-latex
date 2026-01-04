@@ -1,11 +1,13 @@
-\documentclass[11pt,a4paper,onecolumn,titlepage,oneside,openany]{book}
+\documentclass[10pt,a4paper,onecolumn,titlepage,oneside,openany]{book}
 \def\tren{2}\def\duoi{2}\def\trai{2}\def\phai{1.5}
 \usepackage[top=\tren cm, bottom=\duoi cm, left=\trai cm, right=\phai cm, headsep=18pt, footskip=26pt] {geometry}
 %-------------------------------------
 % FONTS CHỮ VÀ CÁC GÓI LỆNH SỬ DỤNG
 %-------------------------------------
-\usepackage{lmodern}% font mđ Computer Modern
-\usepackage[utf8]{vietnam}
+%\usepackage{lmodern}% font mđ Computer Modern
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[vietnamese]{babel}
 \usepackage{fontawesome} % Gói kí hiệu đặc biệt
 %=====================================
 \usepackage{amsmath,amssymb,mathrsfs,maybemath,xlop,polynom,slashbox}
@@ -310,10 +312,10 @@
 \lhead{\it\sf\fontsize{10pt}{1pt}\selectfont\faMortarBoard\, \nouppercase{\leftmark}}
 \rhead{\sf\fontsize{10pt}{1pt}\selectfont\faClockO\, Trang \thepage/\pageref{LastPage}}
 \lfoot{
-	\sf\fontsize{10pt}{1pt}\selectfont\faFileText\, Dự án TeX-50Dang-THPTQG
+	\sf\fontsize{10pt}{1pt}\selectfont\faFileText\, Ôn thi HSG Vật lí 10
 }
 \cfoot{}
-\rfoot{\it\sf\nouppercase{\fontsize{10pt}{1pt}\selectfont\faPhoneSquare\ Nhóm TikzPro - Vẽ hình và \LaTeX}}
+\rfoot{\it\sf\nouppercase{\fontsize{10pt}{1pt}\selectfont\faPhoneSquare\ Trương Nguyễn Phước Tâm}}
 \renewcommand{\footrulewidth}{0.6pt}
 \renewcommand{\headrulewidth}{0.6pt}
 %================================================

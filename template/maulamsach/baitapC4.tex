@@ -1,0 +1,49 @@
+\begin{Answer}{4.1}
+Trước hết ta giả sử rằng tất cả các nghiệm của $P$ là bằng nhau, khi đó ta viết được dưới dạng:\\
+$P(x)=a(z-z_0)^n$ với $a, z_0 \in \mathbb{C}$ và $n\in \mathbb{N}$. Nếu $ A_1,A_2,\cdots, A_n$ là các điểm rời rạc trong $\mathbb{R}^2$ sao cho $f(A_1)=f(A_2)=\cdots=f(A_n)$ thì $A_1, A_2, \cdots, A_n$ nằm trên đường tròn với tâm là $(Re(z_0), Im(z_0))$ và bán kính là $\sqrt[n]{\frac{\alpha}{\left|f(A_1)\right|}}$, suy ra các điểm đó là các đỉnh của một đa giác lồi. \\
+Ngược lại, ta giả sử rằng không phải tất cả các nghiệm của P là bằng nhau, khi đó $P(x)$ có dạng:\\
+$P(x)=(z-z_1)(z-z_2)Q(z)$ với $z_1$ và $z_2$ là 2 nghiệm phân biệt của $P(x)$ sao cho $\left|z_1-z_2\right|$ là nhỏ nhất. Gọi l là đường thẳng đi qua hai điểm $Z_1$ và $Z_2$ với $Z_1=(Re(z_1),Im(z_2))$,$Z_2=(Re(z_2),Im(z_2))$, và đặt $z_3=\frac{1}{2}(z_1+z_2)$ sao cho $Z_3=(Re(z_3),Im(z_3))$ là trung điểm của $\overline{Z_1Z_2}$. Ký hiệu $ s_1, s_2$ lần lượt là các tia $ Z_3Z_1,Z_3Z_2$, và $r=f(Z_3) \geq 0$. Ta phải có $r\ge 0$, bởi vì nếu ngược lại ta có $z_3$ là một nghiệm của $P$ sao cho:\\
+$\left|z_1-z_3\right|\le \left|z_1-z_2\right|$, điều này là mâu thẫu với $\left|z_1-z_2\right|$ là nhỏ nhất. \\
+Do $$ \lim_{ZZ_3\to\infty\atop Z\in s_1}f(Z) =\lim_{ZZ_3\to\infty\atop Z\in s_1}f(Z)=+\infty. $$
+và $f$ liên tục, tồn tại $Z_4 \in s_1$ và $Z_5 \in s_2$ sao cho $ f(Z_4)=f(Z_5)=r$. Do vậy $ f(Z_3)=f(Z_4)=f(Z_5)$ và $Z_3, Z_4, Z_5$ không phải là các đỉnh của đa giác lồi. Do vậy, $f$ không phải là $olympic$.
+\end{Answer}
+\begin{Answer}{4.2}
+Ta có $n\geq 2$ bất kỳ và tìm số các hàm tương ứng. Nếu $f:\{1,2,\cdots,n\}\rightarrow \{1,2,3,4,5\}$ phải thỏa mãn đã cho thì $f(n) \ne 3$ bởi nếu ngược lại thì $f(n-1)\leq 0$ hoặc $f(n-1) \geq 6$, vô lý. Ký hiệu $a_n,b_n,d_n,e_n$ là số các hàm $f:\{1,2,\cdots,n\}\rightarrow \{1,2,3,4,5\}$ thỏa mãn tính chất đã cho sao cho $f(n)$ tương ứng bằng $1,2,4,5$. Khi đó $a_2=e_2=2$ và $b_1=d_2=1$, và do vậy với $n\geq 2$ :\\
+$$a_{n+1}=e_n+d_n, b_{n+1}=e_n$$
+$$e_{n+1}=a_n+b_n, d_{n+1}=a_n$$
+ Ta cần tìm $a_n+b_n+d_n+e_n$ với $\forall n\geq 2$. Ta có: $a_2=e_2$ và $b_2=d_2$; bằng quy nạp ta có $a_n=e_n$ và $b_n=d_n$ $\forall n\geq 2$. Do vậy với $\forall n$, ta có:\\
+$$a_{n+2}=e_{n+1}+d_{n+1}=a_{n+1}+b_{n+1}=a_{n+1}+e_{n}=a_{n+1}+a_n$$
+do vậy, $\{a_n\}_{n\geq2}$ thỏa mãn như dãy Fibonaci $\{F_n\}_{n\geq0}$, với các chỉ số được chọn sao cho: $F_1=0$ và $F_1=1$. Bởi vì $ a_2=2=F_2$ và $a_3=e_2+d_2=3=F_3$, vậy suy ra $ a_n=F_n$ với $\forall n$. Do đó,$a_n+b_n+d_n+e_n=2(a_n+b_n)=2e_{n+1}=2a_{n+1}=2F_{n+1}$ với $\forall n\geq 2$ và $2F_{n+1}$ thỏa mãn tính chất đã cho.
+\end{Answer}
+\begin{Answer}{4.3}
+Nếu số các số $x_k$ âm lớn hơn số các số $x_k$ dương thì  $(a_1,\cdots,a_n)$ là một hoán vì của $(-x_1,\cdots,-x_n)$(tương ứng là $(x_1,\cdots,x_n)$) sao cho $a_1,\cdots,a_n$ là một dãy không giảm.
+Do cách xây dựng, lực lượng P các số dương $a_k$ không nhiều phần tử hơn lực lượng N các số âm$a_k$, và do vậy
+$\left|P\right|\leq \dfrac{n-1}{2}$. Vì N là khác rỗng và $ a_1,\cdots,a_n$ là không giảm, các phần tử của P là $a_{k_0+1}<a_{k_0+2}<\cdots<a_{k_0+l}$ với $k_0> 0$
+
+Giả sử rằng $1\leq i\leq n-1$. Trong dãy $x_1,\cdots,x_n$ phải có hai phần tử kề nhau $x_j$ và $x_k$ sao cho $x_j\leq a_i$ và $x_k \geq a_{i+1}$ suy ra $ 0\leq a_{i+1}-a_{i}\leq x_k-x_j\leq 1$. Do vậy, $a_{k_0+1}\leq a_{k_0}+1\leq 1$,$a_{k_0+2}\leq a_{k_0+1}+1 \leq 2$.\\
+Ký hiệu $\sigma_{P}$ và $ \sigma_{N}$ lần lượt là tổng của các số trong P và N. Mặt khác ta có:
+$$\left|\sigma_{P}-\sigma_{N}\right| -\left|-\sigma_{P}-\sigma_{N}\right|\leq \left|2\sigma_{P}\right|$$
+$$\leq 2(1+2+\cdots+\left\lfloor\dfrac{n-1}{2}\right\rfloor)$$
+$$\leq \dfrac{n-1}{2}.(\frac{n-1}{2}+1)=\dfrac{n^2-1}{4}$$
+\end{Answer}
+\begin{Answer}{4.4}
+Ta thấy rằng: $n+\binom{m}{3}>2m+1$ với $\forall m$ lớn hơn giá trị N, bởi vì vế trái là bậc 3 với hệ số cao nhất dương trong khi vế phải là tuyến tính với m.\\
+
+Nếu $m\equiv 0(mod4)$, thì $ \binom{m}{3}=\frac{m(m-1)(m-2)}{6}$ là chẵn bởi vì tử số chia hết cho 4 còn mẫu số thì không.Nếu $m\equiv 3(mod4)$ thì $ \binom{m}{3}=\frac{m(m-1)(m-2)}{6}$ là lẻ bởi vì cả tử số và mẫu số đều chia hết cho 2 nhưng không chia hết cho 4. Do vậy ta chọn $m>max{k,N}$ sao cho $n+\binom{m}{3}$ là số lẻ.
+
+Ta viết: $2a+1=n+\binom{m}{3}>2m+1$. Ta thấy rằng:$(\binom{a+3}{3}-\binom{a+2}{3})-(\binom{a+1}{3}-\binom{a}{3})=\binom{a+2}{2}-\binom{a}{2}=2a+1$. Do vậy
+$$n=(2a+1)-\dbinom{m}{3}=\dbinom{a+3}{3}-\dbinom{a+2}{3}-\dbinom{a+1}{3}+\dbinom{a}{3}=\dbinom{m}{3}$$
+thỏa mãn yêu cầu bài toán vì $a+3>a+2>a+1>a>m>k$
+\end{Answer}
+\begin{Answer}{4.5}
+Trong lời giải này ta sử dụng kết quả sau:
+\\ Cho tam giác XYZ sao cho $\angle XYZ \leq \frac{\pi}{3}$ thì tam giác đó là đều hoặc $max\{YX,YZ\}>XZ$. Tương tự nếu $\angle XYZ \geq \frac{\pi}{3}$ thì tam giác XYZ đều hoặc $min\{YX,YZ\}<XZ$
+\\ Chúng ta chỉ ra rằng tồn tại các đỉnh $A, B, C$ và $ A_1, B_1, C_1$ sao cho:(i) tam giác ABC và $A_1B_1C_1$ là tam giác đều và (ii) AB(tướng ứng là $A_1B_1$) là khoảng cách nhỏ nhất (lớn nhất) khác 0 giữa 2 đỉnh. Hơn nữa, $A,B$ là 2 đỉnh phân biệt sao cho $\overline{AB}$ có độ dài nhỏ nhất, và $C$ là đỉnh sao cho $\angle ACB =\frac{\pi}{3}$. Khi đó $max\{AC,CB\}\leq AC$, để tam giác ABC phải là tam giác đều. Tuơng tự, ta chọn $A_1,B_1$ sao cho $\overline{A_1B_1}$ có độ dài lớn nhất, và đỉnh $C_1$ sao cho $\angle A_1C_1B_1=\frac{\pi}{3}$, khi đó tam giác $A_1B_1C_1$ là tam giác đều.\\
+Ta chỉ ra rằng $\triangle ABC\cong \triangle A_1B_1C_1$. Các đường thẳng AB,BC, CA chia mặt phẳng thành 7 phần. Gọi $D_A$ gồm các phần do tam giác chia mà nhận $\overline{BC}$ làm biên và các phần được tạo ra tại phần tạo ra ở các đỉnh B và C. Tương tự ta định nghĩa cho $D_B$ và $D_C$. Bởi vì đa giác đã cho là lồi, nên mỗi hoặc nằm trong 1 phần hoặc trùng với  A, B, C.
+
+Nếu 2 điểm bất kỳ trong $A_1, B_1,C_1$ , giả sử là $A_1,B_1$ nằm trong miền $D_X$ , thì $\angle A_1XB_1 <\frac{\pi}{3}$. Do vậy, $max\{A_1X,XB_1\}>A_1B_1$, mâu thuẫn với $A_1B_1$ là lớn nhất.
+
+Hơn nữa, không có hai điểm trong $A_1,B_1,C_1$ ở trong cùng 1 phần. Bây giờ ta giả sử rằng một trong các điểm $A_1, B_1,C_1$ ( giả sử là $A_1$)  nằm trên 1 phần(giả sử đó là $D_A$). Bởi vì $min\{A_1B,A_1C\}\geq BC$, ta có $\angle BA_1C\leq \frac{\pi}{3}$. Ta có $B_1$ không nằm trong $D_A$. Bởi vì đa giác đã cho là lồi, B không nằm trong tam giác $AA_1B_1$, và tương tự C không nằm trong tam giác $AA_1B_1$. Từ đó có $B_1$nằm trên miền đóng có biên là các tia $A_1B$ và $A_1C$. Tương tự, với $C_1$. Hơn nữa, $\frac{\pi}{3}=\angle B_1A_1C_1\leq \angle BA_1C=\frac{\pi}{3}$, dấu bằng xảy ra khi $B_1$ và $C_1$ lần lượt nằm trên tia $A_1B$ và $A_1C$ . Bởi vì đa giác đã cho là lồi,nên điều này chỉ xảy ra khi $B_1$ và $C_1$ lần lượt bằng $B$ và $C$ -trong trường hợp $BC=B_1C_1$, ta có tam giác ABC và $A_1B_1C_1$ là bằng nhau.
+
+Mặt khác, không có điểm nào trong $A_1,B_1,C_1$ nằm trên $D_A \cup D_B \cup D_C$, do đó chúng lần lượt trùng với $A, B, C$. Trong trường hợp này, tam giác ABC và $A_1B_1C_1$ là trùng nhau.
+\end{Answer}

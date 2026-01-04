@@ -1,0 +1,129 @@
+\begin{Answer}{3.1}
+Trước hết, chú ý là có 15 số nguyên tố từ 1 đến 50:
+
+(2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47).
+
+Để làm cho bài toán đơn giản hơn, ta xác định $f(a,b)$ là mũ lớn nhất của $b$ chia cho $a$. (Chú ý rằng $g(50!, b) > g(5!,b)$ với mọi $b < 50$.)
+
+Do đó, với mỗi số nguyên tố p, ta có
+\[
+\left[ \begin{array}{l}
+ \left\{ \begin{array}{l}
+ f\left( {x,p} \right) = f\left( {5!,p} \right) \\
+ f\left( {y,p} \right) = f\left( {50!,p} \right) \\
+ \end{array} \right. \\
+ \left\{ \begin{array}{l}
+ f\left( {y,p} \right) = f\left( {5!,p} \right) \\
+ f\left( {x,p} \right) = f\left( {50!,p} \right) \\
+ \end{array} \right. \\
+ \end{array} \right.
+\]
+Vì ta có 15 số nguyên tố nên có $2^{15} $ cặp, và trong bất kì cặp nào cũng hiển nhiên có $x \ne y$ ( do gcd và lcm khác nhau), do đó có  $2^{14} $ cặp với $x \le y$.
+\end{Answer}
+\begin{Answer}{3.2}
+ Xét
+
+$I_1  = \left[ {1 + e,2 + e} \right],I_2  = \left[ {3 + 2e,4 + 2e} \right],...,I_{24}  = \left[ {47 + 24e,48 + 24e} \right]$
+
+trong đó $e$ đủ nhỏ để $48 + 24e < 50$. Để hợp các đoạn chứa $2k + ke$, ta phải có một đoạn mà phần tử nhỏ nhất nằm trong $Ik$. Tuy nhiên, sự khác nhau giữa một phần tử trong tập $Ik$ và $Ik+1$ luôn lớn hơn 1, vì vậy các tập này không chồng lên nhau.
+Từ 24 khoảng ban đầu và [0, 1] ( phải tồn tại vì hợp là [0, 50] ) ta có 25 khoảng rời nhau mà tổng độ dài tất nhiên bằng 25.
+\end{Answer}
+\begin{Answer}{3.3}
+ Đặt $p = \frac{1}{2}.\frac{3}{4}.\;...\;.\frac{{1997}}{{1998}}$ và $q = \frac{2}{3}.\frac{4}{5}.\;...\;.\frac{{1998}}{{1999}}$. Chú ý rằng $p<q$, vì vậy $p^2  < pq = \frac{1}{2}.\frac{2}{3}.\;...\;.\frac{{1998}}{{1999}} = \frac{1}{{1999}}$. Do đó,
+\[ p < \frac{1}{{1999^{\frac{1}{2}} }} < \frac{1}{{44}}\]
+Lại có \[p = \frac{{1998!}}{{\left( {999!.2^{999} } \right)^2 }} = 2^{ - 1998} \left( \begin{array}{c}
+ 1998 \\
+ 999 \\
+ \end{array} \right)
+\]
+đồng thời
+\[
+2^{1998}  = \left( \begin{array}{c}
+ 1998 \\
+ 0 \\
+ \end{array} \right) + ... + \left( \begin{array}{l}
+ 1998 \\
+ 1998 \\
+ \end{array} \right) < 1999\left( \begin{array}{c}
+ 1998 \\
+  999 \\
+ \end{array} \right)
+\]
+Do đó \[p > \frac{1}{{1999}}\].
+\end{Answer}
+\begin{Answer}{3.4}
+ Tịnh tiến ABCD theo vectơ $\overrightarrow {AD} $ thì A' và D như nhau, và vì vậy B' và C như nhau.
+Ta có $\widehat{COD} + \widehat{CO'D} = \widehat{COD} + \widehat{A'O'D'} = 180^0 $ nên tứ giác $OC'O'D'$ nội tiếp. Do đó  $\widehat{ODC} = \widehat{OO'C}$.
+\end{Answer}
+\begin{Answer}{3.5}
+ Ta có
+\[
+\begin{array}{l}
+ \sum\limits_{k = 0}^n {\frac{{\left( { - 1} \right)^k }}{{k^3  + 9k^2  + 26k + 24}}} \left( \begin{array}{l}
+ n \\
+ k \\
+ \end{array} \right) \\
+  = \sum\limits_{k = 0}^n {\frac{{\left( { - 1} \right)^k }}{{\left( {k + 2} \right)\left( {k + 3} \right)\left( {k + 4} \right)}}} \left( \begin{array}{l}
+ n \\
+ k \\
+ \end{array} \right) \\
+  = \sum\limits_{k = 0}^n {\left( { - 1} \right)^k } \frac{{k + 1}}{{\left( {n + 1} \right)\left( {n + 2} \right)\left( {n + 3} \right)\left( {n + 4} \right)}}\left( \begin{array}{l}
+ n + 4 \\
+ k + 4 \\
+ \end{array} \right) \\
+  = \frac{1}{{\left( {n + 1} \right)\left( {n + 2} \right)\left( {n + 3} \right)\left( {n + 4} \right)}}\sum\limits_{k = 4}^{n + 4} {\left( { - 1} \right)^k \left( {k - 3} \right)} \left( \begin{array}{c}
+ n + 4 \\
+ k \\
+ \end{array} \right) \\
+ \end{array}
+\]
+và
+\[
+\begin{array}{l}
+ \sum\limits_{k = 0}^{n + 4} {\left( { - 1} \right)^k } \left( {k - 3} \right)\left( \begin{array}{c}
+ n + 4 \\
+ k \\
+ \end{array} \right) \\
+  = \sum\limits_{k = 0}^{n + 4} {\left( { - 1} \right)^k k} \left( \begin{array}{c}
+ n + 4 \\
+ k \\
+ \end{array} \right) - 3\sum\limits_{k = 0}^{n + 4} {\left( { - 1} \right)^k } \left( \begin{array}{c}
+ n + 4 \\
+ k \\
+ \end{array} \right) \\
+  = \sum\limits_{k = 1}^{n + 4} {\left( { - 1} \right)^k k} \left( \begin{array}{c}
+ n + 4 \\
+ k \\
+ \end{array} \right) - 3\left( {1 - 1} \right)^{n + 4}  \\
+  = \frac{1}{{n + 4}}\sum\limits_{k = 1}^{n + 4} {\left( { - 1} \right)^k } \left( \begin{array}{c}
+ n + 3 \\
+ k - 1 \\
+ \end{array} \right) \\
+  = \frac{1}{{n + 4}}\left( {1 - 1} \right)^{n + 3}  = 0 \\
+ \end{array}
+\]
+Do đó
+\[
+\begin{array}{l}
+ \sum\limits_{k = 4}^{n + 4} {\left( { - 1} \right)^k } \left( {k - 3} \right)\left( \begin{array}{c}
+ n + 4 \\
+ k \\
+ \end{array} \right) \\
+  =  - \sum\limits_{k = 0}^3 {\left( { - 1} \right)^k \left( {k - 3} \right)} \left( \begin{array}{c}
+ n + 4 \\
+ k \\
+ \end{array} \right) \\
+  = 3\left( \begin{array}{c}
+ n + 4 \\
+ 0 \\
+ \end{array} \right) - 2\left( \begin{array}{c}
+ n + 4 \\
+ 1 \\
+ \end{array} \right) + \left( \begin{array}{c}
+ n + 4 \\
+ 2 \\
+ \end{array} \right) = \frac{{\left( {n + 1} \right)\left( {n + 2} \right)}}{2} \\
+ \end{array}
+\]
+và tổng đã cho bằng  \[\frac{1}{{2\left( {n + 3} \right)\left( {n + 4} \right)}}\].
+\end{Answer}

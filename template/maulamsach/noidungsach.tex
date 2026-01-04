@@ -1,0 +1,147 @@
+%MẪU CUỐN SÁCH TRONG VieTeX
+%Dùng Vietex 2.8. với phông Unicode
+%Người soạn : Nguyễn Hữu Điển, ĐHKHTN, ĐHQG HN
+%Mail: huudien@vnu.edu.vn, CQ: (84 - 4) 557 2869
+%NR: (84 - 4) 641 8848, DĐ: 0989061951
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-[Phần khai báo
+\documentclass[12pt,twoside,openany]{book} 
+\usepackage{verbatim}
+\usepackage{amsmath,amsthm}
+\usepackage{amssymb}
+\usepackage{latexsym}
+\usepackage{exscale}
+\usepackage[mathscr]{eucal}
+\usepackage{makeidx}
+\usepackage{lscape}
+\usepackage{multicol}
+\usepackage{afterpage}
+\usepackage{graphicx}
+%  \usepackage{color}
+ \usepackage{colortbl}
+\usepackage[colorlinks,hyperindex,unicode]{hyperref}
+%   \input{pd1supp.def}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection{} #1}}
+\lhead[\fancyplain{}{\thepage}]
+    {\fancyplain{}{\itshape\rightmark}}
+\rhead[\fancyplain{}{\itshape\leftmark}]
+    {\fancyplain{}{\thepage}}
+\cfoot[]{}
+\addtolength{\headheight}{3.3pt}
+\renewcommand{\headwidth}{14truecm}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{multicol}%
+\usepackage[tight,vietnam]{minitoc}%
+\usepackage[utf8]{vietnam}
+\usepackage{mathpazo}
+%%%%%%%%%%%%%%%%%%%
+\textheight 21truecm %%16.2truecm22cm 
+\textwidth 14truecm %11.3%14
+\parskip 3pt
+\headsep=12pt
+ \hoffset=1cm
+%them vao
+\usepackage[chapter]{algorithm}
+\usepackage{algorithmic}
+
+\floatname{algorithm}{\hfil Thuật toán}
+
+\renewcommand{\binom}[2]{C_{#1}^{#2}} 
+\def\cung#1{\buildrel \frown \over{#1}}
+\def\g.#1.{\widehat{#1}}
+\newcommand{\chia}{\;\vdots\;} 
+\newcommand{\kchia}{\not\vdots\;\;} 
+
+\usepackage[chapter]{algorithm}
+\usepackage{algorithmic}
+\floatname{algorithm}{\hfil Thuật toán}
+\makeindex
+\renewcommand{\mtctitle}{\ } %dinh nghia lai ten
+\setcounter{minitocdepth}{2}
+%]-
+\theoremstyle{definition}
+\newtheorem{definition}{Định nghĩa}[chapter]
+\theoremstyle{plain}
+\newtheorem{theorem}{Định lý}[chapter]
+\newtheorem{proposition}{Mệnh đề}[chapter]
+\newtheorem{lemma}{Bổ đề}[chapter]
+
+\theoremstyle{definition}
+\newtheorem{baitap}{Bài tập}[chapter]
+
+\usepackage{answers}
+\Newassociation{loigiai1}{Answer}{loigiaichung}
+\Newassociation{loigiai2}{Answer}{loigiaichung}
+\Newassociation{loigiai3}{Answer}{loigiaichung}
+\Newassociation{loigiai4}{Answer}{loigiaichung}
+\Newassociation{loigiai5}{Answer}{loigiaichung}
+
+% Dùng gói lệnh pgfpages
+% \usepackage{pgfpages}
+% \pgfpagesuselayout{2 on 1}[a4paper, landscape, border shrink=-1cm]
+
+\usepackage{fancybox}
+\usepackage[sf,bf]{titlesec}
+\usepackage{titledot}
+% \titletname{Chương}
+%  \renewcommand{\thechapter}{\Roman{chapter}}
+\titlespacing{\chapter}{0pt}{-50pt}{0pt}[0pt]
+\titleformat{\chapter}[display]
+{\bfseries\Large}
+{\filcenter\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+{0ex}
+{%\titlerule
+%\vspace{2ex}%
+% \filright
+ \filcenter\Huge
+}
+
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows}
+\usepackage{centerpage}
+\graphicspath{{hinh/}}
+\begin{document}
+\dominitoc
+\pagenumbering{roman}
+\include{biasach}
+\newpage
+\setcounter{page}{3}
+\setlength{\baselineskip}{16truept}
+\include{loinoidau}
+\include{kyhieu}
+\newpage
+\tableofcontents
+\pagenumbering{arabic}
+\include{chuong1}
+\include{chuong2}
+\include{chuong3}
+\include{chuong4}
+\include{chuong5}
+
+% \newpage
+% \markboth{{\it Mục lục}}{{\it Mục lục}}
+% \addcontentsline{toc}{section}{{\bf Mục lục\rm }}
+% 
+% \tableofcontents
+
+\newpage
+\setlength{\baselineskip}{12truept}
+\include{tailieu}
+\newpage
+\markboth{{\it Danh mục từ khóa}}{{\it Danh mục từ khóa}}
+\addcontentsline{toc}{section}{{\bf Danh mục từ khóa}}
+\printindex
+
+\end{document}
+
+
+
+
+
+
+

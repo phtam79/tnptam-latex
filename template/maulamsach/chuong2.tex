@@ -1,0 +1,210 @@
+%MẪU CUỐN SÁCH TRONG VieTeX
+%Dùng Vietex 2.1. với phông Unicode
+%Người soạn : Nguyễn Hữu Điển, ĐHKHTN, ĐHQG HN
+%Mail: huudien@vnu.edu.vn, CQ: (84 - 4) 557 2869
+%NR: (84 - 4) 641 8848, DĐ: 0989061951
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-[Phần mở đầu chương
+\chapter{Bài toán từ  Hàn Quốc}%
+\minitoc %
+\thispagestyle{empty}
+\Opensolutionfile{loigiaichung}[baitapC2]
+\vspace*{1cm}
+%]-
+
+\section{Giới thiệu}
+
+\index{Việt nam}
+
+
+\glossary{name=$\mathbb N$ ,description=tập hợp số tự nhiên}
+\glossary{name=$\mathbb N^*$,description=tập hợp số tự nhiên khác $0$}
+\glossary{name=$\mathbb Z$,description=tập hợp số nguyên}
+\glossary{name=$\mathbb Q$,description=tập hợp số hữu tỉ}
+
+\section{Bài tập}
+
+
+
+\begin{baitap}
+Chỉ ra rằng với mọi số nguyên tố cho trước $p$  thì tồn tại những số tự nhiên $x,y,z,$ $\omega$ 
+thoả mãn $x^{2}+y^{2}+z^{2}$- $\omega$.$p$=$0$ và $0$<$\omega$<$p$
+
+\begin{loigiai2}
+Với trường hợp $p=2$, ta có thể lấy $x=0, y=z=\omega=1$.
+
+Bây giờ ta xét trường hợp $p>2$. Trước tiên ta xét trường hợp $-1$ là đồng dư bình phương modun  $p$, 
+khi đó tồn tại một số tự nhiên $a$, $0<a<p-1$ sao cho $a^{2}\equiv-1(modp)$. 
+Bộ $(x,y,z)=(0,1,a)$. Vì $x^{2}+y^{2}+z^{2}=a^{2}+1$  chia hết cho  $p$  nhưng $1+(p-1)^{2}<p^2$  
+nên tồn tại $\omega\in\left\{1,2,...,p-1\right\} $ sao cho  $x^{2}+y^{2}+z^{2}- \omega.p=0$ .
+
+Tiếp theo, giả sử $(-1)$  không là đồng dư bình phương modun$p$. Ta phải tìm một số $k$ nào đó để cả $k$ và
+ $p-k-1$ đều là đồng dư bình phương. Nếu $\frac{p-1}{2}$ là đồng dư bình phương thì chọn $k$=$\frac{p-1}{2}$. 
+Nếu ngược lại, thì mỗi đồng dư trong số $\frac{p-1}{2}$ các đồng dư bình phương khác không sẽ rơi vào trong 
+các cặp $\left\{1, p-2\right\}$, $\left\{2, p-3\right\}$,...,$\left\{\frac{p-3}{2}\right\}$, $\left\{\frac{p+1}{2}\right\}$. 
+Theo nguyên lý Pigeonhole Principle sẽ có một cặp $(k, p-k-1)$ mà cả hai số $k$ và $(p-k-1)$ đều là đồng dư bình 
+phương như ta đã định tìm.\\
+Vì vậy, ta có thể chọn $x, y\in\left\{0, 1,..., \frac{p-1}{2}\right\}$ sao cho $x^{2}\equiv k (modp)$ 
+và  $y^{2}\equiv p-k-1(modp)$. Cho $z=-1$, ta có $x^2+y^2+z^2$ chia hết cho $p$ và  $x^2+y^2+z^2 <p^2$. 
+Giá trị  $\omega$ sẽ được xác định như ở trường hợp trước.
+\end{loigiai2}
+\end{baitap}
+
+\begin{baitap}
+Tìm tất cả các hàm $f:R\rightarrow R$ thoả mãn\\
+ \centerline {$f(x^{2}-y^{2})=(x-y)\left[f(x)+f(y)\right]$}
+với mọi $x, y$ $\in$ $R$.
+
+\begin{loigiai2}
+Cho $x=y$, ta được $f(0)=0$.\\
+Cho $x=-1, y=0$ ta được $f(1)=-f(-1)$.\\
+Cho $x=a, y=1$, sau đó cho $x=a, y=-1$ ta có:\\
+\centerline {$f(a^{2}-1)=(a-1)\left[f(a)+f(1)\right]$}\\
+\centerline {$f(a^{2}-1)=(a+1)\left[f(a)-f(1)\right]$}\\
+Cho các vế phải của các phương trình đó bằng nhau và giải phương trình đối với $f(a)$ ta được $f(a)=f(1).a$ với mọi a.\\
+Như vậy, mọi hàm số nào thoả mãn ràng buộc đã cho phải có dạng $f(x)=kx$ với hằng số $k$ nào đó. 
+Ngược lại, bất kỳ hàm số nào có dạng $f(x)=kx$ với hằng số $k$ nào đó rõ ràng đều thoả mãn yêu cầu bài toán.
+\end{loigiai2}
+\end{baitap}
+
+\begin{baitap}
+Cho tứ giác lồi $ABCD$ là tứ giác nội tiếp. Gọi $P, Q, R, S$ lần lượt là các giao điểm của hai đường phân giác ngoài 
+các góc $\widehat{ABD}$ và $\widehat{ADB}$, $\widehat{DAB}$ và $\widehat{DBA}$,  $\widehat{ACD}$ 
+và $\widehat{ADC}$,  $\widehat{DAC}$ và $\widehat{DCA}$ tương ứng. Chứng minh rằng bốn điểm $P, Q, R, S$  
+cùng nằm trên một đường tròn.\\
+
+\begin{center}
+\includegraphics[scale =0.7]{hinh1}
+\end{center} 
+
+\begin{loigiai2}
+Các góc xét đến đều là các góc định hướng ngoại trừ các trường hợp nói khác đi.\\
+Giả sử chúng ta có một tam giác tuỳ ý $XYZ$ với tâm đường tròn nội tiếp là điểm $I$ và tâm đường tròn bàng 
+tiếp $I_{X}$ đối diện với góc $X$. Suy ra $X, I, I_{X}$ thẳng hàng. 
+Ta có $\widehat{IYI_{X}}$=$\frac{\pi}{2}$= $\widehat{IZI_{X}}$ vì vậy tứ giác $IYI_{X}Z$ là nội tiếp 
+được và $\widehat{XI_{X}Y}$=$\widehat{II_{X}Y}$=$\widehat{IZY}$ hay $\widehat{YI_{X}X}$=$\widehat{YZI}$.
+
+\begin{center}
+\includegraphics[scale =0.7]{hinh3}
+\end{center} 
+
+Gọi $I_{1}$, $I_{2}$ lần lượt là tâm đường tròn nội tiếp các tam giác $ABD$ và tam giác $ACD$.\\
+Từ giả thiết ta suy ra $P$, $Q$ là các tâm đường tròn bàng tiếp của tam giác $ABD$ đối diện với góc $A$ và góc $D$, 
+tương tự $R$, $S$ là các tâm đường tròn bàng tiếp của tam giác $ACD$ đối diện với góc $A$ và góc $D$.\\
+Áp dụng kết quả của phần trên với $(X, Y, Z, I_X)$ là $(A, D, B, P)$, $(D, A, B, Q)$, $(A, D, C, R)$ và $(D, A, C, S)$ 
+ta được, $\widehat{APD}$=$\widehat{I_{1}BD}$, $\widehat{AQD}$=$\widehat{ABI_{1}}$, 
+$\widehat{ARD}$=$\widehat{I_{2}CD}$, và $\widehat{ASD}$=$\widehat{ACI_{2}}$.\\
+Khi coi các góc sau là không định hướng, ta thấy $\widehat{I_{1}BD}$, $\widehat{ABI_{1}}$, 
+$\widehat{I_{2}CD}$ và $\widehat{ACI_{2}}$ đều bằng $\frac{\widehat{AQD}}{2}$ $=$ $\frac{\widehat{ACD}}{2}$.\\
+Hơn nữa, các góc trên đều cùng một hướng, nên nếu coi chúng là những góc định hướng, chúng sẽ bằng nhau. 
+Như vậy (trở lại với những góc định hướng) ta có: $\widehat{APD}$ $=$ $\widehat{AQD}$ $=$ $\widehat{ARD}$ 
+$=$ $\widehat{ASD}$ và bốn điểm $P, Q, R, S$ cùng nằm trên cung tròn trương bởi $A, D$.
+\end{loigiai2}
+\end{baitap}
+
+\begin{baitap}
+Cho $p$ là một số nguyên tố sao cho $p$ $\equiv$ $1$ $(mod4)$. Hãy tính\\
+\centerline {         $\sum_{k=1}^{p-1}\left(\left[\frac{2k^2}{p}\right]-2\left[\frac{k^2}{p}\right]\right)$                }
+
+\begin{loigiai2}
+Với mỗi số thực $x$, đặt\\
+\centerline {$\left\{x\right\}$=$x-\left[x\right]$ $\in [0,1)$}.\\
+Ta có\\
+ \centerline{$\left[\frac{2k^2}{p}\right]$=$\frac{2k^2}{p}$-$\left\{\frac{2k^2}{p}\right\}$ và 
+$\left[\frac{k^2}{p}\right]$=$\frac{k^2}{p}$-$\left\{\frac{k^2}{p}\right\}$}\\
+Ta được\\
+\centerline {$\left[\frac{2k^2}{p}\right]$-$2$ $\left[\frac{k^2}{p}\right]$=$2$ $\left\{\frac{k^2}{p}\right\}$
+-$\left\{\frac{2k^2}{p}\right\}$}\\
+Nếu ${\left\{x\right\}<\frac{1}{2}}$    thì    ${2\left\{x\right\}-\left\{2x\right\}}$=${\left\{x\right\}-2\left\{x\right\}}$=$0$\\
+Nếu $\left\{x\right\}\geq\frac{1}{2}$     thì   ${2\left\{x\right\}-\left\{2x\right\}}$=$2{\left\{x\right\}-(2\left\{x\right\}-1)}$=$1$\\
+Như vậy, tổng cần tính trong bài ra sẽ bằng $\alpha$ là số các phần tử $k$ trong $\left[1, p-1\right]$ sao cho 
+$\left\{\frac{k^2}{p}\right\}$ $\geq$ $\frac{1}{2}$, hay bằng với số đồng dư $k$ khác không mà $k^2$ là đồng dư mô 
+đun $p$ với một số nào đó trong $\left[\frac{p+1}{2}, p-1\right]$.\\
+Vì $p$ là số nguyên tố đồng dư với $1$ mô đun $p$, ta đã biết $-1$ $\equiv$ $d^2$ $(mod p)$, với $d$ là một số nào đó. 
+Phân chia các đồng dư mô đun $p$ khác không thành $\frac{p-1}{2}$ cặp dạng $\left\{a, da\right\}$ sao cho
+ $a^2$ $\equiv$ $-(da)^2$ $(modp)$.\\
+Vì vậy, có đúng một đồng dư trong mỗi cặp mà bình phương của nó đồng dư với một số nào đó trong 
+$\left[\frac{p-1}{2}, p-1\right]$, và có tất cả $\frac{p-1}{2}$ đồng dư như thế.\\
+Từ đó suy ra tổng đã cho bằng $\frac{p-1}{2}$.
+\end{loigiai2}
+\end{baitap}
+
+\begin{baitap}
+Xét những hình $L$ sau đây, mỗi hình được tạo bởi bốn hình vuông đơn vị ghép lại.\\
+
+
+\begin{figure}[!ht]
+\begin{center}
+% \input{bai5korea.tex}
+\includegraphics[scale =0.7]{hinh2}
+\end{center} 
+\caption{Ví dụ}\label{fig:dfg}
+\end{figure}
+Cho $m$ và $n$ là các số tự nhiên lớn hơn $1$. Chứng minh rằng một hình chữ nhật kích thước $m$x$n$ sẽ được xếp bởi 
+các hình đã cho khi và chỉ khi $m.n$ là bội số của $8$.
+
+\begin{loigiai2}
+Trước tiên ta chứng minh rằng nếu $8$ $\backslash$ $mn$, thì hình chữ nhật  $m$x$n$ có thể  được xếp bởi các hình đã cho.\\
+Trường hợp 1: Cả $m$ và $n$ đều là số chẵn. Không mất tính tổng quát ta giả sử rằng $4$ $\backslash$ $m$, $2$ $\backslash$ $n$. 
+Hai hình đã cho có thể ghép được một hình chữ nhật kích thước $4$x$2$, và $m.n$/$8$ hình chữ nhật như vậy sẽ ghép thành 
+một hình chữ nhật kích thước $m$x$n$ (gồm $n/2$ hàng và $m/4$ cột).\\
+Trường hợp 2: Hoặc $m$ hoặc $n$ lẻ. Không mất tính tổng quát, ta giả sử rằng $m$ là số lẻ. Khi đó $8$ $\backslash$ $n$. 
+Vì $m>1$ nên $m$ $\geq$ $3$. Ta có thể ghép được một hình kích thước $3$x$8$ như hình vẽ sau:\\
+
+\begin{center}
+\includegraphics[scale =0.7]{hinh4}
+%\input{bai5bkorea.tex}
+\end{center} 
+
+Những hình $3$x$8$ như vậy có thể ghép thành hình chữ nhật ($3$x$n$).\\
+Nếu $m=3$, ta đã ghép xong. Trong trườg hợp ngược lại,  $m>3$, thì phần còn lại $(m-3)$x$n$ có thể ghép như trong trường 
+hợp $1$ vì $2$$\backslash$$(m-3)$.\\
+Bây giờ ta sẽ chứng minh rằng: nếu hình chữ nhật có kích thước $(m$x$n)$ được ghép bởi các hình trên thì $8$$\backslash$$m.n$. 
+Vì mỗi một hình $L$  có diện tích là $4$ nên $4$$\backslash$$(m.n)$. Không mất tính tổng quát, giả sử $2$$\backslash$$n$, và 
+tô $m$ hàng trong hình chữ nhật $m$x$n$ thành hai màu đen trắng cạnh nhau. Mỗi mảnh hình chữ $L$ trong hình chữ nhật được
+ ghép sẽ gồm một số lẻ ô đen hình vuông. Vì có tất cả $1$ số chẵn $(n$x$\left[\frac{m}{2}\right])$ ô vuông màu đen, nên hình 
+chữ nhật được ghép chứa $1$ số chẵn các hình chữ $L$, mà ta đặt số đó là $2k$. Như vậy $m.n=8k$, hay $8$$\backslash$$mn$.
+\end{loigiai2}
+\end{baitap}
+
+
+
+\begin{baitap}
+Cho những số thực $a, b, c, x, y, z$ thoả mãn $a$$\geq$$b$$\geq$$c>0$ và $x$$\geq$$y$$\geq$$z>0$.\\
+Chứng minh rằng:\\
+\centerline {{$\frac{a^2x^2}{(by+cz)(bz+cy)}$+$\frac{b^2y^2}{(cz+ax)(cx+az)}$+$\frac{c^2z^2}{(ax+by)(ay+bx)}$}
+$\geq$$\frac{3}{4}$}\\
+
+\begin{loigiai2}
+Đặt vế trái của bất đẳng thức là $S$. Vì $a$$\geq$$b$$\geq$$c$>$0$ và $x$$\geq$$y$$\geq$$z$>$0$ nên ta có
+ $bz+cy$$\geq$$by+cz$ suy ra\\
+\centerline {$(by+cz)(bz+cy)$ $\leq$ $(by+cz)^2$ $\leq$ $2\left[(by)^2+(cz)^2\right]$ }\\
+Đặt $\alpha$$=(ax)^2$; $\beta$$=(by)^2$; $\gamma$$=(cz)^2$, khi đó ta có:\\
+\centerline {$\frac{a^2x^2}{(by+cz)(bz+cy)}$ $\geq$ $\frac{a^2x^2}{2\left[(by)^2+(cz)^2\right]}$ $=$ $\frac{\alpha}{{\beta}+
+{\gamma}}$}\\
+Áp dụng tương tự cho hai bất đẳng thức, ta có\\
+\centerline {$S$ $\geq$ $\frac{1}{2}$ $({\frac{\alpha}{{\beta}+{\gamma}}}+{\frac{\beta}{{\gamma}+{\alpha}}}
++{\frac{\gamma}{{\alpha}+{\beta}}})$}\\
+Sử dụng bất đẳng thức Cauchy-Schwarz, ta có\\
+\centerline {$({\frac{\alpha}{{\beta}+{\gamma}}}+{\frac{\beta}{{\gamma}+{\alpha}}}+{\frac{\gamma}{{\alpha}
++{\beta}}})$$({\alpha}({\beta}+{\gamma})+{\beta}({\alpha}+{\gamma})+{\gamma}({\alpha}+{\beta})) {\geq} ({\alpha}
++{\beta}+{\gamma})^2$ }\\
+mà vế phải bằng\\
+\centerline  {    $\frac{1}{2}$$\left[({\alpha}-{\beta})^2+({\beta}-{\gamma})^2+({\gamma}-{\alpha})^2+3({\alpha}{\beta}
++{\alpha}{\beta}+{\gamma}{\alpha})\right]$ $\geq$ $\frac{3}{2}$ $(2{\alpha}{\beta}+2{\beta}{\gamma}+2{\gamma}{\alpha})$ }\\
+Do đó,\\
+\centerline {$S$ $\geq$ $\frac{1}{2}$ 
+$({\frac{\alpha}{{\beta}+{\gamma}}}+{\frac{\beta}{{\gamma}+{\alpha}}}
++{\frac{\gamma}{{\alpha}+{\beta}}})\geq\frac{1}{2}\frac{({\alpha}+{\beta}+{\gamma})^2}{(2{\alpha}{\beta}+2{\beta}{\gamma}+2{\gamma}{\alpha})}\geq\frac{3}{4}$                           }\\
+Vậy bài toán đã được chứng minh.
+\end{loigiai2}
+\end{baitap}
+
+
+\Closesolutionfile{loigiaichung}
+\section{Lời giải bài tập chương 2}
+% \addcontentsline{toc}{section}{Lời giải bài tập chương 1}
+% \markright{Lời giải bài tập chương }
+{\small\input{baitapC2}}
+

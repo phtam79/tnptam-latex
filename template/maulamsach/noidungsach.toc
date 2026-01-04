@@ -1,0 +1,25 @@
+\contentsline {section}{{\bf Lời nói đầu}\rm }{iii}{chapter*.1}%
+\contentsline {section}{{\bf Những kí hiệu}}{v}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}ĐỀ THI OLYMPIC IRLAND}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Giới thiệu Irland}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Bài tập}{3}{section.1.2}%
+\contentsline {section}{Lời giải bài tập chương 1}{4}{baitap.1.8}%
+\contentsline {chapter}{\numberline {2}Bài toán từ Hàn Quốc}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Giới thiệu}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Bài tập}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Lời giải bài tập chương 2}{8}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Đề thi olympic Canada}{12}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Giới thiệu}{12}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Bài tập}{12}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Lời giải bài tập chương 3}{12}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Các bài toán Rumania}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Giới thiệu}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Bài tập}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Lời giải bài tập chương 4}{16}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Các bài toán Thổ Nhĩ Kỳ}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Giới thiệu phương pháp}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Bài tập}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Lời giải bài tập chương 5}{20}{section.5.3}%
+\contentsline {section}{{\bf Tài liệu tham khảo}\rm }{22}{chapter*.4}%
+\contentsline {section}{{\bf Danh mục từ khóa}}{23}{chapter*.4}%
+\contentsfinish 
